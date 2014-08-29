@@ -1,0 +1,396 @@
+/* 
+   Localizable.strings
+   frdfrd
+
+   Created by westbugs on 11-01-14.
+   Copyright 2011 Alcy, Ltd. All rights reserved.
+ */
+ 
+ /* Insert Element menu item */
+ 
+//Alias
+"Alias 1" = "Level 1";
+"Alias 2" = "Level 2";
+"Alias 3" = "Level 3";
+"Alias 4" = "Level 4";
+"Alias 5" = "Level 5";
+"Alias 6" = "Level 6";
+"Alias 7" = "Level 7";
+"Alias 8" = "Level 8";
+"Alias 9" = "Level 9";
+
+
+//Occasion
+"Occasion Home" = "My Home";
+
+//Attribute Title
+"AttrTitle1" = "Health";
+"AttrTitle2" = "Social";
+"AttrTitle3" = "Talent";
+
+//Alcy Quote
+"Alcy Positive 1" = "Missing you ...";
+
+//PGMain
+
+//PGAttr
+"Attr Note" = "Character Info";
+"Attr Desc" = "Overall Stats";
+
+//PGAchi
+//Description & Requirement
+"Gift Desc" = "Gift";
+"Gift Req" = "Lv Requirement";
+
+//Note
+"Gift Note None" = "? ? ?";
+
+"Gift Note 1" = "Mooncake";
+"Gift Note 2" = "Sushi";
+"Gift Note 3" = "Kimchi";
+
+"Gift Note 4" = "Burger";
+"Gift Note 5" = "Donut";
+"Gift Note 6" = "Salad";
+
+"Gift Note 7" = "Coffee";
+"Gift Note 8" = "Dim Sum";
+"Gift Note 9" = "Bubble Tea";
+
+//Hint
+"Gift Hint 1" = "City Recreation Complex";
+"Gift Hint 2" = "Clear Water Bay";
+"Gift Hint 3" = "Eagle Bowling";
+
+"Gift Hint 4" = "Pacific Place";
+"Gift Hint 5" = "Tom's Cafe";
+"Gift Hint 6" = "Central Park";
+
+"Gift Hint 7" = "Red Box Karaoke";
+"Gift Hint 8" = "Elizabeth Theatre";
+"Gift Hint 9" = "Aquarium";
+
+//PGMap
+"Map Hint" = "Alcy City Map"; 
+"RegionA" = "City Recreation Complex"; //Gym
+"RegionB" = "Clear Water Bay"; //Beach
+"RegionC" = "Eagle Bowling"; //Bowling
+
+"RegionD" = "Pacific Place"; //Shopping Mall
+"RegionE" = "Tom's Cafe"; //Restaurant
+"RegionF" = "Central Park"; //Park
+
+"RegionG" = "Red Box Karaoke"; //Karaoke
+"RegionH" = "Elizabeth Theatre"; //Theatre
+"RegionI" = "Aquarium"; //Aquarium
+
+
+
+
+
+
+//PGArrange
+"Arrange Hint" = "Today's Arrangement";
+
+//PGPlace
+"Place Hint" = "Choose Place";
+
+//PGSchedule
+"Schedule Hint" = "Today's Schedule";
+
+//PGSMS
+"Sms Hint" = "SMS to Alcy";
+
+//PGMConfirm
+"Confirm Hint" = "Please Confirm";
+
+
+//AlertView
+
+//Call Warning
+"ActPGMainCallAlertView1_Title" = "Message: Need more AT(+2)!";
+"ActPGMainCallAlertView1_Message" = "Please wait for AT Regeneration.";
+"ActPGMainCallAlertView1_Cancel" = "Cancel";
+"ActPGMainCallAlertView1_Ok" = "Ok";
+
+//Sms Warning
+"ActPGMainSmsAlertView1_Title" = "Message: Need more AT(+1)!";
+"ActPGMainSmsAlertView1_Message" = "Please wait for AT Regeneration.";
+"ActPGMainSmsAlertView1_Cancel" = "Cancel";
+"ActPGMainSmsAlertView1_Ok" = "Ok";
+
+//Move Warning
+"ActPGMainMoveAlertView1_Title" = "Message: Need more AT(+3)!";
+"ActPGMainMoveAlertView1_Message" = "Please wait for AT Regeneration.";
+"ActPGMainMoveAlertView1_Cancel" = "Cancel";
+"ActPGMainMoveAlertView1_Ok" = "Ok";
+
+//PGPlace
+"ActPGPlaceSetupAlertView1_Title" = "Call Alcy for Dating!";
+"ActPGPlaceSetupAlertView1_Message" = "Deduct 2 AT";
+"ActPGPlaceSetupAlertView1_Cancel" = "Cancel";
+"ActPGPlaceSetupAlertView1_Ok" = "Ok";
+"ActPGPlaceSetupAlertView1_Done" = "Done";
+
+
+//PGSms
+"ActPGSMSSetupAlertView1_Title" = "Send SMS to Alcy!";
+"ActPGSMSSetupAlertView1_Message" = "Deduct 1 AT ";
+"ActPGSMSSetupAlertView1_Cancel" = "Cancel";
+"ActPGSMSSetupAlertView1_Ok" = "Ok";
+"ActPGSMSSetupAlertView1_Done" = "Done";
+
+
+//PGMap
+"ActPGMapSetupAlertView1_Title" = "Walk Around The City!";
+"ActPGMapSetupAlertView1_Message" = "Deduct 3 AT ";
+"ActPGMapSetupAlertView1_Cancel" = "Cancel";
+"ActPGMapSetupAlertView1_Ok" = "Ok";
+"ActPGMapSetupAlertView1_Done" = "Done";
+
+
+//PGArrange Occupied
+"ActPGArrangeSetupAlertView1_Title" = "This period of time is unavailable!";
+"ActPGArrangeSetupAlertView1_Message" = "Please choose other time interval instead. ";
+"ActPGArrangeSetupAlertView1_Cancel" = "Cancel";
+"ActPGArrangeSetupAlertView1_Ok" = "Ok";
+"ActPGArrangeSetupAlertView1_Done" = "Done";
+
+
+//Modal
+"Confirm Modal Title 1" = "Call Alcy for Dating!";
+"Confirm Modal Msg 1" = "2 AT will be deduced. Do you want to proceed?";
+
+"Confirm Modal Title 2" = "Send SMS to Alcy!";
+"Confirm Modal Msg 2" = "1 AT will be deduced. Do you want to proceed?";
+
+"Confirm Modal Title 3" = "Walk Around The City!";
+"Confirm Modal Msg 3" = "3 AT will be deduced. Do you want to proceed?";
+
+//View2, PGMap Text Go (Are you sure you want to go there?)
+"Confirm Modal Title 4" = "Let's Go!";
+"Confirm Modal Msg 4" = "Are you sure you wanna go there?";
+
+//View2, PGMap Text Date (Are you sure you want to go there?)
+"Confirm Modal Title 5" = "Let's Date!";
+"Confirm Modal Msg 5" = "Date now";
+
+//View5, Leave Back to Home
+"Confirm Modal Title 6" = "Back to Home!";
+"Confirm Modal Msg 6" = "Are you sure you wanna go back home?";
+//
+//View5, Walk Talk to others
+"Confirm Modal Title 7" = "Talk to Others!";
+"Confirm Modal Msg 7" = "1 AT will be deduced. Do you want to proceed?";
+//
+//View5, Walk Look around
+"Confirm Modal Title 8" = "Look around!";
+"Confirm Modal Msg 8" = "2 AT will be deduced. Do you want to proceed?";
+//
+//View5, Date Chat with others
+"Confirm Modal Title 9" = "Chat with Others!";
+"Confirm Modal Msg 9" = "1 AT will be deduced. Do you want to proceed?";
+//
+//View5, Date Romance
+"Confirm Modal Title 10" = "xoxo!";
+"Confirm Modal Msg 10" = "2 AT will be deduced. Do you want to proceed?";
+//
+//View5, Start a new game
+"Confirm Modal Title 11" = "Start New Game!";
+"Confirm Modal Msg 11" = "Old save will be erased. Do you want to proceed?";
+//
+//View5, Are you sure? (General Use: Confirm your selection)
+"Confirm Modal Title 12" = "Are you sure!";
+"Confirm Modal Msg 12" = "Do you want to proceed?";
+
+
+
+//Alert
+"Alert Modal Title 1" = "Message: Need more AT(+1)!";
+"Alert Modal Msg 1" = "Please wait for AT Regeneration.(1 AT/minute)";
+
+"Alert Modal Title 2" = "Message: Need more AT(+2)!";
+"Alert Modal Msg 2" = "Please wait for AT Regeneration.(1 AT/minute)";
+
+"Alert Modal Title 3" = "Message: Need more AT(+3)!";
+"Alert Modal Msg 3" = "Please wait for AT Regeneration.(1 AT/minute)";
+
+//PGArrange not available
+"Alert Modal Title 4" = "This time period is not available";
+"Alert Modal Msg 4" = "Please choose another time.";
+
+"Selection Modal Title 1" = "Choose one";
+"Selection Modal Msg 1" = "Select the tone for the message.";
+
+"Selection Modal Choice 1" = "Warm tone.";
+"Selection Modal Choice 2" = "Usual tone.";
+"Selection Modal Choice 3" = "Cool tone.";
+
+//PGSMS Msg
+	//self
+"selfLv0Msg0" = "Hi!";
+"selfLv0Msg1" = "How are you";
+"selfLv0Msg2" = "Wanna go out!";
+"selfLv0Msg3" = "Have some fun.";
+"selfLv0Msg4" = "Haha";
+
+"otherLv0Msg0" = "Hi!";
+"otherLv0Msg1" = "How are you";
+"otherLv0Msg2" = "Wanna go out!";
+"otherLv0Msg3" = "Have some fun.";
+"otherLv0Msg4" = "Haha";
+
+//lv1
+"selfLv1Msg0" = "hi";
+"selfLv1Msg1" = ":)";
+"selfLv1Msg2" = "I'm really mad. Pissed off. And blue....";
+"selfLv1Msg3" = "selfLv1Msg3";
+"selfLv1Msg4" = "selfLv1Msg4";
+
+"otherLv1Msg0" = "hi";
+"otherLv1Msg1" = ">_<";
+"otherLv1Msg2" = "Get a life";
+"otherLv1Msg3" = "otherLv1Msg3";
+"otherLv1Msg4" = "otherLv1Msg4";
+
+//lv2
+"selflv2Msg0" = "selflv2Msg0";
+"selflv2Msg1" = "selflv2Msg1";
+"selflv2Msg2" = "selflv2Msg2";
+"selflv2Msg3" = "selflv2Msg3";
+"selflv2Msg4" = "selflv2Msg4";
+
+"otherlv2Msg0" = "otherlv2Msg0";
+"otherlv2Msg1" = "otherlv2Msg1";
+"otherlv2Msg2" = "otherlv2Msg2";
+"otherlv2Msg3" = "otherlv2Msg3";
+"otherlv2Msg4" = "otherlv2Msg4";
+
+//lv3
+"selflv3Msg0" = "selflv3Msg0";
+"selflv3Msg1" = "selflv3Msg1";
+"selflv3Msg2" = "selflv3Msg2";
+"selflv3Msg3" = "selflv3Msg3";
+"selflv3Msg4" = "selflv3Msg4";
+
+"otherlv3Msg0" = "otherlv3Msg0";
+"otherlv3Msg1" = "otherlv3Msg1";
+"otherlv3Msg2" = "otherlv3Msg2";
+"otherlv3Msg3" = "otherlv3Msg3";
+"otherlv3Msg4" = "otherlv3Msg4";
+
+//lv4
+"selflv4Msg0" = "selflv4Msg0";
+"selflv4Msg1" = "selflv4Msg1";
+"selflv4Msg2" = "selflv4Msg2";
+"selflv4Msg3" = "selflv4Msg3";
+"selflv4Msg4" = "selflv4Msg4";
+
+"otherlv4Msg0" = "otherlv4Msg0";
+"otherlv4Msg1" = "otherlv4Msg1";
+"otherlv4Msg2" = "otherlv4Msg2";
+"otherlv4Msg3" = "otherlv4Msg3";
+"otherlv4Msg4" = "otherlv4Msg4";
+
+//lv5
+"selflv5Msg0" = "selflv5Msg0";
+"selflv5Msg1" = "selflv5Msg1";
+"selflv5Msg2" = "selflv5Msg2";
+"selflv5Msg3" = "selflv5Msg3";
+"selflv5Msg4" = "selflv5Msg4";
+
+"otherlv5Msg0" = "otherlv5Msg0";
+"otherlv5Msg1" = "otherlv5Msg1";
+"otherlv5Msg2" = "otherlv5Msg2";
+"otherlv5Msg3" = "otherlv5Msg3";
+"otherlv5Msg4" = "otherlv5Msg4";
+
+//lv6
+"selfLv6Msg0" = "Hi!";
+"selfLv6Msg1" = "How are you";
+"selfLv6Msg2" = "Wanna go out!";
+"selfLv6Msg3" = "Have some fun.";
+"selfLv6Msg4" = "Haha";
+
+	//other
+"otherLv6Msg0" = "Good Good :)";
+"otherLv6Msg1" = ">_<";
+"otherLv6Msg2" = "5 min :)";
+"otherLv6Msg3" = "Kk";
+"otherLv6Msg4" = "I love you! I love you! I love you!";
+	
+//lv7
+"selflv7Msg0" = "selflv7Msg0";
+"selflv7Msg1" = "selflv7Msg1";
+"selflv7Msg2" = "selflv7Msg2";
+"selflv7Msg3" = "selflv7Msg3";
+"selflv7Msg4" = "selflv7Msg4";
+
+"otherlv7Msg0" = "otherlv7Msg0";
+"otherlv7Msg1" = "otherlv7Msg1";
+"otherlv7Msg2" = "otherlv7Msg2";
+"otherlv7Msg3" = "otherlv7Msg3";
+"otherlv7Msg4" = "otherlv7Msg4";
+
+//lv8
+"selflv8Msg0" = "selflv8Msg0";
+"selflv8Msg1" = "selflv8Msg1";
+"selflv8Msg2" = "selflv8Msg2";
+"selflv8Msg3" = "selflv8Msg3";
+"selflv8Msg4" = "selflv8Msg4";
+
+"otherlv8Msg0" = "otherlv8Msg0";
+"otherlv8Msg1" = "otherlv8Msg1";
+"otherlv8Msg2" = "otherlv8Msg2";
+"otherlv8Msg3" = "otherlv8Msg3";
+"otherlv8Msg4" = "otherlv8Msg4";
+
+//lv9
+"selflv9Msg0" = "selflv9Msg0";
+"selflv9Msg1" = "selflv9Msg1";
+"selflv9Msg2" = "selflv9Msg2";
+"selflv9Msg3" = "selflv9Msg3";
+"selflv9Msg4" = "selflv9Msg4";
+
+"otherlv9Msg0" = "otherlv9Msg0";
+"otherlv9Msg1" = "otherlv9Msg1";
+"otherlv9Msg2" = "otherlv9Msg2";
+"otherlv9Msg3" = "otherlv9Msg3";
+"otherlv9Msg4" = "otherlv9Msg4";
+	
+//Event
+
+/*
+EvtGirlNewGame1.plist
+EvtGirlEndGame1.plist
+
+EvtGirlDateChatRegionA1.plist
+EvtGirlDateChatRegionA2.plist
+EvtGirlDateChatRegionA3.plist
+
+EvtGirlDateRegionALeave1.plist
+EvtGirlDateRegionALeave2.plist
+EvtGirlDateRegionALeave3.plist
+
+EvtGirlDateRegionAStart1.plist
+EvtGirlDateRegionAStart2.plist
+EvtGirlDateRegionAStart3.plist
+
+EvtGirlDateRomanceRegionA1.plist
+EvtGirlDateRomanceRegionA2.plist
+EvtGirlDateRomanceRegionA3.plist
+
+EvtGirlWalkLookRegionA1.plist
+EvtGirlWalkLookRegionA2.plist
+EvtGirlWalkLookRegionA3.plist
+
+EvtGirlWalkRegionAPreset1.plist
+EvtGirlWalkRegionAPreset2.plist
+
+EvtGirlWalkRegionAStart1.plist
+
+EvtGirlWalkTalkRegionA1.plist
+EvtGirlWalkTalkRegionA2.plist
+EvtGirlWalkTalkRegionA3.plist
+
+*/

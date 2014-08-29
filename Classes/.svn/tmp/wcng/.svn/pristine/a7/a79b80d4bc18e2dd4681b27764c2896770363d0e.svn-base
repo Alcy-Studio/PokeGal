@@ -1,0 +1,26 @@
+//
+//  ActPGRomanceAutoSetup+Selector.m
+//  frdfrd
+//
+//  Created by westbugs on 10-10-15.
+//  Copyright 2010 Alcy, Ltd. All rights reserved.
+//
+
+#import "ActPGRomanceAutoSetup+Selector.h"
+
+//Additional
+//Method
+#import "MLoad.h"
+
+//Constants
+#import "ConstantsPGRomance.h"
+
+@implementation ActPGRomanceAutoSetup(Selector)
+
+-(void)setViewWithTag{
+	for (NSUInteger i = 1; i <= kRomanceViewTotal; i++) {
+		[MLoad setViewWithTag:i controller:self.resource];
+	}
+}
+
+@end

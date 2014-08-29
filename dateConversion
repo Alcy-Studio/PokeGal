@@ -1,0 +1,28 @@
+NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+	[dateFormatter setTimeStyle:NSDateFormatterShortStyle];
+	[dateFormatter setDateStyle:NSDateFormatterShortStyle];
+	
+	NSLocale *usLocale = [[NSLocale alloc] initWithLocaleIdentifier:@"en_US"];
+	[dateFormatter setLocale:usLocale];
+
+	
+	//NSDate *date = [NSDate dateWithTimeIntervalSinceReferenceDate:118800];
+	//NSDate *date = [NSDate date];
+	
+	
+	NSDate *date = [dateFormatter dateFromString:@"1/17/11 10:00 PM"];
+
+	NSLog(@"Date for locale %@: %@",
+		  [[dateFormatter locale] localeIdentifier], [dateFormatter stringFromDate:date]);
+		  
+		  
+		  
+		 // NSLocale is the key
+		 
+		 
+Deduct date in dating start
+record # of missing date in reset event
+
+the record will be in user default
+
+the heart will be deducted(by # of missing date * multiplier) with message "You missed dates with Alcy, you heart is deducted by 1 -2level"

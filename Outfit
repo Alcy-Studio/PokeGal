@@ -1,0 +1,39 @@
+4 outfit
+
+1 outfit table
+
+each category has
+
+sid, name, role(NSNumber), image(NSString), thumbnail(NSString), unlocked(BOOL)
+
+outfit has
+
+sid, name, costume(NSNumber), item(NSNumber), skin tone(NSNumber), hairstyle(NSNumber), (those are role)
+
+
+edit role for each cat, dun forget to include none, for ex.
+
+kAudUDCostumeGirl0 //None
+kAudUDCostumeGirl1 //School 1
+
+-----------
+divide skin, cloth, hair and facial expression
+
+add 5 fragments (in order)
+
+1 skin, 
+1 facial (not customizable, 3 diff facial exp)
+1 costume, 
+1 hairstyle, 
+1 item, 
+
+resources first
+
+-------------------
+steps
+1.modify user default & auditor & so on
+2.attach images
+3.create new project to test the files
+4.modify code to generate image (setOutfit)
+
+

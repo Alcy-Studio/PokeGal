@@ -1,0 +1,26 @@
+//
+//  ActPGTitleAutoSetup+Selector.m
+//  frdfrd
+//
+//  Created by westbugs on 10-10-15.
+//  Copyright 2010 Alcy, Ltd. All rights reserved.
+//
+
+#import "ActPGTitleAutoSetup+Selector.h"
+
+//Additional
+//Method
+#import "MLoad.h"
+
+//Constants
+#import "ConstantsPGTitle.h"
+
+@implementation ActPGTitleAutoSetup(Selector)
+
+-(void)setViewWithTag{
+	for (NSUInteger i = 1; i <= kTitleViewTotal; i++) {
+		[MLoad setViewWithTag:i controller:self.resource];
+	}
+}
+
+@end

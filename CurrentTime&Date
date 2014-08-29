@@ -1,0 +1,45 @@
+use KVO to do something similar to binding
+set observer and observe nsdate, change once it change
+
+Place an IBOutlet Label on your .h file of your view controller & connect in .xib file.
+
+Now, just place following code in your .m file of view controller.
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    // your label text is set to current time
+    lblTime.text=[[NSDate date] description];
+    // timer is set & will be triggered each second 
+    [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(showTime) userInfo:nil repeats:YES];
+
+}
+// following method will be called frequently.
+-(void)showTime{
+    lblTime.text=[[NSDate date] description];
+}
+
+plus nsdateformatter
+
+
+// Get Hour
+NSAutoreleasePool *pool = [[NSAutoreleasePool alloc]init];
+NSCalendar *calendar= [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
+NSCalendarUnit unitFlags = NSHourCalendarUnit;
+NSDate *date = [NSDate date];
+NSDateComponents *dateComponents = [calendar components:unitFlags fromDate:date];
+	
+NSUInteger hour = [dateComponents hour];
+[calendar release];
+[pool release];
+
+
+// Pattern
+
+Pattern	Result (in a particular locale)
+yyyy.MM.dd G 'at' HH:mm:ss zzz	1996.07.10 AD at 15:08:56 PDT
+EEE, MMM d, ''yy	Wed, July 10, '96
+h:mm a	12:08 PM
+hh 'o''clock' a, zzzz	12 o'clock PM, Pacific Daylight Time
+K:mm a, z	0:00 PM, PST
+yyyyy.MMMM.dd GGG hh:mm aaa	01996.July.10 AD 12:08 PM

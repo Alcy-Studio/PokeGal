@@ -1,0 +1,1733 @@
+/* 
+   Localizable.strings
+   frdfrd
+
+   Created by westbugs on 11-01-14.
+   Copyright 2011 Alcy, Ltd. All rights reserved.
+ */
+ 
+ /* Insert Element menu item */
+ 
+//Alias
+"Alias 1" = "Level 1";
+"Alias 2" = "Level 2";
+"Alias 3" = "Level 3";
+"Alias 4" = "Level 4";
+"Alias 5" = "Level 5";
+"Alias 6" = "Level 6";
+"Alias 7" = "Level 7";
+"Alias 8" = "Level 8";
+"Alias 9" = "Level 9";
+
+
+//Occasion
+"Occasion Home" = "家里";
+
+//Attribute Title
+"AttrTitle1" = "Health";
+"AttrTitle2" = "Social";
+"AttrTitle3" = "Talent";
+
+//Alcy Quote
+"Alcy Positive 1" = "Missing you ...";
+
+//PGMain
+
+//PGAttr
+"Attr Note" = "Character Info";
+"Attr Desc" = "Overall Stats";
+
+//PGAchi
+//Description & Requirement
+"Gift Desc" = "Gift";
+"Gift Req" = "Lv Requirement";
+
+//Note
+"Gift Note None" = "? ? ?";
+
+"Gift Note 1" = "Mooncake";
+"Gift Note 2" = "Sushi";
+"Gift Note 3" = "Kimchi";
+
+"Gift Note 4" = "Burger";
+"Gift Note 5" = "Donut";
+"Gift Note 6" = "Salad";
+
+"Gift Note 7" = "Coffee";
+"Gift Note 8" = "Dim Sum";
+"Gift Note 9" = "Bubble Tea";
+
+//Hint
+"Gift Hint 1" = "City Recreation Complex";
+"Gift Hint 2" = "Clear Water Bay";
+"Gift Hint 3" = "Eagle Bowling";
+
+"Gift Hint 4" = "Pacific Place";
+"Gift Hint 5" = "Tom's Cafe";
+"Gift Hint 6" = "Central Park";
+
+"Gift Hint 7" = "Red Box Karaoke";
+"Gift Hint 8" = "Elizabeth Theatre";
+"Gift Hint 9" = "Aquarium";
+
+//PGMap
+"Map Hint" = "Alcy City Map"; 
+"RegionA" = "City Recreation Complex"; //Gym	Social Health 
+"RegionB" = "Clear Water Bay"; //Beach			Social Health
+"RegionC" = "Eagle Bowling"; //Bowling			Talent Health
+
+"RegionD" = "Pacific Place"; //Shopping Mall	Social Talent
+"RegionE" = "Tom's Cafe"; //Restaurant			Social Talent
+"RegionF" = "Central Park"; //Park				Social Talent
+
+"RegionG" = "Red Box Karaoke"; //Karaoke		Health Talent
+"RegionH" = "Elizabeth Theatre"; //Theatre		Health Talent
+"RegionI" = "Aquarium"; //Aquarium				Social Health 
+
+
+
+
+
+
+//PGArrange
+"Arrange Hint" = "Today's Arrangement";
+
+//PGPlace
+"Place Hint" = "Choose Place";
+
+//PGSchedule
+"Schedule Hint" = "Today's Schedule";
+
+//PGSMS
+"Sms Hint" = "SMS to Alcy";
+
+//PGMConfirm
+"Confirm Hint" = "Please Confirm";
+
+//PGDetail
+"Detail Hint" = "Place Info";
+
+"+0" = "No";
+"+1" = "Small";
+"+2" = "High";
+"+3" = "Super";
+
+"Region Desc A" = "Region Desc A";
+"Region Desc B" = "Region Desc B";
+"Region Desc C" = "Region Desc C";
+"Region Desc D" = "Region Desc D";
+"Region Desc E" = "Region Desc E";
+"Region Desc F" = "Region Desc F";
+"Region Desc G" = "Region Desc G";
+"Region Desc H" = "Region Desc H";
+"Region Desc I" = "Region Desc I";
+
+
+
+//AlertView
+
+//Call Warning
+"ActPGMainCallAlertView1_Title" = "Message: Need more AT(+2)!";
+"ActPGMainCallAlertView1_Message" = "Please wait for AT Regeneration.";
+"ActPGMainCallAlertView1_Cancel" = "Cancel";
+"ActPGMainCallAlertView1_Ok" = "Ok";
+
+//Sms Warning
+"ActPGMainSmsAlertView1_Title" = "Message: Need more AT(+1)!";
+"ActPGMainSmsAlertView1_Message" = "Please wait for AT Regeneration.";
+"ActPGMainSmsAlertView1_Cancel" = "Cancel";
+"ActPGMainSmsAlertView1_Ok" = "Ok";
+
+//Move Warning
+"ActPGMainMoveAlertView1_Title" = "Message: Need more AT(+3)!";
+"ActPGMainMoveAlertView1_Message" = "Please wait for AT Regeneration.";
+"ActPGMainMoveAlertView1_Cancel" = "Cancel";
+"ActPGMainMoveAlertView1_Ok" = "Ok";
+
+//PGPlace
+"ActPGPlaceSetupAlertView1_Title" = "Call Alcy for Dating!";
+"ActPGPlaceSetupAlertView1_Message" = "Deduct 2 AT";
+"ActPGPlaceSetupAlertView1_Cancel" = "Cancel";
+"ActPGPlaceSetupAlertView1_Ok" = "Ok";
+"ActPGPlaceSetupAlertView1_Done" = "Done";
+
+
+//PGSms
+"ActPGSMSSetupAlertView1_Title" = "Send SMS to Alcy!";
+"ActPGSMSSetupAlertView1_Message" = "Deduct 1 AT ";
+"ActPGSMSSetupAlertView1_Cancel" = "Cancel";
+"ActPGSMSSetupAlertView1_Ok" = "Ok";
+"ActPGSMSSetupAlertView1_Done" = "Done";
+
+
+//PGMap
+"ActPGMapSetupAlertView1_Title" = "Walk Around The City!";
+"ActPGMapSetupAlertView1_Message" = "Deduct 3 AT ";
+"ActPGMapSetupAlertView1_Cancel" = "Cancel";
+"ActPGMapSetupAlertView1_Ok" = "Ok";
+"ActPGMapSetupAlertView1_Done" = "Done";
+
+
+//PGArrange Occupied
+"ActPGArrangeSetupAlertView1_Title" = "This period of time is unavailable!";
+"ActPGArrangeSetupAlertView1_Message" = "Please choose other time interval instead. ";
+"ActPGArrangeSetupAlertView1_Cancel" = "Cancel";
+"ActPGArrangeSetupAlertView1_Ok" = "Ok";
+"ActPGArrangeSetupAlertView1_Done" = "Done";
+
+
+//Modal
+"Confirm Modal Title 1" = "Call Alcy for Dating!";
+"Confirm Modal Msg 1" = "2 AT will be deducted. Do you want to proceed?";
+
+"Confirm Modal Title 2" = "Send SMS to Alcy!";
+"Confirm Modal Msg 2" = "1 AT will be deducted. Do you want to proceed?";
+
+"Confirm Modal Title 3" = "Walk Around The City!";
+"Confirm Modal Msg 3" = "3 AT will be deducted. Do you want to proceed?";
+
+//View2, PGMap Text Go (Are you sure you want to go there?)
+"Confirm Modal Title 4" = "Let's Go!";
+"Confirm Modal Msg 4" = "Are you sure you wanna go there?";
+
+//View2, PGMap Text Date (Are you sure you want to go there?)
+"Confirm Modal Title 5" = "Let's Date!";
+"Confirm Modal Msg 5" = "Date now";
+
+//View5, Leave Back to Home
+"Confirm Modal Title 6" = "Back to Home!";
+"Confirm Modal Msg 6" = "Are you sure you wanna go back home?";
+//
+//View5, Walk Talk to others
+"Confirm Modal Title 7" = "Talk to Others!";
+"Confirm Modal Msg 7" = "1 AT will be deducted. Do you want to proceed?";
+//
+//View5, Walk Look around
+"Confirm Modal Title 8" = "Look around!";
+"Confirm Modal Msg 8" = "2 AT will be deducted. Do you want to proceed?";
+//
+//View5, Date Chat with others
+"Confirm Modal Title 9" = "Chat with Others!";
+"Confirm Modal Msg 9" = "1 AT will be deducted. Do you want to proceed?";
+//
+//View5, Date Romance
+"Confirm Modal Title 10" = "xoxo!";
+"Confirm Modal Msg 10" = "2 AT will be deducted. Do you want to proceed?";
+//
+//View5, Start a new game
+"Confirm Modal Title 11" = "Start New Game!";
+"Confirm Modal Msg 11" = "Old save will be erased. Do you want to proceed?";
+//
+//View5, Are you sure? (General Use: Confirm your selection)
+"Confirm Modal Title 12" = "Are you sure!";
+"Confirm Modal Msg 12" = "Do you want to proceed?";
+
+
+
+//Alert
+"Alert Modal Title 1" = "Message: Need more AT(+1)!";
+"Alert Modal Msg 1" = "Please wait for AT Regeneration.(1 AT/minute)";
+
+"Alert Modal Title 2" = "Message: Need more AT(+2)!";
+"Alert Modal Msg 2" = "Please wait for AT Regeneration.(1 AT/minute)";
+
+"Alert Modal Title 3" = "Message: Need more AT(+3)!";
+"Alert Modal Msg 3" = "Please wait for AT Regeneration.(1 AT/minute)";
+
+//PGArrange not available
+"Alert Modal Title 4" = "This time period is not available";
+"Alert Modal Msg 4" = "Please choose another time.";
+
+"Selection Modal Title 1" = "Choose one";
+"Selection Modal Msg 1" = "Select the tone for the message.";
+
+"Selection Modal Choice 1" = "Warm tone.";
+"Selection Modal Choice 2" = "Usual tone.";
+"Selection Modal Choice 3" = "Cool tone.";
+
+//PGSMS Msg
+	//self
+"selfLv0Msg0" = "Hi!";
+"selfLv0Msg1" = "How are you";
+"selfLv0Msg2" = "Wanna go out!";
+"selfLv0Msg3" = "Have some fun.";
+"selfLv0Msg4" = "Haha";
+
+"otherLv0Msg0" = "Hi!";
+"otherLv0Msg1" = "How are you";
+"otherLv0Msg2" = "Wanna go out!";
+"otherLv0Msg3" = "Have some fun.";
+"otherLv0Msg4" = "Haha";
+
+//lv1
+"selfLv1Msg0" = "hi";
+"selfLv1Msg1" = ":)";
+"selfLv1Msg2" = "I'm really mad. Pissed off. And blue....";
+"selfLv1Msg3" = "selfLv1Msg3";
+"selfLv1Msg4" = "selfLv1Msg4";
+
+"otherLv1Msg0" = "hi";
+"otherLv1Msg1" = ">_<";
+"otherLv1Msg2" = "Get a life";
+"otherLv1Msg3" = "otherLv1Msg3";
+"otherLv1Msg4" = "otherLv1Msg4";
+
+//lv2
+"selflv2Msg0" = "selflv2Msg0";
+"selflv2Msg1" = "selflv2Msg1";
+"selflv2Msg2" = "selflv2Msg2";
+"selflv2Msg3" = "selflv2Msg3";
+"selflv2Msg4" = "selflv2Msg4";
+
+"otherlv2Msg0" = "otherlv2Msg0";
+"otherlv2Msg1" = "otherlv2Msg1";
+"otherlv2Msg2" = "otherlv2Msg2";
+"otherlv2Msg3" = "otherlv2Msg3";
+"otherlv2Msg4" = "otherlv2Msg4";
+
+//lv3
+"selflv3Msg0" = "selflv3Msg0";
+"selflv3Msg1" = "selflv3Msg1";
+"selflv3Msg2" = "selflv3Msg2";
+"selflv3Msg3" = "selflv3Msg3";
+"selflv3Msg4" = "selflv3Msg4";
+
+"otherlv3Msg0" = "otherlv3Msg0";
+"otherlv3Msg1" = "otherlv3Msg1";
+"otherlv3Msg2" = "otherlv3Msg2";
+"otherlv3Msg3" = "otherlv3Msg3";
+"otherlv3Msg4" = "otherlv3Msg4";
+
+//lv4
+"selflv4Msg0" = "selflv4Msg0";
+"selflv4Msg1" = "selflv4Msg1";
+"selflv4Msg2" = "selflv4Msg2";
+"selflv4Msg3" = "selflv4Msg3";
+"selflv4Msg4" = "selflv4Msg4";
+
+"otherlv4Msg0" = "otherlv4Msg0";
+"otherlv4Msg1" = "otherlv4Msg1";
+"otherlv4Msg2" = "otherlv4Msg2";
+"otherlv4Msg3" = "otherlv4Msg3";
+"otherlv4Msg4" = "otherlv4Msg4";
+
+//lv5
+"selflv5Msg0" = "selflv5Msg0";
+"selflv5Msg1" = "selflv5Msg1";
+"selflv5Msg2" = "selflv5Msg2";
+"selflv5Msg3" = "selflv5Msg3";
+"selflv5Msg4" = "selflv5Msg4";
+
+"otherlv5Msg0" = "otherlv5Msg0";
+"otherlv5Msg1" = "otherlv5Msg1";
+"otherlv5Msg2" = "otherlv5Msg2";
+"otherlv5Msg3" = "otherlv5Msg3";
+"otherlv5Msg4" = "otherlv5Msg4";
+
+//lv6
+"selfLv6Msg0" = "Hi!";
+"selfLv6Msg1" = "How are you";
+"selfLv6Msg2" = "Wanna go out!";
+"selfLv6Msg3" = "Have some fun.";
+"selfLv6Msg4" = "Haha";
+
+	//other
+"otherLv6Msg0" = "Good Good :)";
+"otherLv6Msg1" = ">_<";
+"otherLv6Msg2" = "5 min :)";
+"otherLv6Msg3" = "Kk";
+"otherLv6Msg4" = "I love you! I love you! I love you!";
+	
+//lv7
+"selflv7Msg0" = "selflv7Msg0";
+"selflv7Msg1" = "selflv7Msg1";
+"selflv7Msg2" = "selflv7Msg2";
+"selflv7Msg3" = "selflv7Msg3";
+"selflv7Msg4" = "selflv7Msg4";
+
+"otherlv7Msg0" = "otherlv7Msg0";
+"otherlv7Msg1" = "otherlv7Msg1";
+"otherlv7Msg2" = "otherlv7Msg2";
+"otherlv7Msg3" = "otherlv7Msg3";
+"otherlv7Msg4" = "otherlv7Msg4";
+
+//lv8
+"selflv8Msg0" = "selflv8Msg0";
+"selflv8Msg1" = "selflv8Msg1";
+"selflv8Msg2" = "selflv8Msg2";
+"selflv8Msg3" = "selflv8Msg3";
+"selflv8Msg4" = "selflv8Msg4";
+
+"otherlv8Msg0" = "otherlv8Msg0";
+"otherlv8Msg1" = "otherlv8Msg1";
+"otherlv8Msg2" = "otherlv8Msg2";
+"otherlv8Msg3" = "otherlv8Msg3";
+"otherlv8Msg4" = "otherlv8Msg4";
+
+//lv9
+"selflv9Msg0" = "selflv9Msg0";
+"selflv9Msg1" = "selflv9Msg1";
+"selflv9Msg2" = "selflv9Msg2";
+"selflv9Msg3" = "selflv9Msg3";
+"selflv9Msg4" = "selflv9Msg4";
+
+"otherlv9Msg0" = "otherlv9Msg0";
+"otherlv9Msg1" = "otherlv9Msg1";
+"otherlv9Msg2" = "otherlv9Msg2";
+"otherlv9Msg3" = "otherlv9Msg3";
+"otherlv9Msg4" = "otherlv9Msg4";
+	
+//Event
+
+
+//EvtGirlNewGame1
+"EvtGirlNewGame1" = "Wake up!";
+"EvtGirlNewGame1a" = "You haven't called me for three days!";
+"EvtGirlNewGame1b" = "I thought you were dead.";
+"EvtGirlNewGame1c" = "I was hoping tho";
+"EvtGirlNewGame1d" = "Anyway, bye";
+
+//EvtGirlEndGame1
+"EvtGirlEndGame1" = "Dear.";
+"EvtGirlEndGame1a" = "I love how you love me.";
+"EvtGirlEndGame1b" = "You’re soo much better than any guy I ever met.";
+"EvtGirlEndGame1c" = "You are my endless melody. ";
+"EvtGirlEndGame1d" = "I love you.";
+
+//----------------------------Region A
+//EvtGirlDateChatRegionA1 -- health
+"EvtGirlDateChatRegionA1" = "EvtGirlDateChatRegionA1";
+"EvtGirlDateChatRegionA1a" = "EvtGirlDateChatRegionA1a";
+"EvtGirlDateChatRegionA1b" = "EvtGirlDateChatRegionA1b";
+"EvtGirlDateChatRegionA1c" = "EvtGirlDateChatRegionA1c";
+"EvtGirlDateChatRegionA1d" = "EvtGirlDateChatRegionA1d";
+
+//EvtGirlDateChatRegionA2 -- social
+"EvtGirlDateChatRegionA2" = "EvtGirlDateChatRegionA2";
+"EvtGirlDateChatRegionA2a" = "EvtGirlDateChatRegionA2a";
+"EvtGirlDateChatRegionA2b" = "EvtGirlDateChatRegionA2b";
+"EvtGirlDateChatRegionA2c" = "EvtGirlDateChatRegionA2c";
+"EvtGirlDateChatRegionA2d" = "EvtGirlDateChatRegionA2d";
+
+//EvtGirlDateChatRegionA3
+"EvtGirlDateChatRegionA3" = "EvtGirlDateChatRegionA3";
+"EvtGirlDateChatRegionA3a" = "EvtGirlDateChatRegionA3a";
+"EvtGirlDateChatRegionA3b" = "EvtGirlDateChatRegionA3b";
+"EvtGirlDateChatRegionA3c" = "EvtGirlDateChatRegionA3c";
+"EvtGirlDateChatRegionA3d" = "EvtGirlDateChatRegionA3d";
+
+//EvtGirlDateRegionALeave1 -- under 5
+"EvtGirlDateRegionALeave1" = "EvtGirlDateRegionALeave1";
+"EvtGirlDateRegionALeave1a" = "EvtGirlDateRegionALeave1a";
+"EvtGirlDateRegionALeave1b" = "EvtGirlDateRegionALeave1b";
+"EvtGirlDateRegionALeave1c" = "EvtGirlDateRegionALeave1c";
+"EvtGirlDateRegionALeave1d" = "EvtGirlDateRegionALeave1d";
+
+//EvtGirlDateRegionALeave2 -- under 10
+"EvtGirlDateRegionALeave2" = "EvtGirlDateRegionALeave2";
+"EvtGirlDateRegionALeave2a" = "EvtGirlDateRegionALeave2a";
+"EvtGirlDateRegionALeave2b" = "EvtGirlDateRegionALeave2b";
+"EvtGirlDateRegionALeave2c" = "EvtGirlDateRegionALeave2c";
+"EvtGirlDateRegionALeave2d" = "EvtGirlDateRegionALeave2d";
+
+//EvtGirlDateRegionALeave3 -- more than 15
+"EvtGirlDateRegionALeave3" = "EvtGirlDateRegionALeave3";
+"EvtGirlDateRegionALeave3a" = "EvtGirlDateRegionALeave3a";
+"EvtGirlDateRegionALeave3b" = "EvtGirlDateRegionALeave3b";
+"EvtGirlDateRegionALeave3c" = "EvtGirlDateRegionALeave3c";
+"EvtGirlDateRegionALeave3d" = "EvtGirlDateRegionALeave3d";
+
+//EvtGirlDateRegionAStart1
+"EvtGirlDateRegionAStart1" = "EvtGirlDateRegionAStart1";
+"EvtGirlDateRegionAStart1a" = "EvtGirlDateRegionAStart1a";
+"EvtGirlDateRegionAStart1b" = "EvtGirlDateRegionAStart1b";
+"EvtGirlDateRegionAStart1c" = "EvtGirlDateRegionAStart1c";
+"EvtGirlDateRegionAStart1d" = "EvtGirlDateRegionAStart1d";
+
+//EvtGirlDateRegionAStart2
+"EvtGirlDateRegionAStart2" = "EvtGirlDateRegionAStart2";
+"EvtGirlDateRegionAStart2a" = "EvtGirlDateRegionAStart2a";
+"EvtGirlDateRegionAStart2b" = "EvtGirlDateRegionAStart2b";
+"EvtGirlDateRegionAStart2c" = "EvtGirlDateRegionAStart2c";
+"EvtGirlDateRegionAStart2d" = "EvtGirlDateRegionAStart2d";
+
+//EvtGirlDateRegionAStart3
+"EvtGirlDateRegionAStart3" = "EvtGirlDateRegionAStart3";
+"EvtGirlDateRegionAStart3a" = "EvtGirlDateRegionAStart3a";
+"EvtGirlDateRegionAStart3b" = "EvtGirlDateRegionAStart3b";
+"EvtGirlDateRegionAStart3c" = "EvtGirlDateRegionAStart3c";
+"EvtGirlDateRegionAStart3d" = "EvtGirlDateRegionAStart3d";
+
+//EvtGirlDateRomanceRegionA1
+"EvtGirlDateRomanceRegionA1" = "EvtGirlDateRomanceRegionA1";
+"EvtGirlDateRomanceRegionA1a" = "EvtGirlDateRomanceRegionA1a";
+"EvtGirlDateRomanceRegionA1b" = "EvtGirlDateRomanceRegionA1b";
+"EvtGirlDateRomanceRegionA1c" = "EvtGirlDateRomanceRegionA1c";
+"EvtGirlDateRomanceRegionA1d" = "EvtGirlDateRomanceRegionA1d";
+
+//EvtGirlDateRomanceRegionA2
+"EvtGirlDateRomanceRegionA2" = "EvtGirlDateRomanceRegionA2";
+"EvtGirlDateRomanceRegionA2a" = "EvtGirlDateRomanceRegionA2a";
+"EvtGirlDateRomanceRegionA2b" = "EvtGirlDateRomanceRegionA2b";
+"EvtGirlDateRomanceRegionA2c" = "EvtGirlDateRomanceRegionA2c";
+"EvtGirlDateRomanceRegionA2d" = "EvtGirlDateRomanceRegionA2d";
+
+//EvtGirlDateRomanceRegionA3
+"EvtGirlDateRomanceRegionA3" = "EvtGirlDateRomanceRegionA3";
+"EvtGirlDateRomanceRegionA3a" = "EvtGirlDateRomanceRegionA3a";
+"EvtGirlDateRomanceRegionA3b" = "EvtGirlDateRomanceRegionA3b";
+"EvtGirlDateRomanceRegionA3c" = "EvtGirlDateRomanceRegionA3c";
+"EvtGirlDateRomanceRegionA3d" = "EvtGirlDateRomanceRegionA3d";
+
+//EvtGirlWalkLookRegionA1 -- Soccer Ball
+"EvtGirlWalkLookRegionA1" = "EvtGirlWalkLookRegionA1";
+"EvtGirlWalkLookRegionA1a" = "EvtGirlWalkLookRegionA1a";
+"EvtGirlWalkLookRegionA1b" = "EvtGirlWalkLookRegionA1b";
+"EvtGirlWalkLookRegionA1c" = "EvtGirlWalkLookRegionA1c";
+"EvtGirlWalkLookRegionA1d" = "EvtGirlWalkLookRegionA1d";
+
+//EvtGirlWalkLookRegionA2 -- Table Tennis Racket and Ball
+"EvtGirlWalkLookRegionA2" = "EvtGirlWalkLookRegionA2";
+"EvtGirlWalkLookRegionA2a" = "EvtGirlWalkLookRegionA2a";
+"EvtGirlWalkLookRegionA2b" = "EvtGirlWalkLookRegionA2b";
+"EvtGirlWalkLookRegionA2c" = "EvtGirlWalkLookRegionA2c";
+"EvtGirlWalkLookRegionA2d" = "EvtGirlWalkLookRegionA2d";
+
+//EvtGirlWalkLookRegionA3
+"EvtGirlWalkLookRegionA3" = "EvtGirlWalkLookRegionA3";
+"EvtGirlWalkLookRegionA3a" = "EvtGirlWalkLookRegionA3a";
+"EvtGirlWalkLookRegionA3b" = "EvtGirlWalkLookRegionA3b";
+"EvtGirlWalkLookRegionA3c" = "EvtGirlWalkLookRegionA3c";
+"EvtGirlWalkLookRegionA3d" = "EvtGirlWalkLookRegionA3d";
+
+//EvtGirlWalkRegionAPreset1
+"EvtGirlWalkRegionAPreset1" = "EvtGirlWalkRegionAPreset1";
+"EvtGirlWalkRegionAPreset1a" = "EvtGirlWalkRegionAPreset1a";
+"EvtGirlWalkRegionAPreset1b" = "EvtGirlWalkRegionAPreset1b";
+"EvtGirlWalkRegionAPreset1c" = "EvtGirlWalkRegionAPreset1c";
+"EvtGirlWalkRegionAPreset1d" = "EvtGirlWalkRegionAPreset1d";
+
+//EvtGirlWalkRegionAPreset2
+"EvtGirlWalkRegionAPreset2" = "EvtGirlWalkRegionAPreset2";
+"EvtGirlWalkRegionAPreset2a" = "EvtGirlWalkRegionAPreset2a";
+"EvtGirlWalkRegionAPreset2b" = "EvtGirlWalkRegionAPreset2b";
+"EvtGirlWalkRegionAPreset2c" = "EvtGirlWalkRegionAPreset2c";
+"EvtGirlWalkRegionAPreset2d" = "EvtGirlWalkRegionAPreset2d";
+
+//EvtGirlWalkRegionAStart1
+"EvtGirlWalkRegionAStart1" = "EvtGirlWalkRegionAStart1";
+"EvtGirlWalkRegionAStart1a" = "EvtGirlWalkRegionAStart1a";
+"EvtGirlWalkRegionAStart1b" = "EvtGirlWalkRegionAStart1b";
+"EvtGirlWalkRegionAStart1c" = "EvtGirlWalkRegionAStart1c";
+"EvtGirlWalkRegionAStart1d" = "EvtGirlWalkRegionAStart1d";
+
+//EvtGirlWalkTalkRegionA1 
+"EvtGirlWalkTalkRegionA1" = "EvtGirlWalkTalkRegionA1";
+"EvtGirlWalkTalkRegionA1a" = "EvtGirlWalkTalkRegionA1a";
+"EvtGirlWalkTalkRegionA1b" = "EvtGirlWalkTalkRegionA1b";
+"EvtGirlWalkTalkRegionA1c" = "EvtGirlWalkTalkRegionA1c";
+"EvtGirlWalkTalkRegionA1d" = "EvtGirlWalkTalkRegionA1d";
+
+//EvtGirlWalkTalkRegionA2
+"EvtGirlWalkTalkRegionA2" = "EvtGirlWalkTalkRegionA2";
+"EvtGirlWalkTalkRegionA2a" = "EvtGirlWalkTalkRegionA2a";
+"EvtGirlWalkTalkRegionA2b" = "EvtGirlWalkTalkRegionA2b";
+"EvtGirlWalkTalkRegionA2c" = "EvtGirlWalkTalkRegionA2c";
+"EvtGirlWalkTalkRegionA2d" = "EvtGirlWalkTalkRegionA2d";
+
+//EvtGirlWalkTalkRegionA3
+"EvtGirlWalkTalkRegionA3" = "EvtGirlWalkTalkRegionA3";
+"EvtGirlWalkTalkRegionA3a" = "EvtGirlWalkTalkRegionA3a";
+"EvtGirlWalkTalkRegionA3b" = "EvtGirlWalkTalkRegionA3b";
+"EvtGirlWalkTalkRegionA3c" = "EvtGirlWalkTalkRegionA3c";
+"EvtGirlWalkTalkRegionA3d" = "EvtGirlWalkTalkRegionA3d";
+
+//----------------------------Region B
+//EvtGirlDateChatRegionB1
+"EvtGirlDateChatRegionB1" = "EvtGirlDateChatRegionB1";
+"EvtGirlDateChatRegionB1a" = "EvtGirlDateChatRegionB1a";
+"EvtGirlDateChatRegionB1b" = "EvtGirlDateChatRegionB1b";
+"EvtGirlDateChatRegionB1c" = "EvtGirlDateChatRegionB1c";
+"EvtGirlDateChatRegionB1d" = "EvtGirlDateChatRegionB1d";
+
+//EvtGirlDateChatRegionB2
+"EvtGirlDateChatRegionB2" = "EvtGirlDateChatRegionB2";
+"EvtGirlDateChatRegionB2a" = "EvtGirlDateChatRegionB2a";
+"EvtGirlDateChatRegionB2b" = "EvtGirlDateChatRegionB2b";
+"EvtGirlDateChatRegionB2c" = "EvtGirlDateChatRegionB2c";
+"EvtGirlDateChatRegionB2d" = "EvtGirlDateChatRegionB2d";
+
+//EvtGirlDateChatRegionB3
+"EvtGirlDateChatRegionB3" = "EvtGirlDateChatRegionB3";
+"EvtGirlDateChatRegionB3a" = "EvtGirlDateChatRegionB3a";
+"EvtGirlDateChatRegionB3b" = "EvtGirlDateChatRegionB3b";
+"EvtGirlDateChatRegionB3c" = "EvtGirlDateChatRegionB3c";
+"EvtGirlDateChatRegionB3d" = "EvtGirlDateChatRegionB3d";
+
+//EvtGirlDateRegionBLeave1
+"EvtGirlDateRegionBLeave1" = "EvtGirlDateRegionBLeave1";
+"EvtGirlDateRegionBLeave1a" = "EvtGirlDateRegionBLeave1a";
+"EvtGirlDateRegionBLeave1b" = "EvtGirlDateRegionBLeave1b";
+"EvtGirlDateRegionBLeave1c" = "EvtGirlDateRegionBLeave1c";
+"EvtGirlDateRegionBLeave1d" = "EvtGirlDateRegionBLeave1d";
+
+//EvtGirlDateRegionBLeave2
+"EvtGirlDateRegionBLeave2" = "EvtGirlDateRegionBLeave2";
+"EvtGirlDateRegionBLeave2a" = "EvtGirlDateRegionBLeave2a";
+"EvtGirlDateRegionBLeave2b" = "EvtGirlDateRegionBLeave2b";
+"EvtGirlDateRegionBLeave2c" = "EvtGirlDateRegionBLeave2c";
+"EvtGirlDateRegionBLeave2d" = "EvtGirlDateRegionBLeave2d";
+
+//EvtGirlDateRegionBLeave3
+"EvtGirlDateRegionBLeave3" = "EvtGirlDateRegionBLeave3";
+"EvtGirlDateRegionBLeave3a" = "EvtGirlDateRegionBLeave3a";
+"EvtGirlDateRegionBLeave3b" = "EvtGirlDateRegionBLeave3b";
+"EvtGirlDateRegionBLeave3c" = "EvtGirlDateRegionBLeave3c";
+"EvtGirlDateRegionBLeave3d" = "EvtGirlDateRegionBLeave3d";
+
+//EvtGirlDateRegionBStart1
+"EvtGirlDateRegionBStart1" = "EvtGirlDateRegionBStart1";
+"EvtGirlDateRegionBStart1a" = "EvtGirlDateRegionBStart1a";
+"EvtGirlDateRegionBStart1b" = "EvtGirlDateRegionBStart1b";
+"EvtGirlDateRegionBStart1c" = "EvtGirlDateRegionBStart1c";
+"EvtGirlDateRegionBStart1d" = "EvtGirlDateRegionBStart1d";
+
+//EvtGirlDateRegionBStart2
+"EvtGirlDateRegionBStart2" = "EvtGirlDateRegionBStart2";
+"EvtGirlDateRegionBStart2a" = "EvtGirlDateRegionBStart2a";
+"EvtGirlDateRegionBStart2b" = "EvtGirlDateRegionBStart2b";
+"EvtGirlDateRegionBStart2c" = "EvtGirlDateRegionBStart2c";
+"EvtGirlDateRegionBStart2d" = "EvtGirlDateRegionBStart2d";
+
+//EvtGirlDateRegionBStart3
+"EvtGirlDateRegionBStart3" = "EvtGirlDateRegionBStart3";
+"EvtGirlDateRegionBStart3a" = "EvtGirlDateRegionBStart3a";
+"EvtGirlDateRegionBStart3b" = "EvtGirlDateRegionBStart3b";
+"EvtGirlDateRegionBStart3c" = "EvtGirlDateRegionBStart3c";
+"EvtGirlDateRegionBStart3d" = "EvtGirlDateRegionBStart3d";
+
+//EvtGirlDateRomanceRegionB1
+"EvtGirlDateRomanceRegionB1" = "EvtGirlDateRomanceRegionB1";
+"EvtGirlDateRomanceRegionB1a" = "EvtGirlDateRomanceRegionB1a";
+"EvtGirlDateRomanceRegionB1b" = "EvtGirlDateRomanceRegionB1b";
+"EvtGirlDateRomanceRegionB1c" = "EvtGirlDateRomanceRegionB1c";
+"EvtGirlDateRomanceRegionB1d" = "EvtGirlDateRomanceRegionB1d";
+
+//EvtGirlDateRomanceRegionB2
+"EvtGirlDateRomanceRegionB2" = "EvtGirlDateRomanceRegionB2";
+"EvtGirlDateRomanceRegionB2a" = "EvtGirlDateRomanceRegionB2a";
+"EvtGirlDateRomanceRegionB2b" = "EvtGirlDateRomanceRegionB2b";
+"EvtGirlDateRomanceRegionB2c" = "EvtGirlDateRomanceRegionB2c";
+"EvtGirlDateRomanceRegionB2d" = "EvtGirlDateRomanceRegionB2d";
+
+//EvtGirlDateRomanceRegionB3
+"EvtGirlDateRomanceRegionB3" = "EvtGirlDateRomanceRegionB3";
+"EvtGirlDateRomanceRegionB3a" = "EvtGirlDateRomanceRegionB3a";
+"EvtGirlDateRomanceRegionB3b" = "EvtGirlDateRomanceRegionB3b";
+"EvtGirlDateRomanceRegionB3c" = "EvtGirlDateRomanceRegionB3c";
+"EvtGirlDateRomanceRegionB3d" = "EvtGirlDateRomanceRegionB3d";
+
+//EvtGirlWalkLookRegionB1 -- sunflower
+"EvtGirlWalkLookRegionB1" = "EvtGirlWalkLookRegionB1";
+"EvtGirlWalkLookRegionB1a" = "EvtGirlWalkLookRegionB1a";
+"EvtGirlWalkLookRegionB1b" = "EvtGirlWalkLookRegionB1b";
+"EvtGirlWalkLookRegionB1c" = "EvtGirlWalkLookRegionB1c";
+"EvtGirlWalkLookRegionB1d" = "EvtGirlWalkLookRegionB1d";
+
+//EvtGirlWalkLookRegionB2 -- swimming short
+"EvtGirlWalkLookRegionB2" = "EvtGirlWalkLookRegionB2";
+"EvtGirlWalkLookRegionB2a" = "EvtGirlWalkLookRegionB2a";
+"EvtGirlWalkLookRegionB2b" = "EvtGirlWalkLookRegionB2b";
+"EvtGirlWalkLookRegionB2c" = "EvtGirlWalkLookRegionB2c";
+"EvtGirlWalkLookRegionB2d" = "EvtGirlWalkLookRegionB2d";
+
+//EvtGirlWalkLookRegionB3
+"EvtGirlWalkLookRegionB3" = "EvtGirlWalkLookRegionB3";
+"EvtGirlWalkLookRegionB3a" = "EvtGirlWalkLookRegionB3a";
+"EvtGirlWalkLookRegionB3b" = "EvtGirlWalkLookRegionB3b";
+"EvtGirlWalkLookRegionB3c" = "EvtGirlWalkLookRegionB3c";
+"EvtGirlWalkLookRegionB3d" = "EvtGirlWalkLookRegionB3d";
+
+//EvtGirlWalkRegionBPreset1
+"EvtGirlWalkRegionBPreset1" = "EvtGirlWalkRegionBPreset1";
+"EvtGirlWalkRegionBPreset1a" = "EvtGirlWalkRegionBPreset1a";
+"EvtGirlWalkRegionBPreset1b" = "EvtGirlWalkRegionBPreset1b";
+"EvtGirlWalkRegionBPreset1c" = "EvtGirlWalkRegionBPreset1c";
+"EvtGirlWalkRegionBPreset1d" = "EvtGirlWalkRegionBPreset1d";
+
+//EvtGirlWalkRegionBPreset2
+"EvtGirlWalkRegionBPreset2" = "EvtGirlWalkRegionBPreset2";
+"EvtGirlWalkRegionBPreset2a" = "EvtGirlWalkRegionBPreset2a";
+"EvtGirlWalkRegionBPreset2b" = "EvtGirlWalkRegionBPreset2b";
+"EvtGirlWalkRegionBPreset2c" = "EvtGirlWalkRegionBPreset2c";
+"EvtGirlWalkRegionBPreset2d" = "EvtGirlWalkRegionBPreset2d";
+
+//EvtGirlWalkRegionBStart1
+"EvtGirlWalkRegionBStart1" = "EvtGirlWalkRegionBStart1";
+"EvtGirlWalkRegionBStart1a" = "EvtGirlWalkRegionBStart1a";
+"EvtGirlWalkRegionBStart1b" = "EvtGirlWalkRegionBStart1b";
+"EvtGirlWalkRegionBStart1c" = "EvtGirlWalkRegionBStart1c";
+"EvtGirlWalkRegionBStart1d" = "EvtGirlWalkRegionBStart1d";
+
+//EvtGirlWalkTalkRegionB1
+"EvtGirlWalkTalkRegionB1" = "EvtGirlWalkTalkRegionB1";
+"EvtGirlWalkTalkRegionB1a" = "EvtGirlWalkTalkRegionB1a";
+"EvtGirlWalkTalkRegionB1b" = "EvtGirlWalkTalkRegionB1b";
+"EvtGirlWalkTalkRegionB1c" = "EvtGirlWalkTalkRegionB1c";
+"EvtGirlWalkTalkRegionB1d" = "EvtGirlWalkTalkRegionB1d";
+
+//EvtGirlWalkTalkRegionB2
+"EvtGirlWalkTalkRegionB2" = "EvtGirlWalkTalkRegionB2";
+"EvtGirlWalkTalkRegionB2a" = "EvtGirlWalkTalkRegionB2a";
+"EvtGirlWalkTalkRegionB2b" = "EvtGirlWalkTalkRegionB2b";
+"EvtGirlWalkTalkRegionB2c" = "EvtGirlWalkTalkRegionB2c";
+"EvtGirlWalkTalkRegionB2d" = "EvtGirlWalkTalkRegionB2d";
+
+//EvtGirlWalkTalkRegionB3
+"EvtGirlWalkTalkRegionB3" = "EvtGirlWalkTalkRegionB3";
+"EvtGirlWalkTalkRegionB3a" = "EvtGirlWalkTalkRegionB3a";
+"EvtGirlWalkTalkRegionB3b" = "EvtGirlWalkTalkRegionB3b";
+"EvtGirlWalkTalkRegionB3c" = "EvtGirlWalkTalkRegionB3c";
+"EvtGirlWalkTalkRegionB3d" = "EvtGirlWalkTalkRegionB3d";
+
+//----------------------------Region C
+//EvtGirlDateChatRegionC1
+"EvtGirlDateChatRegionC1" = "EvtGirlDateChatRegionC1";
+"EvtGirlDateChatRegionC1a" = "EvtGirlDateChatRegionC1a";
+"EvtGirlDateChatRegionC1b" = "EvtGirlDateChatRegionC1b";
+"EvtGirlDateChatRegionC1c" = "EvtGirlDateChatRegionC1c";
+"EvtGirlDateChatRegionC1d" = "EvtGirlDateChatRegionC1d";
+
+//EvtGirlDateChatRegionC2
+"EvtGirlDateChatRegionC2" = "EvtGirlDateChatRegionC2";
+"EvtGirlDateChatRegionC2a" = "EvtGirlDateChatRegionC2a";
+"EvtGirlDateChatRegionC2b" = "EvtGirlDateChatRegionC2b";
+"EvtGirlDateChatRegionC2c" = "EvtGirlDateChatRegionC2c";
+"EvtGirlDateChatRegionC2d" = "EvtGirlDateChatRegionC2d";
+
+//EvtGirlDateChatRegionC3
+"EvtGirlDateChatRegionC3" = "EvtGirlDateChatRegionC3";
+"EvtGirlDateChatRegionC3a" = "EvtGirlDateChatRegionC3a";
+"EvtGirlDateChatRegionC3b" = "EvtGirlDateChatRegionC3b";
+"EvtGirlDateChatRegionC3c" = "EvtGirlDateChatRegionC3c";
+"EvtGirlDateChatRegionC3d" = "EvtGirlDateChatRegionC3d";
+
+//EvtGirlDateRegionCLeave1
+"EvtGirlDateRegionCLeave1" = "EvtGirlDateRegionCLeave1";
+"EvtGirlDateRegionCLeave1a" = "EvtGirlDateRegionCLeave1a";
+"EvtGirlDateRegionCLeave1b" = "EvtGirlDateRegionCLeave1b";
+"EvtGirlDateRegionCLeave1c" = "EvtGirlDateRegionCLeave1c";
+"EvtGirlDateRegionCLeave1d" = "EvtGirlDateRegionCLeave1d";
+
+//EvtGirlDateRegionCLeave2
+"EvtGirlDateRegionCLeave2" = "EvtGirlDateRegionCLeave2";
+"EvtGirlDateRegionCLeave2a" = "EvtGirlDateRegionCLeave2a";
+"EvtGirlDateRegionCLeave2b" = "EvtGirlDateRegionCLeave2b";
+"EvtGirlDateRegionCLeave2c" = "EvtGirlDateRegionCLeave2c";
+"EvtGirlDateRegionCLeave2d" = "EvtGirlDateRegionCLeave2d";
+
+//EvtGirlDateRegionCLeave3
+"EvtGirlDateRegionCLeave3" = "EvtGirlDateRegionCLeave3";
+"EvtGirlDateRegionCLeave3a" = "EvtGirlDateRegionCLeave3a";
+"EvtGirlDateRegionCLeave3b" = "EvtGirlDateRegionCLeave3b";
+"EvtGirlDateRegionCLeave3c" = "EvtGirlDateRegionCLeave3c";
+"EvtGirlDateRegionCLeave3d" = "EvtGirlDateRegionCLeave3d";
+
+//EvtGirlDateRegionCStart1
+"EvtGirlDateRegionCStart1" = "EvtGirlDateRegionCStart1";
+"EvtGirlDateRegionCStart1a" = "EvtGirlDateRegionCStart1a";
+"EvtGirlDateRegionCStart1b" = "EvtGirlDateRegionCStart1b";
+"EvtGirlDateRegionCStart1c" = "EvtGirlDateRegionCStart1c";
+"EvtGirlDateRegionCStart1d" = "EvtGirlDateRegionCStart1d";
+
+//EvtGirlDateRegionCStart2
+"EvtGirlDateRegionCStart2" = "EvtGirlDateRegionCStart2";
+"EvtGirlDateRegionCStart2a" = "EvtGirlDateRegionCStart2a";
+"EvtGirlDateRegionCStart2b" = "EvtGirlDateRegionCStart2b";
+"EvtGirlDateRegionCStart2c" = "EvtGirlDateRegionCStart2c";
+"EvtGirlDateRegionCStart2d" = "EvtGirlDateRegionCStart2d";
+
+//EvtGirlDateRegionCStart3
+"EvtGirlDateRegionCStart3" = "EvtGirlDateRegionCStart3";
+"EvtGirlDateRegionCStart3a" = "EvtGirlDateRegionCStart3a";
+"EvtGirlDateRegionCStart3b" = "EvtGirlDateRegionCStart3b";
+"EvtGirlDateRegionCStart3c" = "EvtGirlDateRegionCStart3c";
+"EvtGirlDateRegionCStart3d" = "EvtGirlDateRegionCStart3d";
+
+//EvtGirlDateRomanceRegionC1
+"EvtGirlDateRomanceRegionC1" = "EvtGirlDateRomanceRegionC1";
+"EvtGirlDateRomanceRegionC1a" = "EvtGirlDateRomanceRegionC1a";
+"EvtGirlDateRomanceRegionC1b" = "EvtGirlDateRomanceRegionC1b";
+"EvtGirlDateRomanceRegionC1c" = "EvtGirlDateRomanceRegionC1c";
+"EvtGirlDateRomanceRegionC1d" = "EvtGirlDateRomanceRegionC1d";
+
+//EvtGirlDateRomanceRegionC2
+"EvtGirlDateRomanceRegionC2" = "EvtGirlDateRomanceRegionC2";
+"EvtGirlDateRomanceRegionC2a" = "EvtGirlDateRomanceRegionC2a";
+"EvtGirlDateRomanceRegionC2b" = "EvtGirlDateRomanceRegionC2b";
+"EvtGirlDateRomanceRegionC2c" = "EvtGirlDateRomanceRegionC2c";
+"EvtGirlDateRomanceRegionC2d" = "EvtGirlDateRomanceRegionC2d";
+
+//EvtGirlDateRomanceRegionC3
+"EvtGirlDateRomanceRegionC3" = "EvtGirlDateRomanceRegionC3";
+"EvtGirlDateRomanceRegionC3a" = "EvtGirlDateRomanceRegionC3a";
+"EvtGirlDateRomanceRegionC3b" = "EvtGirlDateRomanceRegionC3b";
+"EvtGirlDateRomanceRegionC3c" = "EvtGirlDateRomanceRegionC3c";
+"EvtGirlDateRomanceRegionC3d" = "EvtGirlDateRomanceRegionC3d";
+
+//EvtGirlWalkLookRegionC1 -- bowling pin
+"EvtGirlWalkLookRegionC1" = "EvtGirlWalkLookRegionC1";
+"EvtGirlWalkLookRegionC1a" = "EvtGirlWalkLookRegionC1a";
+"EvtGirlWalkLookRegionC1b" = "EvtGirlWalkLookRegionC1b";
+"EvtGirlWalkLookRegionC1c" = "EvtGirlWalkLookRegionC1c";
+"EvtGirlWalkLookRegionC1d" = "EvtGirlWalkLookRegionC1d";
+
+//EvtGirlWalkLookRegionC2 -- bowling ball
+"EvtGirlWalkLookRegionC2" = "EvtGirlWalkLookRegionC2";
+"EvtGirlWalkLookRegionC2a" = "EvtGirlWalkLookRegionC2a";
+"EvtGirlWalkLookRegionC2b" = "EvtGirlWalkLookRegionC2b";
+"EvtGirlWalkLookRegionC2c" = "EvtGirlWalkLookRegionC2c";
+"EvtGirlWalkLookRegionC2d" = "EvtGirlWalkLookRegionC2d";
+
+//EvtGirlWalkLookRegionC3
+"EvtGirlWalkLookRegionC3" = "EvtGirlWalkLookRegionC3";
+"EvtGirlWalkLookRegionC3a" = "EvtGirlWalkLookRegionC3a";
+"EvtGirlWalkLookRegionC3b" = "EvtGirlWalkLookRegionC3b";
+"EvtGirlWalkLookRegionC3c" = "EvtGirlWalkLookRegionC3c";
+"EvtGirlWalkLookRegionC3d" = "EvtGirlWalkLookRegionC3d";
+
+//EvtGirlWalkRegionCPreset1
+"EvtGirlWalkRegionCPreset1" = "EvtGirlWalkRegionCPreset1";
+"EvtGirlWalkRegionCPreset1a" = "EvtGirlWalkRegionCPreset1a";
+"EvtGirlWalkRegionCPreset1b" = "EvtGirlWalkRegionCPreset1b";
+"EvtGirlWalkRegionCPreset1c" = "EvtGirlWalkRegionCPreset1c";
+"EvtGirlWalkRegionCPreset1d" = "EvtGirlWalkRegionCPreset1d";
+
+//EvtGirlWalkRegionCPreset2
+"EvtGirlWalkRegionCPreset2" = "EvtGirlWalkRegionCPreset2";
+"EvtGirlWalkRegionCPreset2a" = "EvtGirlWalkRegionCPreset2a";
+"EvtGirlWalkRegionCPreset2b" = "EvtGirlWalkRegionCPreset2b";
+"EvtGirlWalkRegionCPreset2c" = "EvtGirlWalkRegionCPreset2c";
+"EvtGirlWalkRegionCPreset2d" = "EvtGirlWalkRegionCPreset2d";
+
+//EvtGirlWalkRegionCStart1
+"EvtGirlWalkRegionCStart1" = "EvtGirlWalkRegionCStart1";
+"EvtGirlWalkRegionCStart1a" = "EvtGirlWalkRegionCStart1a";
+"EvtGirlWalkRegionCStart1b" = "EvtGirlWalkRegionCStart1b";
+"EvtGirlWalkRegionCStart1c" = "EvtGirlWalkRegionCStart1c";
+"EvtGirlWalkRegionCStart1d" = "EvtGirlWalkRegionCStart1d";
+
+//EvtGirlWalkTalkRegionC1
+"EvtGirlWalkTalkRegionC1" = "EvtGirlWalkTalkRegionC1";
+"EvtGirlWalkTalkRegionC1a" = "EvtGirlWalkTalkRegionC1a";
+"EvtGirlWalkTalkRegionC1b" = "EvtGirlWalkTalkRegionC1b";
+"EvtGirlWalkTalkRegionC1c" = "EvtGirlWalkTalkRegionC1c";
+"EvtGirlWalkTalkRegionC1d" = "EvtGirlWalkTalkRegionC1d";
+
+//EvtGirlWalkTalkRegionC2
+"EvtGirlWalkTalkRegionC2" = "EvtGirlWalkTalkRegionC2";
+"EvtGirlWalkTalkRegionC2a" = "EvtGirlWalkTalkRegionC2a";
+"EvtGirlWalkTalkRegionC2b" = "EvtGirlWalkTalkRegionC2b";
+"EvtGirlWalkTalkRegionC2c" = "EvtGirlWalkTalkRegionC2c";
+"EvtGirlWalkTalkRegionC2d" = "EvtGirlWalkTalkRegionC2d";
+
+//EvtGirlWalkTalkRegionC3
+"EvtGirlWalkTalkRegionC3" = "EvtGirlWalkTalkRegionC3";
+"EvtGirlWalkTalkRegionC3a" = "EvtGirlWalkTalkRegionC3a";
+"EvtGirlWalkTalkRegionC3b" = "EvtGirlWalkTalkRegionC3b";
+"EvtGirlWalkTalkRegionC3c" = "EvtGirlWalkTalkRegionC3c";
+"EvtGirlWalkTalkRegionC3d" = "EvtGirlWalkTalkRegionC3d";
+
+//----------------------------Region D
+//EvtGirlDateChatRegionD1
+"EvtGirlDateChatRegionD1" = "EvtGirlDateChatRegionD1";
+"EvtGirlDateChatRegionD1a" = "EvtGirlDateChatRegionD1a";
+"EvtGirlDateChatRegionD1b" = "EvtGirlDateChatRegionD1b";
+"EvtGirlDateChatRegionD1c" = "EvtGirlDateChatRegionD1c";
+"EvtGirlDateChatRegionD1d" = "EvtGirlDateChatRegionD1d";
+
+//EvtGirlDateChatRegionD2
+"EvtGirlDateChatRegionD2" = "EvtGirlDateChatRegionD2";
+"EvtGirlDateChatRegionD2a" = "EvtGirlDateChatRegionD2a";
+"EvtGirlDateChatRegionD2b" = "EvtGirlDateChatRegionD2b";
+"EvtGirlDateChatRegionD2c" = "EvtGirlDateChatRegionD2c";
+"EvtGirlDateChatRegionD2d" = "EvtGirlDateChatRegionD2d";
+
+//EvtGirlDateChatRegionD3
+"EvtGirlDateChatRegionD3" = "EvtGirlDateChatRegionD3";
+"EvtGirlDateChatRegionD3a" = "EvtGirlDateChatRegionD3a";
+"EvtGirlDateChatRegionD3b" = "EvtGirlDateChatRegionD3b";
+"EvtGirlDateChatRegionD3c" = "EvtGirlDateChatRegionD3c";
+"EvtGirlDateChatRegionD3d" = "EvtGirlDateChatRegionD3d";
+
+//EvtGirlDateRegionDLeave1
+"EvtGirlDateRegionDLeave1" = "EvtGirlDateRegionDLeave1";
+"EvtGirlDateRegionDLeave1a" = "EvtGirlDateRegionDLeave1a";
+"EvtGirlDateRegionDLeave1b" = "EvtGirlDateRegionDLeave1b";
+"EvtGirlDateRegionDLeave1c" = "EvtGirlDateRegionDLeave1c";
+"EvtGirlDateRegionDLeave1d" = "EvtGirlDateRegionDLeave1d";
+
+//EvtGirlDateRegionDLeave2
+"EvtGirlDateRegionDLeave2" = "EvtGirlDateRegionDLeave2";
+"EvtGirlDateRegionDLeave2a" = "EvtGirlDateRegionDLeave2a";
+"EvtGirlDateRegionDLeave2b" = "EvtGirlDateRegionDLeave2b";
+"EvtGirlDateRegionDLeave2c" = "EvtGirlDateRegionDLeave2c";
+"EvtGirlDateRegionDLeave2d" = "EvtGirlDateRegionDLeave2d";
+
+//EvtGirlDateRegionDLeave3
+"EvtGirlDateRegionDLeave3" = "EvtGirlDateRegionDLeave3";
+"EvtGirlDateRegionDLeave3a" = "EvtGirlDateRegionDLeave3a";
+"EvtGirlDateRegionDLeave3b" = "EvtGirlDateRegionDLeave3b";
+"EvtGirlDateRegionDLeave3c" = "EvtGirlDateRegionDLeave3c";
+"EvtGirlDateRegionDLeave3d" = "EvtGirlDateRegionDLeave3d";
+
+//EvtGirlDateRegionDStart1
+"EvtGirlDateRegionDStart1" = "EvtGirlDateRegionDStart1";
+"EvtGirlDateRegionDStart1a" = "EvtGirlDateRegionDStart1a";
+"EvtGirlDateRegionDStart1b" = "EvtGirlDateRegionDStart1b";
+"EvtGirlDateRegionDStart1c" = "EvtGirlDateRegionDStart1c";
+"EvtGirlDateRegionDStart1d" = "EvtGirlDateRegionDStart1d";
+
+//EvtGirlDateRegionDStart2
+"EvtGirlDateRegionDStart2" = "EvtGirlDateRegionDStart2";
+"EvtGirlDateRegionDStart2a" = "EvtGirlDateRegionDStart2a";
+"EvtGirlDateRegionDStart2b" = "EvtGirlDateRegionDStart2b";
+"EvtGirlDateRegionDStart2c" = "EvtGirlDateRegionDStart2c";
+"EvtGirlDateRegionDStart2d" = "EvtGirlDateRegionDStart2d";
+
+//EvtGirlDateRegionDStart3
+"EvtGirlDateRegionDStart3" = "EvtGirlDateRegionDStart3";
+"EvtGirlDateRegionDStart3a" = "EvtGirlDateRegionDStart3a";
+"EvtGirlDateRegionDStart3b" = "EvtGirlDateRegionDStart3b";
+"EvtGirlDateRegionDStart3c" = "EvtGirlDateRegionDStart3c";
+"EvtGirlDateRegionDStart3d" = "EvtGirlDateRegionDStart3d";
+
+//EvtGirlDateRomanceRegionD1
+"EvtGirlDateRomanceRegionD1" = "EvtGirlDateRomanceRegionD1";
+"EvtGirlDateRomanceRegionD1a" = "EvtGirlDateRomanceRegionD1a";
+"EvtGirlDateRomanceRegionD1b" = "EvtGirlDateRomanceRegionD1b";
+"EvtGirlDateRomanceRegionD1c" = "EvtGirlDateRomanceRegionD1c";
+"EvtGirlDateRomanceRegionD1d" = "EvtGirlDateRomanceRegionD1d";
+
+//EvtGirlDateRomanceRegionD2
+"EvtGirlDateRomanceRegionD2" = "EvtGirlDateRomanceRegionD2";
+"EvtGirlDateRomanceRegionD2a" = "EvtGirlDateRomanceRegionD2a";
+"EvtGirlDateRomanceRegionD2b" = "EvtGirlDateRomanceRegionD2b";
+"EvtGirlDateRomanceRegionD2c" = "EvtGirlDateRomanceRegionD2c";
+"EvtGirlDateRomanceRegionD2d" = "EvtGirlDateRomanceRegionD2d";
+
+//EvtGirlDateRomanceRegionD3
+"EvtGirlDateRomanceRegionD3" = "EvtGirlDateRomanceRegionD3";
+"EvtGirlDateRomanceRegionD3a" = "EvtGirlDateRomanceRegionD3a";
+"EvtGirlDateRomanceRegionD3b" = "EvtGirlDateRomanceRegionD3b";
+"EvtGirlDateRomanceRegionD3c" = "EvtGirlDateRomanceRegionD3c";
+"EvtGirlDateRomanceRegionD3d" = "EvtGirlDateRomanceRegionD3d";
+
+//EvtGirlWalkLookRegionD1 -- glasses
+"EvtGirlWalkLookRegionD1" = "EvtGirlWalkLookRegionD1";
+"EvtGirlWalkLookRegionD1a" = "EvtGirlWalkLookRegionD1a";
+"EvtGirlWalkLookRegionD1b" = "EvtGirlWalkLookRegionD1b";
+"EvtGirlWalkLookRegionD1c" = "EvtGirlWalkLookRegionD1c";
+"EvtGirlWalkLookRegionD1d" = "EvtGirlWalkLookRegionD1d";
+
+//EvtGirlWalkLookRegionD2 -- t shirt
+"EvtGirlWalkLookRegionD2" = "EvtGirlWalkLookRegionD2";
+"EvtGirlWalkLookRegionD2a" = "EvtGirlWalkLookRegionD2a";
+"EvtGirlWalkLookRegionD2b" = "EvtGirlWalkLookRegionD2b";
+"EvtGirlWalkLookRegionD2c" = "EvtGirlWalkLookRegionD2c";
+"EvtGirlWalkLookRegionD2d" = "EvtGirlWalkLookRegionD2d";
+
+//EvtGirlWalkLookRegionD3
+"EvtGirlWalkLookRegionD3" = "EvtGirlWalkLookRegionD3";
+"EvtGirlWalkLookRegionD3a" = "EvtGirlWalkLookRegionD3a";
+"EvtGirlWalkLookRegionD3b" = "EvtGirlWalkLookRegionD3b";
+"EvtGirlWalkLookRegionD3c" = "EvtGirlWalkLookRegionD3c";
+"EvtGirlWalkLookRegionD3d" = "EvtGirlWalkLookRegionD3d";
+
+//EvtGirlWalkRegionDPreset1
+"EvtGirlWalkRegionDPreset1" = "EvtGirlWalkRegionDPreset1";
+"EvtGirlWalkRegionDPreset1a" = "EvtGirlWalkRegionDPreset1a";
+"EvtGirlWalkRegionDPreset1b" = "EvtGirlWalkRegionDPreset1b";
+"EvtGirlWalkRegionDPreset1c" = "EvtGirlWalkRegionDPreset1c";
+"EvtGirlWalkRegionDPreset1d" = "EvtGirlWalkRegionDPreset1d";
+
+//EvtGirlWalkRegionDPreset2
+"EvtGirlWalkRegionDPreset2" = "EvtGirlWalkRegionDPreset2";
+"EvtGirlWalkRegionDPreset2a" = "EvtGirlWalkRegionDPreset2a";
+"EvtGirlWalkRegionDPreset2b" = "EvtGirlWalkRegionDPreset2b";
+"EvtGirlWalkRegionDPreset2c" = "EvtGirlWalkRegionDPreset2c";
+"EvtGirlWalkRegionDPreset2d" = "EvtGirlWalkRegionDPreset2d";
+
+//EvtGirlWalkRegionDStart1
+"EvtGirlWalkRegionDStart1" = "EvtGirlWalkRegionDStart1";
+"EvtGirlWalkRegionDStart1a" = "EvtGirlWalkRegionDStart1a";
+"EvtGirlWalkRegionDStart1b" = "EvtGirlWalkRegionDStart1b";
+"EvtGirlWalkRegionDStart1c" = "EvtGirlWalkRegionDStart1c";
+"EvtGirlWalkRegionDStart1d" = "EvtGirlWalkRegionDStart1d";
+
+//EvtGirlWalkTalkRegionD1
+"EvtGirlWalkTalkRegionD1" = "EvtGirlWalkTalkRegionD1";
+"EvtGirlWalkTalkRegionD1a" = "EvtGirlWalkTalkRegionD1a";
+"EvtGirlWalkTalkRegionD1b" = "EvtGirlWalkTalkRegionD1b";
+"EvtGirlWalkTalkRegionD1c" = "EvtGirlWalkTalkRegionD1c";
+"EvtGirlWalkTalkRegionD1d" = "EvtGirlWalkTalkRegionD1d";
+
+//EvtGirlWalkTalkRegionD2
+"EvtGirlWalkTalkRegionD2" = "EvtGirlWalkTalkRegionD2";
+"EvtGirlWalkTalkRegionD2a" = "EvtGirlWalkTalkRegionD2a";
+"EvtGirlWalkTalkRegionD2b" = "EvtGirlWalkTalkRegionD2b";
+"EvtGirlWalkTalkRegionD2c" = "EvtGirlWalkTalkRegionD2c";
+"EvtGirlWalkTalkRegionD2d" = "EvtGirlWalkTalkRegionD2d";
+
+//EvtGirlWalkTalkRegionD3
+"EvtGirlWalkTalkRegionD3" = "EvtGirlWalkTalkRegionD3";
+"EvtGirlWalkTalkRegionD3a" = "EvtGirlWalkTalkRegionD3a";
+"EvtGirlWalkTalkRegionD3b" = "EvtGirlWalkTalkRegionD3b";
+"EvtGirlWalkTalkRegionD3c" = "EvtGirlWalkTalkRegionD3c";
+"EvtGirlWalkTalkRegionD3d" = "EvtGirlWalkTalkRegionD3d";
+
+//----------------------------Region E
+//EvtGirlDateChatRegionE1
+"EvtGirlDateChatRegionE1" = "EvtGirlDateChatRegionE1";
+"EvtGirlDateChatRegionE1a" = "EvtGirlDateChatRegionE1a";
+"EvtGirlDateChatRegionE1b" = "EvtGirlDateChatRegionE1b";
+"EvtGirlDateChatRegionE1c" = "EvtGirlDateChatRegionE1c";
+"EvtGirlDateChatRegionE1d" = "EvtGirlDateChatRegionE1d";
+
+//EvtGirlDateChatRegionE2
+"EvtGirlDateChatRegionE2" = "EvtGirlDateChatRegionE2";
+"EvtGirlDateChatRegionE2a" = "EvtGirlDateChatRegionE2a";
+"EvtGirlDateChatRegionE2b" = "EvtGirlDateChatRegionE2b";
+"EvtGirlDateChatRegionE2c" = "EvtGirlDateChatRegionE2c";
+"EvtGirlDateChatRegionE2d" = "EvtGirlDateChatRegionE2d";
+
+//EvtGirlDateChatRegionE3
+"EvtGirlDateChatRegionE3" = "EvtGirlDateChatRegionE3";
+"EvtGirlDateChatRegionE3a" = "EvtGirlDateChatRegionE3a";
+"EvtGirlDateChatRegionE3b" = "EvtGirlDateChatRegionE3b";
+"EvtGirlDateChatRegionE3c" = "EvtGirlDateChatRegionE3c";
+"EvtGirlDateChatRegionE3d" = "EvtGirlDateChatRegionE3d";
+
+//EvtGirlDateRegionELeave1
+"EvtGirlDateRegionELeave1" = "EvtGirlDateRegionELeave1";
+"EvtGirlDateRegionELeave1a" = "EvtGirlDateRegionELeave1a";
+"EvtGirlDateRegionELeave1b" = "EvtGirlDateRegionELeave1b";
+"EvtGirlDateRegionELeave1c" = "EvtGirlDateRegionELeave1c";
+"EvtGirlDateRegionELeave1d" = "EvtGirlDateRegionELeave1d";
+
+//EvtGirlDateRegionELeave2
+"EvtGirlDateRegionELeave2" = "EvtGirlDateRegionELeave2";
+"EvtGirlDateRegionELeave2a" = "EvtGirlDateRegionELeave2a";
+"EvtGirlDateRegionELeave2b" = "EvtGirlDateRegionELeave2b";
+"EvtGirlDateRegionELeave2c" = "EvtGirlDateRegionELeave2c";
+"EvtGirlDateRegionELeave2d" = "EvtGirlDateRegionELeave2d";
+
+//EvtGirlDateRegionELeave3
+"EvtGirlDateRegionELeave3" = "EvtGirlDateRegionELeave3";
+"EvtGirlDateRegionELeave3a" = "EvtGirlDateRegionELeave3a";
+"EvtGirlDateRegionELeave3b" = "EvtGirlDateRegionELeave3b";
+"EvtGirlDateRegionELeave3c" = "EvtGirlDateRegionELeave3c";
+"EvtGirlDateRegionELeave3d" = "EvtGirlDateRegionELeave3d";
+
+//EvtGirlDateRegionEStart1
+"EvtGirlDateRegionEStart1" = "EvtGirlDateRegionEStart1";
+"EvtGirlDateRegionEStart1a" = "EvtGirlDateRegionEStart1a";
+"EvtGirlDateRegionEStart1b" = "EvtGirlDateRegionEStart1b";
+"EvtGirlDateRegionEStart1c" = "EvtGirlDateRegionEStart1c";
+"EvtGirlDateRegionEStart1d" = "EvtGirlDateRegionEStart1d";
+
+//EvtGirlDateRegionEStart2
+"EvtGirlDateRegionEStart2" = "EvtGirlDateRegionEStart2";
+"EvtGirlDateRegionEStart2a" = "EvtGirlDateRegionEStart2a";
+"EvtGirlDateRegionEStart2b" = "EvtGirlDateRegionEStart2b";
+"EvtGirlDateRegionEStart2c" = "EvtGirlDateRegionEStart2c";
+"EvtGirlDateRegionEStart2d" = "EvtGirlDateRegionEStart2d";
+
+//EvtGirlDateRegionEStart3
+"EvtGirlDateRegionEStart3" = "EvtGirlDateRegionEStart3";
+"EvtGirlDateRegionEStart3a" = "EvtGirlDateRegionEStart3a";
+"EvtGirlDateRegionEStart3b" = "EvtGirlDateRegionEStart3b";
+"EvtGirlDateRegionEStart3c" = "EvtGirlDateRegionEStart3c";
+"EvtGirlDateRegionEStart3d" = "EvtGirlDateRegionEStart3d";
+
+//EvtGirlDateRomanceRegionE1
+"EvtGirlDateRomanceRegionE1" = "EvtGirlDateRomanceRegionE1";
+"EvtGirlDateRomanceRegionE1a" = "EvtGirlDateRomanceRegionE1a";
+"EvtGirlDateRomanceRegionE1b" = "EvtGirlDateRomanceRegionE1b";
+"EvtGirlDateRomanceRegionE1c" = "EvtGirlDateRomanceRegionE1c";
+"EvtGirlDateRomanceRegionE1d" = "EvtGirlDateRomanceRegionE1d";
+
+//EvtGirlDateRomanceRegionE2
+"EvtGirlDateRomanceRegionE2" = "EvtGirlDateRomanceRegionE2";
+"EvtGirlDateRomanceRegionE2a" = "EvtGirlDateRomanceRegionE2a";
+"EvtGirlDateRomanceRegionE2b" = "EvtGirlDateRomanceRegionE2b";
+"EvtGirlDateRomanceRegionE2c" = "EvtGirlDateRomanceRegionE2c";
+"EvtGirlDateRomanceRegionE2d" = "EvtGirlDateRomanceRegionE2d";
+
+//EvtGirlDateRomanceRegionE3
+"EvtGirlDateRomanceRegionE3" = "EvtGirlDateRomanceRegionE3";
+"EvtGirlDateRomanceRegionE3a" = "EvtGirlDateRomanceRegionE3a";
+"EvtGirlDateRomanceRegionE3b" = "EvtGirlDateRomanceRegionE3b";
+"EvtGirlDateRomanceRegionE3c" = "EvtGirlDateRomanceRegionE3c";
+"EvtGirlDateRomanceRegionE3d" = "EvtGirlDateRomanceRegionE3d";
+
+//EvtGirlWalkLookRegionE1 -- fork
+"EvtGirlWalkLookRegionE1" = "EvtGirlWalkLookRegionE1";
+"EvtGirlWalkLookRegionE1a" = "EvtGirlWalkLookRegionE1a";
+"EvtGirlWalkLookRegionE1b" = "EvtGirlWalkLookRegionE1b";
+"EvtGirlWalkLookRegionE1c" = "EvtGirlWalkLookRegionE1c";
+"EvtGirlWalkLookRegionE1d" = "EvtGirlWalkLookRegionE1d";
+
+//EvtGirlWalkLookRegionE2 -- chopstick
+"EvtGirlWalkLookRegionE2" = "EvtGirlWalkLookRegionE2";
+"EvtGirlWalkLookRegionE2a" = "EvtGirlWalkLookRegionE2a";
+"EvtGirlWalkLookRegionE2b" = "EvtGirlWalkLookRegionE2b";
+"EvtGirlWalkLookRegionE2c" = "EvtGirlWalkLookRegionE2c";
+"EvtGirlWalkLookRegionE2d" = "EvtGirlWalkLookRegionE2d";
+
+//EvtGirlWalkLookRegionE3
+"EvtGirlWalkLookRegionE3" = "EvtGirlWalkLookRegionE3";
+"EvtGirlWalkLookRegionE3a" = "EvtGirlWalkLookRegionE3a";
+"EvtGirlWalkLookRegionE3b" = "EvtGirlWalkLookRegionE3b";
+"EvtGirlWalkLookRegionE3c" = "EvtGirlWalkLookRegionE3c";
+"EvtGirlWalkLookRegionE3d" = "EvtGirlWalkLookRegionE3d";
+
+//EvtGirlWalkRegionEPreset1
+"EvtGirlWalkRegionEPreset1" = "EvtGirlWalkRegionEPreset1";
+"EvtGirlWalkRegionEPreset1a" = "EvtGirlWalkRegionEPreset1a";
+"EvtGirlWalkRegionEPreset1b" = "EvtGirlWalkRegionEPreset1b";
+"EvtGirlWalkRegionEPreset1c" = "EvtGirlWalkRegionEPreset1c";
+"EvtGirlWalkRegionEPreset1d" = "EvtGirlWalkRegionEPreset1d";
+
+//EvtGirlWalkRegionEPreset2
+"EvtGirlWalkRegionEPreset2" = "EvtGirlWalkRegionEPreset2";
+"EvtGirlWalkRegionEPreset2a" = "EvtGirlWalkRegionEPreset2a";
+"EvtGirlWalkRegionEPreset2b" = "EvtGirlWalkRegionEPreset2b";
+"EvtGirlWalkRegionEPreset2c" = "EvtGirlWalkRegionEPreset2c";
+"EvtGirlWalkRegionEPreset2d" = "EvtGirlWalkRegionEPreset2d";
+
+//EvtGirlWalkRegionEStart1
+"EvtGirlWalkRegionEStart1" = "EvtGirlWalkRegionEStart1";
+"EvtGirlWalkRegionEStart1a" = "EvtGirlWalkRegionEStart1a";
+"EvtGirlWalkRegionEStart1b" = "EvtGirlWalkRegionEStart1b";
+"EvtGirlWalkRegionEStart1c" = "EvtGirlWalkRegionEStart1c";
+"EvtGirlWalkRegionEStart1d" = "EvtGirlWalkRegionEStart1d";
+
+//EvtGirlWalkTalkRegionE1
+"EvtGirlWalkTalkRegionE1" = "EvtGirlWalkTalkRegionE1";
+"EvtGirlWalkTalkRegionE1a" = "EvtGirlWalkTalkRegionE1a";
+"EvtGirlWalkTalkRegionE1b" = "EvtGirlWalkTalkRegionE1b";
+"EvtGirlWalkTalkRegionE1c" = "EvtGirlWalkTalkRegionE1c";
+"EvtGirlWalkTalkRegionE1d" = "EvtGirlWalkTalkRegionE1d";
+
+//EvtGirlWalkTalkRegionE2
+"EvtGirlWalkTalkRegionE2" = "EvtGirlWalkTalkRegionE2";
+"EvtGirlWalkTalkRegionE2a" = "EvtGirlWalkTalkRegionE2a";
+"EvtGirlWalkTalkRegionE2b" = "EvtGirlWalkTalkRegionE2b";
+"EvtGirlWalkTalkRegionE2c" = "EvtGirlWalkTalkRegionE2c";
+"EvtGirlWalkTalkRegionE2d" = "EvtGirlWalkTalkRegionE2d";
+
+//EvtGirlWalkTalkRegionE3
+"EvtGirlWalkTalkRegionE3" = "EvtGirlWalkTalkRegionE3";
+"EvtGirlWalkTalkRegionE3a" = "EvtGirlWalkTalkRegionE3a";
+"EvtGirlWalkTalkRegionE3b" = "EvtGirlWalkTalkRegionE3b";
+"EvtGirlWalkTalkRegionE3c" = "EvtGirlWalkTalkRegionE3c";
+"EvtGirlWalkTalkRegionE3d" = "EvtGirlWalkTalkRegionE3d";
+
+//----------------------------Region F
+//EvtGirlDateChatRegionF1
+"EvtGirlDateChatRegionF1" = "EvtGirlDateChatRegionF1";
+"EvtGirlDateChatRegionF1a" = "EvtGirlDateChatRegionF1a";
+"EvtGirlDateChatRegionF1b" = "EvtGirlDateChatRegionF1b";
+"EvtGirlDateChatRegionF1c" = "EvtGirlDateChatRegionF1c";
+"EvtGirlDateChatRegionF1d" = "EvtGirlDateChatRegionF1d";
+
+//EvtGirlDateChatRegionF2
+"EvtGirlDateChatRegionF2" = "EvtGirlDateChatRegionF2";
+"EvtGirlDateChatRegionF2a" = "EvtGirlDateChatRegionF2a";
+"EvtGirlDateChatRegionF2b" = "EvtGirlDateChatRegionF2b";
+"EvtGirlDateChatRegionF2c" = "EvtGirlDateChatRegionF2c";
+"EvtGirlDateChatRegionF2d" = "EvtGirlDateChatRegionF2d";
+
+//EvtGirlDateChatRegionF3
+"EvtGirlDateChatRegionF3" = "EvtGirlDateChatRegionF3";
+"EvtGirlDateChatRegionF3a" = "EvtGirlDateChatRegionF3a";
+"EvtGirlDateChatRegionF3b" = "EvtGirlDateChatRegionF3b";
+"EvtGirlDateChatRegionF3c" = "EvtGirlDateChatRegionF3c";
+"EvtGirlDateChatRegionF3d" = "EvtGirlDateChatRegionF3d";
+
+//EvtGirlDateRegionFLeave1
+"EvtGirlDateRegionFLeave1" = "EvtGirlDateRegionFLeave1";
+"EvtGirlDateRegionFLeave1a" = "EvtGirlDateRegionFLeave1a";
+"EvtGirlDateRegionFLeave1b" = "EvtGirlDateRegionFLeave1b";
+"EvtGirlDateRegionFLeave1c" = "EvtGirlDateRegionFLeave1c";
+"EvtGirlDateRegionFLeave1d" = "EvtGirlDateRegionFLeave1d";
+
+//EvtGirlDateRegionFLeave2
+"EvtGirlDateRegionFLeave2" = "EvtGirlDateRegionFLeave2";
+"EvtGirlDateRegionFLeave2a" = "EvtGirlDateRegionFLeave2a";
+"EvtGirlDateRegionFLeave2b" = "EvtGirlDateRegionFLeave2b";
+"EvtGirlDateRegionFLeave2c" = "EvtGirlDateRegionFLeave2c";
+"EvtGirlDateRegionFLeave2d" = "EvtGirlDateRegionFLeave2d";
+
+//EvtGirlDateRegionFLeave3
+"EvtGirlDateRegionFLeave3" = "EvtGirlDateRegionFLeave3";
+"EvtGirlDateRegionFLeave3a" = "EvtGirlDateRegionFLeave3a";
+"EvtGirlDateRegionFLeave3b" = "EvtGirlDateRegionFLeave3b";
+"EvtGirlDateRegionFLeave3c" = "EvtGirlDateRegionFLeave3c";
+"EvtGirlDateRegionFLeave3d" = "EvtGirlDateRegionFLeave3d";
+
+//EvtGirlDateRegionFStart1
+"EvtGirlDateRegionFStart1" = "EvtGirlDateRegionFStart1";
+"EvtGirlDateRegionFStart1a" = "EvtGirlDateRegionFStart1a";
+"EvtGirlDateRegionFStart1b" = "EvtGirlDateRegionFStart1b";
+"EvtGirlDateRegionFStart1c" = "EvtGirlDateRegionFStart1c";
+"EvtGirlDateRegionFStart1d" = "EvtGirlDateRegionFStart1d";
+
+//EvtGirlDateRegionFStart2
+"EvtGirlDateRegionFStart2" = "EvtGirlDateRegionFStart2";
+"EvtGirlDateRegionFStart2a" = "EvtGirlDateRegionFStart2a";
+"EvtGirlDateRegionFStart2b" = "EvtGirlDateRegionFStart2b";
+"EvtGirlDateRegionFStart2c" = "EvtGirlDateRegionFStart2c";
+"EvtGirlDateRegionFStart2d" = "EvtGirlDateRegionFStart2d";
+
+//EvtGirlDateRegionFStart3
+"EvtGirlDateRegionFStart3" = "EvtGirlDateRegionFStart3";
+"EvtGirlDateRegionFStart3a" = "EvtGirlDateRegionFStart3a";
+"EvtGirlDateRegionFStart3b" = "EvtGirlDateRegionFStart3b";
+"EvtGirlDateRegionFStart3c" = "EvtGirlDateRegionFStart3c";
+"EvtGirlDateRegionFStart3d" = "EvtGirlDateRegionFStart3d";
+
+//EvtGirlDateRomanceRegionF1
+"EvtGirlDateRomanceRegionF1" = "EvtGirlDateRomanceRegionF1";
+"EvtGirlDateRomanceRegionF1a" = "EvtGirlDateRomanceRegionF1a";
+"EvtGirlDateRomanceRegionF1b" = "EvtGirlDateRomanceRegionF1b";
+"EvtGirlDateRomanceRegionF1c" = "EvtGirlDateRomanceRegionF1c";
+"EvtGirlDateRomanceRegionF1d" = "EvtGirlDateRomanceRegionF1d";
+
+//EvtGirlDateRomanceRegionF2
+"EvtGirlDateRomanceRegionF2" = "EvtGirlDateRomanceRegionF2";
+"EvtGirlDateRomanceRegionF2a" = "EvtGirlDateRomanceRegionF2a";
+"EvtGirlDateRomanceRegionF2b" = "EvtGirlDateRomanceRegionF2b";
+"EvtGirlDateRomanceRegionF2c" = "EvtGirlDateRomanceRegionF2c";
+"EvtGirlDateRomanceRegionF2d" = "EvtGirlDateRomanceRegionF2d";
+
+//EvtGirlDateRomanceRegionF3
+"EvtGirlDateRomanceRegionF3" = "EvtGirlDateRomanceRegionF3";
+"EvtGirlDateRomanceRegionF3a" = "EvtGirlDateRomanceRegionF3a";
+"EvtGirlDateRomanceRegionF3b" = "EvtGirlDateRomanceRegionF3b";
+"EvtGirlDateRomanceRegionF3c" = "EvtGirlDateRomanceRegionF3c";
+"EvtGirlDateRomanceRegionF3d" = "EvtGirlDateRomanceRegionF3d";
+
+//EvtGirlWalkLookRegionF1 -- leaf
+"EvtGirlWalkLookRegionF1" = "EvtGirlWalkLookRegionF1";
+"EvtGirlWalkLookRegionF1a" = "EvtGirlWalkLookRegionF1a";
+"EvtGirlWalkLookRegionF1b" = "EvtGirlWalkLookRegionF1b";
+"EvtGirlWalkLookRegionF1c" = "EvtGirlWalkLookRegionF1c";
+"EvtGirlWalkLookRegionF1d" = "EvtGirlWalkLookRegionF1d";
+
+//EvtGirlWalkLookRegionF2 -- bicycle
+"EvtGirlWalkLookRegionF2" = "EvtGirlWalkLookRegionF2";
+"EvtGirlWalkLookRegionF2a" = "EvtGirlWalkLookRegionF2a";
+"EvtGirlWalkLookRegionF2b" = "EvtGirlWalkLookRegionF2b";
+"EvtGirlWalkLookRegionF2c" = "EvtGirlWalkLookRegionF2c";
+"EvtGirlWalkLookRegionF2d" = "EvtGirlWalkLookRegionF2d";
+
+//EvtGirlWalkLookRegionF3
+"EvtGirlWalkLookRegionF3" = "EvtGirlWalkLookRegionF3";
+"EvtGirlWalkLookRegionF3a" = "EvtGirlWalkLookRegionF3a";
+"EvtGirlWalkLookRegionF3b" = "EvtGirlWalkLookRegionF3b";
+"EvtGirlWalkLookRegionF3c" = "EvtGirlWalkLookRegionF3c";
+"EvtGirlWalkLookRegionF3d" = "EvtGirlWalkLookRegionF3d";
+
+//EvtGirlWalkRegionFPreset1
+"EvtGirlWalkRegionFPreset1" = "EvtGirlWalkRegionFPreset1";
+"EvtGirlWalkRegionFPreset1a" = "EvtGirlWalkRegionFPreset1a";
+"EvtGirlWalkRegionFPreset1b" = "EvtGirlWalkRegionFPreset1b";
+"EvtGirlWalkRegionFPreset1c" = "EvtGirlWalkRegionFPreset1c";
+"EvtGirlWalkRegionFPreset1d" = "EvtGirlWalkRegionFPreset1d";
+
+//EvtGirlWalkRegionFPreset2
+"EvtGirlWalkRegionFPreset2" = "EvtGirlWalkRegionFPreset2";
+"EvtGirlWalkRegionFPreset2a" = "EvtGirlWalkRegionFPreset2a";
+"EvtGirlWalkRegionFPreset2b" = "EvtGirlWalkRegionFPreset2b";
+"EvtGirlWalkRegionFPreset2c" = "EvtGirlWalkRegionFPreset2c";
+"EvtGirlWalkRegionFPreset2d" = "EvtGirlWalkRegionFPreset2d";
+
+//EvtGirlWalkRegionFStart1
+"EvtGirlWalkRegionFStart1" = "EvtGirlWalkRegionFStart1";
+"EvtGirlWalkRegionFStart1a" = "EvtGirlWalkRegionFStart1a";
+"EvtGirlWalkRegionFStart1b" = "EvtGirlWalkRegionFStart1b";
+"EvtGirlWalkRegionFStart1c" = "EvtGirlWalkRegionFStart1c";
+"EvtGirlWalkRegionFStart1d" = "EvtGirlWalkRegionFStart1d";
+
+//EvtGirlWalkTalkRegionF1
+"EvtGirlWalkTalkRegionF1" = "EvtGirlWalkTalkRegionF1";
+"EvtGirlWalkTalkRegionF1a" = "EvtGirlWalkTalkRegionF1a";
+"EvtGirlWalkTalkRegionF1b" = "EvtGirlWalkTalkRegionF1b";
+"EvtGirlWalkTalkRegionF1c" = "EvtGirlWalkTalkRegionF1c";
+"EvtGirlWalkTalkRegionF1d" = "EvtGirlWalkTalkRegionF1d";
+
+//EvtGirlWalkTalkRegionF2
+"EvtGirlWalkTalkRegionF2" = "EvtGirlWalkTalkRegionF2";
+"EvtGirlWalkTalkRegionF2a" = "EvtGirlWalkTalkRegionF2a";
+"EvtGirlWalkTalkRegionF2b" = "EvtGirlWalkTalkRegionF2b";
+"EvtGirlWalkTalkRegionF2c" = "EvtGirlWalkTalkRegionF2c";
+"EvtGirlWalkTalkRegionF2d" = "EvtGirlWalkTalkRegionF2d";
+
+//EvtGirlWalkTalkRegionF3
+"EvtGirlWalkTalkRegionF3" = "EvtGirlWalkTalkRegionF3";
+"EvtGirlWalkTalkRegionF3a" = "EvtGirlWalkTalkRegionF3a";
+"EvtGirlWalkTalkRegionF3b" = "EvtGirlWalkTalkRegionF3b";
+"EvtGirlWalkTalkRegionF3c" = "EvtGirlWalkTalkRegionF3c";
+"EvtGirlWalkTalkRegionF3d" = "EvtGirlWalkTalkRegionF3d";
+
+//----------------------------Region G
+//EvtGirlDateChatRegionG1
+"EvtGirlDateChatRegionG1" = "EvtGirlDateChatRegionG1";
+"EvtGirlDateChatRegionG1a" = "EvtGirlDateChatRegionG1a";
+"EvtGirlDateChatRegionG1b" = "EvtGirlDateChatRegionG1b";
+"EvtGirlDateChatRegionG1c" = "EvtGirlDateChatRegionG1c";
+"EvtGirlDateChatRegionG1d" = "EvtGirlDateChatRegionG1d";
+
+//EvtGirlDateChatRegionG2
+"EvtGirlDateChatRegionG2" = "EvtGirlDateChatRegionG2";
+"EvtGirlDateChatRegionG2a" = "EvtGirlDateChatRegionG2a";
+"EvtGirlDateChatRegionG2b" = "EvtGirlDateChatRegionG2b";
+"EvtGirlDateChatRegionG2c" = "EvtGirlDateChatRegionG2c";
+"EvtGirlDateChatRegionG2d" = "EvtGirlDateChatRegionG2d";
+
+//EvtGirlDateChatRegionG3
+"EvtGirlDateChatRegionG3" = "EvtGirlDateChatRegionG3";
+"EvtGirlDateChatRegionG3a" = "EvtGirlDateChatRegionG3a";
+"EvtGirlDateChatRegionG3b" = "EvtGirlDateChatRegionG3b";
+"EvtGirlDateChatRegionG3c" = "EvtGirlDateChatRegionG3c";
+"EvtGirlDateChatRegionG3d" = "EvtGirlDateChatRegionG3d";
+
+//EvtGirlDateRegionGLeave1
+"EvtGirlDateRegionGLeave1" = "EvtGirlDateRegionGLeave1";
+"EvtGirlDateRegionGLeave1a" = "EvtGirlDateRegionGLeave1a";
+"EvtGirlDateRegionGLeave1b" = "EvtGirlDateRegionGLeave1b";
+"EvtGirlDateRegionGLeave1c" = "EvtGirlDateRegionGLeave1c";
+"EvtGirlDateRegionGLeave1d" = "EvtGirlDateRegionGLeave1d";
+
+//EvtGirlDateRegionGLeave2
+"EvtGirlDateRegionGLeave2" = "EvtGirlDateRegionGLeave2";
+"EvtGirlDateRegionGLeave2a" = "EvtGirlDateRegionGLeave2a";
+"EvtGirlDateRegionGLeave2b" = "EvtGirlDateRegionGLeave2b";
+"EvtGirlDateRegionGLeave2c" = "EvtGirlDateRegionGLeave2c";
+"EvtGirlDateRegionGLeave2d" = "EvtGirlDateRegionGLeave2d";
+
+//EvtGirlDateRegionGLeave3
+"EvtGirlDateRegionGLeave3" = "EvtGirlDateRegionGLeave3";
+"EvtGirlDateRegionGLeave3a" = "EvtGirlDateRegionGLeave3a";
+"EvtGirlDateRegionGLeave3b" = "EvtGirlDateRegionGLeave3b";
+"EvtGirlDateRegionGLeave3c" = "EvtGirlDateRegionGLeave3c";
+"EvtGirlDateRegionGLeave3d" = "EvtGirlDateRegionGLeave3d";
+
+//EvtGirlDateRegionGStart1
+"EvtGirlDateRegionGStart1" = "EvtGirlDateRegionGStart1";
+"EvtGirlDateRegionGStart1a" = "EvtGirlDateRegionGStart1a";
+"EvtGirlDateRegionGStart1b" = "EvtGirlDateRegionGStart1b";
+"EvtGirlDateRegionGStart1c" = "EvtGirlDateRegionGStart1c";
+"EvtGirlDateRegionGStart1d" = "EvtGirlDateRegionGStart1d";
+
+//EvtGirlDateRegionGStart2
+"EvtGirlDateRegionGStart2" = "EvtGirlDateRegionGStart2";
+"EvtGirlDateRegionGStart2a" = "EvtGirlDateRegionGStart2a";
+"EvtGirlDateRegionGStart2b" = "EvtGirlDateRegionGStart2b";
+"EvtGirlDateRegionGStart2c" = "EvtGirlDateRegionGStart2c";
+"EvtGirlDateRegionGStart2d" = "EvtGirlDateRegionGStart2d";
+
+//EvtGirlDateRegionGStart3
+"EvtGirlDateRegionGStart3" = "EvtGirlDateRegionGStart3";
+"EvtGirlDateRegionGStart3a" = "EvtGirlDateRegionGStart3a";
+"EvtGirlDateRegionGStart3b" = "EvtGirlDateRegionGStart3b";
+"EvtGirlDateRegionGStart3c" = "EvtGirlDateRegionGStart3c";
+"EvtGirlDateRegionGStart3d" = "EvtGirlDateRegionGStart3d";
+
+//EvtGirlDateRomanceRegionG1
+"EvtGirlDateRomanceRegionG1" = "EvtGirlDateRomanceRegionG1";
+"EvtGirlDateRomanceRegionG1a" = "EvtGirlDateRomanceRegionG1a";
+"EvtGirlDateRomanceRegionG1b" = "EvtGirlDateRomanceRegionG1b";
+"EvtGirlDateRomanceRegionG1c" = "EvtGirlDateRomanceRegionG1c";
+"EvtGirlDateRomanceRegionG1d" = "EvtGirlDateRomanceRegionG1d";
+
+//EvtGirlDateRomanceRegionG2
+"EvtGirlDateRomanceRegionG2" = "EvtGirlDateRomanceRegionG2";
+"EvtGirlDateRomanceRegionG2a" = "EvtGirlDateRomanceRegionG2a";
+"EvtGirlDateRomanceRegionG2b" = "EvtGirlDateRomanceRegionG2b";
+"EvtGirlDateRomanceRegionG2c" = "EvtGirlDateRomanceRegionG2c";
+"EvtGirlDateRomanceRegionG2d" = "EvtGirlDateRomanceRegionG2d";
+
+//EvtGirlDateRomanceRegionG3
+"EvtGirlDateRomanceRegionG3" = "EvtGirlDateRomanceRegionG3";
+"EvtGirlDateRomanceRegionG3a" = "EvtGirlDateRomanceRegionG3a";
+"EvtGirlDateRomanceRegionG3b" = "EvtGirlDateRomanceRegionG3b";
+"EvtGirlDateRomanceRegionG3c" = "EvtGirlDateRomanceRegionG3c";
+"EvtGirlDateRomanceRegionG3d" = "EvtGirlDateRomanceRegionG3d";
+
+//EvtGirlWalkLookRegionG1 -- popcorn
+"EvtGirlWalkLookRegionG1" = "EvtGirlWalkLookRegionG1";
+"EvtGirlWalkLookRegionG1a" = "EvtGirlWalkLookRegionG1a";
+"EvtGirlWalkLookRegionG1b" = "EvtGirlWalkLookRegionG1b";
+"EvtGirlWalkLookRegionG1c" = "EvtGirlWalkLookRegionG1c";
+"EvtGirlWalkLookRegionG1d" = "EvtGirlWalkLookRegionG1d";
+
+//EvtGirlWalkLookRegionG2 -- microphone
+"EvtGirlWalkLookRegionG2" = "EvtGirlWalkLookRegionG2";
+"EvtGirlWalkLookRegionG2a" = "EvtGirlWalkLookRegionG2a";
+"EvtGirlWalkLookRegionG2b" = "EvtGirlWalkLookRegionG2b";
+"EvtGirlWalkLookRegionG2c" = "EvtGirlWalkLookRegionG2c";
+"EvtGirlWalkLookRegionG2d" = "EvtGirlWalkLookRegionG2d";
+
+//EvtGirlWalkLookRegionG3
+"EvtGirlWalkLookRegionG3" = "EvtGirlWalkLookRegionG3";
+"EvtGirlWalkLookRegionG3a" = "EvtGirlWalkLookRegionG3a";
+"EvtGirlWalkLookRegionG3b" = "EvtGirlWalkLookRegionG3b";
+"EvtGirlWalkLookRegionG3c" = "EvtGirlWalkLookRegionG3c";
+"EvtGirlWalkLookRegionG3d" = "EvtGirlWalkLookRegionG3d";
+
+//EvtGirlWalkRegionGPreset1
+"EvtGirlWalkRegionGPreset1" = "EvtGirlWalkRegionGPreset1";
+"EvtGirlWalkRegionGPreset1a" = "EvtGirlWalkRegionGPreset1a";
+"EvtGirlWalkRegionGPreset1b" = "EvtGirlWalkRegionGPreset1b";
+"EvtGirlWalkRegionGPreset1c" = "EvtGirlWalkRegionGPreset1c";
+"EvtGirlWalkRegionGPreset1d" = "EvtGirlWalkRegionGPreset1d";
+
+//EvtGirlWalkRegionGPreset2
+"EvtGirlWalkRegionGPreset2" = "EvtGirlWalkRegionGPreset2";
+"EvtGirlWalkRegionGPreset2a" = "EvtGirlWalkRegionGPreset2a";
+"EvtGirlWalkRegionGPreset2b" = "EvtGirlWalkRegionGPreset2b";
+"EvtGirlWalkRegionGPreset2c" = "EvtGirlWalkRegionGPreset2c";
+"EvtGirlWalkRegionGPreset2d" = "EvtGirlWalkRegionGPreset2d";
+
+//EvtGirlWalkRegionGStart1
+"EvtGirlWalkRegionGStart1" = "EvtGirlWalkRegionGStart1";
+"EvtGirlWalkRegionGStart1a" = "EvtGirlWalkRegionGStart1a";
+"EvtGirlWalkRegionGStart1b" = "EvtGirlWalkRegionGStart1b";
+"EvtGirlWalkRegionGStart1c" = "EvtGirlWalkRegionGStart1c";
+"EvtGirlWalkRegionGStart1d" = "EvtGirlWalkRegionGStart1d";
+
+//EvtGirlWalkTalkRegionG1
+"EvtGirlWalkTalkRegionG1" = "EvtGirlWalkTalkRegionG1";
+"EvtGirlWalkTalkRegionG1a" = "EvtGirlWalkTalkRegionG1a";
+"EvtGirlWalkTalkRegionG1b" = "EvtGirlWalkTalkRegionG1b";
+"EvtGirlWalkTalkRegionG1c" = "EvtGirlWalkTalkRegionG1c";
+"EvtGirlWalkTalkRegionG1d" = "EvtGirlWalkTalkRegionG1d";
+
+//EvtGirlWalkTalkRegionG2
+"EvtGirlWalkTalkRegionG2" = "EvtGirlWalkTalkRegionG2";
+"EvtGirlWalkTalkRegionG2a" = "EvtGirlWalkTalkRegionG2a";
+"EvtGirlWalkTalkRegionG2b" = "EvtGirlWalkTalkRegionG2b";
+"EvtGirlWalkTalkRegionG2c" = "EvtGirlWalkTalkRegionG2c";
+"EvtGirlWalkTalkRegionG2d" = "EvtGirlWalkTalkRegionG2d";
+
+//EvtGirlWalkTalkRegionG3
+"EvtGirlWalkTalkRegionG3" = "EvtGirlWalkTalkRegionG3";
+"EvtGirlWalkTalkRegionG3a" = "EvtGirlWalkTalkRegionG3a";
+"EvtGirlWalkTalkRegionG3b" = "EvtGirlWalkTalkRegionG3b";
+"EvtGirlWalkTalkRegionG3c" = "EvtGirlWalkTalkRegionG3c";
+"EvtGirlWalkTalkRegionG3d" = "EvtGirlWalkTalkRegionG3d";
+
+//----------------------------Region H Date Chat
+//EvtGirlDateChatRegionH1
+"EvtGirlDateChatRegionH1" = "EvtGirlDateChatRegionH1";
+"EvtGirlDateChatRegionH1a" = "EvtGirlDateChatRegionH1a";
+"EvtGirlDateChatRegionH1b" = "EvtGirlDateChatRegionH1b";
+"EvtGirlDateChatRegionH1c" = "EvtGirlDateChatRegionH1c";
+"EvtGirlDateChatRegionH1d" = "EvtGirlDateChatRegionH1d";
+
+//EvtGirlDateChatRegionH2
+"EvtGirlDateChatRegionH2" = "EvtGirlDateChatRegionH2";
+"EvtGirlDateChatRegionH2a" = "EvtGirlDateChatRegionH2a";
+"EvtGirlDateChatRegionH2b" = "EvtGirlDateChatRegionH2b";
+"EvtGirlDateChatRegionH2c" = "EvtGirlDateChatRegionH2c";
+"EvtGirlDateChatRegionH2d" = "EvtGirlDateChatRegionH2d";
+
+//EvtGirlDateChatRegionH3
+"EvtGirlDateChatRegionH3" = "EvtGirlDateChatRegionH3";
+"EvtGirlDateChatRegionH3a" = "EvtGirlDateChatRegionH3a";
+"EvtGirlDateChatRegionH3b" = "EvtGirlDateChatRegionH3b";
+"EvtGirlDateChatRegionH3c" = "EvtGirlDateChatRegionH3c";
+"EvtGirlDateChatRegionH3d" = "EvtGirlDateChatRegionH3d";
+
+//----------------------------Region H Date Leave
+//EvtGirlDateRegionHLeave1
+"EvtGirlDateRegionHLeave1" = "EvtGirlDateRegionHLeave1";
+"EvtGirlDateRegionHLeave1a" = "EvtGirlDateRegionHLeave1a";
+"EvtGirlDateRegionHLeave1b" = "EvtGirlDateRegionHLeave1b";
+"EvtGirlDateRegionHLeave1c" = "EvtGirlDateRegionHLeave1c";
+"EvtGirlDateRegionHLeave1d" = "EvtGirlDateRegionHLeave1d";
+
+//EvtGirlDateRegionHLeave2
+"EvtGirlDateRegionHLeave2" = "EvtGirlDateRegionHLeave2";
+"EvtGirlDateRegionHLeave2a" = "EvtGirlDateRegionHLeave2a";
+"EvtGirlDateRegionHLeave2b" = "EvtGirlDateRegionHLeave2b";
+"EvtGirlDateRegionHLeave2c" = "EvtGirlDateRegionHLeave2c";
+"EvtGirlDateRegionHLeave2d" = "EvtGirlDateRegionHLeave2d";
+
+//EvtGirlDateRegionHLeave3
+"EvtGirlDateRegionHLeave3" = "EvtGirlDateRegionHLeave3";
+"EvtGirlDateRegionHLeave3a" = "EvtGirlDateRegionHLeave3a";
+"EvtGirlDateRegionHLeave3b" = "EvtGirlDateRegionHLeave3b";
+"EvtGirlDateRegionHLeave3c" = "EvtGirlDateRegionHLeave3c";
+"EvtGirlDateRegionHLeave3d" = "EvtGirlDateRegionHLeave3d";
+
+//----------------------------Region H Date Start
+//EvtGirlDateRegionHStart1
+"EvtGirlDateRegionHStart1" = "EvtGirlDateRegionHStart1";
+"EvtGirlDateRegionHStart1a" = "EvtGirlDateRegionHStart1a";
+"EvtGirlDateRegionHStart1b" = "EvtGirlDateRegionHStart1b";
+"EvtGirlDateRegionHStart1c" = "EvtGirlDateRegionHStart1c";
+"EvtGirlDateRegionHStart1d" = "EvtGirlDateRegionHStart1d";
+
+//EvtGirlDateRegionHStart2
+"EvtGirlDateRegionHStart2" = "EvtGirlDateRegionHStart2";
+"EvtGirlDateRegionHStart2a" = "EvtGirlDateRegionHStart2a";
+"EvtGirlDateRegionHStart2b" = "EvtGirlDateRegionHStart2b";
+"EvtGirlDateRegionHStart2c" = "EvtGirlDateRegionHStart2c";
+"EvtGirlDateRegionHStart2d" = "EvtGirlDateRegionHStart2d";
+
+//EvtGirlDateRegionHStart3
+"EvtGirlDateRegionHStart3" = "EvtGirlDateRegionHStart3";
+"EvtGirlDateRegionHStart3a" = "EvtGirlDateRegionHStart3a";
+"EvtGirlDateRegionHStart3b" = "EvtGirlDateRegionHStart3b";
+"EvtGirlDateRegionHStart3c" = "EvtGirlDateRegionHStart3c";
+"EvtGirlDateRegionHStart3d" = "EvtGirlDateRegionHStart3d";
+
+//----------------------------Region H Date Romance
+//EvtGirlDateRomanceRegionH1
+"EvtGirlDateRomanceRegionH1" = "EvtGirlDateRomanceRegionH1";
+"EvtGirlDateRomanceRegionH1a" = "EvtGirlDateRomanceRegionH1a";
+"EvtGirlDateRomanceRegionH1b" = "EvtGirlDateRomanceRegionH1b";
+"EvtGirlDateRomanceRegionH1c" = "EvtGirlDateRomanceRegionH1c";
+"EvtGirlDateRomanceRegionH1d" = "EvtGirlDateRomanceRegionH1d";
+
+//EvtGirlDateRomanceRegionH2
+"EvtGirlDateRomanceRegionH2" = "EvtGirlDateRomanceRegionH2";
+"EvtGirlDateRomanceRegionH2a" = "EvtGirlDateRomanceRegionH2a";
+"EvtGirlDateRomanceRegionH2b" = "EvtGirlDateRomanceRegionH2b";
+"EvtGirlDateRomanceRegionH2c" = "EvtGirlDateRomanceRegionH2c";
+"EvtGirlDateRomanceRegionH2d" = "EvtGirlDateRomanceRegionH2d";
+
+//EvtGirlDateRomanceRegionH3
+"EvtGirlDateRomanceRegionH3" = "EvtGirlDateRomanceRegionH3";
+"EvtGirlDateRomanceRegionH3a" = "EvtGirlDateRomanceRegionH3a";
+"EvtGirlDateRomanceRegionH3b" = "EvtGirlDateRomanceRegionH3b";
+"EvtGirlDateRomanceRegionH3c" = "EvtGirlDateRomanceRegionH3c";
+"EvtGirlDateRomanceRegionH3d" = "EvtGirlDateRomanceRegionH3d";
+
+//----------------------------Region H Walk Look
+//EvtGirlWalkLookRegionH1 -- drama script
+"EvtGirlWalkLookRegionH1" = "EvtGirlWalkLookRegionH1";
+"EvtGirlWalkLookRegionH1a" = "EvtGirlWalkLookRegionH1a";
+"EvtGirlWalkLookRegionH1b" = "EvtGirlWalkLookRegionH1b";
+"EvtGirlWalkLookRegionH1c" = "EvtGirlWalkLookRegionH1c";
+"EvtGirlWalkLookRegionH1d" = "EvtGirlWalkLookRegionH1d";
+
+//EvtGirlWalkLookRegionH2 -- mask
+"EvtGirlWalkLookRegionH2" = "EvtGirlWalkLookRegionH2";
+"EvtGirlWalkLookRegionH2a" = "EvtGirlWalkLookRegionH2a";
+"EvtGirlWalkLookRegionH2b" = "EvtGirlWalkLookRegionH2b";
+"EvtGirlWalkLookRegionH2c" = "EvtGirlWalkLookRegionH2c";
+"EvtGirlWalkLookRegionH2d" = "EvtGirlWalkLookRegionH2d";
+
+//EvtGirlWalkLookRegionH3
+"EvtGirlWalkLookRegionH3" = "EvtGirlWalkLookRegionH3";
+"EvtGirlWalkLookRegionH3a" = "EvtGirlWalkLookRegionH3a";
+"EvtGirlWalkLookRegionH3b" = "EvtGirlWalkLookRegionH3b";
+"EvtGirlWalkLookRegionH3c" = "EvtGirlWalkLookRegionH3c";
+"EvtGirlWalkLookRegionH3d" = "EvtGirlWalkLookRegionH3d";
+
+//----------------------------Region H Walk Preset
+//EvtGirlWalkRegionHPreset1
+"EvtGirlWalkRegionHPreset1" = "EvtGirlWalkRegionHPreset1";
+"EvtGirlWalkRegionHPreset1a" = "EvtGirlWalkRegionHPreset1a";
+"EvtGirlWalkRegionHPreset1b" = "EvtGirlWalkRegionHPreset1b";
+"EvtGirlWalkRegionHPreset1c" = "EvtGirlWalkRegionHPreset1c";
+"EvtGirlWalkRegionHPreset1d" = "EvtGirlWalkRegionHPreset1d";
+
+//EvtGirlWalkRegionHPreset2
+"EvtGirlWalkRegionHPreset2" = "EvtGirlWalkRegionHPreset2";
+"EvtGirlWalkRegionHPreset2a" = "EvtGirlWalkRegionHPreset2a";
+"EvtGirlWalkRegionHPreset2b" = "EvtGirlWalkRegionHPreset2b";
+"EvtGirlWalkRegionHPreset2c" = "EvtGirlWalkRegionHPreset2c";
+"EvtGirlWalkRegionHPreset2d" = "EvtGirlWalkRegionHPreset2d";
+
+//EvtGirlWalkRegionHStart1
+"EvtGirlWalkRegionHStart1" = "EvtGirlWalkRegionHStart1";
+"EvtGirlWalkRegionHStart1a" = "EvtGirlWalkRegionHStart1a";
+"EvtGirlWalkRegionHStart1b" = "EvtGirlWalkRegionHStart1b";
+"EvtGirlWalkRegionHStart1c" = "EvtGirlWalkRegionHStart1c";
+"EvtGirlWalkRegionHStart1d" = "EvtGirlWalkRegionHStart1d";
+
+//----------------------------Region H Walk Talk
+//EvtGirlWalkTalkRegionH1
+"EvtGirlWalkTalkRegionH1" = "EvtGirlWalkTalkRegionH1";
+"EvtGirlWalkTalkRegionH1a" = "EvtGirlWalkTalkRegionH1a";
+"EvtGirlWalkTalkRegionH1b" = "EvtGirlWalkTalkRegionH1b";
+"EvtGirlWalkTalkRegionH1c" = "EvtGirlWalkTalkRegionH1c";
+"EvtGirlWalkTalkRegionH1d" = "EvtGirlWalkTalkRegionH1d";
+
+//EvtGirlWalkTalkRegionH2
+"EvtGirlWalkTalkRegionH2" = "EvtGirlWalkTalkRegionH2";
+"EvtGirlWalkTalkRegionH2a" = "EvtGirlWalkTalkRegionH2a";
+"EvtGirlWalkTalkRegionH2b" = "EvtGirlWalkTalkRegionH2b";
+"EvtGirlWalkTalkRegionH2c" = "EvtGirlWalkTalkRegionH2c";
+"EvtGirlWalkTalkRegionH2d" = "EvtGirlWalkTalkRegionH2d";
+
+//EvtGirlWalkTalkRegionH3
+"EvtGirlWalkTalkRegionH3" = "EvtGirlWalkTalkRegionH3";
+"EvtGirlWalkTalkRegionH3a" = "EvtGirlWalkTalkRegionH3a";
+"EvtGirlWalkTalkRegionH3b" = "EvtGirlWalkTalkRegionH3b";
+"EvtGirlWalkTalkRegionH3c" = "EvtGirlWalkTalkRegionH3c";
+"EvtGirlWalkTalkRegionH3d" = "EvtGirlWalkTalkRegionH3d";
+
+//----------------------------Region I
+//EvtGirlDateChatRegionI1
+"EvtGirlDateChatRegionI1" = "EvtGirlDateChatRegionI1";
+"EvtGirlDateChatRegionI1a" = "EvtGirlDateChatRegionI1a";
+"EvtGirlDateChatRegionI1b" = "EvtGirlDateChatRegionI1b";
+"EvtGirlDateChatRegionI1c" = "EvtGirlDateChatRegionI1c";
+"EvtGirlDateChatRegionI1d" = "EvtGirlDateChatRegionI1d";
+
+//EvtGirlDateChatRegionI2
+"EvtGirlDateChatRegionI2" = "EvtGirlDateChatRegionI2";
+"EvtGirlDateChatRegionI2a" = "EvtGirlDateChatRegionI2a";
+"EvtGirlDateChatRegionI2b" = "EvtGirlDateChatRegionI2b";
+"EvtGirlDateChatRegionI2c" = "EvtGirlDateChatRegionI2c";
+"EvtGirlDateChatRegionI2d" = "EvtGirlDateChatRegionI2d";
+
+//EvtGirlDateChatRegionI3
+"EvtGirlDateChatRegionI3" = "EvtGirlDateChatRegionI3";
+"EvtGirlDateChatRegionI3a" = "EvtGirlDateChatRegionI3a";
+"EvtGirlDateChatRegionI3b" = "EvtGirlDateChatRegionI3b";
+"EvtGirlDateChatRegionI3c" = "EvtGirlDateChatRegionI3c";
+"EvtGirlDateChatRegionI3d" = "EvtGirlDateChatRegionI3d";
+
+//EvtGirlDateRegionILeave1
+"EvtGirlDateRegionILeave1" = "EvtGirlDateRegionILeave1";
+"EvtGirlDateRegionILeave1a" = "EvtGirlDateRegionILeave1a";
+"EvtGirlDateRegionILeave1b" = "EvtGirlDateRegionILeave1b";
+"EvtGirlDateRegionILeave1c" = "EvtGirlDateRegionILeave1c";
+"EvtGirlDateRegionILeave1d" = "EvtGirlDateRegionILeave1d";
+
+//EvtGirlDateRegionILeave2
+"EvtGirlDateRegionILeave2" = "EvtGirlDateRegionILeave2";
+"EvtGirlDateRegionILeave2a" = "EvtGirlDateRegionILeave2a";
+"EvtGirlDateRegionILeave2b" = "EvtGirlDateRegionILeave2b";
+"EvtGirlDateRegionILeave2c" = "EvtGirlDateRegionILeave2c";
+"EvtGirlDateRegionILeave2d" = "EvtGirlDateRegionILeave2d";
+
+//EvtGirlDateRegionILeave3
+"EvtGirlDateRegionILeave3" = "EvtGirlDateRegionILeave3";
+"EvtGirlDateRegionILeave3a" = "EvtGirlDateRegionILeave3a";
+"EvtGirlDateRegionILeave3b" = "EvtGirlDateRegionILeave3b";
+"EvtGirlDateRegionILeave3c" = "EvtGirlDateRegionILeave3c";
+"EvtGirlDateRegionILeave3d" = "EvtGirlDateRegionILeave3d";
+
+//EvtGirlDateRegionIStart1
+"EvtGirlDateRegionIStart1" = "EvtGirlDateRegionIStart1";
+"EvtGirlDateRegionIStart1a" = "EvtGirlDateRegionIStart1a";
+"EvtGirlDateRegionIStart1b" = "EvtGirlDateRegionIStart1b";
+"EvtGirlDateRegionIStart1c" = "EvtGirlDateRegionIStart1c";
+"EvtGirlDateRegionIStart1d" = "EvtGirlDateRegionIStart1d";
+
+//EvtGirlDateRegionIStart2
+"EvtGirlDateRegionIStart2" = "EvtGirlDateRegionIStart2";
+"EvtGirlDateRegionIStart2a" = "EvtGirlDateRegionIStart2a";
+"EvtGirlDateRegionIStart2b" = "EvtGirlDateRegionIStart2b";
+"EvtGirlDateRegionIStart2c" = "EvtGirlDateRegionIStart2c";
+"EvtGirlDateRegionIStart2d" = "EvtGirlDateRegionIStart2d";
+
+//EvtGirlDateRegionIStart3
+"EvtGirlDateRegionIStart3" = "EvtGirlDateRegionIStart3";
+"EvtGirlDateRegionIStart3a" = "EvtGirlDateRegionIStart3a";
+"EvtGirlDateRegionIStart3b" = "EvtGirlDateRegionIStart3b";
+"EvtGirlDateRegionIStart3c" = "EvtGirlDateRegionIStart3c";
+"EvtGirlDateRegionIStart3d" = "EvtGirlDateRegionIStart3d";
+
+//EvtGirlDateRomanceRegionI1
+"EvtGirlDateRomanceRegionI1" = "EvtGirlDateRomanceRegionI1";
+"EvtGirlDateRomanceRegionI1a" = "EvtGirlDateRomanceRegionI1a";
+"EvtGirlDateRomanceRegionI1b" = "EvtGirlDateRomanceRegionI1b";
+"EvtGirlDateRomanceRegionI1c" = "EvtGirlDateRomanceRegionI1c";
+"EvtGirlDateRomanceRegionI1d" = "EvtGirlDateRomanceRegionI1d";
+
+//EvtGirlDateRomanceRegionI2
+"EvtGirlDateRomanceRegionI2" = "EvtGirlDateRomanceRegionI2";
+"EvtGirlDateRomanceRegionI2a" = "EvtGirlDateRomanceRegionI2a";
+"EvtGirlDateRomanceRegionI2b" = "EvtGirlDateRomanceRegionI2b";
+"EvtGirlDateRomanceRegionI2c" = "EvtGirlDateRomanceRegionI2c";
+"EvtGirlDateRomanceRegionI2d" = "EvtGirlDateRomanceRegionI2d";
+
+//EvtGirlDateRomanceRegionI3
+"EvtGirlDateRomanceRegionI3" = "EvtGirlDateRomanceRegionI3";
+"EvtGirlDateRomanceRegionI3a" = "EvtGirlDateRomanceRegionI3a";
+"EvtGirlDateRomanceRegionI3b" = "EvtGirlDateRomanceRegionI3b";
+"EvtGirlDateRomanceRegionI3c" = "EvtGirlDateRomanceRegionI3c";
+"EvtGirlDateRomanceRegionI3d" = "EvtGirlDateRomanceRegionI3d";
+
+//EvtGirlWalkLookRegionI1 -- clown fish
+"EvtGirlWalkLookRegionI1" = "EvtGirlWalkLookRegionI1";
+"EvtGirlWalkLookRegionI1a" = "EvtGirlWalkLookRegionI1a";
+"EvtGirlWalkLookRegionI1b" = "EvtGirlWalkLookRegionI1b";
+"EvtGirlWalkLookRegionI1c" = "EvtGirlWalkLookRegionI1c";
+"EvtGirlWalkLookRegionI1d" = "EvtGirlWalkLookRegionI1d";
+
+//EvtGirlWalkLookRegionI2 -- shark
+"EvtGirlWalkLookRegionI2" = "EvtGirlWalkLookRegionI2";
+"EvtGirlWalkLookRegionI2a" = "EvtGirlWalkLookRegionI2a";
+"EvtGirlWalkLookRegionI2b" = "EvtGirlWalkLookRegionI2b";
+"EvtGirlWalkLookRegionI2c" = "EvtGirlWalkLookRegionI2c";
+"EvtGirlWalkLookRegionI2d" = "EvtGirlWalkLookRegionI2d";
+
+//EvtGirlWalkLookRegionI3
+"EvtGirlWalkLookRegionI3" = "EvtGirlWalkLookRegionI3";
+"EvtGirlWalkLookRegionI3a" = "EvtGirlWalkLookRegionI3a";
+"EvtGirlWalkLookRegionI3b" = "EvtGirlWalkLookRegionI3b";
+"EvtGirlWalkLookRegionI3c" = "EvtGirlWalkLookRegionI3c";
+"EvtGirlWalkLookRegionI3d" = "EvtGirlWalkLookRegionI3d";
+
+//EvtGirlWalkRegionIPreset1
+"EvtGirlWalkRegionIPreset1" = "EvtGirlWalkRegionIPreset1";
+"EvtGirlWalkRegionIPreset1a" = "EvtGirlWalkRegionIPreset1a";
+"EvtGirlWalkRegionIPreset1b" = "EvtGirlWalkRegionIPreset1b";
+"EvtGirlWalkRegionIPreset1c" = "EvtGirlWalkRegionIPreset1c";
+"EvtGirlWalkRegionIPreset1d" = "EvtGirlWalkRegionIPreset1d";
+
+//EvtGirlWalkRegionIPreset2
+"EvtGirlWalkRegionIPreset2" = "EvtGirlWalkRegionIPreset2";
+"EvtGirlWalkRegionIPreset2a" = "EvtGirlWalkRegionIPreset2a";
+"EvtGirlWalkRegionIPreset2b" = "EvtGirlWalkRegionIPreset2b";
+"EvtGirlWalkRegionIPreset2c" = "EvtGirlWalkRegionIPreset2c";
+"EvtGirlWalkRegionIPreset2d" = "EvtGirlWalkRegionIPreset2d";
+
+//EvtGirlWalkRegionIStart1
+"EvtGirlWalkRegionIStart1" = "EvtGirlWalkRegionIStart1";
+"EvtGirlWalkRegionIStart1a" = "EvtGirlWalkRegionIStart1a";
+"EvtGirlWalkRegionIStart1b" = "EvtGirlWalkRegionIStart1b";
+"EvtGirlWalkRegionIStart1c" = "EvtGirlWalkRegionIStart1c";
+"EvtGirlWalkRegionIStart1d" = "EvtGirlWalkRegionIStart1d";
+
+//EvtGirlWalkTalkRegionI1
+"EvtGirlWalkTalkRegionI1" = "EvtGirlWalkTalkRegionI1";
+"EvtGirlWalkTalkRegionI1a" = "EvtGirlWalkTalkRegionI1a";
+"EvtGirlWalkTalkRegionI1b" = "EvtGirlWalkTalkRegionI1b";
+"EvtGirlWalkTalkRegionI1c" = "EvtGirlWalkTalkRegionI1c";
+"EvtGirlWalkTalkRegionI1d" = "EvtGirlWalkTalkRegionI1d";
+
+//EvtGirlWalkTalkRegionI2
+"EvtGirlWalkTalkRegionI2" = "EvtGirlWalkTalkRegionI2";
+"EvtGirlWalkTalkRegionI2a" = "EvtGirlWalkTalkRegionI2a";
+"EvtGirlWalkTalkRegionI2b" = "EvtGirlWalkTalkRegionI2b";
+"EvtGirlWalkTalkRegionI2c" = "EvtGirlWalkTalkRegionI2c";
+"EvtGirlWalkTalkRegionI2d" = "EvtGirlWalkTalkRegionI2d";
+
+//EvtGirlWalkTalkRegionI3
+"EvtGirlWalkTalkRegionI3" = "EvtGirlWalkTalkRegionI3";
+"EvtGirlWalkTalkRegionI3a" = "EvtGirlWalkTalkRegionI3a";
+"EvtGirlWalkTalkRegionI3b" = "EvtGirlWalkTalkRegionI3b";
+"EvtGirlWalkTalkRegionI3c" = "EvtGirlWalkTalkRegionI3c";
+"EvtGirlWalkTalkRegionI3d" = "EvtGirlWalkTalkRegionI3d";

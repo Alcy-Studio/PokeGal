@@ -1,0 +1,30 @@
+//
+//  ActPGAttrAutoSetup+Selector.m
+//  frdfrd
+//
+//  Created by westbugs on 10-10-15.
+//  Copyright 2010 Alcy, Ltd. All rights reserved.
+//
+
+#import "ActPGAttrAutoSetup+Selector.h"
+
+//Additional
+//Method
+#import "MLoad.h"
+
+
+//Constants
+#import "ConstantsPGAttr.h"
+
+
+@implementation ActPGAttrAutoSetup(Selector)
+
+
+
+-(void)setViewWithTag{
+	for (NSUInteger i = 1; i <= kAttrViewTotal; i++) {
+		[MLoad setViewWithTag:i controller:self.resource];
+	}
+}
+
+@end

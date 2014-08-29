@@ -1,0 +1,12 @@
+mvct should separate completely, think about matrix
+
+//Business Design
+Doing something other people never did. It's actually easier than most people think. Just do something that is extremely hard to achieve in terms of Technology, Capital, Network, Legal
+
+//Game Engine frdfrd re-design. Based on oop / mvc concept. The CENTRALIZED frdfrd architecture is hard to maintain/update/expand. Therefore, frdfrd will be re-structured. The most obvious differences are listed as following: 
+
+1. "Think" module will become optional. Each scene is not necessary to imply "Think" module.
+2.  ActSomeVCTUpInside still needs to imply. 
+3. Combo+Selector+Trigger Actions are needed
+4. Combo will self-trigger
+4. "Think" will need in certain AI oriented scene

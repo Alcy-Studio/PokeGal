@@ -1,0 +1,16 @@
+//Walk, Date, Main contain Season & DayNight
+//Date contains mood
+//load in autosetup
+//modify Achievement
+
+A Gym,  [Health]
+B Beach [Health]
+C Bowling [Health]
+
+D Shopping [Social]
+E Restaurant [Social]
+F Park [Social]
+
+G Karaoke [Talent]
+H Theatre [Talent]
+I Aquarium [Talent]

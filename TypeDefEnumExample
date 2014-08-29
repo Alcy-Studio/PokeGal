@@ -1,0 +1,4 @@
+KHoroscope k;
+k = kPisces;
+	
+NSLog(@"Test %d",k);

@@ -1,0 +1,227 @@
+//
+//  MGirl.m
+//  frdfrd
+//
+//  Created by westbugs on 11-01-25.
+//  Copyright 2011 Alcy, Ltd. All rights reserved.
+//
+
+#import "MGirl.h"
+
+#import "Girl.h"
+#import "MLoad.h"
+#import "MSave.h"
+
+#import "ConstantsGirlStatus.h"
+#import "ConstantsGlossaryDatabase.h"
+#import "ConstantsActionDeduction.h"
+#import "ConstantsSettingInGame.h"
+#import "ConstantsAuditorUserDefaults.h"
+
+
+static const int lvUp = 1;
+static const unsigned int kRandMod = 3;
+static const unsigned int kRandModRomance = 2;
+
+@implementation MGirl
+
++(NSUInteger)getMood{
+	//kGirlHappy
+//	kGirlFine
+//	kGirlSad
+		
+	NSUInteger ui = (arc4random() % kRandMod) + 1;
+
+	return ui;
+
+}
+
++(NSUInteger)getTalk{
+	NSUInteger ui = (arc4random() % kRandMod) + 1;
+	return ui;
+}
++(NSUInteger)getLook{
+	NSUInteger ui = (arc4random() % kRandMod) + 1;
+	
+	return ui;
+}
++(NSUInteger)getChat{
+	NSUInteger ui = (arc4random() % kRandMod) + 1;
+	return ui;
+}
++(NSUInteger)getRomance:(NSUInteger)r{
+	
+	NSUInteger ui;
+	
+	switch (r) {
+		case kAudUDNumPGDateMoodGood:
+			ui = (arc4random() % kRandModRomance) + 2;
+
+			break;
+		case kAudUDNumPGDateMoodOk:
+			ui = (arc4random() % kRandMod) + 1;
+			break;
+		case kAudUDNumPGDateMoodBad:
+			ui = (arc4random() % kRandModRomance) + 1;
+
+			break;
+		default:
+			NSLog(@"Mood problem");
+			break;
+	}
+	NSLog(@"Romance: %i", ui);
+	return ui;
+}
+
++(NSUInteger)currentAt{
+	NSArray* array = [MLoad getRecordsWithAttrName:kGlossaryName attrValue:kGirlStatusName1 Entity:kGlossaryGirl];
+	if ([array count] != 1) {
+		NSLog(@"[MGirl deductAtCall] - Failed");
+		return -1;
+	}
+	
+	Girl* girl = [array objectAtIndex:0];
+	//NSLog(@"Girl AT: %@", girl.atTotal);
+
+	return [girl.atTotal intValue];
+}
+
++(NSInteger)maxAt{
+	NSArray* array = [MLoad getRecordsWithAttrName:kGlossaryName attrValue:kGirlStatusName1 Entity:kGlossaryGirl];
+	if ([array count] != 1) {
+		NSLog(@"[MGirl deductAtCall] - Failed");
+		return -1;
+	}
+	
+	Girl* girl = [array objectAtIndex:0];
+	//NSLog(@"Girl AT: %@", girl.atTotal);
+	
+	return [girl.atMax intValue];
+}
+
++(BOOL)regenAt:(NSInteger)i{
+	NSArray* array = [MLoad getRecordsWithAttrName:kGlossaryName attrValue:kGirlStatusName1 Entity:kGlossaryGirl];
+	if ([array count] != 1) {
+		NSLog(@"[MGirl deductAtCall] - Failed");
+		return NO;
+	}
+	
+	Girl* girl = [array objectAtIndex:0];
+	
+	//NSLog(@"Girl AT: %@", girl.atTotal);
+	
+	if([MGirl currentAt] >= [MGirl maxAt] )
+		return NO;
+
+	//NSLog(@"Girl Current: %@; Max: %@", girl.atTotal, girl.atMax);
+	girl.atTotal += i;
+	
+	[MSave saveMoc];
+
+	return YES;
+}
+
++(void)deductAtCall{
+
+	Girl* girl = [self getGirl];
+	if ([girl.atTotal intValue] < kAtDeductCall) {
+		NSLog(@"[MGirl deductAtCall] - Failed");
+		return;
+	}
+	girl.atTotal -= kAtDeductCall;
+	//NSLog(@"Girl AT: %@", girl.atTotal);
+}
+
++(void)deductAtSms{
+	
+	Girl* girl = [self getGirl];
+	if ([girl.atTotal intValue] < kAtDeductSms) {
+		NSLog(@"[MGirl deductAtSms] - Failed");
+		return;
+	}
+	girl.atTotal -= kAtDeductSms;
+	//NSLog(@"Girl AT: %@", girl.atTotal);
+}
+
++(void)deductAtMove{
+	
+	Girl* girl = [self getGirl];
+	if ([girl.atTotal intValue] < kAtDeductMove) {
+		NSLog(@"[MGirl deductAtMove] - Failed");
+		return;
+	}
+	girl.atTotal -= kAtDeductMove;
+	//NSLog(@"Girl AT: %@", girl.atTotal);
+}
+
++(void)deductAtTalk{
+	Girl* girl = [self getGirl];
+	if ([girl.atTotal intValue] < kAtDeductTalk) {
+		NSLog(@"[MGirl deductAtTalk] - Failed");
+		return;
+	}
+	girl.atTotal -= kAtDeductTalk;
+	
+}
+
++(void)deductAtLook{
+	Girl* girl = [self getGirl];
+	if ([girl.atTotal intValue] < kAtDeductLook) {
+		NSLog(@"[MGirl deductAtLook] - Failed");
+		return;
+	}
+	girl.atTotal -= kAtDeductLook;
+}
+
++(void)deductAtChat{
+	Girl* girl = [self getGirl];
+	if ([girl.atTotal intValue] < kAtDeductChat) {
+		NSLog(@"[MGirl deductAtChat] - Failed");
+		return;
+	}
+	girl.atTotal -= kAtDeductChat;
+}
+
++(void)deductAtRomance{
+	Girl* girl = [self getGirl];
+	if ([girl.atTotal intValue] < kAtDeductRomance) {
+		NSLog(@"[MGirl deductAtRomance] - Failed");
+		return;
+	}
+	girl.atTotal -= kAtDeductRomance;
+}
+
++(void)addAttributeNameExp:(NSString*)n1 nameLv:(NSString*)n2 value:(NSInteger)i{
+	Girl* girl = [self getGirl];
+	
+	//add exp
+	NSInteger exp = [[girl valueForKey:n1] intValue];
+	exp += i;
+	if (exp < kExpMax) {//>= 100
+		[girl setValue:[NSNumber numberWithInt:exp] forKey:n1];
+	
+		return;
+	}
+	
+	//update level
+	exp -= kExpMax;
+	[girl setValue:[NSNumber numberWithInt:exp] forKey:n1];
+	
+	NSInteger lv = [[girl valueForKey:n2] intValue];
+	lv += lvUp;
+	[girl setValue:[NSNumber numberWithInt:lv] forKey:n2];
+
+	return;
+}
+
+
++(Girl*)getGirl{
+	NSArray* array = [MLoad getRecordsWithAttrName:kGlossaryName attrValue:kGirlStatusName1 Entity:kGlossaryGirl];
+	if ([array count] != 1) {
+		NSLog(@"[MGirl deductAt] - Failed");
+		return nil;
+	}
+	
+	return (Girl*)[array objectAtIndex:0];
+}
+@end

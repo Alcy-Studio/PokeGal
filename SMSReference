@@ -1,0 +1,60 @@
+make sms scene similar to whatsapp, testBubbleChat 
+
+1. Remove original 3GS bgd
+2. Use the whole screen for messaging
+3. user choose message for alcy (Use UIActionSheet)
+4. after a while, she will reply message
+5. backbitten will be enabled afterward
+6. use shadow instead of shiny bgd to avoid copyright
+
+Check testBubbleChat
+
+below from UserExperience > UICatalog
+- (void)dialogOtherAction
+{
+	// open a dialog with two custom buttons
+	UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:@"UIActionSheet <title>"
+									delegate:self cancelButtonTitle:nil destructiveButtonTitle:nil
+									otherButtonTitles:@"Button1", @"Button2", nil];
+	actionSheet.actionSheetStyle = UIActionSheetStyleDefault;
+	actionSheet.destructiveButtonIndex = 1;	// make the second button red (destructive)
+	[actionSheet showInView:self.view]; // show from our table view (pops up in the middle of the table)
+	[actionSheet release];
+}
+
+
+Bubble View
+- (UIView *)bubbleView:(NSString *)text from:(BOOL)fromSelf {
+	// build single chat bubble cell with given text
+	UIView *returnView = [[UIView alloc] initWithFrame:CGRectZero];
+	returnView.backgroundColor = [UIColor clearColor];
+
+	UIImage *bubble = [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:fromSelf?@"bubbleSelf":@"bubble" ofType:@"png"]];
+	UIImageView *bubbleImageView = [[UIImageView alloc] initWithImage:[bubble stretchableImageWithLeftCapWidth:21 topCapHeight:14]];
+
+	UIFont *font = [UIFont systemFontOfSize:12];
+	CGSize size = [text sizeWithFont:font constrainedToSize:CGSizeMake(150.0f, 1000.0f) lineBreakMode:UILineBreakModeWordWrap];
+
+	UILabel *bubbleText = [[UILabel alloc] initWithFrame:CGRectMake(21.0f, 14.0f, size.width+10, size.height+10)];
+	bubbleText.backgroundColor = [UIColor clearColor];
+	bubbleText.font = font;
+	bubbleText.numberOfLines = 0;
+	bubbleText.lineBreakMode = UILineBreakModeWordWrap;
+	bubbleText.text = text;
+	
+	bubbleImageView.frame = CGRectMake(0.0f, 0.0f, 200.0f, size.height+40.0f);
+	
+	if(fromSelf)
+		returnView.frame = CGRectMake(120.0f, 10.0f, 200.0f, size.height+50.0f);
+	else
+		returnView.frame = CGRectMake(0.0f, 10.0f, 200.0f, size.height+50.0f);
+	
+	[returnView addSubview:bubbleImageView];
+	[bubbleImageView release];
+	[returnView addSubview:bubbleText];
+	[bubbleText release];
+
+	return [returnView autorelease];
+}
+
+Refer TableView in testBubbleChat as well

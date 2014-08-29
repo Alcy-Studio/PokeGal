@@ -1,0 +1,42 @@
+//--------------------------------
+	in PGEventViewController+IB (TUpInside)
+//
+	//set Tutor Button, set Role.plist & kEventViewTutor(ConstantsPGEvent) & PGEventViewController -> View1x afterward
+	
+	/* can embedded in MPGEvent +pgEventTUpInside:[sender tag]
+	id action;
+	if ([sender tag] == kEventViewTutor) {
+		action = [[[ActPGEventTutorButtonTUpInside alloc]initWithTag:[sender tag]] autorelease];
+		[action setResource:r]
+		[action setCombo];
+		[action trigger];
+		
+		[self screenUnlock];
+		return;
+	}
+	 
+	 trigger:
+	 
+	 if (self.combo isKindOfClass:[NSArray class]]) { //Operation Queue
+	 NSOperationQueue* oq = [[[NSOperationQueue alloc] init] autorelease];
+	 [oq addOperations:self.feedbackCode waitUntilFinished:NO]; // Add multiple operations
+	 
+	 }else if ([self.combo isKindOfClass:[NSDictionary class]]) { //Target-Action
+	 NSString* key;
+	 for (key in [self.combo allKeys]) {
+	 //if (key) 
+	 [[self.combo objectForKey:key] performSelector:NSSelectorFromString(key)];
+	 
+	 }
+	 }else {
+	 NSLog(@"[Trigger act] failed");
+	 }
+	 //--------------------------------
+
+	
+	 */
+	 
+	 
+	 
+	 
+	 

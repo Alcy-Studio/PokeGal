@@ -1,0 +1,24 @@
+//
+//  MSe.h
+//  PocketDraft
+//
+//  Created by westbugs on 10-08-23.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+#include <AudioToolbox/AudioToolbox.h>
+
+@interface MSe : NSObject{
+
+
+
+	
+}
+
++(void)playSound:(NSString*)f extension:(NSString*)e;
++(void)tempPlaySound;
+
+
+@end

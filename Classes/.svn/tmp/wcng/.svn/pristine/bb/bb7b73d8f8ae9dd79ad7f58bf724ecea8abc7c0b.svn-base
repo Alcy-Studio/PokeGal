@@ -1,0 +1,350 @@
+//
+//  ActPGMainAutoSetup+Selector.m
+//  frdfrd
+//
+//  Created by westbugs on 10-10-15.
+//  Copyright 2010 Alcy, Ltd. All rights reserved.
+//
+
+#import "ActPGMainAutoSetup+Selector.h"
+
+//Additional
+#import "PGMainSVController.h"
+#import "PGMainViewController.h"
+
+	//Method
+#import "MLoad.h"
+#import "MUi.h"
+#import "MGirl.h"
+#import "MSave.h"
+#import "MTime.h"
+
+//Constants
+#import "ConstantsPGMain.h"
+#import "ConstantsActionAlert.h"
+#import "ConstantsSettingInGame.h"
+
+#import "ConstantsStringFormat.h"
+#import "ConstantsTmpScript.h"
+#import "ConstantsTmpAction.h"
+#import "ConstantsTmpDate.h"
+
+#import "ConstantsSceneCode.h"
+#import "ConstantsSeason.h"
+#import "ConstantsDayNight.h"
+
+#import "ConstantsAuditorUserDefaults.h"
+
+//int const pkSVController = 1;
+//Test
+#import "TestAction.h"
+
+static const float kDelay = 1.0f;
+
+static const int kInterval5minDeparted = 301;
+static const int kInterval15minDeparted = 901;
+
+@implementation ActPGMainAutoSetup(Selector)
+
+
+-(void)setSeason{
+	NSUInteger i = [MTime getSeason];
+	
+	switch (i) {
+		case kSpring:
+			[MUi modifyTag:kMainWeatherImage role:kAudUDNumPGMainSpring scene:kSceneCodePGMain];
+			break;
+		case kSummer:
+			[MUi modifyTag:kMainWeatherImage role:kAudUDNumPGMainSummer scene:kSceneCodePGMain];
+			break;
+		case kAutumn:
+			[MUi modifyTag:kMainWeatherImage role:kAudUDNumPGMainAutumn scene:kSceneCodePGMain];
+			break;
+		case kWinter:
+			[MUi modifyTag:kMainWeatherImage role:kAudUDNumPGMainWinter scene:kSceneCodePGMain];
+			break;
+		default:
+			NSLog(@"PGMain - Failed to set Season");
+			break;
+	}
+}
+-(void)setDayNight{
+	NSUInteger i = [MTime getDayNight];
+	
+	switch (i) {
+		case kDay:
+			[MUi modifyTag:kMainDayNightImage role:kAudUDNumPGMainDay scene:kSceneCodePGMain];
+			break;
+		case kNight:
+			[MUi modifyTag:kMainDayNightImage role:kAudUDNumPGMainNight scene:kSceneCodePGMain];
+			break;
+		default:
+			break;
+	}
+}
+
+-(void)setGeography{
+	[self setSeason];
+	[self setDayNight];
+}
+
+//dependencies are resolve in individual operation (e.g. selectorTest1)
+-(void)selectorTest1{
+	NSLog(@"selectorTest1");
+	/*
+	TestAction* ta = [[TestAction alloc]init];
+	[ta testPredicate];
+	[ta release];
+	*/
+}
+
+-(void)selectorTest2{
+	NSLog(@"selectorTest2");
+	/*
+	TestAction* ta = [[TestAction alloc]init];
+	[ta checkDatabase];
+	[ta release];
+	*/
+	//NSArray* arrayOfOqs = [[NSArray alloc]initWithObjects:<#(id)firstObj#>];
+
+}
+
+-(void)setViewWithTag{
+	for (NSUInteger i = 1; i <= kMainViewTotal; i++) {
+		[MLoad setViewWithTag:i controller:self.resource];
+	}
+}
+
+-(void)getDepart:(NSUInteger)r{
+	NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
+	
+	NSDateFormatter* df0 = [[NSDateFormatter alloc] init];
+	[df0 setDateFormat:kDateFormat10];
+	NSDate* arrivedDate = [df0 dateFromString:[defaults stringForKey:kTmpDateArrived]];
+
+	NSString* s = [df0 stringFromDate:[NSDate date]];
+	NSDate* nowDate = [df0 dateFromString:s];
+	[df0 release];
+	//clear tmpAction
+	NSUInteger i =[nowDate timeIntervalSinceDate:arrivedDate];
+	//NSLog(@"Interval: %i", i);
+	switch (r) {
+		case kTSRegionA:
+			if (i < kInterval5minDeparted) {
+				[[NSUserDefaults standardUserDefaults] setValue:kEvtGirlDateRegionALeave1 forKey:kTmpScript];
+			} else if (i < kInterval15minDeparted) {
+				[[NSUserDefaults standardUserDefaults] setValue:kEvtGirlDateRegionALeave2 forKey:kTmpScript];
+			} else {
+				[[NSUserDefaults standardUserDefaults] setValue:kEvtGirlDateRegionALeave3 forKey:kTmpScript];
+			}
+
+			break;
+		case kTSRegionB:
+			if (i < kInterval5minDeparted) {
+				[[NSUserDefaults standardUserDefaults] setValue:kEvtGirlDateRegionBLeave1 forKey:kTmpScript];
+			} else if (i < kInterval15minDeparted) {
+				[[NSUserDefaults standardUserDefaults] setValue:kEvtGirlDateRegionBLeave2 forKey:kTmpScript];
+			} else {
+				[[NSUserDefaults standardUserDefaults] setValue:kEvtGirlDateRegionBLeave3 forKey:kTmpScript];
+			}
+			
+			break;
+		case kTSRegionC:
+			if (i < kInterval5minDeparted) {
+				[[NSUserDefaults standardUserDefaults] setValue:kEvtGirlDateRegionCLeave1 forKey:kTmpScript];
+			} else if (i < kInterval15minDeparted) {
+				[[NSUserDefaults standardUserDefaults] setValue:kEvtGirlDateRegionCLeave2 forKey:kTmpScript];
+			} else {
+				[[NSUserDefaults standardUserDefaults] setValue:kEvtGirlDateRegionCLeave3 forKey:kTmpScript];
+			}
+			
+			break;
+		case kTSRegionD:
+			if (i < kInterval5minDeparted) {
+				[[NSUserDefaults standardUserDefaults] setValue:kEvtGirlDateRegionDLeave1 forKey:kTmpScript];
+			} else if (i < kInterval15minDeparted) {
+				[[NSUserDefaults standardUserDefaults] setValue:kEvtGirlDateRegionDLeave2 forKey:kTmpScript];
+			} else {
+				[[NSUserDefaults standardUserDefaults] setValue:kEvtGirlDateRegionDLeave3 forKey:kTmpScript];
+			}
+			
+			break;
+		case kTSRegionE:
+			if (i < kInterval5minDeparted) {
+				[[NSUserDefaults standardUserDefaults] setValue:kEvtGirlDateRegionELeave1 forKey:kTmpScript];
+			} else if (i < kInterval15minDeparted) {
+				[[NSUserDefaults standardUserDefaults] setValue:kEvtGirlDateRegionELeave2 forKey:kTmpScript];
+			} else {
+				[[NSUserDefaults standardUserDefaults] setValue:kEvtGirlDateRegionELeave3 forKey:kTmpScript];
+			}
+			
+			break;
+		case kTSRegionF:
+			if (i < kInterval5minDeparted) {
+				[[NSUserDefaults standardUserDefaults] setValue:kEvtGirlDateRegionFLeave1 forKey:kTmpScript];
+			} else if (i < kInterval15minDeparted) {
+				[[NSUserDefaults standardUserDefaults] setValue:kEvtGirlDateRegionFLeave2 forKey:kTmpScript];
+			} else {
+				[[NSUserDefaults standardUserDefaults] setValue:kEvtGirlDateRegionFLeave3 forKey:kTmpScript];
+			}
+			
+			break;
+		case kTSRegionG:
+			if (i < kInterval5minDeparted) {
+				[[NSUserDefaults standardUserDefaults] setValue:kEvtGirlDateRegionGLeave1 forKey:kTmpScript];
+			} else if (i < kInterval15minDeparted) {
+				[[NSUserDefaults standardUserDefaults] setValue:kEvtGirlDateRegionGLeave2 forKey:kTmpScript];
+			} else {
+				[[NSUserDefaults standardUserDefaults] setValue:kEvtGirlDateRegionGLeave3 forKey:kTmpScript];
+			}
+			
+			break;
+		case kTSRegionH:
+			if (i < kInterval5minDeparted) {
+				[[NSUserDefaults standardUserDefaults] setValue:kEvtGirlDateRegionHLeave1 forKey:kTmpScript];
+			} else if (i < kInterval15minDeparted) {
+				[[NSUserDefaults standardUserDefaults] setValue:kEvtGirlDateRegionHLeave2 forKey:kTmpScript];
+			} else {
+				[[NSUserDefaults standardUserDefaults] setValue:kEvtGirlDateRegionHLeave3 forKey:kTmpScript];
+			}
+			
+			break;
+		case kTSRegionI:
+			if (i < kInterval5minDeparted) {
+				[[NSUserDefaults standardUserDefaults] setValue:kEvtGirlDateRegionILeave1 forKey:kTmpScript];
+			} else if (i < kInterval15minDeparted) {
+				[[NSUserDefaults standardUserDefaults] setValue:kEvtGirlDateRegionILeave2 forKey:kTmpScript];
+			} else {
+				[[NSUserDefaults standardUserDefaults] setValue:kEvtGirlDateRegionILeave3 forKey:kTmpScript];
+			}
+			
+			break;
+		default:
+			NSLog(@"PGMain - Failed to getDepart");
+			break;
+	}
+	
+}
+
+//set Depart Script
+-(void)setTmpScript{ 
+	NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
+	//[defaults setInteger:kTSRegionA forKey:kTmpScriptRegion];
+	NSUInteger ui = [defaults integerForKey:kTmpScriptRegion];
+
+	[self getDepart:ui];
+
+}
+
+-(BOOL)checkEvent{
+	if ([self checkDateLeave]) {
+		//set Leave
+		[self setTmpScript];
+		return YES;
+	}
+	if ([self checkEnding]) {
+		return YES;
+	}
+	return NO;
+}
+-(BOOL)checkDateLeave{
+	NSInteger i = [[NSUserDefaults standardUserDefaults] integerForKey:kTmpAction];
+	
+	if(i == kTmpActionDateLeaveButton){
+		//Clear leave
+		[[NSUserDefaults standardUserDefaults] setInteger:kTmpActionNil forKey:kTmpAction];
+		return YES;
+	}
+	return NO;
+
+	//if tmpAction
+}
+-(BOOL)checkEnding{
+	//check ending flag from MGirl
+	Girl* g = [MGirl getGirl];
+	NSLog(@"Ending: %@; LoveLv: %@; giftTotal %@", g.ending, g.loveLv, g.giftTotal);
+	
+	//(g.ending) check nil
+	//([g.ending boolValue]) check BOOL
+	if([g.ending boolValue])
+		return NO;
+	//check Love Lv & items collection from MGirl
+	if ([g.loveLv intValue] < kLvMax || [g.giftTotal intValue] < kGiftMax) {
+		return NO;
+	}
+	
+	//set script
+	[[NSUserDefaults standardUserDefaults] setValue:kEvtGirlEndGame1 forKey:kTmpScript];
+
+	//set ending
+	g.ending = [NSNumber numberWithBool:YES];
+	[MSave saveMoc];
+	return YES;
+	
+}
+
+-(void)presentDelayModal{
+	//NSLog(@"%@", [NSNumber numberWithBool:[[MUi getCurrentController] isViewLoaded]]);
+	[self performSelector:@selector(presentModalPGEvent) withObject:nil afterDelay:kDelay];
+	//perform delay views enabled
+	//[(PGMainViewController*)[MUi getCurrentController] viewDidAppear:NO];
+}
+-(void)presentModalPGEvent{
+	if (![(PGMainViewController*)[MUi getCurrentController] modalViewController]) {
+		[MUi presentModal:@"PGEventViewController" transition:UIModalTransitionStyleCrossDissolve animated:YES];
+		return;
+	}
+	[self presentDelayModal];
+	
+}
+
+/*
+-(void)setupAlertView{
+	NSInteger i = [(NSNumber*)[[NSUserDefaults standardUserDefaults] valueForKey:kTmpActionAlert] intValue];
+	switch (i) {
+		case kTmpActionAlertReset:
+			return;
+			break;
+		case kAlertViewPGPlaceDisplayAtDeduction:
+			[MUi alertViewPGPlaceDisplayAtDeduction];
+			break;
+
+		default:
+			break;
+	}
+	[MUi modifyUserDefaultWithKey:kTmpActionAlert value:kTmpActionAlertReset];
+}
+*/
+/*
+-(void)setViewWithTag:(NSNumber*)t{
+	//NSLog(@"%@",[self.resource description]);
+	[MLoad setViewWithTag:[t unsignedIntValue] controller:self.resource];
+}
+*/
+
+/*
+- (NSArray*)selectorQueue1{
+ //- (NSArray*)selectorQueue1:(id)data{
+
+	
+	NSInvocationOperation* op1 = [[[NSInvocationOperation alloc] initWithTarget:self
+						selector:@selector(myTaskMethod) object:nil] autorelease];
+ 
+	NSInvocationOperation* op2 = [[[NSInvocationOperation alloc] initWithTarget:self
+						selector:@selector(myTaskMethod:) object:data] autorelease];
+ 
+	NSInvocationOperation* op3 = [[[NSInvocationOperation alloc] initWithTarget:MLoad
+						selector:@selector(load:) object:nil] autorelease];
+
+	NSArray* aOfOps = [[NSArray alloc]initWithObjects:op1, op2, op3, nil];
+
+	[op1 release]; [op2 release]; [op3 release];
+ 
+	return [aOfops autorelease];
+}
+ 
+
+ */
+
+
+@end

@@ -1,0 +1,6 @@
+1. Fetch or save relevant data from sqlite, plist
+2. Setup data for user default, cache
+	above OQ
+3. In Action Selector, init a viewcontroller
+4. Setup Data for viewController
+5. pop original and push in viewcontroller

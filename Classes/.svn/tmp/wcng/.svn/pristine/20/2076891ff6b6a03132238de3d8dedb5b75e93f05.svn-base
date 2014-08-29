@@ -1,0 +1,26 @@
+//
+//  ActPGTalkAutoSetup+Selector.m
+//  frdfrd
+//
+//  Created by westbugs on 10-10-15.
+//  Copyright 2010 Alcy, Ltd. All rights reserved.
+//
+
+#import "ActPGTalkAutoSetup+Selector.h"
+
+//Additional
+//Method
+#import "MLoad.h"
+
+//Constants
+#import "ConstantsPGTalk.h"
+
+@implementation ActPGTalkAutoSetup(Selector)
+
+-(void)setViewWithTag{
+	for (NSUInteger i = 1; i <= kTalkViewTotal; i++) {
+		[MLoad setViewWithTag:i controller:self.resource];
+	}
+}
+
+@end

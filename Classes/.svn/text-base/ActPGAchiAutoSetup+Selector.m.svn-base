@@ -1,0 +1,76 @@
+//
+//  ActPGAchiAutoSetup+Selector.m
+//  frdfrd
+//
+//  Created by westbugs on 10-10-15.
+//  Copyright 2010 Alcy, Ltd. All rights reserved.
+//
+
+#import "ActPGAchiAutoSetup+Selector.h"
+
+//Additional
+	//Method
+#import "MLoad.h"
+#import "MGift.h"
+#import "MUi.h"
+#import "MGirl.h"
+
+//Constants
+#import "ConstantsPGAchi.h"
+#import "ConstantsAuditorUserDefaults.h"
+#import "ConstantsSceneCode.h"
+
+@implementation ActPGAchiAutoSetup(Selector)
+
+-(void)setLevel{
+	
+	NSUInteger i = [[[MGirl getGirl] loveLv] intValue];
+	switch (i) {
+		case 1:
+			[MUi modifyTag:kAchiNicknameLabel role:kAudUDNumPGAchiAlias1 scene:kSceneCodePGAchi];
+			break;
+		case 2:
+			[MUi modifyTag:kAchiNicknameLabel role:kAudUDNumPGAchiAlias2 scene:kSceneCodePGAchi];
+			break;
+		case 3:
+			[MUi modifyTag:kAchiNicknameLabel role:kAudUDNumPGAchiAlias3 scene:kSceneCodePGAchi];
+			break;
+		case 4:
+			[MUi modifyTag:kAchiNicknameLabel role:kAudUDNumPGAchiAlias4 scene:kSceneCodePGAchi];
+			break;
+		case 5:
+			[MUi modifyTag:kAchiNicknameLabel role:kAudUDNumPGAchiAlias5 scene:kSceneCodePGAchi];
+			break;
+		case 6:
+			[MUi modifyTag:kAchiNicknameLabel role:kAudUDNumPGAchiAlias6 scene:kSceneCodePGAchi];
+			break;
+		case 7:
+			[MUi modifyTag:kAchiNicknameLabel role:kAudUDNumPGAchiAlias7 scene:kSceneCodePGAchi];
+			break;
+		case 8:
+			[MUi modifyTag:kAchiNicknameLabel role:kAudUDNumPGAchiAlias8 scene:kSceneCodePGAchi];
+			break;
+		case 9:
+			[MUi modifyTag:kAchiNicknameLabel role:kAudUDNumPGAchiAlias9 scene:kSceneCodePGAchi];
+			break;
+		default:
+			[MUi modifyTag:kAchiNicknameLabel role:kAudUDNumPGAchiAlias9 scene:kSceneCodePGAchi];
+			break;
+	}
+}
+
+-(void)updateGiftIconsRole{
+	for (NSUInteger i = kAchiGiftUpLeftButton; i <= kAchiGiftBottomRightButton; i++) {
+		[MGift setGiftRoleWithTag:i];
+	}
+}
+
+-(void)setViewWithTag{
+	for (NSUInteger i = 1; i <= kAchiViewTotal; i++) {
+		[MLoad setViewWithTag:i controller:self.resource];
+	}
+}
+
+
+
+@end

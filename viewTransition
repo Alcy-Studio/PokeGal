@@ -1,0 +1,18 @@
+	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc]init];
+	[UIView beginAnimations:nil context:NULL];
+	[UIView setAnimationDuration: 1];
+	//[(PGNavController*)[[[UIApplication sharedApplication] keyWindow] rootViewController] popViewControllerAnimated:YES];
+
+	PGNavController *nc = (PGNavController*)[[[UIApplication sharedApplication] keyWindow] rootViewController];
+	[UIView setAnimationTransition:UIViewAnimationTransitionFlipFromRight forView:[nc view] cache:YES];
+
+	[nc popViewControllerAnimated:NO];
+
+	PGPlaceViewController *vc = [[PGPlaceViewController alloc]init];
+	[nc pushViewController:vc animated:NO];
+	[vc release];
+
+
+	//[myAppDelegate navigationController] pushViewController:myViewController animated:NO;
+	[UIView commitAnimations];
+	[pool release];

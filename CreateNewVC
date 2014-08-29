@@ -1,0 +1,43 @@
+Create a group ex. “Title” in "Controller"
+Create a group ex. “Title” in "Repository > Action"
+
+Create UIViewController with xib in Controller
+Create NSObject in Action
+
+Add Tag to each View in "Controller"
+
+Link IBOutlet
+Link IBAction
+
+Modify ViewController+IB > touchDown for self.resource
+
+Modify "Constants > Think > ConstantSceneCode"
+
+Create "Constants" > "View Identification" > "Constants<VC Prefix>"
+
+Modify "ConstantsAuditorUserDefaults"
+Modify "ConstantsAuditorInterpreter"
+
+Modify "Constants > Auditor > Decision > ConstantsAuditorDecisionObject"
+Modify "Constants > Auditor > Decision > ConstantsAuditorDecisionKey"
+
+If Action
+Modify "Classes" > "Auditor" > "Auditor+Interpreter" & "Auditor+Decision"
+
+Modify "Resource > Interactive > InitViewRole.plist"
+
+Create "Classes" > "Repository" > "Action" > "<VC Prefix>" > "Act<VC Prefix><Action Name>" > Decision Object
+
+Test Build(s)
+
+Modify "Auditor+Entity", "Auditor+Graphic2D", "Auditor+TextOut", Auditor+Record, "Auditor+Girl"
+Modify "MLoad", "Method", "Auditor+Dictionary"
+
+ConstantsModelGenSize, ConstantsModel
+
+
+Modify SpreadSheet & Sqlite
+
+
+New Entity with Record base (etc. Girl)
+Remember to edit Method.h

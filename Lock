@@ -1,0 +1,4 @@
+//set Unabled right b4 switchin' view
+//set Enabled right after viewDidLoad > [autoRefresh]
+
+use self.view.modalViewController to check if modalVC is loading

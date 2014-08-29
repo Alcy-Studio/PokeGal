@@ -1,0 +1,44 @@
+//
+//  ActPGMainAutoSetup+Combo.m
+//  frdfrd
+//
+//  Created by westbugs on 10-10-15.
+//  Copyright 2010 Alcy, Ltd. All rights reserved.
+//
+
+#import "ActPGMainAutoSetup+Combo.h"
+
+//Additional
+#import "ActPGMainAutoSetup+Selector.h"
+
+@implementation ActPGMainAutoSetup(Combo)
+
+-(void)setComboAuto{
+	NSLog(@"ActPGMainAutoSetup - SetComboAuto");
+	
+	//queue test
+	
+	NSInvocationOperation* op1 = [[NSInvocationOperation alloc] initWithTarget:self
+																	  selector:@selector(selectorTest1) object:nil];
+	
+	NSInvocationOperation* op2 = [[NSInvocationOperation alloc] initWithTarget:self
+																	  selector:@selector(setViewWithTag:) object:[NSNumber numberWithInt:8]];
+	
+	NSArray* aOfOps = [[NSArray alloc]initWithObjects:op1, op2, nil];
+	
+	[op1 release]; 
+	[op2 release];
+	combo = [[NSArray alloc]initWithArray:aOfOps];
+	[aOfOps release];
+	
+	
+	
+	/*
+	 combo = [[NSArray alloc]initWithObjects:@"selector1", nil];
+	 
+	 [NSDictionary dictionaryWithObjectsAndKeys:
+	 @"quattuor", @"four", @"quinque", @"five", @"sex", @"six", nil];
+	 */
+}
+
+@end

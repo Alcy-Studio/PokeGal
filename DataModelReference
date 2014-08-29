@@ -1,0 +1,21 @@
+1st Stage:
+	Graphic2D
+	TextOut
+	Se, Bgm
+	Gift, Girl
+	Ui
+	
+	
+Delete this
+~/Library/Application Support/ApplicationName/ApplicationName.xml
+
+if "The managed object model used to..." alert :)
+
+check NULL
+
+if (title == [NSNull null] || title.length == 0 ) title = @"Something";
+
+
+
+If Database Exists, 
+Delete ~/Users/Library/Application Support/Application Name/Application Name.plist

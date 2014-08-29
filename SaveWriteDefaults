@@ -1,0 +1,53 @@
+cannot read directly, defaults can only read one hierachy
+
+//Setup View Roles, load from sqlite
+
+	//Pretend sqlite data has loaded into dictionary
+	//Set dictionary to defaults
+	/*
+	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSDictionary *appDefaults = [NSDictionary
+								 dictionaryWithObject:@"YES" forKey:@"DeleteBackup"];
+	
+    [defaults registerDefaults:appDefaults];
+	
+	//NSLog(@"%f",[defaults floatForKey:@"seSlider"]);
+	*/
+	
+	//Init View Role
+	NSAutoreleasePool *pool1 = [[NSAutoreleasePool alloc]init];
+	NSBundle* b = [NSBundle mainBundle];
+	NSString* p = [b pathForResource:kAudViewRoleFileName ofType:kAudViewRoleFileType];
+	NSDictionary *d = [[NSDictionary alloc] initWithContentsOfFile:p];
+	[pool1 release];
+	NSAutoreleasePool *pool2 = [[NSAutoreleasePool alloc]init];
+	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+	
+	[defaults registerDefaults:d];		
+
+	//NSArray *a = [[NSArray alloc]init];
+	//a = [d allKeys];
+	/*
+	for (NSString *e in a) {
+		[defaults registerDefaults:[d objectForKey:e]];		
+	}
+	*/
+	//[a release];
+
+	[d release];
+	[pool2 release];
+
+	NSDictionary *d2 = [[NSDictionary alloc] initWithDictionary:[defaults dictionaryForKey:@"s1"]];
+
+	//[[defaults dictionaryForKey:@"s1"] objectForKey:@"s1t1"];
+	NSLog(@"%@",[d2 objectForKey:@"s1t1"]);
+	[d2 release];
+	
+	NSDictionary *d3 = [[NSDictionary alloc] initWithDictionary:[defaults dictionaryRepresentation]];
+	
+	
+	//[a release];
+	NSDictionary *d4 = [[NSDictionary alloc] initWithDictionary:[d3 objectForKey:@"s1"]];
+	[d3 release];
+	NSLog(@"%@",[d4 objectForKey:@"s1t1"]);
+	[d4 release];

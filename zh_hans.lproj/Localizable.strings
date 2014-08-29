@@ -1,0 +1,2082 @@
+/* 
+   Localizable.strings 
+   frdfrd 
+
+   Created by westbugs on 11-01-14. 
+   Copyright 2011 Alcy, Ltd. All rights reserved. 
+ */ 
+  
+  //动仔 -> 动作
+ /* Insert Element menu item */ 
+  
+"GKTitle" = "游戏中心关闭";
+"GkMsg" = "请先登入游戏中心应用";
+"Cancel" = "取消";
+
+"GKNotTitle" = "不支援游戏中心";
+"GKNotMsg" = "请更新至iOS 4.1";
+  
+"LinkToFull" = "http://itunes.com/apps/alcy";
+//"LinkToFull" = "http://itunes.apple.com/app/consume-mobile-isp-packages/id436974077?mt=8";
+ 
+  
+"AT" = "行动值"; 
+"Gift" = "总数"; 
+
+//Weekday 
+"Mon" = "周一"; 
+"Tue" = "周二"; 
+"Wed" = "周三"; 
+"Thu" = "周四"; 
+"Fri" = "周五"; 
+"Sat" = "周六"; 
+"Sun" = "周七"; 
+  
+//Notification
+"LocalNotifMessage" = "You have a date with Alcy now!";
+
+//Random Dating SMS
+"Dating SMS 1" = "我到了，人呢？";
+"Dating SMS 2" = "警告你，让淑女等不太好。";
+"Dating SMS 3" = "我到了。";
+"Dating SMS 4" = "为甚么不接我电话，你是不是还没到?";
+"Dating SMS 5" = "我在玩头发，等了好久(>。<)";
+"Dating SMS 6" = "有男孩向我搭讪 快点来";
+"Dating SMS 7" = "这里很多人很热闹 ^。^";
+"Dating SMS 8" = "等你的时候买了雪糕 ^^";
+"Dating SMS 9" = "come on, 可不可以成熟一点";
+"Dating SMS 10" = "你出门没有";
+
+ //PGTitle 
+"Tutor Title" = "教学"; 
+
+"Main Title" = "雅诗"; 
+"Achi Title" = "收藏品"; 
+"Attr Title" = "状态"; 
+"Date Title" = "约会"; 
+"Walk Title" = "闲逛"; 
+"Event Title" = "事件"; 
+"Map Title" = "地图"; 
+"Arrange Title" = "安排"; 
+"Place Title" = "地点"; 
+"Schedule Title" = "时间表"; 
+"Detail Title" = "资料"; 
+"Sms Title" = "短讯"; 
+"Weather Title" = "天气";
+
+"Confirm Title" = "确认"; 
+"Alert Title" = "提示"; 
+"Help Title" = "帮助"; 
+
+//Weather
+"High Temp" = "最高";
+"Current Temp" = "现在";
+"Low Temp" = "最低";
+
+//"Clear" = "Clear";
+//"Cloudy" = "Cloudy";
+//"Fog" = "Fog";
+//"Haze" = "Haze";
+//"Light Rain" = "Light Rain";
+//"Mostly Cloudy" = "Mostly Cloudy"; 
+//"Overcast" = "Overcast"; 
+//"Partly Cloudy" = "Partly Cloudy";
+//"Rain" = "Rain"; 
+//"Rain Showers" = "Rain Showers"; 
+//"Showers" = "Showers";
+//"Thunderstorm" = "Thunderstorm"; 
+//"Chance of Showers" = "Chance of Showers"; 
+//"Chance of Snow" = "Chance of Snow"; 
+//"Chance of Storm" = "Chance of Storm"; 
+//"Mostly Sunny" = "Mostly Sunny";
+//"Partly Sunny" = "Partly Sunny"; 
+//"Scattered Showers" = "Scattered Showers"; 
+//"Sunny" = "Sunny";
+//
+//"TextView Clear" = "Clear";
+//"TextView Cloudy" = "Cloudy";
+//"TextView Fog" = "Fog";
+//"TextView Haze" = "Haze";
+//"TextView Light Rain" = "Light Rain";
+//"TextView Mostly Cloudy" = "Mostly Cloudy"; 
+//"TextView Overcast" = "Overcast"; 
+//"TextView Partly Cloudy" = "Partly Cloudy";
+//"TextView Rain" = "Rain"; 
+//"TextView Rain Showers" = "Rain Showers"; 
+//"TextView Showers" = "Showers";
+//"TextView Thunderstorm" = "Thunderstorm"; 
+//"TextView Chance of Showers" = "Chance of Showers"; 
+//"TextView Chance of Snow" = "Chance of Snow"; 
+//"TextView Chance of Storm" = "Chance of Storm"; 
+//"TextView Mostly Sunny" = "Mostly Sunny";
+//"TextView Partly Sunny" = "Partly Sunny"; 
+//"TextView Scattered Showers" = "Scattered Showers"; 
+//"TextView Sunny" = "Sunny";
+
+//Title
+"Tornado"="龙卷风";
+"Tropical Storm "="热带风暴";
+"Hurricane "="飓风";
+"Severe Thunderstorms "="大雷暴";
+"Thunderstorms "="雷暴";
+"Mixed Rain and Snow "="湿雨";
+"Mixed Rain and Sleet"="冻雨";
+"Mixed Snow and Sleet "="冻雪雨";
+"Freezing Drizzle"="冰冷毛毛雨";
+"Drizzle"="毛毛雨";
+"Freezing Rain"="冰冷雨";
+"Showers"="骤雨";
+
+"Snow Flurries"="风雪";
+"Light Snow Showers"="少量雪雨";
+"Blowing Snow"="吹雪"; // *
+
+"Snow"="雪";
+"Hail"="冰雹";
+"Sleet"="冻雨";
+"Dust"="灰尘";
+"Foggy"="雾";
+"Haze"="烟霞";
+"Smoky"="烟雾弥漫";
+"Bluster"="狂风";
+"Windy"="大风";
+"Cold"="寒冷";
+"Cloudy"="多云";
+"Mostly Cloudy Night"="晚间部份时间多云";
+"Mostly Cloudy Day"="日间部份时间多云";
+"Partly Cloudy Night"="晚间短暂时间多云";
+"Partly Cloudy Day"="日间短暂时间多云";
+"Clear Night"="晚间天色晴朗";
+"Sunny"="阳光充沛";
+"Fair Night "="晚间天晴";
+"Fair Day"="日间天晴";
+"Mixed Rain and Hail"="冰雹雨";
+"Hot"="严热";
+
+"Isolated Thunderstorms"="局部地区性雷暴";
+"Scattered Thunderstorms"="零散雷暴"; // *
+"Scattered Showers"="零散骤雨";
+
+"Heavy Snow"="大雪";
+"Scattered Snow Showers"="零散雪雨";
+
+"Partly Cloudy"="部份时间多云";
+
+"Thundershowers"="雷雨";
+"Snow Showers"="雪雨";
+"Isolated Thunderstorms"="局部地区性雷雨";
+
+"Tornado" ="龙卷风，又称龙卷、龙吸水等，是一种相当猛烈和具有破坏力天气现象，由快速旋转并造成直立中空管状的气流形成。
+";
+"Tropical Storm" = "一股热带气旋在其最大持续风速为每小时39（34节），以每小时73英里（63节）里程。";
+"Hurricane" = "这热带气旋，持续风速每小时74英里（65knots）或更大的出现在北大西洋，加勒比海，墨西哥湾和北太平洋东部。同样的热带气旋在西太平洋和印度洋称为台风。";
+"Severe Thunderstorms" = "一股大概风速50海里（58英里）或更高，3 /4英寸或更大的冰雹，龙卷风或雷雨。也可能会产生严重的雷暴暴雨和雷电频繁。";
+"Thunderstorms" = "由积雨云产生的，它是由雷声，闪电持续时间相对较短为特点，阵风风速，湍流，冰雹，结冰，降水，中度到极端和下降气流，在最恶劣的条件，亦有龙卷风。";
+"Mixed Rain and Snow" = "混合雨和雪。";
+"Mixed Rain and Sleet" = "混合雨和冻雨。";
+"Mixed Snow and Sleet" = "混合雪和冻雨。";
+"Freezing Drizzle" = "冰冷和微细的雨";
+"Drizzle" = "水滴微细的雨。";
+"Freezing Rain" = "雨水冻结和降落后，形成了较冷地面或其他暴露的表面涂层。";
+"Showers" = "时间短暂的雨，通常是指由对流云所产生的降水。其特征为骤始骤止，雨前雨后，天空多会晴朗。";
+
+"Snow Flurries" = "由少量雪的爆发所引致，通常会带有一阵强风。";
+"Light Snow Showers" = "小量雪雨意味着不会滴湿的地面。 ";
+"Blowing Snow" = "当雪被风吹至六尺或更高时形成。"; //*
+
+"Snow" = "冷冻沉淀的形式或半透明的白色冰晶在复杂的分支六角形的形式。它最经常瀑布从地层形成云，但可随阵雪从积云的。它通常出现聚成雪花。";
+"Hail" = "降水起源于对流云层的形式球或不规则块的冰，来自不同的形状和大小。";
+"Sleet" = "也称为冰粒，它是冬季降水的形式小片或颗粒的冰触地后反弹或任何其他硬表面。";
+"Dust" = "悬浮在空气中的小颗粒或其他物质。";
+"Foggy" = "在近地面的空气中，因水汽凝结而成的微粒，浮游在空中而阻碍视线时，能见度在1000米以下称为雾。";
+"Haze" = "停留在空中的微尘和/或烟雾粒子。肉眼看不见的，浮游在空中而阻碍视线时，如障碍微粒属尘埃或烟屑， 则称为烟霞。";
+"Smoky" = "燃烧产生的小颗粒是悬浮在空气中。过渡到时可能出现阴霾的烟雾粒子走过很远（25至100英里以上），而当有较大颗粒外和解。";
+"Blustery" = "突然发作的强风，速度提高到至少16节（每小时18英里），并持续在22节以上（每小时25英里）的至少一分钟。";
+"Windy" = "偶尔会速度增加的强风。";
+"Cold" = "特别低或绝对低于正常温度, 缺乏热度。";
+"Cloudy" = "天空的总云量在八分之六至八分之八之间．当太阳被遮蔽时，天空略呈暗晦状。";
+"Mostly Cloudy Night" = "阴天颇为连续的出现，而且天阴的时间超过预报期的一半。";
+"Mostly Cloudy Day" = "阴天颇为连续的出现，而且天阴的时间超过预报期的一半。";
+"Partly Cloudy Night" = "晚间间歇性天阴，而且天阴的时间不及预报期一半。";
+"Partly Cloudy Day" = "日间间歇性天阴，而且天阴的时间不及预报期一半。";
+"Clear Night" = "晚间绝大部分时间天色晴朗。";
+"Sunny" = "绝大部分时间有阳光。";
+"Fair Night" = "地面无雾而天空总云量少于八分之六，如云层稀薄能使大量阳光透过时，则云量虽超过八分之六亦可说是天晴。";
+"Fair Day" = "地面无雾而天空总云量少于八分之六，如云层稀薄能使大量阳光透过时，则云量虽超过八分之六亦可说是天晴。";
+"Mixed Rain and Hail" = "混合雨和冰雹。";
+"Hot" = "温度持续高企。";
+
+"Isolated Thunderstorms" = "由于带雨的积云量小和孤立，所以雷雨只会发生在一小部分地区。";
+"Scattered Thunderstorms" = "天空的雷雨云零散分布，而部分地区有雷雨，部分地区可能完全无雨。"; //*
+"Scattered Showers" = "天空的雨云零散分布，而部分地区有雨，部分地区可能完全无雨。";
+
+"Heavy Snow" = "大雪中带有强风。";
+"Scattered Snow Showers" = "天空的雪雨零散分布，而部分地区有雨，部分地区可能完全无雨。";
+
+"Partly Cloudy" = "间歇性天阴，而且天阴的时间不及预报期一半。";
+
+"Thundershowers" = "由积雨云所产生的地区性恶劣天气，经常伴有闪电及雷声，并间有强烈阵风及大雨，在适当情况下，更偶有落雹。雷声的起因，是由于闪电所经的空气，突然受热膨胀而又迅速冷却收缩所致。";
+"Snow Showers" = "以雪的形式降雨, 通常都是突然开始和结束的。";
+
+"Isolated Thundershowers" = "由于带雨的积云量小和孤立，所以雷阵雨只会发生在一小部分地区。";
+
+//Alias
+"Alias 1" = "等级： 包子"; //lv1
+"Alias 2" = "等级： 小白"; //lv2
+"Alias 3" = "等级： 神马"; //lv3
+"Alias 4" = "等级： 牛人"; //lv4
+"Alias 5" = "等级： 小强"; //lv5
+"Alias 6" = "等级： 天才"; //lv6
+"Alias 7" = "等级： 王子"; //lv7
+"Alias 8" = "等级： 大神"; //lv8
+"Alias 9" = "等级： 天子"; //lv9
+
+
+//Occasion 
+"Occasion Home" = "家里"; 
+
+//Attribute Title 
+
+"AttrLvText" = "等级"; 
+
+"AttrTitle1" = "体能"; 
+"AttrTitle2" = "社交"; 
+"AttrTitle3" = "才智"; 
+"AttrTitle4" = "亲密"; 
+
+
+//Alcy Quote 
+"Alcy Positive 1" = "想念你..."; 
+
+//PGMain 
+
+//PGAttr 
+"Attr Note" = "角色资料"; 
+"Attr Desc" = "状态一览"; 
+
+//PGAchi 
+//Description & Requirement 
+"Gift Desc" = "物品"; 
+"Gift Req" = "等级要求"; 
+
+//Note 
+"Gift Note None" = "? ? ?"; 
+
+"Gift Note 1" = "葡萄"; 
+"Gift Note 2" = "西瓜"; 
+"Gift Note 3" = "香蕉"; 
+
+"Gift Note 4" = "草莓"; 
+"Gift Note 5" = "奇异果"; 
+"Gift Note 6" = "凤梨"; 
+  
+"Gift Note 7" = "樱桃"; 
+"Gift Note 8" = "苹果"; 
+"Gift Note 9" = "洋梨"; 
+
+//Hint 
+"Gift Hint 1" = "学校体育馆"; 
+"Gift Hint 2" = "浅水湾"; 
+"Gift Hint 3" = "保龄球馆"; 
+
+"Gift Hint 4" = "太古广场"; 
+"Gift Hint 5" = "汤姆咖啡室"; 
+"Gift Hint 6" = "动植物公园"; 
+
+"Gift Hint 7" = "红人馆 KTV"; 
+"Gift Hint 8" = "伊利莎白剧院"; 
+"Gift Hint 9" = "水族馆"; 
+
+//PGMap 
+"Map Hint" = "地图"; 
+"RegionA" = "市中心体育馆"; //Gym Social Health 
+"RegionB" = "浅水湾"; //Beach Social Health 
+"RegionC" = "保龄球馆"; //Bowling Talent Health 
+
+"RegionD" = "太古广场"; //Shopping Mall Social Talent 
+"RegionE" = "汤姆咖啡室"; //Restaurant Social Talent 
+"RegionF" = "动植物公园"; //Park Social Talent 
+
+"RegionG" = "红人馆KTV "; //Karaoke Health Talent 
+"RegionH" = "伊利莎白剧院"; //Theatre Health Talent 
+"RegionI" = "海洋水族馆"; //Aquarium Social Health 
+
+
+
+
+
+
+//PGArrange 
+"Arrange Hint" = "今天的行程"; 
+
+//PGPlace 
+"Place Hint" = "选择地方"; 
+
+//PGSchedule 
+"Schedule Hint" = "行程表"; 
+
+//PGSMS 
+"Sms Hint" = "发短讯给雅诗"; 
+
+//PGMConfirm 
+"Confirm Hint" = "请确认"; 
+
+//PGMAlert 
+"Alert Hint" = "请确认"; 
+
+//PGDetail 
+"Detail Hint" = "地方资讯"; 
+
+//PGTutor 
+"Tutor Hint" = "教学"; 
+
+//PGTutorMenu 
+"TutorMenu Hint" = "目录"; 
+
+//Weather
+"Weather Hint" = "天气预报";
+
+//PGTutorSV 
+"TutorMain Hint" = "家中"; 
+"TutorAchi Hint" = "收藏品"; 
+"TutorAttr Hint" = "状态"; 
+"TutorDate Hint" = "约会"; 
+"TutorWalk Hint" = "闲逛"; 
+"TutorEvent Hint" = "活动"; 
+"TutorMap Hint" = "地图"; 
+"TutorArrange Hint" = "安排"; 
+"TutorPlace Hint" = "地点"; 
+"TutorSchedule Hint" = "时间表"; 
+"TutorDetail Hint" = "资料"; 
+"TutorSms Hint" = "短讯"; 
+
+//PGEvent
+"Alcy Hint" = "雅诗";
+
+"+0" = "无效"; 
+"+1" = "很少"; 
+"+2" = "普通"; 
+"+3" = "很多"; 
+
+"Region Desc A" = "学校的体育馆，可以进行不同类型的运动。雅诗有时候也会在这里出现。"; 
+"Region Desc B" = "这个城市最优美的海滩。海水很清，沙很幼。每逢夏季我都一定会来这边晒晒太阳，看看美女。"; 
+"Region Desc C" = "城里最大型的保龄球馆，周末的时候有好多人都会到​​这边玩。";
+"Region Desc D" = "有大大小小的商店，绝对是找礼物的好地方。"; 
+"Region Desc E" = "汤姆是我最喜爱的咖啡室，雅诗常常在这里买冰奶茶和朱古力厚多士给我吃。"; 
+"Region Desc F" = "动植物公园是我留下最多小时候回忆的地方…… 亦使我想起失去的双亲……"; 
+"Region Desc G" = "KTV 是我第三最爱的地方，不论怎样的心情都可以到KTV 发泄！"; 
+"Region Desc H" = "剧院永远是我最抗拒的地方，因我从来都不懂得欣赏文艺的东东。"; 
+"Region Desc I" = "一直都很喜欢水族馆昏暗的环境和柔和的蓝色灯光…… 这是我梦想中的约会的胜地。"; 
+
+
+
+//AlertView 
+
+//Call Warning 
+"ActPGMainCallAlertView1_Title" = "讯息：需要多些行动值(+2)！"; 
+"ActPGMainCallAlertView1_Message" = "请等待行动值恢复。"; 
+"ActPGMainCallAlertView1_Cancel" = "取消"; 
+"ActPGMainCallAlertView1_Ok" = "确定"; 
+
+//Sms Warning 
+"ActPGMainSmsAlertView1_Title" = "讯息：需要多些行动值(+1)！"; 
+"ActPGMainSmsAlertView1_Message" = "请等待行动值恢复。"; 
+"ActPGMainSmsAlertView1_Cancel" = "取消"; 
+"ActPGMainSmsAlertView1_Ok" = "确定"; 
+
+//Move Warning 
+"ActPGMainMoveAlertView1_Title" = "讯息：需要多些行动值(+3)！"; 
+"ActPGMainMoveAlertView1_Message" = "请等待行动值恢复。"; 
+"ActPGMainMoveAlertView1_Cancel" = "取消"; 
+"ActPGMainMoveAlertView1_Ok" = "确定"; 
+
+//PGPlace 
+"ActPGPlaceSetupAlertView1_Title" = "跟雅诗约会！"; 
+"ActPGPlaceSetupAlertView1_Message" = "消耗两点行动值。"; 
+"ActPGPlaceSetupAlertView1_Cancel" = "取消"; 
+"ActPGPlaceSetupAlertView1_Ok" = "确定"; 
+"ActPGPlaceSetupAlertView1_Done" = "完成"; 
+
+
+//PGSms 
+"ActPGSMSSetupAlertView1_Title" = "给雅诗发简讯！"; 
+"ActPGSMSSetupAlertView1_Message" = "消耗一点行动值。"; 
+"ActPGSMSSetupAlertView1_Cancel" = "取消"; 
+"ActPGSMSSetupAlertView1_Ok" = "确定"; 
+"ActPGSMSSetupAlertView1_Done" = "完成"; 
+
+
+//PGMap 
+"ActPGMapSetupAlertView1_Title" = "到市内逛逛吧！"; 
+"ActPGMapSetupAlertView1_Message" = "消耗三点行动值。"; 
+"ActPGMapSetupAlertView1_Cancel" = "取消"; 
+"ActPGMapSetupAlertView1_Ok" = "确定"; 
+"ActPGMapSetupAlertView1_Done" = "完成"; 
+
+
+//PGArrange Occupied 
+"ActPGArrangeSetupAlertView1_Title" = "不能选择这个时段。"; 
+"ActPGArrangeSetupAlertView1_Message" = "请选择另一个时段。 "; 
+"ActPGArrangeSetupAlertView1_Cancel" = "取消"; 
+"ActPGArrangeSetupAlertView1_Ok" = "确定"; 
+"ActPGArrangeSetupAlertView1_Done" = "完成"; 
+
+
+//Modal 
+"Confirm Modal Title 1" = "约会雅诗！"; 
+"Confirm Modal Msg 1" = "会消耗两点行动值。 要继续进行吗？"; 
+
+"Confirm Modal Title 2" = "发短讯给雅诗吧！"; 
+"Confirm Modal Msg 2" = "会消耗一点行动值。 要继续进行吗？"; 
+
+"Confirm Modal Title 3" = "到市内逛逛！"; 
+"Confirm Modal Msg 3" = "会消耗三点行动值。 要继续进行吗？"; 
+
+//View2, PGMap Text Go (Are you sure you want to go there?) 
+"Confirm Modal Title 4" = "走吧！"; 
+"Confirm Modal Msg 4" = "你确定要出去吗？"; 
+
+//View2, PGMap Text Date (Are you sure you want to go there?) 
+"Confirm Modal Title 5" = "约会吧！"; 
+"Confirm Modal Msg 5" = "现在约会。"; 
+
+//View5, Leave Back to Home 
+"Confirm Modal Title 6" = "回家！"; 
+"Confirm Modal Msg 6" = "你确定要回家吗?"; 
+// 
+//View5, Walk Talk to others 
+"Confirm Modal Title 7" = "和别人闲聊。"; 
+"Confirm Modal Msg 7" = "会消耗一点行动值。 要继续进行吗？"; 
+// 
+//View5, Walk Look around 
+"Confirm Modal Title 8" = "到处看看！"; 
+"Confirm Modal Msg 8" = "会消耗两点行动值。 要继续进行吗？"; 
+// 
+//View5, Date Chat with others 
+"Confirm Modal Title 9" = "与女友聊​​天。"; 
+"Confirm Modal Msg 9" = "会消耗三点行动值。 要继续进行吗？"; 
+// 
+//View5, Date Romance 
+"Confirm Modal Title 10" = "亲亲。"; 
+"Confirm Modal Msg 10" = "会消耗两点行动值。 要继续进行吗？"; 
+// 
+//View5, Start a new game 
+"Confirm Modal Title 11" = "开始新游戏！"; 
+"Confirm Modal Msg 11" = "现有纪录会被消除，要继续吗？"; 
+// 
+//View5, Are you sure? (General Use: Confirm your selection) 
+"Confirm Modal Title 12" = "确定？"; 
+"Confirm Modal Msg 12" = "你要继续吗？"; 
+
+//Title Screen
+"Confirm Modal Title 13" = "回标题画面!";
+"Confirm Modal Msg 13" = "你要储存游戏并回到标题画面吗？";
+
+//Alert 
+"Alert Modal Title 1" = "讯息：需要多些行动值(+1)！"; 
+"Alert Modal Msg 1" = "请等待行动值恢复。.(1 AT/5秒)"; 
+
+"Alert Modal Title 2" = "讯息：需要多些行动值(+2)！"; 
+"Alert Modal Msg 2" = "请等待行动值恢复。(1 AT/5秒)"; 
+
+"Alert Modal Title 3" = "讯息：需要多些行动值(+3)！"; 
+"Alert Modal Msg 3" = "请等待行动值恢复。(1 AT/5秒)"; 
+
+//PGArrange not available 
+"Alert Modal Title 4" = "不能选择这个时段。"; 
+"Alert Modal Msg 4" = "请选择另一个时段。"; 
+
+"Selection Modal Title 1" = "选择一种。"; 
+"Selection Modal Msg 1" = "请选择一种语气。"; 
+
+"Selection Modal Choice 1" = "温柔。"; 
+"Selection Modal Choice 2" = "正常。"; 
+"Selection Modal Choice 3" = "耍酷。"; 
+
+//PGSMS Msg 
+//self 
+"selfLv1Msg0" = "喂"; 
+"selfLv1Msg1" = "在干么？"; 
+"selfLv1Msg2" = "好闷呀。"; 
+"selfLv1Msg3" = "要到外面走走吗？"; 
+"selfLv1Msg4" = "没事了，拜拜！"; 
+
+"otherLv1Msg0" = "喂喂！"; 
+"otherLv1Msg1" = "跟朋友一起，你呢？"; 
+"otherLv1Msg2" = "我没空陪你呀！"; 
+"otherLv1Msg3" = "今天不行… 改天吧！"; 
+"otherLv1Msg4" = "拜拜。"; 
+
+//lv2 
+"selfLv2Msg0" = "喂"; 
+"selfLv2Msg1" = "你今天有事干吗？"; 
+"selfLv2Msg2" = "我等等会出去一下。"; 
+"selfLv2Msg3" = "我今天想要出去…要一起去吗？"; 
+"selfLv2Msg4" = "那改天再找你啦！拜！"; 
+
+"otherLv2Msg0" = "喂喂"; 
+"otherLv2Msg1" = "我今天没空…要去打工！"; 
+"otherLv2Msg2" = "哦…"; 
+"otherLv2Msg3" = "你找朋友陪你啦！"; 
+"otherLv2Msg4" = "OK！拜拜！"; 
+
+//lv3 
+"selfLv3Msg0" = "喂喂！"; 
+"selfLv3Msg1" = "今天也要去上班吗？"; 
+"selfLv3Msg2" = "每天都好闷…"; 
+"selfLv3Msg3" = "没…没有…"; 
+"selfLv3Msg4" = "哦…那没事啦…"; 
+
+"otherLv3Msg0" = "喂！怎样？"; 
+"otherLv3Msg1" = "对呀！这个礼拜都超级忙！"; 
+"otherLv3Msg2" = "那你就你找我打发时间吗？"; 
+"otherLv3Msg3" = "什么没有？"; 
+"otherLv3Msg4" = "没事就不要烦我！拜托！"; 
+
+//lv4 
+"selfLv4Msg0" = "喂…"; 
+"selfLv4Msg1" = "我想找你…"; 
+"selfLv4Msg2" = "我买了一些东西想要给你…"; 
+"selfLv4Msg3" = "没…没什么…"; 
+"selfLv4Msg4" = "就…就这样…"; 
+
+"otherLv4Msg0" = "喂？"; 
+"otherLv4Msg1" = "为什么？"; 
+"otherLv4Msg2" = "干么突然买东西给我呢？"; 
+"otherLv4Msg3" = "…….."; 
+"otherLv4Msg4" = "好啦... 拜拜！"; 
+
+//lv5 
+"selfLv5Msg0" = "在忙吗？"; 
+"selfLv5Msg1" = "欸…"; 
+"selfLv5Msg2" = "你什么时间有空？"; 
+"selfLv5Msg3" = "那就好了！"; 
+"selfLv5Msg4" = "OK"; 
+
+"otherLv5Msg0" = "现在不太忙！太好啦！"; 
+"otherLv5Msg1" = "欸…你不是要给我东西吗？"; 
+"otherLv5Msg2" = "任何时间！我只是看礼物份上！"; 
+"otherLv5Msg3" = "打电话给我吧"; 
+"otherLv5Msg4" = "等你啰！"; 
+
+//lv6 
+"selfLv6Msg0" = "喂喂喂"; 
+"selfLv6Msg1" = "想找你出去。"; 
+"selfLv6Msg2" = "有一点想见你啰…"; 
+"selfLv6Msg3" = "我…"; 
+"selfLv6Msg4" = "那我再找你吧 = ("; 
+
+"otherLv6Msg0" = "哎唷…你找我干么？"; 
+"otherLv6Msg1" = "今天真的不行…这几天公司都很忙…再过一两天可以吗？"; 
+"otherLv6Msg2" = "就一点点？"; 
+"otherLv6Msg3" = "你… 怎么了？"; 
+"otherLv6Msg4" = "不要这个样子啦拜拜= )"; 
+
+//lv7 
+"selfLv7Msg0" = "好吗！?"; 
+"selfLv7Msg1" = "在忙些什么呢"; 
+"selfLv7Msg2" = "吃过午饭了没？"; 
+"selfLv7Msg3" = "好呀！等等打电话给你吧！"; 
+"selfLv7Msg4" = "努力工作！"; 
+
+"otherLv7Msg0" = "非常的好… 笨蛋 = P"; 
+"otherLv7Msg1" = "在忙着… 想你 = )"; 
+"otherLv7Msg2" = "快到午饭时间啦… 来陪我食饭吧！"; 
+"otherLv7Msg3" = "OK !"; 
+"otherLv7Msg4" = "３Ｑ ^3^"; 
+
+
+//lv8 
+"selfLv8Msg0" = "喂… 真的很对不起…"; 
+"selfLv8Msg1" = "在忙些什么呢？"; 
+"selfLv8Msg2" = "欸… 带你去一个地方好吗？"; 
+"selfLv8Msg3" = "因为我之前对你忽冷忽热…"; 
+"selfLv8Msg4" = "等等再给你发简讯吧。"; 
+
+"otherLv8Msg0" = "傻瓜… 干么突然说对不起？"; 
+"otherLv8Msg1" = "在等些东西…"; 
+"otherLv8Msg2" = "好呀！现在？"; 
+"otherLv8Msg3" = "嘻嘻… 现在没事就好了！"; 
+"otherLv8Msg4" = "好丫！我先工作！ >3<"; 
+
+
+//lv9 
+"selfLv9Msg0" = "哈啰！雅ＢＢＢＢＢＢ"; 
+"selfLv9Msg1" = "在干什么呢？ "; 
+"selfLv9Msg2" = "要出去吗？"; 
+"selfLv9Msg3" = "你有什么地方要去吗？"; 
+"selfLv9Msg4" = "喂喂！我为你准备了一个SURPRISE！等我安排好再打电话给你吧"; 
+
+"otherLv9Msg0" = "嘻嘻 = )"; 
+"otherLv9Msg1" = "在等你找我！"; 
+"otherLv9Msg2" = "好呀！"; 
+"otherLv9Msg3" = "没有什么特别的… 你想就好了！"; 
+"otherLv9Msg4" = "在装什么神秘…那我等你电话啰！"; 
+
+
+//Event 
+
+//EvtGirlNewGame1 
+"EvtGirlNewGame1" = "雅诗：「喂！该起床了！」"; 
+"EvtGirlNewGame1a" = "雅诗：「难道你忘了我们的约会？」"; 
+"EvtGirlNewGame1b" = "我：「ZzZzZzZzZzZz...」"; 
+"EvtGirlNewGame1c" = "雅诗：「太过份了！就这样！」"; 
+"EvtGirlNewGame1d" = " 我：「ZzZzZzZzZz…」"; 
+
+//EvtGirlEndGame1 
+"EvtGirlEndGame1" = "宝贝～"; 
+"EvtGirlEndGame1a" = "我真的很喜欢待在你身边。"; 
+"EvtGirlEndGame1b" = "你比任何我所遇过的男生好。"; 
+"EvtGirlEndGame1c" = "你为我所做的一切让我觉得好幸福。"; 
+"EvtGirlEndGame1d" = "爱死你啦。"; 
+
+//Missing Date
+"EvtGirlMissingDate1" = "你跑哪儿去了？";
+"EvtGirlMissingDate1a" = "我们不是约好了吗？";
+"EvtGirlMissingDate1b" = "我快氣炸了。";
+"EvtGirlMissingDate1c" = "别人一直看我，我站了半个小时。";
+"EvtGirlMissingDate1d" = "不要忘记我们的约会，行不行？";
+
+
+//----------------------------Region A 
+//EvtGirlDateChatRegionA1 -- health 
+"EvtGirlDateChatRegionA1" = "Hey 雅诗今天没有迟到吧？"; 
+"EvtGirlDateChatRegionA1a" = "在装什么"; 
+"EvtGirlDateChatRegionA1b" = "嘿嘿没有只有一些奖励就够"; 
+"EvtGirlDateChatRegionA1c" = "嘿好等我看看"; 
+"EvtGirlDateChatRegionA1d" = "然后她买了一杯牛奶给我… 汗"; 
+
+//EvtGirlDateChatRegionA2 -- social 
+"EvtGirlDateChatRegionA2" = "喂…雅诗…你常常来这边做运动的吗？"; 
+"EvtGirlDateChatRegionA2a" = "一个礼拜大概有三四天吧。干嘛？"; 
+"EvtGirlDateChatRegionA2b" = "没…没有…"; 
+"EvtGirlDateChatRegionA2c" = "嘿！"; 
+"EvtGirlDateChatRegionA2d" = "（那我以后一定要多来这边）"; 
+
+//EvtGirlDateChatRegionA3 
+"EvtGirlDateChatRegionA3" = "今天跟雅诗打了很久乒乓球…"; 
+"EvtGirlDateChatRegionA3a" = "超级累的！"; 
+"EvtGirlDateChatRegionA3b" = "对呀… 欸…不如我带你出BBT 吧！"; 
+"EvtGirlDateChatRegionA3c" = "什么是BBT 呢？"; 
+"EvtGirlDateChatRegionA3d" = "就是珍珠奶茶啰！"; 
+
+//EvtGirlDateRegionALeave1 -- under 5 
+"EvtGirlDateRegionALeave1" = "到运动场约会气氛总是怪怪的…"; 
+"EvtGirlDateRegionALeave1a" = "我：「喂喂… 我肚子有点不舒服… 我先走啦…」"; 
+"EvtGirlDateRegionALeave1b" = "雅诗：「神马？！」"; 
+"EvtGirlDateRegionALeave1c" = "我：「呜呀呀呀呀！」"; 
+"EvtGirlDateRegionALeave1d" = "然后我飞奔回去。"; 
+
+//EvtGirlDateRegionALeave2 -- under 10 
+"EvtGirlDateRegionALeave2" = "再次跟雅诗到这里约会看看…"; 
+"EvtGirlDateRegionALeave2a" = "雅诗：「还好今天没什么人游泳！」"; 
+"EvtGirlDateRegionALeave2b" = "我：「呀！我忘了带泳裤！」"; 
+"EvtGirlDateRegionALeave2c" = "我：「那怎么办？」"; 
+"EvtGirlDateRegionALeave2d" = "雅诗用很失望的眼神看着我…然后转身走了…"; 
+
+//EvtGirlDateRegionALeave3 -- more than 15 
+"EvtGirlDateRegionALeave3" = "嘿嘿…今天我准备充足！"; 
+"EvtGirlDateRegionALeave3a" = "剧烈运动进行中"; 
+"EvtGirlDateRegionALeave3b" = "一个小时后。"; 
+"EvtGirlDateRegionALeave3c" = "我：「太好了！运动约会大成功！"; 
+"EvtGirlDateRegionALeave3d" = "雅诗：「太激烈了！我先回家洗澡…一小时后在咖啡店见！」 "; 
+
+//EvtGirlDateRegionAStart1 
+"EvtGirlDateRegionAStart1" = "今天跟平常一样。"; 
+"EvtGirlDateRegionAStart1a" = "早一点点到约会地点。"; 
+"EvtGirlDateRegionAStart1b" = "我觉得有时候男生等一阵子是没问题的！"; 
+"EvtGirlDateRegionAStart1c" = "而且.."; 
+"EvtGirlDateRegionAStart1d" = "这样雅诗会高兴点吧！"; 
+
+//EvtGirlDateRegionAStart2 
+"EvtGirlDateRegionAStart2" = "今天跟平常一样。"; 
+"EvtGirlDateRegionAStart2a" = "早了到约会地点。"; 
+"EvtGirlDateRegionAStart2b" = "那我就去一去洗手间，"; 
+"EvtGirlDateRegionAStart2c" = "去照照镜子，看自己准备了没。"; 
+"EvtGirlDateRegionAStart2d" = "完美！那先等等吧！"; 
+
+//EvtGirlDateRegionAStart3 
+"EvtGirlDateRegionAStart3" = "今天迟了很多。"; 
+"EvtGirlDateRegionAStart3a" = "我看看表…雅诗已经走了…"; 
+"EvtGirlDateRegionAStart3b" = "反正没事干，那就去坐坐吧。"; 
+"EvtGirlDateRegionAStart3c" = "闷………"; 
+"EvtGirlDateRegionAStart3d" = "太迟到约会地方不是太好……"; 
+
+//EvtGirlDateRomanceRegionA1 
+"EvtGirlDateRomanceRegionA1" = "我：「喂！雅诗，你想做什么运动吗？」"; 
+"EvtGirlDateRomanceRegionA1a" = "雅诗：「都可以呀。」"; 
+"EvtGirlDateRomanceRegionA1b" = "我：「你没有一个特别喜欢的吗？」"; 
+"EvtGirlDateRomanceRegionA1c" = "雅诗：「真的没有…流汗的就可以。」"; 
+"EvtGirlDateRomanceRegionA1d" = "我：「那我们就去打羽毛球吧。」"; 
+
+//EvtGirlDateRomanceRegionA2 
+"EvtGirlDateRomanceRegionA2" = "雅诗：「喂，今天要带我玩点什么吗？」"; 
+"EvtGirlDateRomanceRegionA2a" = "我：「今天很超级累… 不过带你玩一个简单的运动吧！」"; 
+"EvtGirlDateRomanceRegionA2b" = "雅诗：「哦，原来是跳飞机！」"; 
+"EvtGirlDateRomanceRegionA2c" = "我：「对，我小时候超喜欢玩！」"; 
+"EvtGirlDateRomanceRegionA2d" = "雅诗：「嘻嘻。」"; 
+
+//EvtGirlDateRomanceRegionA3 
+"EvtGirlDateRomanceRegionA3" = "雅诗：「喂今天到我带你去玩我喜欢的东西吧」"; 
+"EvtGirlDateRomanceRegionA3a" = "我：「好呀。」"; 
+"EvtGirlDateRomanceRegionA3b" = "雅诗：「快跟我来！」"; 
+"EvtGirlDateRomanceRegionA3c" = "我：「哦… 这是…」"; 
+"EvtGirlDateRomanceRegionA3d" = "我：「原本就是游泳池的滑梯，傻瓜！」"; 
+
+//EvtGirlWalkLookRegionA1 -- Soccer Ball 
+"EvtGirlWalkLookRegionA1" = "今天要当个足球猛将！"; 
+"EvtGirlWalkLookRegionA1a" = "刚开始就有助攻的机会啦…七旋斩！ "; 
+"EvtGirlWalkLookRegionA1b" = "然后一个光头队友接应我一记妙传… 再连续做了五个动作…球进了！我傻眼了"; 
+"EvtGirlWalkLookRegionA1c" = "对方开球未多久我就拦截了对方的传球！看我的…单刀！"; 
+"EvtGirlWalkLookRegionA1d" = "就不要横传了！LET ME FINISH THIS！直接把龙门射个烯巴烂！进了！"; 
+"EvtGirlWalkLookRegionA1e" = "出了一身男儿汗！爽！"; 
+
+//EvtGirlWalkLookRegionA2 -- Table Tennis Racket and Ball 
+"EvtGirlWalkLookRegionA2" = "有人在打乒乓… 去跟队吧！"; 
+"EvtGirlWalkLookRegionA2a" = "是时候展示我惊人的反射神经和球技了！"; 
+"EvtGirlWalkLookRegionA2b" = "发球！"; 
+"EvtGirlWalkLookRegionA2c" = "球来球往…球来球往…球来球往…扣杀！然后球就不来了！"; 
+"EvtGirlWalkLookRegionA2d" = "嘿嘿…我小胜对手几分！"; 
+
+//EvtGirlWalkLookRegionA3 
+"EvtGirlWalkLookRegionA3" = "今天球场特别多人…"; 
+"EvtGirlWalkLookRegionA3a" = "球场每一个角落都有人…"; 
+"EvtGirlWalkLookRegionA3b" = "然后室内漂着一个臭汗味…"; 
+"EvtGirlWalkLookRegionA3c" = "今天好像玩什么都要等好久…"; 
+"EvtGirlWalkLookRegionA3d" = "我还是再等等吧！"; 
+
+//EvtGirlWalkRegionAPreset1 
+"EvtGirlWalkRegionAPreset1" = "广播：「那个全身穿黄色的女孩请你马上跟服务台联络。」"; 
+"EvtGirlWalkRegionAPreset1a" = "然后那个女孩尖叫一下"; 
+"EvtGirlWalkRegionAPreset1b" = "之后再衡去服务台"; 
+"EvtGirlWalkRegionAPreset1c" = "到底在搞什么东东呢?"; 
+"EvtGirlWalkRegionAPreset1d" = "难道也是中奖？"; 
+
+//EvtGirlWalkRegionAPreset2 
+"EvtGirlWalkRegionAPreset2" = "广播：「那个穿着红色球鞋的青年请你马上跟服务台联络。」"; 
+"EvtGirlWalkRegionAPreset2a" = "我左看右看…整个体育馆好像只有我一个是红鞋子…"; 
+"EvtGirlWalkRegionAPreset2b" = "广播：「对呀，就是你不用看啦快过来！」"; 
+"EvtGirlWalkRegionAPreset2c" = "所有人都看着我… 然后我以极速跑过服务台"; 
+"EvtGirlWalkRegionAPreset2d" = "工作人员：「Congratulations！你中奖啦！」"; 
+
+//EvtGirlWalkRegionAStart1 
+"EvtGirlWalkRegionAStart1" = "这里是学校的体育馆。"; 
+"EvtGirlWalkRegionAStart1a" = "这个体育馆很大，可以进行不同类型的运动。"; 
+"EvtGirlWalkRegionAStart1b" = "雅诗有时候也会在这里出现。"; 
+"EvtGirlWalkRegionAStart1c" = "今天会看到她吗？"; 
+"EvtGirlWalkRegionAStart1d" = "好！搜寻开始！"; 
+
+//EvtGirlWalkTalkRegionA1 
+"EvtGirlWalkTalkRegionA1" = "有个人突然走过来…"; 
+"EvtGirlWalkTalkRegionA1a" = "陌生人：「唷！要打球吗？」"; 
+"EvtGirlWalkTalkRegionA1b" = "我：「......」"; 
+"EvtGirlWalkTalkRegionA1c" = "陌生人：「打啦！我们还差一个人！」"; 
+"EvtGirlWalkTalkRegionA1d" = "然后我随便编一个籍口把他打发走…"; 
+
+//EvtGirlWalkTalkRegionA2 
+"EvtGirlWalkTalkRegionA2" = "一个男的在球场外在自言自语…"; 
+"EvtGirlWalkTalkRegionA2a" = "奇怪男：「我要拿奖品…」"; 
+"EvtGirlWalkTalkRegionA2b" = "奇怪男：「我要拿奖品…」"; 
+"EvtGirlWalkTalkRegionA2c" = "奇怪男：「星期天十点！！！」"; 
+"EvtGirlWalkTalkRegionA2d" = "他有神经病吗？"; 
+
+//EvtGirlWalkTalkRegionA3 
+"EvtGirlWalkTalkRegionA3" = "对面有几个小孩在玩跳飞机…"; 
+"EvtGirlWalkTalkRegionA3a" = "小孩A：「一…三…然后是…」"; 
+"EvtGirlWalkTalkRegionA3b" = "小孩A：「然后是… (跌倒)」"; 
+"EvtGirlWalkTalkRegionA3c" = "其他小孩：「哈哈哈哈哈！输了就没奖品！」"; 
+"EvtGirlWalkTalkRegionA3d" = "跳飞机都有奖品？什么世界？"; 
+
+//Region B 
+//EvtGirlDateChatRegionB1 
+"EvtGirlDateChatRegionB1" = "我：「喂喂…雅诗！我…可以问你一个问题吗？」";
+"EvtGirlDateChatRegionB1a" = "雅诗：「YES？」"; 
+"EvtGirlDateChatRegionB1b" = "雅诗：「可以呀多多都可以问！」"; 
+"EvtGirlDateChatRegionB1c" = "我：「你很喜欢穿比坚尼的吗？」"; 
+"EvtGirlDateChatRegionB1d" = "雅诗面红说：「笨蛋！」"; 
+
+//EvtGirlDateChatRegionB2 
+"EvtGirlDateChatRegionB2" = "我：「喂，雅诗！」"; 
+"EvtGirlDateChatRegionB2a" = "雅诗：「什么？」"; 
+"EvtGirlDateChatRegionB2b" = "我：「明天有空吗？」"; 
+"EvtGirlDateChatRegionB2c" = "她：「有呀！要约我吗？」"; 
+"EvtGirlDateChatRegionB2d" = "我：「哈哈，先卖个关子。」"; 
+
+//EvtGirlDateChatRegionB3 
+"EvtGirlDateChatRegionB3" = "我：「暴晒了一整天…超级爽！」"; 
+"EvtGirlDateChatRegionB3a" = "雅诗：「对呀… 谢谢你约我来」"; 
+"EvtGirlDateChatRegionB3b" = "我：「呵呵…我想见你嘛…该我谢谢你才对！」"; 
+"EvtGirlDateChatRegionB3c" = "她：「你说什么？」"; 
+"EvtGirlDateChatRegionB3d" = "我：「没…没有！先去冲冲水！」"; 
+
+//EvtGirlDateRegionBLeave1 
+"EvtGirlDateRegionBLeave1" = "雅诗已经换好泳装在沙滩等候…"; 
+"EvtGirlDateRegionBLeave1a" = "天黑黑…好像快要下雨…"; 
+"EvtGirlDateRegionBLeave1b" = "我：「喂…好像快下雨啦…我先走啦…」"; 
+"EvtGirlDateRegionBLeave1c" = "雅诗：「......」"; 
+"EvtGirlDateRegionBLeave1d" = "我转身走了…"; 
+
+//EvtGirlDateRegionBLeave2 
+"EvtGirlDateRegionBLeave2" = "哈哈！今天我比雅诗早到！"; 
+"EvtGirlDateRegionBLeave2a" = "雅诗：「我先去换衣服吧！」"; 
+"EvtGirlDateRegionBLeave2b" = "我：「快点哦…要不然突然下雨就死了！」"; 
+"EvtGirlDateRegionBLeave2c" = "但是…雅诗刚换好泳装躺下的时候…真的下雨了！"; 
+"EvtGirlDateRegionBLeave2d" = "雅诗：「你这个乌鸦嘴…………… (恼)」"; 
+
+//EvtGirlDateRegionBLeave3 
+"EvtGirlDateRegionBLeave3" = "今天天气心情大不同…"; 
+"EvtGirlDateRegionBLeave3a" = "今天天气不错…有阳光但太不热…柔和的海风吹得雅诗睡着了！"; 
+"EvtGirlDateRegionBLeave3b" = "而我跟雅诗已经在沙滩待了两个小时了！"; 
+"EvtGirlDateRegionBLeave3c" = "我：「喂喂！我该回去啦！我的皮肤都晒伤了！」"; 
+"EvtGirlDateRegionBLeave3d" = "雅诗：「对哦…那下一次再约吧！」"; 
+
+//EvtGirlDateRegionBStart1 
+"EvtGirlDateRegionBStart1" = "今天跟平常一样。"; 
+"EvtGirlDateRegionBStart1a" = "早一点点到约会地点。"; 
+"EvtGirlDateRegionBStart1b" = "我觉得有时候男生等一阵子是没问题的！"; 
+"EvtGirlDateRegionBStart1c" = "而且.."; 
+"EvtGirlDateRegionBStart1d" = "这样雅诗会高兴点吧！"; 
+
+//EvtGirlDateRegionBStart2 
+"EvtGirlDateRegionBStart2" = "今天跟平常一样。"; 
+"EvtGirlDateRegionBStart2a" = "早了到约会地点。"; 
+"EvtGirlDateRegionBStart2b" = "那我就去一去洗手间，"; 
+"EvtGirlDateRegionBStart2c" = "去照照镜子，看自己准备了没。"; 
+"EvtGirlDateRegionBStart2d" = "完美！"; 
+
+//EvtGirlDateRegionBStart3 
+"EvtGirlDateRegionBStart3" = "今天迟了很多。"; 
+"EvtGirlDateRegionBStart3a" = "我看看表…雅诗已经走了…"; 
+"EvtGirlDateRegionBStart3b" = "反正没事干，那就去坐坐吧。"; 
+"EvtGirlDateRegionBStart3c" = "闷………"; 
+"EvtGirlDateRegionBStart3d" = "太迟到约会地方都不是太好……"; 
+
+//EvtGirlDateRomanceRegionB1 
+"EvtGirlDateRomanceRegionB1" = "我：「喂喂喂！」"; 
+"EvtGirlDateRomanceRegionB1a" = "雅诗：「YEEEEEES？」"; 
+"EvtGirlDateRomanceRegionB1b" = "我：「你还没回答… 上次的比坚尼问题。」";
+"EvtGirlDateRomanceRegionB1c" = "雅诗的脸超级红…害羞说：「是呀…你不喜欢吗？」"; 
+"EvtGirlDateRomanceRegionB1d" = "我：「没有没有…很好看…」（面红的女生真可爱…有极大的杀伤力）"; 
+
+//EvtGirlDateRomanceRegionB2 
+"EvtGirlDateRomanceRegionB2" = "我：「欸你有听说过浅水湾的花茶饮料吗？」";
+"EvtGirlDateRomanceRegionB2a" = "雅诗说：「有呀！你要带多去喝！」"; 
+"EvtGirlDateRomanceRegionB2b" = "我：「好，走吧！」"; 
+"EvtGirlDateRomanceRegionB2c" = "我们点了一个JUMBO SIZE 来喝"; 
+"EvtGirlDateRomanceRegionB2d" = "跟雅诗贴着脸喝同一杯饮料真的开心到无法形容！"; 
+
+//EvtGirlDateRomanceRegionB3 
+"EvtGirlDateRomanceRegionB3" = "雅诗：「喂喂！那是什么？」"; 
+"EvtGirlDateRomanceRegionB3a" = "我：「哪个呀？」"; 
+"EvtGirlDateRomanceRegionB3b" = "雅诗：「奇怪的西瓜。」"; 
+"EvtGirlDateRomanceRegionB3c" = "我：「哦！听说是这个海滩的纪念品…有机会的话我送你一个吧！」"; 
+"EvtGirlDateRomanceRegionB3d" = "雅诗：「我会记住的…不要随便答应喔！」"; 
+
+//EvtGirlWalkLookRegionB1 – sunflower +health 
+"EvtGirlWalkLookRegionB1" = "听说浅水湾有一间花茶饮料很好喝…今天就尝尝吧！"; 
+"EvtGirlWalkLookRegionB1a" = "在哪里呢？"; 
+"EvtGirlWalkLookRegionB1b" = "喔，找到了"; 
+"EvtGirlWalkLookRegionB1c" = "我点了一杯JUMBO SIZE 喝！"; 
+"EvtGirlWalkLookRegionB1d" = "真的异常冰凉！整个人都精神起来了！下次一定要让雅诗试试看"; 
+
+//EvtGirlWalkLookRegionB2 -- swimming short　+social 
+"EvtGirlWalkLookRegionB2" = "换上了泳裤就要做一个阳光猛男！"; 
+"EvtGirlWalkLookRegionB2a" = "我立院跑到海边跟其他人玩沙滩数字球"; 
+"EvtGirlWalkLookRegionB2b" = "呵呵作弄了不少人"; 
+"EvtGirlWalkLookRegionB2c" = "玩了半个小时有多"; 
+"EvtGirlWalkLookRegionB2d" = "Good Game！夏天在海滩跟陌生人人玩就是不一样！"; 
+
+//EvtGirlWalkLookRegionB3 
+"EvtGirlWalkLookRegionB3" = "在滩上走走吧…"; 
+"EvtGirlWalkLookRegionB3a" = "天！有几个正妹准备晒太阳！"; 
+"EvtGirlWalkLookRegionB3b" = "她们会脱吗？"; 
+"EvtGirlWalkLookRegionB3c" = "她们的样子…身材诱人到不行…"; 
+"EvtGirlWalkLookRegionB3d" = "如果她们都要我帮帮忙就好了… 嘿嘿…"; 
+
+//EvtGirlWalkRegionBPreset1 
+"EvtGirlWalkRegionBPreset1" = "我到了这个海滩一段日子有多…"; 
+"EvtGirlWalkRegionBPreset1a" = "其实我发现了一个奇怪现象…"; 
+"EvtGirlWalkRegionBPreset1b" = "怎么有些人会拿着不同型状大小的西瓜呢？"; 
+"EvtGirlWalkRegionBPreset1c" = "真的莫名其妙…"; 
+"EvtGirlWalkRegionBPreset1d" = "不会都是那个正妹送出去的吧？"; 
+
+//EvtGirlWalkRegionBPreset2 
+"EvtGirlWalkRegionBPreset2" = "声音：「喂，帅哥！」"; 
+"EvtGirlWalkRegionBPreset2a" = "听见帅哥…我立刻看看是谁在叫我"; 
+"EvtGirlWalkRegionBPreset2b" = "是上一次那个正妹"; 
+"EvtGirlWalkRegionBPreset2c" = "正妹：「这个给你…答谢你的太阳油，拜拜。」"; 
+"EvtGirlWalkRegionBPreset2d" = "正妹把传说中海滩的纪念品奇怪西瓜给我。"; 
+
+//EvtGirlWalkRegionBStart1 
+"EvtGirlWalkRegionBStart1" = "这个城市最优美的海滩。"; 
+"EvtGirlWalkRegionBStart1a" = "这里的海水很清，沙很幼。"; 
+"EvtGirlWalkRegionBStart1b" = "每逢夏季我都一定会来这边，为什么？"; 
+"EvtGirlWalkRegionBStart1c" = "当然是晒晒太阳…还有… "; 
+"EvtGirlWalkRegionBStart1d" = "看看美女…哼哼…不知道今天会有什么收获呢？"; 
+
+//EvtGirlWalkTalkRegionB1 
+"EvtGirlWalkTalkRegionB1" = "突然有一个超级正妹走过来…"; 
+"EvtGirlWalkTalkRegionB1a" = "超级正妹：「欸…帅哥…可以帮我一个忙吗？」"; 
+"EvtGirlWalkTalkRegionB1b" = "我有一点紧张…"; 
+"EvtGirlWalkTalkRegionB1c" = "超级正妹：「你等等可以过来帮我搽太阳油吗？」"; 
+"EvtGirlWalkTalkRegionB1d" = "我：「可…可以呀！」"; 
+
+
+//EvtGirlWalkTalkRegionB2 
+"EvtGirlWalkTalkRegionB2" = "一如以往… 今天有很多人带狗狗来玩"; 
+"EvtGirlWalkTalkRegionB2a" = "哇！有一只超级大的敖犬！"; 
+"EvtGirlWalkTalkRegionB2b" = "那只敖犬跳到主人怀里... 在拍戏吗？"; 
+"EvtGirlWalkTalkRegionB2c" = "那个狗主人倒下"; 
+"EvtGirlWalkTalkRegionB2d" = "笑死我了"; 
+
+//EvtGirlWalkTalkRegionB3 
+"EvtGirlWalkTalkRegionB3" = "陌生人：「喂！小兄弟！：」"; 
+"EvtGirlWalkTalkRegionB3a" = "我：「？？？」"; 
+"EvtGirlWalkTalkRegionB3b" = "陌生人：「你知道吗？星期一十一点的时候会有机会拿到沙滩的纪念品，但派发的方法好神秘。」"; 
+"EvtGirlWalkTalkRegionB3c" = "我摇摇头"; 
+"EvtGirlWalkTalkRegionB3d" = "陌生人：「那…谢啦！」"; 
+
+
+//Region C Bowling 
+//EvtGirlDateChatRegionC1 
+"EvtGirlDateChatRegionC1" = "我：「...... 」"; 
+"EvtGirlDateChatRegionC1a" = "雅诗：「？」"; 
+"EvtGirlDateChatRegionC1b" = "我：「其实我…不太玩保龄球」"; 
+"EvtGirlDateChatRegionC1c" = "雅诗：「不会吧！？」"; 
+"EvtGirlDateChatRegionC1d" = "无言…"; 
+
+//EvtGirlDateChatRegionC2 
+"EvtGirlDateChatRegionC2" = "跟雅诗打了两个回合…"; 
+"EvtGirlDateChatRegionC2a" = "雅诗：「太好玩了！你也会玩啦现在！」"; 
+"EvtGirlDateChatRegionC2b" = "我：「还可以啦。」"; 
+"EvtGirlDateChatRegionC2c" = "雅诗：「那你一定要多陪我来！」"; 
+"EvtGirlDateChatRegionC2d" = "我：「好！没问题！」"; 
+
+//EvtGirlDateChatRegionC3 
+"EvtGirlDateChatRegionC3" = "雅诗：「喂，告诉你一些事。」"; 
+"EvtGirlDateChatRegionC3a" = "我：「什么？」"; 
+"EvtGirlDateChatRegionC3b" = "雅诗：「但你不要生气喔…我从前的男友常常带我打保龄的。」"; 
+"EvtGirlDateChatRegionC3c" = "我：「……难怪你那么熟练…」"; 
+"EvtGirlDateChatRegionC3d" = "怎么有些不是味儿的感觉…"; 
+
+//EvtGirlDateRegionCLeave1 
+"EvtGirlDateRegionCLeave1" = "我：「喂！」"; 
+"EvtGirlDateRegionCLeave1a" = "雅诗：「? 」"; 
+"EvtGirlDateRegionCLeave1b" = "我：「我不想玩。」"; 
+"EvtGirlDateRegionCLeave1c" = "雅诗：「为什么呢？」"; 
+"EvtGirlDateRegionCLeave1d" = "我：「没有…就突然不想玩而已。」"; 
+
+//EvtGirlDateRegionCLeave2 
+"EvtGirlDateRegionCLeave2" = "今天准备十足！我已经玩了一阵子！"; 
+"EvtGirlDateRegionCLeave2a" = "突然电话响起"; 
+"EvtGirlDateRegionCLeave2b" = "妹妹：「哥！我忘了带钥匙，你赶回来！」"; 
+"EvtGirlDateRegionCLeave2c" = "雅诗看着我…样子有点不耐烦"; 
+"EvtGirlDateRegionCLeave2d" = "我说妹妹没有钥​​匙进门就走了"; 
+
+//EvtGirlDateRegionCLeave3 
+"EvtGirlDateRegionCLeave3" = "跟雅诗玩了差不多两个回合"; 
+"EvtGirlDateRegionCLeave3a" = "我：「糟了！」"; 
+"EvtGirlDateRegionCLeave3b" = "雅诗：「怎么了？」"; 
+"EvtGirlDateRegionCLeave3c" = "我：「忘了关火！要先回家！」"; 
+"EvtGirlDateRegionCLeave3d" = "雅诗：「笨蛋…那你快回去吧。」"; 
+
+//EvtGirlDateRegionCStart1 
+"EvtGirlDateRegionCStart1" = "今天跟平常一样。"; 
+"EvtGirlDateRegionCStart1a" = "早一点点到约会地点。"; 
+"EvtGirlDateRegionCStart1b" = "我觉得有时候男生等一阵子是没问题的！"; 
+"EvtGirlDateRegionCStart1c" = "而且.."; 
+"EvtGirlDateRegionCStart1d" = "这样雅诗会高兴点吧！"; 
+
+//EvtGirlDateRegionCStart2 
+"EvtGirlDateRegionCStart2" = "今天跟平常一样。"; 
+"EvtGirlDateRegionCStart2a" = "早了到约会地点。"; 
+"EvtGirlDateRegionCStart2b" = "那我就去一去洗手间，"; 
+"EvtGirlDateRegionCStart2c" = "去照照镜子，看自己准备了没。"; 
+"EvtGirlDateRegionCStart2d" = "完美！"; 
+
+//EvtGirlDateRegionCStart3 
+"EvtGirlDateRegionCStart3" = "今天迟了很多。"; 
+"EvtGirlDateRegionCStart3a" = "我看看表…雅诗已经走了…"; 
+"EvtGirlDateRegionCStart3b" = "反正没事干，那就去坐坐吧。"; 
+"EvtGirlDateRegionCStart3c" = "闷………"; 
+"EvtGirlDateRegionCStart3d" = "太迟到约会地方都不是太好……"; 
+
+//EvtGirlDateRomanceRegionC1 
+"EvtGirlDateRomanceRegionC1" = "雅诗：「欸… 你真的一点都不会吗？」"; 
+"EvtGirlDateRomanceRegionC1a" = "我：「真的一点都不会…」"; 
+"EvtGirlDateRomanceRegionC1b" = "雅诗：「没关系啦，我也不是太好。」"; 
+"EvtGirlDateRomanceRegionC1c" = "我：「......你不用安慰我啦。」"; 
+"EvtGirlDateRomanceRegionC1d" = "雅诗：「真的！我们一起研究吧= )」"; 
+
+//EvtGirlDateRomanceRegionC2 
+"EvtGirlDateRomanceRegionC2" = "雅诗：「看！才学了一会…玩得多好。」"; 
+"EvtGirlDateRomanceRegionC2a" = "我：「你不用装啦…」"; 
+"EvtGirlDateRomanceRegionC2b" = "雅诗：「我才没有！」"; 
+"EvtGirlDateRomanceRegionC2c" = "我：「真的？」"; 
+"EvtGirlDateRomanceRegionC2d" = "雅诗：「真的…但你要请我吃饭！」"; 
+
+//EvtGirlDateRomanceRegionC3 
+"EvtGirlDateRomanceRegionC3" = "雅诗：「喂…！」 "; 
+"EvtGirlDateRomanceRegionC3a" = "我：「怎么了？」"; 
+"EvtGirlDateRomanceRegionC3b" = "雅诗：「我等等要买一双新的保龄球鞋子…你陪我去好吗？」"; 
+"EvtGirlDateRomanceRegionC3c" = "我：「没问题呀！」"; 
+"EvtGirlDateRomanceRegionC3d" = "雅诗：「太好了！我要你你也买一双跟我一样的！」"; 
+
+//EvtGirlWalkLookRegionC1 -- bowling pin +health 
+"EvtGirlWalkLookRegionC1" = "那边有一个练习用的轨道…"; 
+"EvtGirlWalkLookRegionC1a" = "应该是新手用的吧？"; 
+"EvtGirlWalkLookRegionC1b" = "反正也到了…走过去试试看"; 
+"EvtGirlWalkLookRegionC1c" = "中了九个！"; 
+"EvtGirlWalkLookRegionC1d" = "嘿嘿… 我这个新手也不赖！"; 
+
+//EvtGirlWalkLookRegionC2 -- bowling ball +talent 
+"EvtGirlWalkLookRegionC2" = "在跟雅诗约会之前，先到这边视察环境。"; 
+"EvtGirlWalkLookRegionC2a" = "走到一个未人玩的轨道。"; 
+"EvtGirlWalkLookRegionC2b" = "随便看看不同的保龄球…"; 
+"EvtGirlWalkLookRegionC2c" = "拿几个上手看看…"; 
+"EvtGirlWalkLookRegionC2d" = "我想应该不太难玩吧"; 
+
+//EvtGirlWalkLookRegionC3 
+"EvtGirlWalkLookRegionC3" = "我随便找一个位子坐下看别人玩。"; 
+"EvtGirlWalkLookRegionC3a" = "突然…全场的灯都变暗了。"; 
+"EvtGirlWalkLookRegionC3b" = "但人人都很兴奋…"; 
+"EvtGirlWalkLookRegionC3c" = "原来白色的衣服都变了夜光的效果！"; 
+"EvtGirlWalkLookRegionC3d" = "这个地方真的非常特别！"; 
+
+//EvtGirlWalkRegionCPreset1 
+"EvtGirlWalkRegionCPreset1" = "那个送我礼物的工作人员在视察场馆…"; 
+"EvtGirlWalkRegionCPreset1a" = "工作人员：「请注意… 穿上合适的鞋子！」"; 
+"EvtGirlWalkRegionCPreset1b" = "工作人员：「如果没有的话可以去租用。」"; 
+"EvtGirlWalkRegionCPreset1c" = "工作人员：「如果想点食物的话可以按服务键」"; 
+"EvtGirlWalkRegionCPreset1d" = "工作人员：「谢谢合作！」"; 
+
+//EvtGirlWalkRegionCPreset2 
+"EvtGirlWalkRegionCPreset2" = "工作人员：「CONGRATULATIONS！你中奖了！」"; 
+"EvtGirlWalkRegionCPreset2a" = "工作人员：「从今天开始你就是本会的VIP， 这香蕉就是身份象征！」"; 
+"EvtGirlWalkRegionCPreset2b" = "我：「哦……谢谢……」"; 
+"EvtGirlWalkRegionCPreset2c" = "我接过香蕉就吃了一口"; 
+"EvtGirlWalkRegionCPreset2d" = "真的挻好吃！"; 
+
+//EvtGirlWalkRegionCStart1 
+"EvtGirlWalkRegionCStart1" = "城里最大型的保龄球馆。 "; 
+"EvtGirlWalkRegionCStart1a" = "周末的时候有好多人都会到​​这边玩。"; 
+"EvtGirlWalkRegionCStart1b" = "听说这里的灯光设备还不错。"; 
+"EvtGirlWalkRegionCStart1c" = "今天就来见识一下！"; 
+"EvtGirlWalkRegionCStart1d" = "来逛逛吧！"; 
+
+//EvtGirlWalkTalkRegionC1 
+"EvtGirlWalkTalkRegionC1" = "工作人员：「您好。」"; 
+"EvtGirlWalkTalkRegionC1a" = "我：「哈啰。」"; 
+"EvtGirlWalkTalkRegionC1b" = "工作人员：「我猜你…是初哥吧？」"; 
+"EvtGirlWalkTalkRegionC1c" = "这好像耻笑我…但我点了头"; 
+"EvtGirlWalkTalkRegionC1d" = "工作人员：「如果要私人教练的话跟任个一个人员讲就好。」"; 
+
+//EvtGirlWalkTalkRegionC2 
+"EvtGirlWalkTalkRegionC2" = "工作人员：「喂！那边的哥儿！」"; 
+"EvtGirlWalkTalkRegionC2a" = "我望过去"; 
+"EvtGirlWalkTalkRegionC2b" = "工作人员：「要成为我们的VIP 吗？有礼物的呢！」"; 
+"EvtGirlWalkTalkRegionC2c" = "工作人员：「想要的话星期二的十二点钟到吧！」"; 
+"EvtGirlWalkTalkRegionC2d" = "我：「免费的话还可以…付钱就不要了。」"; 
+
+//EvtGirlWalkTalkRegionC3 
+"EvtGirlWalkTalkRegionC3" = "那个工作人员又过来了"; 
+"EvtGirlWalkTalkRegionC3a" = "我忽发奇想… 就走过去跟他聊聊。"; 
+"EvtGirlWalkTalkRegionC3b" = "我：「喂喂，为什么你可以再室内抽烟斗？」"; 
+"EvtGirlWalkTalkRegionC3c" = "工作人员：「这是假的…但没有它就不能集中精神。」"; 
+"EvtGirlWalkTalkRegionC3d" = "……无言……"; 
+
+//Region D 
+//EvtGirlDateChatRegionD1 
+"EvtGirlDateChatRegionD1" = "今天的任务是…陪雅诗逛！"; 
+"EvtGirlDateChatRegionD1a" = "任务开始！"; 
+"EvtGirlDateChatRegionD1b" = "三十分钟过后…她已经有三大袋在左手…"; 
+"EvtGirlDateChatRegionD1c" = "再多三十分钟…她右手又多了五个小袋…"; 
+"EvtGirlDateChatRegionD1d" = "女生的购物欲真的......"; 
+
+//EvtGirlDateChatRegionD2 
+"EvtGirlDateChatRegionD2" = "忽然想起！"; 
+"EvtGirlDateChatRegionD2a" = "我：「喂！你有听过这商场办的那个寻宝游戏吗？」"; 
+"EvtGirlDateChatRegionD2b" = "雅诗：「没有耶！」"; 
+"EvtGirlDateChatRegionD2c" = "我：「你看！」"; 
+"EvtGirlDateChatRegionD2d" = "雅诗：「哦…不知道奖品是什么呢？」"; 
+
+//EvtGirlDateChatRegionD3 
+"EvtGirlDateChatRegionD3" = "经过好一轮购物活动，终于可以休息一下了！"; 
+"EvtGirlDateChatRegionD3a" = "雅诗买了饮料给我"; 
+"EvtGirlDateChatRegionD3b" = "雅诗：「我的购物欲有吓到你吗？」"; 
+"EvtGirlDateChatRegionD3c" = "雅诗：「今天已经不算什么啦！」"; 
+"EvtGirlDateChatRegionD3d" = "我想…要当你老公真的卖身都赚不够… "; 
+
+//EvtGirlDateRegionDLeave1 
+"EvtGirlDateRegionDLeave1" = "糟…雅诗已经在等我…"; 
+"EvtGirlDateRegionDLeave1a" = "雅诗：「喂，又要走了吗你！」"; 
+"EvtGirlDateRegionDLeave1b" = "我：「对不起对不起…」"; 
+"EvtGirlDateRegionDLeave1c" = "我：「喂今天不要逛这吧。去一去我家可以吗？」"; 
+"EvtGirlDateRegionDLeave1d" = "雅诗：「嗯…」"; 
+
+//EvtGirlDateRegionDLeave2 
+"EvtGirlDateRegionDLeave2" = "今天我约了雅诗陪我去买东西"; 
+"EvtGirlDateRegionDLeave2a" = "怎料…"; 
+"EvtGirlDateRegionDLeave2b" = " …本店在进行内部装修… "; 
+"EvtGirlDateRegionDLeave2c" = "雅诗：「那怎么办？」"; 
+"EvtGirlDateRegionDLeave2d" = "我：「那我先走啦！反正没啥好看…拜！」"; 
+
+//EvtGirlDateRegionDLeave3 
+"EvtGirlDateRegionDLeave3" = "今天雅诗的购物欲一如以往般…"; 
+"EvtGirlDateRegionDLeave3a" = "两个字就足够形容…旺盛！"; 
+"EvtGirlDateRegionDLeave3b" = "三十分钟就已经有六大袋…"; 
+"EvtGirlDateRegionDLeave3c" = "其中三个袋破了！"; 
+"EvtGirlDateRegionDLeave3d" = "呵呵…要被逼停止Shopping 回家了！"; 
+
+//EvtGirlDateRegionDStart1 
+"EvtGirlDateRegionDStart1" = "今天跟平常一样。"; 
+"EvtGirlDateRegionDStart1a" = "早一点点到约会地点。"; 
+"EvtGirlDateRegionDStart1b" = "我觉得有时候男生等一阵子是没问题的！"; 
+"EvtGirlDateRegionDStart1c" = "而且.."; 
+"EvtGirlDateRegionDStart1d" = "这样雅诗会高兴点吧！"; 
+
+//EvtGirlDateRegionDStart2 
+"EvtGirlDateRegionDStart2" = "今天跟平常一样。"; 
+"EvtGirlDateRegionDStart2a" = "早了到约会地点。"; 
+"EvtGirlDateRegionDStart2b" = "那我就去一去洗手间，"; 
+"EvtGirlDateRegionDStart2c" = "去照照镜子，看自己准备了没。"; 
+"EvtGirlDateRegionDStart2d" = "完美！"; 
+
+//EvtGirlDateRegionDStart3 
+"EvtGirlDateRegionDStart3" = "今天迟了很多。"; 
+"EvtGirlDateRegionDStart3a" = "我看看表…雅诗已经走了…"; 
+"EvtGirlDateRegionDStart3b" = "反正没事干，那就去坐坐吧。"; 
+"EvtGirlDateRegionDStart3c" = "闷………"; 
+"EvtGirlDateRegionDStart3d" = "太迟到约会地方都不是太好……"; 
+
+//EvtGirlDateRomanceRegionD1 
+"EvtGirlDateRomanceRegionD1" = "我带雅诗到美食广场尝尝那个吐司。"; 
+"EvtGirlDateRomanceRegionD1a" = "我：「你觉得怎样？」"; 
+"EvtGirlDateRomanceRegionD1b" = "雅诗：「还可以。」"; 
+"EvtGirlDateRomanceRegionD1c" = "我：「我知道有一间非常好吃的！下次带你去！」"; 
+"EvtGirlDateRomanceRegionD1d" = "雅诗：「好！就等你约我啦！」"; 
+
+//EvtGirlDateRomanceRegionD2 
+"EvtGirlDateRomanceRegionD2" = "雅诗：「那不是你的衣服吗？！」"; 
+"EvtGirlDateRomanceRegionD2a" = "我：「哪里哪里？」"; 
+"EvtGirlDateRomanceRegionD2b" = "雅诗：「你穿得比他好看多啦！」"; 
+"EvtGirlDateRomanceRegionD2c" = "那店员无奈地看着我们。"; 
+"EvtGirlDateRomanceRegionD2d" = "我：「拜托！真的超级尴尬！不要再闹啦！」"; 
+
+//EvtGirlDateRomanceRegionD3 
+"EvtGirlDateRomanceRegionD3" = "雅诗正目瞪口呆的看着…"; 
+"EvtGirlDateRomanceRegionD3a" = "原来是寻宝游戏的纪念品"; 
+"EvtGirlDateRomanceRegionD3b" = "雅诗很小声的说：「好漂亮呀。」"; 
+"EvtGirlDateRomanceRegionD3c" = "好！为了你…我一定会换给你！"; 
+"EvtGirlDateRomanceRegionD3d" = "我想雅诗收到之后一定十分开心"; 
+
+//EvtGirlWalkLookRegionD1 -- glasses 
+"EvtGirlWalkLookRegionD1" = "眼镜店内有一群人在讨论什么"; 
+"EvtGirlWalkLookRegionD1a" = "路人甲：「这个眼镜从来都未见过！叫什么呢？」"; 
+"EvtGirlWalkLookRegionD1b" = "路人乙：「对啊！好像样子怪怪的！」"; 
+"EvtGirlWalkLookRegionD1c" = "我：「这叫Effector，全是人手造的， 台湾只有一百个发售！」"; 
+"EvtGirlWalkLookRegionD1d" = "他们用崇拜的眼光看着我"; 
+
+//EvtGirlWalkLookRegionD2 -- t shirt +talent 
+"EvtGirlWalkLookRegionD2" = "这不是我超级喜欢的品牌？！"; 
+"EvtGirlWalkLookRegionD2a" = "这个商场开了一旗舰台店！"; 
+"EvtGirlWalkLookRegionD2b" = "得去看看"; 
+"EvtGirlWalkLookRegionD2c" = "买了一件衣服"; 
+"EvtGirlWalkLookRegionD2d" = "希望雅诗会喜欢我这样穿！"; 
+
+//EvtGirlWalkLookRegionD3 
+"EvtGirlWalkLookRegionD3" = "在美食广场有家咖啡店"; 
+"EvtGirlWalkLookRegionD3a" = "所有顾客都是买他的朱古力吐司"; 
+"EvtGirlWalkLookRegionD3b" = "我也点了一个试试看"; 
+"EvtGirlWalkLookRegionD3c" = "朱古力味也太少了吧"; 
+"EvtGirlWalkLookRegionD3d" = "果然只有汤姆的好"; 
+
+//EvtGirlWalkRegionDPreset1 
+"EvtGirlWalkRegionDPreset1" = "怎么商场有一条人龙？"; 
+"EvtGirlWalkRegionDPreset1a" = "看看吧…"; 
+"EvtGirlWalkRegionDPreset1b" = "哈，原来是要换取那个纪念品。"; 
+"EvtGirlWalkRegionDPreset1c" = "你们慢慢等吧！"; 
+"EvtGirlWalkRegionDPreset1d" = "哈哈，我先回家了！"; 
+
+//EvtGirlWalkRegionDPreset2 
+"EvtGirlWalkRegionDPreset2" = "今次一定要得到商场的限定品！"; 
+"EvtGirlWalkRegionDPreset2a" = "极速奔跑中……"; 
+"EvtGirlWalkRegionDPreset2b" = "冲呀！！！！"; 
+"EvtGirlWalkRegionDPreset2c" = "刚刚开售…换到了！"; 
+"EvtGirlWalkRegionDPreset2d" = "是一个天鹅版的特大草莓水晶！"; 
+
+//EvtGirlWalkRegionDStart1 
+"EvtGirlWalkRegionDStart1" = "有大大小小的商店， "; 
+"EvtGirlWalkRegionDStart1a" = "绝对是找礼物的好地方。"; 
+"EvtGirlWalkRegionDStart1b" = "我最喜欢的品牌也在这里开了一家店！"; 
+"EvtGirlWalkRegionDStart1c" = "真的十分期待！"; 
+"EvtGirlWalkRegionDStart1d" = "当然也希望可以买些什么给雅诗吧！"; 
+
+//EvtGirlWalkTalkRegionD1 
+"EvtGirlWalkTalkRegionD1" = "售货员：「先生你好。」"; 
+"EvtGirlWalkTalkRegionD1a" = "售货员：「这是商场的小册子… 提提你…今季我们正在办寻宝游戏喔！」"; 
+"EvtGirlWalkTalkRegionD1b" = "售货员：「得奖名单会在星期三下午一点钟公布，先到先得。」"; 
+"EvtGirlWalkTalkRegionD1c" = "我：「谢谢。」"; 
+"EvtGirlWalkTalkRegionD1d" = "售货员：「不坏。」"; 
+
+//EvtGirlWalkTalkRegionD2 
+"EvtGirlWalkTalkRegionD2" = "每次来到这个巨大商场都不太舒服…"; 
+"EvtGirlWalkTalkRegionD2a" = "肚…肚子…又…又来了！"; 
+"EvtGirlWalkTalkRegionD2b" = "我：「请问你最近的洗手间在哪里？」"; 
+"EvtGirlWalkTalkRegionD2c" = "售货员：「一直走到尽头再右转就是。」"; 
+"EvtGirlWalkTalkRegionD2d" = "我：「谢谢！」"; 
+
+//EvtGirlWalkTalkRegionD3 
+"EvtGirlWalkTalkRegionD3" = "有一个小孩在询问处放声大哭。"; 
+"EvtGirlWalkTalkRegionD3a" = "商场广播：「朱正的家人…请你门快到询问处。」"; 
+"EvtGirlWalkTalkRegionD3b" = "「请你门快到询问处… 你们的小孩子正在等你。」"; 
+"EvtGirlWalkTalkRegionD3c" = "有没有搞错？"; 
+"EvtGirlWalkTalkRegionD3d" = "每次听到这些遗失小孩的事就非常不快！"; 
+
+
+
+//Region E 
+//EvtGirlDateChatRegionE1 
+"EvtGirlDateChatRegionE1" = "雅诗：「其实…你怎么会带我来这里？」"; 
+"EvtGirlDateChatRegionE1a" = "我：「你不喜欢吗？」"; 
+"EvtGirlDateChatRegionE1b" = "雅诗：「没有！我一直都想试CAFÉ，可是没时间。」"; 
+"EvtGirlDateChatRegionE1c" = "我：「那你一定要尝尝他的吐司！」"; 
+"EvtGirlDateChatRegionE1d" = "雅诗：「知道啦！你说比商场的好吃嘛。」"; 
+
+//EvtGirlDateChatRegionE2 
+"EvtGirlDateChatRegionE2" = "我：「娜娜这是我的朋友，雅诗。」"; 
+"EvtGirlDateChatRegionE2a" = "娜娜：「你好，我是娜娜」"; 
+"EvtGirlDateChatRegionE2b" = "雅诗：「你好。」"; 
+"EvtGirlDateChatRegionE2c" = "娜娜：「今天好忙呀，我要工作啦！」"; 
+"EvtGirlDateChatRegionE2d" = "我好像感觉到娜娜在一边看着我们…"; 
+
+//EvtGirlDateChatRegionE3 
+"EvtGirlDateChatRegionE3" = "朱古力厚吐司来了"; 
+"EvtGirlDateChatRegionE3a" = "我：「快试试看！」"; 
+"EvtGirlDateChatRegionE3b" = "雅诗：「真的有你说的那么好吃吗？」"; 
+"EvtGirlDateChatRegionE3c" = "我：「相信我，你一定会吃到失控！」"; 
+"EvtGirlDateChatRegionE3d" = "雅诗：「你去死吧！」"; 
+
+//EvtGirlDateRegionELeave1 
+"EvtGirlDateRegionELeave1" = "咖啡店今天竟然休假！"; 
+"EvtGirlDateRegionELeave1a" = "我们都傻了眼…"; 
+"EvtGirlDateRegionELeave1b" = "雅诗：「不开心…」"; 
+"EvtGirlDateRegionELeave1c" = "我：「下次再来啦，反正我等等要打工！」"; 
+"EvtGirlDateRegionELeave1d" = "雅诗：「那好吧…」"; 
+
+//EvtGirlDateRegionELeave2 
+"EvtGirlDateRegionELeave2" = "我们都点了一杯黑芝麻奶茶…"; 
+"EvtGirlDateRegionELeave2a" = "雅诗：「真的很好喝！」"; 
+"EvtGirlDateRegionELeave2b" = "我：「对呀！」"; 
+"EvtGirlDateRegionELeave2c" = "十多分钟后…我感觉到肚里突然翻起滔天巨浪！";
+"EvtGirlDateRegionELeave2d" = "我：「对不起！我先走啦，拜拜！」"; 
+
+//EvtGirlDateRegionELeave3 
+"EvtGirlDateRegionELeave3" = "食物刚刚放到我们面前。"; 
+"EvtGirlDateRegionELeave3a" = "雅诗：「卖相不错喔！」"; 
+"EvtGirlDateRegionELeave3b" = "我：「对呀！」"; 
+"EvtGirlDateRegionELeave3c" = "我：「糟子！忘了要缴电费！」"; 
+"EvtGirlDateRegionELeave3d" = "我：「对不起，我先走啦，拜！」"; 
+
+//EvtGirlDateRegionEStart1 
+"EvtGirlDateRegionEStart1" = "今天跟平常一样。"; 
+"EvtGirlDateRegionEStart1a" = "早一点点到约会地点。"; 
+"EvtGirlDateRegionEStart1b" = "我觉得有时候男生等一阵子是没问题的！"; 
+"EvtGirlDateRegionEStart1c" = "而且.."; 
+"EvtGirlDateRegionEStart1d" = "这样雅诗会高兴点吧！"; 
+
+//EvtGirlDateRegionEStart2 
+"EvtGirlDateRegionEStart2" = "今天跟平常一样。"; 
+"EvtGirlDateRegionEStart2a" = "早了到约会地点。"; 
+"EvtGirlDateRegionEStart2b" = "那我就去一去洗手间，"; 
+"EvtGirlDateRegionEStart2c" = "去照照镜子，看自己准备了没。"; 
+"EvtGirlDateRegionEStart2d" = "完美！"; 
+
+//EvtGirlDateRegionEStart3 
+"EvtGirlDateRegionEStart3" = "今天迟了很多。"; 
+"EvtGirlDateRegionEStart3a" = "我看看表…雅诗已经走了…"; 
+"EvtGirlDateRegionEStart3b" = "反正没事干，那就去坐坐吧。"; 
+"EvtGirlDateRegionEStart3c" = "闷………"; 
+"EvtGirlDateRegionEStart3d" = "太迟到约会地方都不是太好……"; 
+
+//EvtGirlDateRomanceRegionE1 
+"EvtGirlDateRomanceRegionE1" = "雅诗在看着MENU 好想所有东西都要点"; 
+"EvtGirlDateRomanceRegionE1a" = "哈哈…她这个样子真傻…"; 
+"EvtGirlDateRomanceRegionE1b" = "雅诗：「我们要点二人套餐吗？」"; 
+"EvtGirlDateRomanceRegionE1c" = "雅诗：「喂！干么在傻笑？」"; 
+"EvtGirlDateRomanceRegionE1d" = "我：「没…有，就点套餐吧。(汗) 」 "; 
+
+//EvtGirlDateRomanceRegionE2 
+"EvtGirlDateRomanceRegionE2" = "真的吃了超级多！"; 
+"EvtGirlDateRomanceRegionE2a" = "雅诗：「哎哟…有人的肚脐不小心跑出来！」"; 
+"EvtGirlDateRomanceRegionE2b" = "我：「哪有？」"; 
+"EvtGirlDateRomanceRegionE2c" = "雅诗：「呵呵呵！吃到快变成猪！」"; 
+"EvtGirlDateRomanceRegionE2d" = "我：「好啦！不要再闹啦！」"; 
+
+//EvtGirlDateRomanceRegionE3 
+"EvtGirlDateRomanceRegionE3" = "我：「欸！雅诗看看那个海报。」"; 
+"EvtGirlDateRomanceRegionE3a" = "雅诗：「飞镖比赛耶…什么时候？你会参加吗？」"; 
+"EvtGirlDateRomanceRegionE3b" = "我：「我不清楚，但一定会参加！」"; 
+"EvtGirlDateRomanceRegionE3c" = "我：「但你会来看我比赛吗？」"; 
+"EvtGirlDateRomanceRegionE3d" = "雅诗：「好我一定会来为你打气。」"; 
+
+//EvtGirlWalkLookRegionE1 – fork +social 
+"EvtGirlWalkLookRegionE1" = "有一群小孩子在舞弄餐具！"; 
+"EvtGirlWalkLookRegionE1a" = "他们像是不懂用法…"; 
+"EvtGirlWalkLookRegionE1b" = "我该怎么办呢……有啦！"; 
+"EvtGirlWalkLookRegionE1c" = "我喂正确的使用方法是这样子"; 
+"EvtGirlWalkLookRegionE1d" = "小孩们哦…谢谢！"; 
+
+//EvtGirlWalkLookRegionE2 – chopstick +talent 
+"EvtGirlWalkLookRegionE2" = "今天突然心血来潮。"; 
+"EvtGirlWalkLookRegionE2a" = "我想要训练筷子正确的使用方法。"; 
+"EvtGirlWalkLookRegionE2b" = "这个不行！那个也不对！"; 
+"EvtGirlWalkLookRegionE2c" = "哦…原来包装上有使用方法！"; 
+"EvtGirlWalkLookRegionE2d" = "大成功！我真的太聪明了！"; 
+
+//EvtGirlWalkLookRegionE3 
+"EvtGirlWalkLookRegionE3" = "其实我不只喜欢这里的食物。"; 
+"EvtGirlWalkLookRegionE3a" = "当然还有饮料和…"; 
+"EvtGirlWalkLookRegionE3b" = "女侍应生的服务态度。"; 
+"EvtGirlWalkLookRegionE3c" = "嘿嘿！但最重要的是…"; 
+"EvtGirlWalkLookRegionE3d" = "她们的制服实在引人犯罪！"; 
+
+//EvtGirlWalkRegionEPreset1 
+"EvtGirlWalkRegionEPreset1" = "今天咖啡店没什么人。"; 
+"EvtGirlWalkRegionEPreset1a" = "有时候我也爱这种安静的格调。"; 
+"EvtGirlWalkRegionEPreset1b" = "有两个人在玩飞镖。"; 
+"EvtGirlWalkRegionEPreset1c" = "他们是为下次比赛作准备吗？"; 
+"EvtGirlWalkRegionEPreset1d" = "哈哈！反正都跟我没关系啦。"; 
+
+//EvtGirlWalkRegionEPreset2 
+"EvtGirlWalkRegionEPreset2" = "经过一轮苦战终于赢得冠军了！"; 
+"EvtGirlWalkRegionEPreset2a" = "雅诗：「谢谢你…不过我有一个要求！而你不能拒绝！」"; 
+"EvtGirlWalkRegionEPreset2b" = "我什么要求？"; 
+"EvtGirlWalkRegionEPreset2c" = "雅诗：「我要把这礼物放在你房间。」"; 
+"EvtGirlWalkRegionEPreset2d" = "真的有少少莫名其妙…但我只能接受这要求吧。"; 
+
+//EvtGirlWalkRegionEStart1 
+"EvtGirlWalkRegionEStart1" = "汤姆是我最喜爱的咖啡室。"; 
+"EvtGirlWalkRegionEStart1a" = "雅诗常常在这里买冰奶茶和朱古力厚多士给我吃。"; 
+"EvtGirlWalkRegionEStart1b" = "我自己也常来这间咖啡店，"; 
+"EvtGirlWalkRegionEStart1c" = "我跟这里的侍应也混熟了，"; 
+"EvtGirlWalkRegionEStart1d" = "娜娜就最其中一个，唔知道她有没有上班呢。"; 
+
+//EvtGirlWalkTalkRegionE1 
+"EvtGirlWalkTalkRegionE1" = "随便找一个卡厢先坐下"; 
+"EvtGirlWalkTalkRegionE1a" = "声音：「不好意思，我们要打烊了。」"; 
+"EvtGirlWalkTalkRegionE1b" = "什么我才刚坐下"; 
+"EvtGirlWalkTalkRegionE1c" = "我：「原本是娜娜，哈哈。」"; 
+"EvtGirlWalkTalkRegionE1d" = "娜娜：「哈哈！开玩笑而已！要点什么呢？」"; 
+
+//EvtGirlWalkTalkRegionE2 
+"EvtGirlWalkTalkRegionE2" = "娜娜：「欸！下星期我们会办一个比赛，你知道吗？」"; 
+"EvtGirlWalkTalkRegionE2a" = "我：「什么比赛？」"; 
+"EvtGirlWalkTalkRegionE2b" = "娜娜：「好像是飞镖比赛」"; 
+"EvtGirlWalkTalkRegionE2c" = "我：「哦是我强项！什么时候办呀！」"; 
+"EvtGirlWalkTalkRegionE2d" = "娜娜：「星期四的下午四点钟，期待你的表现喔。」"; 
+
+//EvtGirlWalkTalkRegionE3 
+"EvtGirlWalkTalkRegionE3" = "娜娜慢慢的走来我身边…"; 
+"EvtGirlWalkTalkRegionE3a" = "娜娜：「这里的食物真的那么吸引你吗？」"; 
+"EvtGirlWalkTalkRegionE3b" = "我：「对呀！真的超级好吃。」"; 
+"EvtGirlWalkTalkRegionE3c" = "娜娜的眼神好想在期待什么似的…"; 
+"EvtGirlWalkTalkRegionE3d" = "娜娜干么这样子呢？莫名其妙…"; 
+
+//Region F 动植物公园 
+//EvtGirlDateChatRegionF1 
+"EvtGirlDateChatRegionF1" = "跟雅诗走了一阵子…"; 
+"EvtGirlDateChatRegionF1a" = "又到了她的发问时间。"; 
+"EvtGirlDateChatRegionF1b" = "雅诗：「你怎样会带我到这里？」"; 
+"EvtGirlDateChatRegionF1c" = "我呆着…不知道该怎样回答她…"; 
+"EvtGirlDateChatRegionF1d" = "我：「没有…喜欢到这里拍照而已。」"; 
+
+//EvtGirlDateChatRegionF2 
+"EvtGirlDateChatRegionF2" = "雅诗突然开口说…"; 
+"EvtGirlDateChatRegionF2a" = "雅诗：「我觉得你今天有些不同呢…」"; 
+"EvtGirlDateChatRegionF2b" = "雅诗：「发生什么事呢？」"; 
+"EvtGirlDateChatRegionF2c" = "我没有回应她。"; 
+"EvtGirlDateChatRegionF2d" = "雅诗的情绪被我影响了…"; 
+
+//EvtGirlDateChatRegionF3 
+"EvtGirlDateChatRegionF3" = "我终于跟雅诗说了双亲的事"; 
+"EvtGirlDateChatRegionF3a" = "她挂着一个难以置信的表情…"; 
+"EvtGirlDateChatRegionF3b" = "但现在已经没关系"; 
+"EvtGirlDateChatRegionF3c" = "因为有她在我身边。"; 
+"EvtGirlDateChatRegionF3d" = "雅诗用她温暖的手轻抚我脸庞…"; 
+
+//EvtGirlDateRegionFLeave1 
+"EvtGirlDateRegionFLeave1" = "我跟雅诗刚买了票。"; 
+"EvtGirlDateRegionFLeave1a" = "刚进去的时候…有一群人跑出来…"; 
+"EvtGirlDateRegionFLeave1b" = "群众：「快走呀！有一头狮子跑了出来！」"; 
+"EvtGirlDateRegionFLeave1c" = "我：「那快跑啦！雅诗！」"; 
+"EvtGirlDateRegionFLeave1d" = "今天的动物园约会只好取消…"; 
+
+//EvtGirlDateRegionFLeave2 
+"EvtGirlDateRegionFLeave2" = "雅诗好像有些不妥"; 
+"EvtGirlDateRegionFLeave2a" = "我：「雅诗，你怎么了？」"; 
+"EvtGirlDateRegionFLeave2b" = "雅诗：「我肚子示太舒服…」"; 
+"EvtGirlDateRegionFLeave2c" = "雅诗：「你可以陪我回家吗？」"; 
+"EvtGirlDateRegionFLeave2d" = "我：「那…我送你回去吧…」"; 
+
+//EvtGirlDateRegionFLeave3 
+"EvtGirlDateRegionFLeave3" = "突然不知什么东西打中我的后脑…"; 
+"EvtGirlDateRegionFLeave3a" = "真的超级痛！痛得我都倒下了…"; 
+"EvtGirlDateRegionFLeave3b" = "雅诗：「喂喂！净开眼睛呀！」"; 
+"EvtGirlDateRegionFLeave3c" = "我的眼皮愈来愈重…"; 
+"EvtGirlDateRegionFLeave3d" = "然后我就失去知觉了…"; 
+
+//EvtGirlDateRegionFStart1 
+"EvtGirlDateRegionFStart1" = "今天跟平常一样。"; 
+"EvtGirlDateRegionFStart1a" = "早一点点到约会地点。"; 
+"EvtGirlDateRegionFStart1b" = "我觉得有时候男生等一阵子是没问题的！"; 
+"EvtGirlDateRegionFStart1c" = "而且.."; 
+"EvtGirlDateRegionFStart1d" = "这样雅诗会高兴点吧！"; 
+
+//EvtGirlDateRegionFStart2 
+"EvtGirlDateRegionFStart2" = "今天跟平常一样。"; 
+"EvtGirlDateRegionFStart2a" = "早了到约会地点。"; 
+"EvtGirlDateRegionFStart2b" = "那我就去一去洗手间，"; 
+"EvtGirlDateRegionFStart2c" = "去照照镜子，看自己准备了没。"; 
+"EvtGirlDateRegionFStart2d" = "完美！"; 
+
+//EvtGirlDateRegionFStart3 
+"EvtGirlDateRegionFStart3" = "今天迟了很多。"; 
+"EvtGirlDateRegionFStart3a" = "我看看表…雅诗已经走了…"; 
+"EvtGirlDateRegionFStart3b" = "反正没事干，那就去坐坐吧。"; 
+"EvtGirlDateRegionFStart3c" = "闷………"; 
+"EvtGirlDateRegionFStart3d" = "太迟到约会地方都不是太好……"; 
+
+//EvtGirlDateRomanceRegionF1 
+"EvtGirlDateRomanceRegionF1" = "我把雅诗带到老伯伯那边…"; 
+"EvtGirlDateRomanceRegionF1a" = "我：「你要试试喂动物吃东西吗？」"; 
+"EvtGirlDateRomanceRegionF1b" = "雅诗二话不说就上前了…"; 
+"EvtGirlDateRomanceRegionF1c" = "充满爱心的一面表露无遗…"; 
+"EvtGirlDateRomanceRegionF1d" = "然后我按下快门捕捉这一刹！"; 
+
+//EvtGirlDateRomanceRegionF2 
+"EvtGirlDateRomanceRegionF2" = "雅诗：「这头猴子的样子真奇怪！」"; 
+"EvtGirlDateRomanceRegionF2a" = "我：「哈哈！对啊！」"; 
+"EvtGirlDateRomanceRegionF2b" = "然后我装成那猴子的模样"; 
+"EvtGirlDateRomanceRegionF2c" = "我：「那我奇怪吗？」"; 
+"EvtGirlDateRomanceRegionF2d" = "雅诗笑到快死"; 
+
+//EvtGirlDateRomanceRegionF3 
+"EvtGirlDateRomanceRegionF3" = "雅诗：「欸欸！帮我拍照！」"; 
+"EvtGirlDateRomanceRegionF3a" = "我：「好吧…准备！」"; 
+"EvtGirlDateRomanceRegionF3b" = "雅诗：「看我的美少女十个pose！」"; 
+"EvtGirlDateRomanceRegionF3c" = "我按下快门"; 
+"EvtGirlDateRomanceRegionF3d" = "雅诗真的好漂亮！"; 
+
+//EvtGirlWalkLookRegionF1 – leaf + SOCIAL 
+"EvtGirlWalkLookRegionF1" = "一个小孩子拿着叶子呆在树下自言自语…"; 
+"EvtGirlWalkLookRegionF1a" = "小孩子：「为什么叶子会丢下的了？」"; 
+"EvtGirlWalkLookRegionF1b" = "然后我就随便解释给他听"; 
+"EvtGirlWalkLookRegionF1c" = "小孩子：「哥哥好聪明呀！」"; 
+"EvtGirlWalkLookRegionF1d" = "当小孩真好"; 
+
+//EvtGirlWalkLookRegionF2 – bicycle +talent 
+"EvtGirlWalkLookRegionF2" = "一个小孩再放声大哭"; 
+"EvtGirlWalkLookRegionF2a" = "原来是他的自行车坏了！"; 
+"EvtGirlWalkLookRegionF2b" = "反正没事干…走过去帮他修理一下吧！"; 
+"EvtGirlWalkLookRegionF2c" = "我：「看这样就修好了！多简单！」"; 
+"EvtGirlWalkLookRegionF2d" = "小孩子：「太神了！大哥哥！谢谢你！」"; 
+
+//EvtGirlWalkLookRegionF3 
+"EvtGirlWalkLookRegionF3" = "每一次拿起相机到动物园拍摄…"; 
+"EvtGirlWalkLookRegionF3a" = "都会想起一些往事…"; 
+"EvtGirlWalkLookRegionF3b" = "小时候我爸妈都会带我跟妹妹来这拍照留念"; 
+"EvtGirlWalkLookRegionF3c" = "现在到我懂摄影了…却没有机会…"; 
+"EvtGirlWalkLookRegionF3d" = "唉…"; 
+
+//EvtGirlWalkRegionFPreset1 
+"EvtGirlWalkRegionFPreset1" = "经过上次当义工的大草地。"; 
+"EvtGirlWalkRegionFPreset1a" = "看到另外一班孩子在当义工！"; 
+"EvtGirlWalkRegionFPreset1b" = "那个老伯伯今天也很开心。"; 
+"EvtGirlWalkRegionFPreset1c" = "其实养一只小动物还不错，"; 
+"EvtGirlWalkRegionFPreset1d" = "有钱的话一定要买一只猫回家！"; 
+
+//EvtGirlWalkRegionFPreset2 +PINEAPPLE 
+"EvtGirlWalkRegionFPreset2" = "已经逛了大半天。"; 
+"EvtGirlWalkRegionFPreset2a" = "反正没事干，那就去当当义工吧！"; 
+"EvtGirlWalkRegionFPreset2b" = "我最喜欢猫猫，但今天的都是狗狗…"; 
+"EvtGirlWalkRegionFPreset2c" = "还好它们都很乖。"; 
+"EvtGirlWalkRegionFPreset2d" = "事成后，那个老伯伯给我一个凤梨形状的小礼物。"; 
+
+//EvtGirlWalkRegionFStart1 
+"EvtGirlWalkRegionFStart1" = " 这里就是动植物公园。"; 
+"EvtGirlWalkRegionFStart1a" = "动植物公园是我留下最多小时候回忆的地方"; 
+"EvtGirlWalkRegionFStart1b" = "因为小时候我爸常常带我来玩。"; 
+"EvtGirlWalkRegionFStart1c" = "跟妈妈和妹妹拍照。"; 
+"EvtGirlWalkRegionFStart1d" = "长大后来到这里总是不太开心。"; 
+
+//EvtGirlWalkTalkRegionF1 
+"EvtGirlWalkTalkRegionF1" = "老伯伯：「小兄弟！」"; 
+"EvtGirlWalkTalkRegionF1a" = "老伯伯：「要当义工帮忙吗？」"; 
+"EvtGirlWalkTalkRegionF1b" = "我：「要怎样帮？」"; 
+"EvtGirlWalkTalkRegionF1c" = "老伯伯：「星期五下午五点钟再来吧！会给你一份小礼物的！」"; 
+"EvtGirlWalkTalkRegionF1d" = "我：「好！我想想看吧！」"; 
+
+//EvtGirlWalkTalkRegionF2 
+"EvtGirlWalkTalkRegionF2" = "一个年老的动物饲养员正在喂动物"; 
+"EvtGirlWalkTalkRegionF2a" = "这个画面好漂亮"; 
+"EvtGirlWalkTalkRegionF2b" = "雀鸟小猫小狗都围着老伯跳舞"; 
+"EvtGirlWalkTalkRegionF2c" = "老伯伯非常的高兴！"; 
+"EvtGirlWalkTalkRegionF2d" = "真是教人感动。"; 
+
+//EvtGirlWalkTalkRegionF3 
+"EvtGirlWalkTalkRegionF3" = "有一个老伯走过来…"; 
+"EvtGirlWalkTalkRegionF3a" = "老伯：「小兄弟！」"; 
+"EvtGirlWalkTalkRegionF3b" = "老伯有没有见过一个跟我长得一样的老伯？"; 
+"EvtGirlWalkTalkRegionF3c" = "我：「他好像在那边喂动物吃饭！」"; 
+"EvtGirlWalkTalkRegionF3d" = "老伯：「谢谢。」"; 
+
+
+//----------------------------Region G 
+//EvtGirlDateChatRegionG1 
+"EvtGirlDateChatRegionG1" = "我：「喂！今天我们就唱四个小时，好吗？」"; 
+"EvtGirlDateChatRegionG1a" = "雅诗：「好呀，四个小时都够了！」"; 
+"EvtGirlDateChatRegionG1b" = "我：「你会唱什么歌呢！」"; 
+"EvtGirlDateChatRegionG1c" = "雅诗：「广东话中文的都可以！」"; 
+"EvtGirlDateChatRegionG1d" = "我：「真厉害！」"; 
+
+//EvtGirlDateChatRegionG2 
+"EvtGirlDateChatRegionG2" = "我：「喂，你喜欢唱KTV 吗？」"; 
+"EvtGirlDateChatRegionG2a" = "雅诗：「喜欢呀！」"; 
+"EvtGirlDateChatRegionG2b" = "我：「为什么呢？」"; 
+"EvtGirlDateChatRegionG2c" = "雅诗：「你要留意我等待点的歌的歌词！」"; 
+"EvtGirlDateChatRegionG2d" = "我：「好啦！」"; 
+
+//EvtGirlDateChatRegionG3 
+"EvtGirlDateChatRegionG3" = "我：「欸，你等等会点什么歌呢？」"; 
+"EvtGirlDateChatRegionG3a" = "雅诗：「应该会多点男女生合唱的歌啦！」"; 
+"EvtGirlDateChatRegionG3b" = "我：「太好啦！因为平常都是全男班！」"; 
+"EvtGirlDateChatRegionG3c" = "她对着我微笑，然后说。"; 
+"EvtGirlDateChatRegionG3d" = " 「那以后我多陪你来KTV啰！」"; 
+
+//EvtGirlDateRegionGLeave1 
+"EvtGirlDateRegionGLeave1" = "服务生：「请问有没有订房子？」"; 
+"EvtGirlDateRegionGLeave1a" = "我：「没有喔…」"; 
+"EvtGirlDateRegionGLeave1b" = "服务生：「那对不起，今天没有空的包厢了。」"; 
+"EvtGirlDateRegionGLeave1c" = "我：「都怪我啦…对不起！」"; 
+"EvtGirlDateRegionGLeave1d" = "雅诗：「没关系～」"; 
+
+//EvtGirlDateRegionGLeave2 
+"EvtGirlDateRegionGLeave2" = "服务生：「请问有没有预订？」"; 
+"EvtGirlDateRegionGLeave2a" = "我：「有呀…两个人，姓高。」"; 
+"EvtGirlDateRegionGLeave2b" = "十分钟后…"; 
+"EvtGirlDateRegionGLeave2c" = "服务生：「对不起，你订了另外一间店。」"; 
+"EvtGirlDateRegionGLeave2d" = "我：「唉…怎么会搞错的？」"; 
+
+//EvtGirlDateRegionGLeave3 
+"EvtGirlDateRegionGLeave3" = "今天终于没出错啦！"; 
+"EvtGirlDateRegionGLeave3a" = "雅诗点了很多小吃，为了她我只好吃一点点。"; 
+"EvtGirlDateRegionGLeave3b" = "三十分钟后…"; 
+"EvtGirlDateRegionGLeave3c" = "我的肚子超痛。"; 
+"EvtGirlDateRegionGLeave3d" = "然后雅诗就陪我去看医生。"; 
+
+//EvtGirlDateRegionGStart1 
+"EvtGirlDateRegionGStart1" = "今天跟平常一样。"; 
+"EvtGirlDateRegionGStart1a" = "早一点点到约会地点。"; 
+"EvtGirlDateRegionGStart1b" = "我觉得有时候男生等一阵子是没问题的！"; 
+"EvtGirlDateRegionGStart1c" = "而且.."; 
+"EvtGirlDateRegionGStart1d" = "这样雅诗会高兴点吧！"; 
+
+//EvtGirlDateRegionGStart2 
+"EvtGirlDateRegionGStart2" = "今天跟平常一样。"; 
+"EvtGirlDateRegionGStart2a" = "早了到约会地点。"; 
+"EvtGirlDateRegionGStart2b" = "那我就去一去洗手间，"; 
+"EvtGirlDateRegionGStart2c" = "去照照镜子，看自己准备了没。"; 
+"EvtGirlDateRegionGStart2d" = "完美！"; 
+
+//EvtGirlDateRegionGStart3 
+"EvtGirlDateRegionGStart3" = "今天迟了很多。"; 
+"EvtGirlDateRegionGStart3a" = "我看看表…雅诗已经走了…"; 
+"EvtGirlDateRegionGStart3b" = "反正没事干，那就去坐坐吧。"; 
+"EvtGirlDateRegionGStart3c" = "闷………"; 
+"EvtGirlDateRegionGStart3d" = "太迟到约会地方都不是太好……"; 
+
+//EvtGirlDateRomanceRegionG1 
+"EvtGirlDateRomanceRegionG1" = "第一次跟雅诗来KTV…"; 
+"EvtGirlDateRomanceRegionG1a" = "心情紧张到不行！"; 
+"EvtGirlDateRomanceRegionG1b" = "她应该知道我紧张…所以点了一首轻快的歌！"; 
+"EvtGirlDateRomanceRegionG1c" = "她一边唱歌一边逗我笑！"; 
+"EvtGirlDateRomanceRegionG1d" = "使我心情轻松多了！"; 
+
+//EvtGirlDateRomanceRegionG2 
+"EvtGirlDateRomanceRegionG2" = "这是我第一次跟雅诗唱KTV…"; 
+"EvtGirlDateRomanceRegionG2a" = "为了给一个好印象。"; 
+"EvtGirlDateRomanceRegionG2b" = "我决定唱这首歌"; 
+"EvtGirlDateRomanceRegionG2c" = "怎料…第一句就分岔啦…"; 
+"EvtGirlDateRomanceRegionG2d" = "雅诗轻拍我的肩膀说加油。"; 
+
+//EvtGirlDateRomanceRegionG3 
+"EvtGirlDateRomanceRegionG3" = "雅诗放下咪高峰。"; 
+"EvtGirlDateRomanceRegionG3a" = "她说：「其实今天是我第一次跟男生唱KTV…」"; 
+"EvtGirlDateRomanceRegionG3b" = "她再：「你相信吗？」"; 
+"EvtGirlDateRomanceRegionG3c" = "我：「那…我不就是拿了你第一次吗？」"; 
+"EvtGirlDateRomanceRegionG3d" = "然后她的脸超红，骂我笨蛋。哈哈"; 
+
+//EvtGirlWalkLookRegionG1 – popcorn +health 
+"EvtGirlWalkLookRegionG1" = "每次跟朋友来KTV 都会点很多小吃。"; 
+"EvtGirlWalkLookRegionG1a" = "为了我的喉咙！"; 
+"EvtGirlWalkLookRegionG1b" = "为了我的尊严！"; 
+"EvtGirlWalkLookRegionG1c" = "为了我的面子！"; 
+"EvtGirlWalkLookRegionG1d" = "为了战胜那个女孩，我要开始训练！"; 
+
+//EvtGirlWalkLookRegionG2 – microphone +talent 
+"EvtGirlWalkLookRegionG2" = "特训开始！"; 
+"EvtGirlWalkLookRegionG2a" = "就点这首歌吧。"; 
+"EvtGirlWalkLookRegionG2b" = "死了都要！死了都要！死了都要！"; 
+"EvtGirlWalkLookRegionG2c" = "不行…要换过方式！"; 
+"EvtGirlWalkLookRegionG2d" = "死了都要…爱！！！"; 
+
+//EvtGirlWalkLookRegionG3 
+"EvtGirlWalkLookRegionG3" = "先休息一下…"; 
+"EvtGirlWalkLookRegionG3a" = "就点这首！"; 
+"EvtGirlWalkLookRegionG3b" = "Ｉ～ＬＯＶＥ～ＹＯＵ～"; 
+"EvtGirlWalkLookRegionG3c" = "ＯＮＥ　ＭＯＲＥ　ＴＩＭＥ！"; 
+"EvtGirlWalkLookRegionG3d" = "这是超水准！"; 
+
+//EvtGirlWalkRegionGPreset1 
+"EvtGirlWalkRegionGPreset1" = "天呀…"; 
+"EvtGirlWalkRegionGPreset1a" = "这个KTV 公司把我的照片放到海报上。"; 
+"EvtGirlWalkRegionGPreset1b" = "现在每个人都认得我啦。"; 
+"EvtGirlWalkRegionGPreset1c" = "真的丢面。"; 
+"EvtGirlWalkRegionGPreset1d" = "不知道那个好胜女孩怎么想呢？"; 
+
+//EvtGirlWalkRegionGPreset2 +cherry 
+"EvtGirlWalkRegionGPreset2" = "终于到了KTV比赛的日子。"; 
+"EvtGirlWalkRegionGPreset2a" = "经过一连的激战……"; 
+"EvtGirlWalkRegionGPreset2b" = "到了宣布冠军的时刻……"; 
+"EvtGirlWalkRegionGPreset2c" = "我赢了！"; 
+"EvtGirlWalkRegionGPreset2d" = "我看到雅诗在旁边很开心的样子！"; 
+
+//EvtGirlWalkRegionGStart1 
+"EvtGirlWalkRegionGStart1" = " KTV 是我第三最爱的地方。"; 
+"EvtGirlWalkRegionGStart1a" = "不论怎样的心情都可以到KTV 发泄！"; 
+"EvtGirlWalkRegionGStart1b" = "其实每一次来KTV都很开心。"; 
+"EvtGirlWalkRegionGStart1c" = "因为有很多搅笑的事情。"; 
+"EvtGirlWalkRegionGStart1d" = "真的期待跟雅诗的KTV约会。"; 
+
+//EvtGirlWalkTalkRegionG1 
+"EvtGirlWalkTalkRegionG1" = "杀气！！！"; 
+"EvtGirlWalkTalkRegionG1a" = "一个女孩像牛一样横冲直撞！"; 
+"EvtGirlWalkTalkRegionG1b" = "女孩冲到服务台。"; 
+"EvtGirlWalkTalkRegionG1c" = "然后一个人走入空厢！"; 
+"EvtGirlWalkTalkRegionG1d" = "我想她今天心情一定坚差吧！"; 
+
+//EvtGirlWalkTalkRegionG2 
+"EvtGirlWalkTalkRegionG2" = "一个女孩包起一个厢。"; 
+"EvtGirlWalkTalkRegionG2a" = "我站在外面听着她的歌声。"; 
+"EvtGirlWalkTalkRegionG2b" = "她的声音蛮好的"; 
+"EvtGirlWalkTalkRegionG2c" = "她充满杀气的眼睛盯着我！"; 
+"EvtGirlWalkTalkRegionG2d" = "逃…逃…"; 
+
+//EvtGirlWalkTalkRegionG3 
+"EvtGirlWalkTalkRegionG3" = "女孩：「你这是在监视对手吗？」"; 
+"EvtGirlWalkTalkRegionG3a" = "我傻了眼。"; 
+"EvtGirlWalkTalkRegionG3b" = "女孩：「你不要白费心机了。」"; 
+"EvtGirlWalkTalkRegionG3c" = "女孩：「星期六晚上六点钟的歌唱比赛我赢定了。」"; 
+"EvtGirlWalkTalkRegionG3d" = "既然你这样误会我，那我就挑战你。"; 
+
+
+//----------------------------Region H Date Chat 
+//EvtGirlDateChatRegionH1 
+"EvtGirlDateChatRegionH1" = "今天陪雅诗来到剧院…"; 
+"EvtGirlDateChatRegionH1a" = "我一直没开口。"; 
+"EvtGirlDateChatRegionH1b" = "雅诗突然说…"; 
+"EvtGirlDateChatRegionH1c" = "雅诗：「真的没想到你会陪我来。」"; 
+"EvtGirlDateChatRegionH1d" = "我只好苦笑。"; 
+
+//EvtGirlDateChatRegionH2 
+"EvtGirlDateChatRegionH2" = "我：「喂，雅诗。」"; 
+"EvtGirlDateChatRegionH2a" = "雅诗：「怎样了？」"; 
+"EvtGirlDateChatRegionH2b" = "我：「我一直都搞不懂…其实来剧院要穿什么衣服。」"; 
+"EvtGirlDateChatRegionH2c" = "她看一看我说：「这样就可以啦！」"; 
+"EvtGirlDateChatRegionH2d" = "但我穿的是短裤和拖鞋…"; 
+
+//EvtGirlDateChatRegionH3 
+"EvtGirlDateChatRegionH3" = "我：「喂…这里没有吃的吗？」"; 
+"EvtGirlDateChatRegionH3a" = "雅诗想一想…"; 
+"EvtGirlDateChatRegionH3b" = "然后说：「好像没有。」"; 
+"EvtGirlDateChatRegionH3c" = "我快饿死了"; 
+"EvtGirlDateChatRegionH3d" = "她拍拍我的肚子说：「忍耐一下～等等请你吃啦～」"; 
+
+//----------------------------Region H Date Leave 
+//EvtGirlDateRegionHLeave1 
+"EvtGirlDateRegionHLeave1" = "真的受不了！"; 
+"EvtGirlDateRegionHLeave1a" = "我：「我先走啦雅诗！我真的受不了啦！」"; 
+"EvtGirlDateRegionHLeave1b" = "雅诗：「为什么呢？」"; 
+"EvtGirlDateRegionHLeave1c" = "我：「真的超级闷！」"; 
+"EvtGirlDateRegionHLeave1d" = "然后我拖着她离开这鬼地方。"; 
+
+//EvtGirlDateRegionHLeave2 
+"EvtGirlDateRegionHLeave2" = "闷到死…话剧做到一半…"; 
+"EvtGirlDateRegionHLeave2a" = "我跟雅诗说我去洗手间。"; 
+"EvtGirlDateRegionHLeave2b" = "就这样走吧！我想…"; 
+"EvtGirlDateRegionHLeave2c" = "但上一次雅诗已经不太高兴…"; 
+"EvtGirlDateRegionHLeave2d" = "没关系！这次我发个简讯跟她说我突然不舒服就好了。"; 
+
+//EvtGirlDateRegionHLeave3 
+"EvtGirlDateRegionHLeave3" = "经过多次的训练…"; 
+"EvtGirlDateRegionHLeave3a" = "这次终于顶到三十分钟！"; 
+"EvtGirlDateRegionHLeave3b" = "但还是受不了，我要开口了！"; 
+"EvtGirlDateRegionHLeave3c" = "我：「欸…雅诗…我想…」"; 
+"EvtGirlDateRegionHLeave3d" = "雅诗：「走吧！其实我也不太喜欢这个！」"; 
+
+
+//EvtGirlDateRegionHStart1 
+"EvtGirlDateRegionHStart1" = "今天跟平常一样。"; 
+"EvtGirlDateRegionHStart1a" = "早一点点到约会地点。"; 
+"EvtGirlDateRegionHStart1b" = "我觉得有时候男生等一阵子是没问题的！"; 
+"EvtGirlDateRegionHStart1c" = "而且.."; 
+"EvtGirlDateRegionHStart1d" = "这样雅诗会高兴点吧！"; 
+
+//EvtGirlDateRegionHStart2 
+"EvtGirlDateRegionHStart2" = "今天跟平常一样。"; 
+"EvtGirlDateRegionHStart2a" = "早了到约会地点。"; 
+"EvtGirlDateRegionHStart2b" = "那我就去一去洗手间，"; 
+"EvtGirlDateRegionHStart2c" = "去照照镜子，看自己准备了没。"; 
+"EvtGirlDateRegionHStart2d" = "完美！"; 
+
+//EvtGirlDateRegionHStart3 
+"EvtGirlDateRegionHStart3" = "今天迟了很多。"; 
+"EvtGirlDateRegionHStart3a" = "我看看表…雅诗已经走了…"; 
+"EvtGirlDateRegionHStart3b" = "反正没事干，那就去坐坐吧。"; 
+"EvtGirlDateRegionHStart3c" = "闷………"; 
+"EvtGirlDateRegionHStart3d" = "太迟到约会地方都不是太好……"; 
+
+//----------------------------Region H Date Romance 
+//EvtGirlDateRomanceRegionH1 
+"EvtGirlDateRomanceRegionH1" = "真是让人受不了！"; 
+"EvtGirlDateRomanceRegionH1a" = "我睡啦！"; 
+"EvtGirlDateRomanceRegionH1b" = "我突然感觉到雅诗偷偷把她的纤细的手放在我手上。"; 
+"EvtGirlDateRomanceRegionH1c" = "真的很开心但我不能撞破她。"; 
+"EvtGirlDateRomanceRegionH1d" = "所以我一定要装睡。哈哈"; 
+
+//EvtGirlDateRomanceRegionH2 
+"EvtGirlDateRomanceRegionH2" = "我：「我觉得我下一次还穿好看一点吧。」"; 
+"EvtGirlDateRomanceRegionH2a" = "雅诗盯着我"; 
+"EvtGirlDateRomanceRegionH2b" = "然后说：「没关系…因为…」"; 
+"EvtGirlDateRomanceRegionH2c" = "「你穿什么我都不会离你而去」"; 
+"EvtGirlDateRomanceRegionH2d" = "这…这…太令我太感动了！"; 
+
+//EvtGirlDateRomanceRegionH3 
+"EvtGirlDateRomanceRegionH3" = "剧中的歌声简直就是催眠曲…"; 
+"EvtGirlDateRomanceRegionH3a" = "我醒一醒过来。"; 
+"EvtGirlDateRomanceRegionH3b" = "原来雅诗已经躺在我肩上…睡着了…"; 
+"EvtGirlDateRomanceRegionH3c" = "然后我把头轻轻的靠个去…"; 
+"EvtGirlDateRomanceRegionH3d" = "我相信…她洗头水的香味就是最好的香蕉。"; 
+
+//----------------------------Region H Walk Look 
+//EvtGirlWalkLookRegionH1 -- drama script +health 
+"EvtGirlWalkLookRegionH1" = "老师突然把一份剧本。"; 
+"EvtGirlWalkLookRegionH1a" = "他叫我试试跟他的方法朗读。"; 
+"EvtGirlWalkLookRegionH1b" = "呀～呀～呀～呀～"; 
+"EvtGirlWalkLookRegionH1c" = "然后我试着老师教的方法朗读剧本。"; 
+"EvtGirlWalkLookRegionH1d" = "读完以后觉得自己好像精神了一点点…"; 
+
+//EvtGirlWalkLookRegionH2 – mask +social 
+"EvtGirlWalkLookRegionH2" = "在剧院外有很多摊位。"; 
+"EvtGirlWalkLookRegionH2a" = "有不同的精品和小手饰出售…"; 
+"EvtGirlWalkLookRegionH2b" = "我被一个面具上的花样吸引着。"; 
+"EvtGirlWalkLookRegionH2c" = "我跟那售货员聊了关于面具的资料…"; 
+"EvtGirlWalkLookRegionH2d" = "真的获益不浅！"; 
+
+//EvtGirlWalkLookRegionH3 
+"EvtGirlWalkLookRegionH3" = "在一个角落有一个像真的一样"; 
+"EvtGirlWalkLookRegionH3a" = "人们都走过去跟它拍照"; 
+"EvtGirlWalkLookRegionH3b" = "当数到３要拍的时候…"; 
+"EvtGirlWalkLookRegionH3c" = "那个突然动了！原来是个真人！"; 
+"EvtGirlWalkLookRegionH3d" = "旁边的人都给他吓疯了！"; 
+
+//----------------------------Region H Walk Preset 
+
+//EvtGirlWalkRegionHPreset1 
+"EvtGirlWalkRegionHPreset1" = "终于可以回家了…"; 
+"EvtGirlWalkRegionHPreset1a" = "刚刚模仿大赛的工作人员跟我道别。"; 
+"EvtGirlWalkRegionHPreset1b" = "我也礼貌地跟他们挥挥手。"; 
+"EvtGirlWalkRegionHPreset1c" = "再看看我地苹果奖。"; 
+"EvtGirlWalkRegionHPreset1d" = "也许…我真的有演剧天份呢！"; 
+
+//EvtGirlWalkRegionHPreset2 +apple 
+"EvtGirlWalkRegionHPreset2" = "在场外有一个模仿大赛…"; 
+"EvtGirlWalkRegionHPreset2a" = "虽然有点格格不入…但我模仿了假面超人。"; 
+"EvtGirlWalkRegionHPreset2b" = "主办单位现在公布优胜者名字…"; 
+"EvtGirlWalkRegionHPreset2c" = "噗…噗…噗…弄到我赢紧张起来！"; 
+"EvtGirlWalkRegionHPreset2d" = "我赢了！得到了一个金苹果！"; 
+
+//EvtGirlWalkRegionHStart1 
+"EvtGirlWalkRegionHStart1" = "唉…"; 
+"EvtGirlWalkRegionHStart1a" = "这是我最讨厌的地方！"; 
+"EvtGirlWalkRegionHStart1b" = "要不是没地方好逛，没事干的话。"; 
+"EvtGirlWalkRegionHStart1c" = "我绝对不会来的。"; 
+"EvtGirlWalkRegionHStart1d" = "今天就硬着头皮试试享受吧。"; 
+
+//----------------------------Region H Walk Talk 
+//EvtGirlWalkTalkRegionH1 
+"EvtGirlWalkTalkRegionH1" = "有一个哥儿向我挥手。"; 
+"EvtGirlWalkTalkRegionH1a" = "哥儿：「哟！」"; 
+"EvtGirlWalkTalkRegionH1b" = "我想打发他，所以模仿他的“哟”。"; 
+"EvtGirlWalkTalkRegionH1c" = "哥儿：「哎唷，有喜剧天份喔！参加我们的喜剧班吧！」"; 
+"EvtGirlWalkTalkRegionH1d" = "我：「哈哈…哈哈…不用了…」"; 
+
+//EvtGirlWalkTalkRegionH2 
+"EvtGirlWalkTalkRegionH2" = "声音：「喂喂！」"; 
+"EvtGirlWalkTalkRegionH2a" = "我回头看。"; 
+"EvtGirlWalkTalkRegionH2b" = "男子：「你要学唱歌吗？」"; 
+"EvtGirlWalkTalkRegionH2c" = "男子继续说：「过来试试看吧。」"; 
+"EvtGirlWalkTalkRegionH2d" = "我没有理他…继续走。"; 
+
+//EvtGirlWalkTalkRegionH3 
+"EvtGirlWalkTalkRegionH3" = "我不喜欢这里的原因是…"; 
+"EvtGirlWalkTalkRegionH3a" = "有很多人在招揽会员，烦到死了！"; 
+"EvtGirlWalkTalkRegionH3b" = "现在又有一个想跟我说话… "; 
+"EvtGirlWalkTalkRegionH3c" = "我用一只手指对着他。"; 
+"EvtGirlWalkTalkRegionH3d" = "他在喊：「星期天晚上八点钟有模仿大赛！」"; 
+
+//----------------------------Region I Aquarium 
+//EvtGirlDateChatRegionI1 
+"EvtGirlDateChatRegionI1" = "雅诗：「我好久没到水族馆了！」"; 
+"EvtGirlDateChatRegionI1a" = "我：「真的吗？」"; 
+"EvtGirlDateChatRegionI1b" = "雅诗：「真的！对上一次应该是…我想想…七年前啦！」"; 
+"EvtGirlDateChatRegionI1c" = "我：「哗！那么久，那你一定要享受这次约会啦！」"; 
+"EvtGirlDateChatRegionI1d" = "雅诗牵着我的手说好！"; 
+
+//EvtGirlDateChatRegionI2 
+"EvtGirlDateChatRegionI2" = "雅诗：「为什么你会选这里呢？」"; 
+"EvtGirlDateChatRegionI2a" = "我：「因为我是超级喜欢这地方。」"; 
+"EvtGirlDateChatRegionI2b" = "雅诗：「哦…原来如此！」"; 
+"EvtGirlDateChatRegionI2c" = "我：「对！所以让我当一次导游吧！」"; 
+"EvtGirlDateChatRegionI2d" = "雅诗：「那麻烦你啰！」"; 
+
+//EvtGirlDateChatRegionI3 
+"EvtGirlDateChatRegionI3" = "我：「你饿吗？等等要食那个炸鱼！」"; 
+"EvtGirlDateChatRegionI3a" = "雅诗：「可以啦！好吃的吗？」"; 
+"EvtGirlDateChatRegionI3b" = "我：「非常好吃！因为是活捉的！」"; 
+"EvtGirlDateChatRegionI3c" = "雅诗小声的问：「真的吗？」"; 
+"EvtGirlDateChatRegionI3d" = "我：「讲笑而已！」"; 
+
+//EvtGirlDateRegionILeave1 
+"EvtGirlDateRegionILeave1" = "我：「喂。」"; 
+"EvtGirlDateRegionILeave1a" = "雅诗：「怎么了？」"; 
+"EvtGirlDateRegionILeave1b" = "我：「我家发生了一点事要先走…」"; 
+"EvtGirlDateRegionILeave1c" = "雅诗：「那好吧…」"; 
+"EvtGirlDateRegionILeave1d" = "我：「对不起啦，下次我请客吧。」"; 
+
+//EvtGirlDateRegionILeave2 
+"EvtGirlDateRegionILeave2" = "我：「喂！」"; 
+"EvtGirlDateRegionILeave2a" = "雅诗：「怎么了？」"; 
+"EvtGirlDateRegionILeave2b" = "我：「我家发生了一点事要先走…」"; 
+"EvtGirlDateRegionILeave2c" = "雅诗：「那好吧…」"; 
+"EvtGirlDateRegionILeave2d" = "我：「对不起啦，下次我请客吧。」"; 
+
+//EvtGirlDateRegionILeave3 
+"EvtGirlDateRegionILeave3" = "我：「喂。」"; 
+"EvtGirlDateRegionILeave3a" = "雅诗：「怎么了」"; 
+"EvtGirlDateRegionILeave3b" = "我：「我家发生了一点事要先走…」"; 
+"EvtGirlDateRegionILeave3c" = "雅诗「那好吧…要我陪你去吗？」"; 
+"EvtGirlDateRegionILeave3d" = "我：「不用了，谢谢吧。」"; 
+
+//EvtGirlDateRegionIStart1 
+"EvtGirlDateRegionIStart1" = "今天跟平常一样。"; 
+"EvtGirlDateRegionIStart1a" = "早一点点到约会地点。"; 
+"EvtGirlDateRegionIStart1b" = "我觉得有时候男生等一阵子是没问题的！"; 
+"EvtGirlDateRegionIStart1c" = "而且.."; 
+"EvtGirlDateRegionIStart1d" = "这样雅诗会高兴点吧！"; 
+
+//EvtGirlDateRegionIStart2 
+"EvtGirlDateRegionIStart2" = "今天跟平常一样。"; 
+"EvtGirlDateRegionIStart2a" = "早了到约会地点。"; 
+"EvtGirlDateRegionIStart2b" = "那我就去一去洗手间，"; 
+"EvtGirlDateRegionIStart2c" = "去照照镜子，看自己准备了没。"; 
+"EvtGirlDateRegionIStart2d" = "完美！"; 
+
+//EvtGirlDateRegionIStart3 
+"EvtGirlDateRegionIStart3" = "今天迟了很多。"; 
+"EvtGirlDateRegionIStart3a" = "我看看表…雅诗已经走了…"; 
+"EvtGirlDateRegionIStart3b" = "反正没事干，那就去坐坐吧。"; 
+"EvtGirlDateRegionIStart3c" = "闷………"; 
+"EvtGirlDateRegionIStart3d" = "太迟到约会地方都不是太好……"; 
+
+//EvtGirlDateRomanceRegionI1 
+"EvtGirlDateRomanceRegionI1" = "我们走到在大鱼缸前…雅诗走到我前面…"; 
+"EvtGirlDateRomanceRegionI1a" = "我从后面突然拥抱着她，"; 
+"EvtGirlDateRomanceRegionI1b" = "我们都没说话…"; 
+"EvtGirlDateRomanceRegionI1c" = "然后，她把手轻轻按着我的手…"; 
+"EvtGirlDateRomanceRegionI1d" = "超级幸福。"; 
+
+//EvtGirlDateRomanceRegionI2 
+"EvtGirlDateRomanceRegionI2" = "已经逛了一后时间。"; 
+"EvtGirlDateRomanceRegionI2a" = "但我现在才发现… "; 
+"EvtGirlDateRomanceRegionI2b" = "原来雅诗的手一直牵着我的手…"; 
+"EvtGirlDateRomanceRegionI2c" = "然后我来一个十指紧扣。"; 
+"EvtGirlDateRomanceRegionI2d" = "她回头看着我…她那模样我永远都忘不了。"; 
+
+//EvtGirlDateRomanceRegionI3 
+"EvtGirlDateRomanceRegionI3" = "我：「喂…雅诗…有些事情我想今天告诉你。」"; 
+"EvtGirlDateRomanceRegionI3a" = "雅诗：「什么？」"; 
+"EvtGirlDateRomanceRegionI3b" = "我：「我很喜欢一个人…但不知道她的心是怎么样…」"; 
+"EvtGirlDateRomanceRegionI3c" = "我感到她有一点害羞…但她用行动回答我，她亲了我的面颊。"; 
+"EvtGirlDateRomanceRegionI3d" = "之后我们就亲亲。"; 
+
+//EvtGirlWalkLookRegionI1 -- clown fish +health 
+"EvtGirlWalkLookRegionI1" = "有一个女孩拿着棒棒糖在看着发呆…"; 
+"EvtGirlWalkLookRegionI1a" = "她自言自语说：「这是什么鱼呀？」"; 
+"EvtGirlWalkLookRegionI1b" = "我：「小妹妹这叫小丑鱼。」"; 
+"EvtGirlWalkLookRegionI1c" = "然后她请我吃糖果。"; 
+"EvtGirlWalkLookRegionI1d" = "唔…味道还不错。"; 
+//EvtGirlWalkLookRegionI2 – shark +social 
+"EvtGirlWalkLookRegionI2" = "有几个小孩子走过来..."; 
+"EvtGirlWalkLookRegionI2a" = "小孩：「哥哥！哥哥！」"; 
+"EvtGirlWalkLookRegionI2b" = "小孩：「这是什么鱼？」"; 
+"EvtGirlWalkLookRegionI2c" = "我：「哦！这是鲨鱼。」"; 
+"EvtGirlWalkLookRegionI2d" = "然后孩子们一起念鲨鱼"; 
+
+//EvtGirlWalkLookRegionI3 
+"EvtGirlWalkLookRegionI3" = "今天水族馆很多小孩子。"; 
+"EvtGirlWalkLookRegionI3a" = "小孩子看到好多鱼好开心…"; 
+"EvtGirlWalkLookRegionI3b" = "有一点吵闹…"; 
+"EvtGirlWalkLookRegionI3c" = "虽然他们很可爱…"; 
+"EvtGirlWalkLookRegionI3d" = "但完全破坏了水族馆的浪漫气氛。"; 
+
+//EvtGirlWalkRegionIPreset1 
+"EvtGirlWalkRegionIPreset1" = "今天再到水族馆。"; 
+"EvtGirlWalkRegionIPreset1a" = "看着不同的鱼…"; 
+"EvtGirlWalkRegionIPreset1b" = "脑袋便不其然浮现出它们的名字。"; 
+"EvtGirlWalkRegionIPreset1c" = "那个简单的游戏令我获益不浅！"; 
+"EvtGirlWalkRegionIPreset1d" = "水族馆不愧是我很喜欢的地方。"; 
+
+//EvtGirlWalkRegionIPreset2 +pear 
+"EvtGirlWalkRegionIPreset2" = "我走的时候把完成的游戏纸重覆一次。"; 
+"EvtGirlWalkRegionIPreset2a" = "我将纸交络员工…"; 
+"EvtGirlWalkRegionIPreset2b" = "他核对一次答案后说…"; 
+"EvtGirlWalkRegionIPreset2c" = "「你走运啦，这是今天最后一份礼物。」"; 
+"EvtGirlWalkRegionIPreset2d" = "我：「哦…是一个梨。谢啦！」"; 
+
+//EvtGirlWalkRegionIStart1 
+"EvtGirlWalkRegionIStart1" = "今天就来水族馆吧！"; 
+"EvtGirlWalkRegionIStart1a" = "一直都很喜欢水族馆昏暗的环境和柔和的蓝色灯光";
+"EvtGirlWalkRegionIStart1b" ="这是我梦想中的约会的胜地。"; 
+"EvtGirlWalkRegionIStart1c" = "今天我一个人过来就是为了…"; 
+"EvtGirlWalkRegionIStart1d" = "下次跟雅诗约会做好准备！"; 
+
+//EvtGirlWalkTalkRegionI1 
+"EvtGirlWalkTalkRegionI1" = "一个眼镜男在看鱼…自言自语…"; 
+"EvtGirlWalkTalkRegionI1a" = "眼镜男：「你好！有什么可以帮你吗？」"; 
+"EvtGirlWalkTalkRegionI1b" = "我：「没有。」"; 
+"EvtGirlWalkTalkRegionI1c" = "我：「你是工作人员吗？」"; 
+"EvtGirlWalkTalkRegionI1d" = "眼镜男微笑说：「我是呀！难道我不像吗？」"; 
+
+//EvtGirlWalkTalkRegionI2 
+"EvtGirlWalkTalkRegionI2" = "另外一个工作人员跟在小孩团后面。"; 
+"EvtGirlWalkTalkRegionI2a" = "他说：「请...请保持安静…」"; 
+"EvtGirlWalkTalkRegionI2b" = "小孩子看一看他然后继续吵闹。"; 
+"EvtGirlWalkTalkRegionI2c" = "工作人员各周围的人一脸无奈的道歉。"; 
+"EvtGirlWalkTalkRegionI2d" = "小孩真的不好照顾。"; 
+
+//EvtGirlWalkTalkRegionI3 
+"EvtGirlWalkTalkRegionI3" = "工作人员：「先生。」"; 
+"EvtGirlWalkTalkRegionI3a" = "工作人员：「要玩有关鱼知识的填充游戏吗？」"; 
+"EvtGirlWalkTalkRegionI3b" = "工作人员：「星期六晚上十一点过来吧。」"; 
+"EvtGirlWalkTalkRegionI3c" = "他把游戏纸给我补充说：「有奖品的！」"; 
+"EvtGirlWalkTalkRegionI3d" = "反正也闲着，那就玩玩吧！"; 
+
+
+//Tutor 
+"uiTutorNoteMainText1" = "在主版面，左右滑动手指来查看收藏品(左)或角色状态(右)。"; 
+"uiTutorNoteMainText2" = "按左下角的电话图示，可以约会角色到指定地点。"; 
+"uiTutorNoteMainText3" = "而中间的简讯图示，会跟据角色等级显示不同简讯对话。"; 
+"uiTutorNoteMainText4" = "右方的单车图示，角色可以到市内不同地点闲逛。"; 
+"uiTutorNoteMainText5" = "在角色状态，可以查看等级和经验值。"; 
+"uiTutorNoteMainText6" = "季节显示于主版面的左上角。"; 
+"uiTutorNoteMainText7" = "除了季节，太阳和月亮分别标示日和夜。"; 
+"uiTutorNoteMainText8" = "而角色的行动值位显示于主版面的右上角。"; 
+"uiTutorNoteMainText9" = "而背景指示出角色身处的地点。"; 
+"uiTutorNoteMainText10" = "按对话方块可以显示下一句对话。"; 
+"uiTutorNoteMainText11" = "回复行动值时亦会以＋１显示于画面上。"; 
+
+"uiTutorNoteAchiText1" = "画面上有九个方格，每一个方格代表物品。"; 
+"uiTutorNoteAchiText2" = "用手指向左边滑动可以回到主版面。"; 
+"uiTutorNoteAchiText3" = "画面右上角显示出已获得物品数目。"; 
+"uiTutorNoteAchiText4" = "位于物品总数下方就有角色等级。"; 
+"uiTutorNoteAchiText5" = "画面下方有两个方块，第一个是物品的名称。"; 
+"uiTutorNoteAchiText6" = "而下方获取物品地点。"; 
+
+"uiTutorNoteAttrText1" = "在画面的右上方有一个行程表图示，按下图示可以到行程表介面。"; 
+"uiTutorNoteAttrText2" = "在行程表的上方分别有日期。"; 
+"uiTutorNoteAttrText3" = "而日期的下方就是时间。"; 
+"uiTutorNoteAttrText4" = "第一个是体能的等级。"; 
+"uiTutorNoteAttrText5" = "下面的能量计就是体能的经验值。"; 
+"uiTutorNoteAttrText6" = "第二个就是社交的等级。"; 
+"uiTutorNoteAttrText7" = "下面的就是社交的经验值。"; 
+"uiTutorNoteAttrText8" = "最后就是才智的等级"; 
+"uiTutorNoteAttrText9" = "下面的是才智的经验值。"; 
+
+"uiTutorNoteDateText1" = "与主版面一样，左右滑动手指来查看收藏品(左)或角色状态(右)。"; 
+"uiTutorNoteDateText2" = "按左面的对话方块，可以与角色对话。"; 
+"uiTutorNoteDateText3" = "中间的按钮角色会进行浪漫对话或情节。"; 
+"uiTutorNoteDateText4" = "而右面的按钮会返回家中。"; 
+"uiTutorNoteDateText5" = "在角色状态，可以查看等级和经验值。"; 
+"uiTutorNoteDateText6" = "季节显示于主版面的左上角。"; 
+"uiTutorNoteDateText7" = "除了季节，太阳和月亮分别标示日和夜。"; 
+"uiTutorNoteDateText8" = "而角色的行动值位显示于主版面的右上角。"; 
+"uiTutorNoteDateText9" = "而背景指示出角色身处的地点。"; 
+"uiTutorNoteDateText10" = "按对话方块可以显示下一句对话。"; 
+"uiTutorNoteDateText11" = "而右上角的图案分别表示女主角的心情。"; 
+
+"uiTutorNoteWalkText1" = "与主版面一样，左右滑动手指来查看收藏品(左)或角色状态(右)。"; 
+"uiTutorNoteWalkText2" = "按左面的对话方块，可以与NPC 对话获得不同资料。"; 
+"uiTutorNoteWalkText3" = "中间的按钮角色会进行不同活动提升等级。"; 
+"uiTutorNoteWalkText4" = "而右面的按钮会返回家中。"; 
+"uiTutorNoteWalkText5" = "在角色状态，可以查看等级和经验值。"; 
+"uiTutorNoteWalkText6" = "季节显示于主版面的左上角。"; 
+"uiTutorNoteWalkText7" = "除了季节，太阳和月亮分别标示日和夜。"; 
+"uiTutorNoteWalkText8" = "而角色的行动值位显示于主版面的右上角。"; 
+"uiTutorNoteWalkText9" = "而背景指示出角色身处的地点。"; 
+"uiTutorNoteWalkText10" = "按对话方块可以显示下一句对话。"; 
+
+"uiTutorNoteEventText1" = "画下方的是对话方块。"; 
+"uiTutorNoteEventText2" = "季节显示于主版面的左上角。"; 
+"uiTutorNoteEventText3" = "除了季节，太阳和月亮分别标示日和夜"; 
+"uiTutorNoteEventText4" = "角色的行动值位显示于主版面的右上角。"; 
+"uiTutorNoteEventText5" = "背景指示出角色身处的地点。"; 
+"uiTutorNoteEventText6" = "当到达目标地点时，画面中间会分别出现女主角和NPC。"; 
+"uiTutorNoteEventText7" = "目标地点的NPC。"; 
+"uiTutorNoteEventText8" = "还有正在进行的活动和准备获取的物品。"; 
+"uiTutorNoteEventText9" = "回复行动值时会以＋１显示于画面上。"; 
+"uiTutorNoteEventText10" = "而升级时亦会以＋１显示于画面上。"; 
+
+"uiTutorNoteMapText1" = "地图上有九个按钮，每个按钮代表不同地点。"; 
+"uiTutorNoteMapText2" = "按右下方第一个按钮后有关该地点的资讯。"; 
+"uiTutorNoteMapText3" = "按画面右下方的按钮前往选择地点。"; 
+"uiTutorNoteMapText4" = "按左上角的方向按钮会跳回主版面。"; 
+"uiTutorNoteMapText5" = "而角色的行动值亦会显示于画面的右上方"; 
+"uiTutorNoteMapText6" = "画面左下角的是目的地的截图。"; 
+"uiTutorNoteMapText7" = "截图右方显示进入该地点的等级需求。"; 
+"uiTutorNoteMapText8" = "该方块的外观亦会跟据角色等级或活动而变化。"; 
+
+"uiTutorNoteArrangeText1" = "玩家可以于时间表上选择有OK 图示的时间约会。"; 
+"uiTutorNoteArrangeText2" = "按左上角的方向按钮会跳回主版面。"; 
+"uiTutorNoteArrangeText3" = "时间表右上角亦会显示日子和时间。"; 
+"uiTutorNoteArrangeText4" = "选择时间后，右面的按钮选择特定地点。"; 
+
+
+"uiTutorNotePlaceText1" = "后面的是目的地截图。"; 
+"uiTutorNotePlaceText2" = "按下右边的按钮可以选择地点。"; 
+"uiTutorNotePlaceText3" = "按左上角的方向按钮会返回行程表。"; 
+"uiTutorNotePlaceText4" = "地点列表的右上角显示角色的行动值。"; 
+
+"uiTutorNoteScheduleText1" = "按左上角的方向按钮会跳回主版面。"; 
+"uiTutorNoteScheduleText2" = "时间表可以查看与角色的约会时间。"; 
+
+"uiTutorNoteDetailText1" = "按左上角的方向按钮会返回地图版面。"; 
+"uiTutorNoteDetailText2" = "画面上方显示地点名称。"; 
+"uiTutorNoteDetailText3" = "下面的是地点对角色的状态变化。"; 
+
+"uiTutorNoteSmsText1" = "按左上角的方向按钮会跳回主版面。"; 
+"uiTutorNoteSmsText2" = "按下中间的SMS 按钮，角色开始以简讯对话。"; 
+"uiTutorNoteSmsText3" = "角色的行动值亦会显示于画面的右上方。"; 
+"uiTutorNoteSmsText4" = "发出的简讯会显示于右边。"; 
+"uiTutorNoteSmsText5" = "而回覆亦会显示于画面的左边。"; 

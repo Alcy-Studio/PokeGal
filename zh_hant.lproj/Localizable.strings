@@ -1,0 +1,2084 @@
+/* 
+   Localizable.strings
+   frdfrd
+
+   Created by westbugs on 11-01-14.
+   Copyright 2011 Alcy, Ltd. All rights reserved.
+ */
+ 
+"GKTitle" = "遊戲中心關閉";
+"GkMsg" = "請先登入遊戲中心應用";
+"Cancel" = "取消";
+
+"GKNotTitle" = "不支援遊戲中心";
+"GKNotMsg" = "請更新至iOS 4.1";
+ 
+ /* Insert Element menu item */
+"LinkToFull" = "http://itunes.com/apps/alcy";
+//"LinkToFull" = "http://itunes.apple.com/app/consume-mobile-isp-packages/id436974077?mt=8";
+ 
+ 
+ 
+"AT" = "行動值";
+"Gift" = "總數";
+
+//Weekday
+"Mon" = "周一";
+"Tue" = "周二";
+"Wed" = "周三";
+"Thu" = "周四";
+"Fri" = "周五";
+"Sat" = "周六";
+"Sun" = "周七";
+ 
+//Notification
+"LocalNotifMessage" = "You have a date with Alcy now!";
+
+//Random Dating SMS
+"Dating SMS 1" = "我到了，人呢？";
+"Dating SMS 2" = "警告你，讓淑女等不太好哦。";
+"Dating SMS 3" = "我到了。";
+"Dating SMS 4" = "為甚麼不接我電話，你是不是還沒到?";
+"Dating SMS 5" = "我在玩頭髮，等了好久(>。<)";
+"Dating SMS 6" = "有男孩向我搭訕 快點來";
+"Dating SMS 7" = "這裡很多人很熱鬧^。^";
+"Dating SMS 8" = "等你的時候買了雪糕^^";
+"Dating SMS 9" = "come on, 可不可以成熟一點";
+"Dating SMS 10" = "你出門沒有";
+
+ //PGTitle
+"Tutor Title" = "教學";
+
+"Main Title" = "雅詩";
+"Achi Title" = "收藏品";
+"Attr Title" = "狀態";
+"Date Title" = "約會";
+"Walk Title" = "閒逛";
+"Event Title" = "事件";
+"Map Title" = "地圖";
+"Arrange Title" = "安排";
+"Place Title" = "地點";
+"Schedule Title" = "時間表";
+"Detail Title" = "資料";
+"Sms Title" = "短訊";
+"Weather Title" = "天氣";
+
+"Confirm Title" = "確認";
+"Alert Title" = "提示";
+"Help Title" = "幫助";
+
+//Weather
+"High Temp" = "最高";
+"Current Temp" = "現在";
+"Low Temp" = "最低";
+
+//"Clear" = "Clear";
+//"Cloudy" = "Cloudy";
+//"Fog" = "Fog";
+//"Haze" = "Haze";
+//"Light Rain" = "Light Rain";
+//"Mostly Cloudy" = "Mostly Cloudy"; 
+//"Overcast" = "Overcast"; 
+//"Partly Cloudy" = "Partly Cloudy";
+//"Rain" = "Rain"; 
+//"Rain Showers" = "Rain Showers"; 
+//"Showers" = "Showers";
+//"Thunderstorm" = "Thunderstorm"; 
+//"Chance of Showers" = "Chance of Showers"; 
+//"Chance of Snow" = "Chance of Snow"; 
+//"Chance of Storm" = "Chance of Storm"; 
+//"Mostly Sunny" = "Mostly Sunny";
+//"Partly Sunny" = "Partly Sunny"; 
+//"Scattered Showers" = "Scattered Showers"; 
+//"Sunny" = "Sunny";
+//
+//"TextView Clear" = "Clear";
+//"TextView Cloudy" = "Cloudy";
+//"TextView Fog" = "Fog";
+//"TextView Haze" = "Haze";
+//"TextView Light Rain" = "Light Rain";
+//"TextView Mostly Cloudy" = "Mostly Cloudy"; 
+//"TextView Overcast" = "Overcast"; 
+//"TextView Partly Cloudy" = "Partly Cloudy";
+//"TextView Rain" = "Rain"; 
+//"TextView Rain Showers" = "Rain Showers"; 
+//"TextView Showers" = "Showers";
+//"TextView Thunderstorm" = "Thunderstorm"; 
+//"TextView Chance of Showers" = "Chance of Showers"; 
+//"TextView Chance of Snow" = "Chance of Snow"; 
+//"TextView Chance of Storm" = "Chance of Storm"; 
+//"TextView Mostly Sunny" = "Mostly Sunny";
+//"TextView Partly Sunny" = "Partly Sunny"; 
+//"TextView Scattered Showers" = "Scattered Showers"; 
+//"TextView Sunny" = "Sunny";
+
+"Tornado" ="龍捲風";
+"Tropical Storm" = "熱帶風暴";
+"Hurricane" = "颶風";
+"Severe Thunderstorms" = "大雷暴";
+"Thunderstorms" = "雷暴";
+"Mixed Rain and Snow" = "濕雨";
+"Mixed Rain and Sleet" = "凍雨";
+"Mixed Snow and Sleet" = "凍雪雨";
+"Freezing Drizzle" = "冰冷毛毛雨";
+"Drizzle" = "毛毛雨";
+"Freezing Rain" = "冰冷雨";
+"Showers" = "驟雨";
+
+"Snow Flurries" = "風雪";
+"Light Snow Showers" = "少量雪雨";
+"Blowing Snow" = "吹雪"; //*
+
+"Snow" = "雪";
+"Hail" = "冰雹";
+"Sleet" = "凍雨";
+"Dust" = "灰塵";
+"Foggy" = "霧";
+"Haze" = "煙霞";
+"Smoky" = "煙霧彌漫";
+"Blustery" = "狂風";
+"Windy" = "大風";
+"Cold" = "寒冷";
+"Cloudy" = "陰天";
+"Mostly Cloudy Night" = "晚間部份時間多雲";
+"Mostly Cloudy Day" = "日間部份時間多雲";
+"Partly Cloudy Night" = "晚間短暫時間多雲";
+"Partly Cloudy Day" = "日間短暫時間多雲";
+"Clear Night" = "晚間天色晴朗";
+"Sunny" = "陽光充沛";
+"Fair Night" = "晚間天晴";
+"Fair Day" = "日間天晴";
+"Mixed Rain and Hail" = "冰雹雨";
+"Hot" = "嚴熱";
+
+"Isolated Thunderstorms" = "局部地區性雷暴";
+"Scattered Thunderstorms" = "零散雷暴"; //*
+"Scattered Showers" = "零散驟雨";
+
+"Heavy Snow" = "大雪";
+"Scattered Snow Showers" = "零散雪雨";
+
+"Partly Cloudy" = "部份時間多雲";
+
+"Thundershowers" = "雷雨";
+"Snow Showers" = "雪雨";
+"Isolated Thundershowers" = "局部地區性雷雨";
+
+//Desc
+"Desc Tornado" ="龍捲風，又稱龍捲、龍吸水等，是一種相當猛烈和具有破壞力天氣現象，由快速旋轉並造成直立中空管狀的氣流形成。";
+"Desc Tropical Storm" = "一股熱帶氣旋在其最大持續風速從每小時39英里（34節），以每小時73英里（63節）。";
+"Desc Hurricane" = "這熱帶氣旋，持續風速每小時74英里（65knots）或更大的出現在北大西洋，加勒比海，墨西哥灣和北太平洋東部。同樣的熱帶氣旋在西太平洋和印度洋稱為颱風。";
+"Desc Severe Thunderstorms" = "一股大概風速50海裡（58英里）或更高，3 /4英寸或更大的冰雹，龍捲風或雷雨。也可能會產生嚴重的雷暴暴雨和雷電頻繁。";
+"Desc Thunderstorms" = "由積雨雲產生的，它是由雷聲，閃電持續時間相對較短為特點，陣風風速，湍流，冰雹，結冰，降水，中度到極端和下降氣流，在最惡劣的條件，亦有龍捲風。";
+"Desc Mixed Rain and Snow" = "混合雨和雪。";
+"Desc Mixed Rain and Sleet" = "混合雨和凍雨。";
+"Desc Mixed Snow and Sleet" = "混合雪和凍雨。";
+"Desc Freezing Drizzle" = "冰冷和微細的雨。";
+"Desc Drizzle" = "水滴微细的雨。";
+"Desc Freezing Rain" = "雨水凍結和降落後，形成了較冷地面或其他暴露的表面塗層。";
+"Desc Showers" = "時間短暫的雨，通常是指由對流雲所產生的降水。其特徵為驟始驟止，雨前雨後 ，天空多會晴朗。";
+
+"Desc Snow Flurries" = "由少量雪的爆發所引致，通常會帶有一陣強風。";
+"Desc Light Snow Showers" = "小量雪雨意味著不會滴濕的地面。
+";
+"Desc Blowing Snow" = "當雪被風吹至六尺或更高時形成。
+"; //*
+
+"Desc Snow" = "冷凍沉澱的形式或半透明的白色冰晶在複雜的分支六角形的形式。它最經常瀑布從地層形成雲，但可隨陣雪從積雲的。它通常出現聚成雪花。";
+"Desc Hail" = "降水起源於對流雲層的形式球或不規則塊的冰，來自不同的形狀和大小。";
+"Desc Sleet" = "也稱為冰粒，它是冬季降水的形式小片或顆粒的冰觸地後反彈或任何其他硬表面。";
+"Desc Dust" = "懸浮在空氣中的小顆粒或其他物質。";
+"Desc Foggy" = "在近地面的空氣中，因水汽凝結而成的微粒，浮游在空中而阻礙視線時，能見度 在1000米以下稱為霧。";
+"Desc Haze" = "停留在空中的微塵和/或煙霧粒子。肉眼看不見的，浮游在空中而阻礙視線時，如障礙微粒屬塵埃或煙屑， 則稱為煙霞。";
+"Desc Smoky" = "燃燒產生的小顆粒是懸浮在空氣中。過渡到時可能出現陰霾的煙霧粒子走過很遠（25至100英里以上），而當有較大顆粒外和解。";
+"Desc Blustery" = "突然發作的強風，速度提高到至少16節（每小時18英里），並持續在22節以上（每小時25英里）的至少一分鐘。";
+"Desc Windy" = "偶爾會速度增加的強風。";
+"Desc Cold" = "特別低或絕對低於正常溫度, 缺乏熱度。";
+"Desc Cloudy" = "天空的總雲量在八分之六至八分之八之間．當太陽被遮蔽時，天空略呈暗晦狀。";
+"Desc Mostly Cloudy Night" = "陰天頗為連續的出現，而且天陰的時間超過預報期的一半。";
+"Desc Mostly Cloudy Day" = "陰天頗為連續的出現，而且天陰的時間超過預報期的一半。";
+"Desc Partly Cloudy Night" = "晚間間歇性天陰，而且天陰的時間不及預報期一半。";
+"Desc Partly Cloudy Day" = "日間間歇性天陰，而且天陰的時間不及預報期一半。";
+"Desc Clear Night" = "晚間絕大部分時間天色晴朗。";
+"Desc Sunny" = "絕大部分時間有陽光。";
+"Desc Fair Night" = "地面無霧而天空總雲量少於八分之六，如雲層稀薄能使大量陽光透過時，則雲量雖超過八分之六亦可說是天晴。";
+"Desc Fair Day" = "地面無霧而天空總雲量少於八分之六，如雲層稀薄能使大量陽光透過時，則雲量雖超過八分之六亦可說是天晴。";
+"Desc Mixed Rain and Hail" = "混合雨和冰雹。";
+"Desc Hot" = "溫度持續高企。";
+"Desc Isolated Thunderstorms" = "由於帶雨的積雲量小和孤立，所以雷雨只會發生在一小部分地區。";
+"Desc Scattered Thunderstorms" = "天空的雷雨雲零散分佈，而部分地區有雷雨，部分地區可能完全無雨。"; //*
+"Desc Scattered Showers" = "天空的雨雲零散分佈，而部分地區有雨，部分地區可能完全無雨。";
+
+"Desc Heavy Snow" = "大雪中帶有強風。";
+"Desc Scattered Snow Showers" = "天空的雪雨零散分佈，而部分地區有雨，部分地區可能完全無雨。";
+
+"Desc Partly Cloudy" = "間歇性天陰，而且天陰的時間不及預報期一半。";
+
+"Desc Thundershowers" = "由積雨雲所產生的地區性惡劣天氣，經常伴有閃電及雷聲，並間有強烈陣風及大雨，在適當情況下，更偶有落雹。雷聲的起因，是由於閃電所經的空氣，突然受熱膨脹而又迅速冷卻收縮所致。";
+"Desc Snow Showers" = "以雪的形式降雨, 通常都是突然開始和結束的。";
+
+"Desc Isolated Thundershowers" = "由於帶雨的積雲量小和孤立，所以雷陣雨只會發生在一小部分地區。";
+
+//Alias
+"Alias 1" = "等級： 毒男"; //lv1
+"Alias 2" = "等級： 新手"; //lv2
+"Alias 3" = "等級： 初哥"; //lv3
+"Alias 4" = "等級： 達人"; //lv4
+"Alias 5" = "等級： 猎人"; //lv5
+"Alias 6" = "等級： 天才"; //lv6
+"Alias 7" = "等級： 王子"; //lv7
+"Alias 8" = "等級： 神人"; //lv8
+"Alias 9" = "等級： 帝皇"; //lv9
+
+
+//Occasion
+"Occasion Home" = "家裡";
+
+//Attribute Title
+
+"AttrLvText" = "等級";
+
+"AttrTitle1" = "體能";
+"AttrTitle2" = "社交";
+"AttrTitle3" = "才智";
+"AttrTitle4" = "親密";
+
+
+//Alcy Quote
+"Alcy Positive 1" = "想念你...";
+
+//PGMain
+
+//PGAttr
+"Attr Note" = "角色資料";
+"Attr Desc" = "狀態一覽";
+
+//PGAchi
+//Description & Requirement
+"Gift Desc" = "物品";
+"Gift Req" = "等級要求";
+
+//Note
+"Gift Note None" = "? ? ?";
+
+"Gift Note 1" = "葡萄";
+"Gift Note 2" = "西瓜";
+"Gift Note 3" = "香蕉";
+
+"Gift Note 4" = "草莓";
+"Gift Note 5" = "奇異果";
+"Gift Note 6" = "鳳梨";
+ 
+"Gift Note 7" = "櫻桃";
+"Gift Note 8" = "蘋果";
+"Gift Note 9" = "洋梨";
+
+//Hint
+"Gift Hint 1" = "學校體育館";
+"Gift Hint 2" = "淺水灣";
+"Gift Hint 3" = "保齡球館";
+
+"Gift Hint 4" = "太古廣場";
+"Gift Hint 5" = "湯姆咖啡室";
+"Gift Hint 6" = "動植物公園";
+
+"Gift Hint 7" = "紅人館 KTV";
+"Gift Hint 8" = "伊利莎白劇院";
+"Gift Hint 9" = "水族館";
+
+//PGMap
+"Map Hint" = "地圖"; 
+"RegionA" = "市中心體育館"; //Gym	Social Health 
+"RegionB" = "淺水灣"; //Beach			Social Health
+"RegionC" = "保齡球館"; //Bowling			Talent Health
+
+"RegionD" = "太古廣場"; //Shopping Mall	Social Talent
+"RegionE" = "湯姆咖啡室"; //Restaurant			Social Talent
+"RegionF" = "動植物公園"; //Park				Social Talent
+
+"RegionG" = "紅人館 KTV "; //Karaoke		Health Talent
+"RegionH" = "伊利莎白劇院"; //Theatre		Health Talent
+"RegionI" = "海洋水族館"; //Aquarium				Social Health 
+
+
+
+
+
+
+//PGArrange
+"Arrange Hint" = "今天的行程";
+
+//PGPlace
+"Place Hint" = "選擇地方";
+
+//PGSchedule
+"Schedule Hint" = "行程表";
+
+//PGSMS
+"Sms Hint" = "發短訊給雅詩";
+
+//PGMConfirm
+"Confirm Hint" = "請確認";
+
+//PGMAlert
+"Alert Hint" = "請確認";
+
+//PGDetail
+"Detail Hint" = "地方資訊";
+
+//PGTutor
+"Tutor Hint" = "教學";
+
+//PGTutorMenu
+"TutorMenu Hint" = "目錄";
+
+//PGWeather
+"Weather Hint" = "天氣預報";
+
+//PGTutorSV
+"TutorMain Hint" = "家中";
+"TutorAchi Hint" = "收藏品";
+"TutorAttr Hint" = "狀態";
+"TutorDate Hint" = "約會";
+"TutorWalk Hint" = "閒逛";
+"TutorEvent Hint" = "活動";
+"TutorMap Hint" = "地圖";
+"TutorArrange Hint" = "安排";
+"TutorPlace Hint" = "地點";
+"TutorSchedule Hint" = "時間表";
+"TutorDetail Hint" = "資料";
+"TutorSms Hint" = "短訊";
+
+//PGEvent
+"Alcy Hint" = "雅詩";
+
+"+0" = "無效";
+"+1" = "很少";
+"+2" = "普通";
+"+3" = "很多";
+
+"Region Desc A" = "學校的體育館，可以進行不同類型的運動。雅詩有時候也會在這裡出現。";
+"Region Desc B" = "這個城市最優美的海灘。海水很清，沙很幼。每逢夏季我都一定會來這邊曬曬太陽，看看美女。";
+"Region Desc C" = "城里最大型的保齡球館，週末的時候有好多人都會到這邊玩。";
+"Region Desc D" = "有大大小小的商店，絕對是找禮物的好地方。";
+"Region Desc E" = "湯姆是我最喜愛的咖啡室，雅詩常常在這里買冰奶茶和朱古力厚多士給我吃。";
+"Region Desc F" = "動植物公園是我留下最多小時候回憶的地方…… 亦使我想起失去的雙親……";
+"Region Desc G" = "KTV 是我第三最愛的地方，不論怎樣的心情都可以到 KTV 發洩！";
+"Region Desc H" = "劇院永遠是我最抗拒的地方，因我從來都不懂得欣賞文藝的東東。";
+"Region Desc I" = "一直都很喜歡水族館昏暗的環境和柔和的藍色燈光…… 這是我夢想中的約會的勝地。";
+
+
+
+//AlertView
+
+//Call Warning
+"ActPGMainCallAlertView1_Title" = "訊息：需要多些行動值 (+2)！";
+"ActPGMainCallAlertView1_Message" = "請等待行動值恢復。";
+"ActPGMainCallAlertView1_Cancel" = "取消";
+"ActPGMainCallAlertView1_Ok" = "確定";
+
+//Sms Warning
+"ActPGMainSmsAlertView1_Title" = "訊息：需要多些行動值 (+1)！";
+"ActPGMainSmsAlertView1_Message" = "請等待行動值恢復。";
+"ActPGMainSmsAlertView1_Cancel" = "取消";
+"ActPGMainSmsAlertView1_Ok" = "確定";
+
+//Move Warning
+"ActPGMainMoveAlertView1_Title" = "訊息：需要多些行動值 (+3)！";
+"ActPGMainMoveAlertView1_Message" = "請等待行動值恢復。";
+"ActPGMainMoveAlertView1_Cancel" = "取消";
+"ActPGMainMoveAlertView1_Ok" = "確定";
+
+//PGPlace
+"ActPGPlaceSetupAlertView1_Title" = "跟雅詩約會！";
+"ActPGPlaceSetupAlertView1_Message" = "消耗兩點行動值。";
+"ActPGPlaceSetupAlertView1_Cancel" = "取消";
+"ActPGPlaceSetupAlertView1_Ok" = "確定";
+"ActPGPlaceSetupAlertView1_Done" = "完成";
+
+
+//PGSms
+"ActPGSMSSetupAlertView1_Title" = "給雅詩發簡訊！";
+"ActPGSMSSetupAlertView1_Message" = "消耗一點行動值。";
+"ActPGSMSSetupAlertView1_Cancel" = "取消";
+"ActPGSMSSetupAlertView1_Ok" = "確定";
+"ActPGSMSSetupAlertView1_Done" = "完成";
+
+
+//PGMap
+"ActPGMapSetupAlertView1_Title" = "到市內逛逛吧！";
+"ActPGMapSetupAlertView1_Message" = "消耗三點行動值。";
+"ActPGMapSetupAlertView1_Cancel" = "取消";
+"ActPGMapSetupAlertView1_Ok" = "確定";
+"ActPGMapSetupAlertView1_Done" = "完成";
+
+
+//PGArrange Occupied
+"ActPGArrangeSetupAlertView1_Title" = "不能選擇這個時段。";
+"ActPGArrangeSetupAlertView1_Message" = "請選擇另一個時段。 ";
+"ActPGArrangeSetupAlertView1_Cancel" = "取消";
+"ActPGArrangeSetupAlertView1_Ok" = "確定";
+"ActPGArrangeSetupAlertView1_Done" = "完成";
+
+
+//Modal
+"Confirm Modal Title 1" = "約會雅詩！";
+"Confirm Modal Msg 1" = "會消耗兩點行動值。         要繼續進行嗎？";
+
+"Confirm Modal Title 2" = "發短訊給雅詩吧！";
+"Confirm Modal Msg 2" = "會消耗一點行動值。         要繼續進行嗎？";
+
+"Confirm Modal Title 3" = "到市內逛逛！";
+"Confirm Modal Msg 3" = "會消耗三點行動值。         要繼續進行嗎？";
+
+//View2, PGMap Text Go (Are you sure you want to go there?)
+"Confirm Modal Title 4" = "走吧！";
+"Confirm Modal Msg 4" = "你確定要出去嗎？";
+
+//View2, PGMap Text Date (Are you sure you want to go there?)
+"Confirm Modal Title 5" = "約會吧！";
+"Confirm Modal Msg 5" = "現在約會。";
+
+//View5, Leave Back to Home
+"Confirm Modal Title 6" = "回家！";
+"Confirm Modal Msg 6" = "你確定要回家嗎?";
+//
+//View5, Walk Talk to others
+"Confirm Modal Title 7" = "和別人閒聊。";
+"Confirm Modal Msg 7" = "會消耗一點行動值。         要繼續進行嗎？";
+//
+//View5, Walk Look around
+"Confirm Modal Title 8" = "到處看看！";
+"Confirm Modal Msg 8" = "會消耗兩點行動值。         要繼續進行嗎？";
+//
+//View5, Date Chat with others
+"Confirm Modal Title 9" = "與女友聊天。";
+"Confirm Modal Msg 9" = "會消耗三點行動值。         要繼續進行嗎？";
+//
+//View5, Date Romance
+"Confirm Modal Title 10" = "親親。";
+"Confirm Modal Msg 10" = "會消耗兩點行動值。         要繼續進行嗎？";
+//
+//View5, Start a new game
+"Confirm Modal Title 11" = "開始新遊戲！";
+"Confirm Modal Msg 11" = "現有紀錄會被消除，要繼續嗎？";
+//
+//View5, Are you sure? (General Use: Confirm your selection)
+"Confirm Modal Title 12" = "確定？";
+"Confirm Modal Msg 12" = "你要繼續嗎？";
+
+//Title Screen
+"Confirm Modal Title 13" = "回主題畫面！";
+"Confirm Modal Msg 13" = "你要儲存遊戲並回到主題畫面嗎？";
+
+//Alert
+"Alert Modal Title 1" = "訊息：需要多些行動值 (+1)！";
+"Alert Modal Msg 1" = "請等待行動值恢復。.(1 AT/5秒)";
+
+"Alert Modal Title 2" = "訊息：需要多些行動值 (+2)！";
+"Alert Modal Msg 2" = "請等待行動值恢復。(1 AT/5秒)";
+
+"Alert Modal Title 3" = "訊息：需要多些行動值 (+3)！";
+"Alert Modal Msg 3" = "請等待行動值恢復。(1 AT/5秒)";
+
+//PGArrange not available
+"Alert Modal Title 4" = "不能選擇這個時段。";
+"Alert Modal Msg 4" = "請選擇另一個時段。";
+
+"Selection Modal Title 1" = "選擇一種。";
+"Selection Modal Msg 1" = "請選擇一種語氣。";
+
+"Selection Modal Choice 1" = "溫柔。";
+"Selection Modal Choice 2" = "正常。";
+"Selection Modal Choice 3" = "耍酷。";
+
+//PGSMS Msg
+	//self
+"selfLv1Msg0" = "喂";
+"selfLv1Msg1" = "在幹麼？";
+"selfLv1Msg2" = "好悶呀。";
+"selfLv1Msg3" = "要到外面走走嗎？";
+"selfLv1Msg4" = "沒事了，拜拜！";
+
+"otherLv1Msg0" = "喂喂！";
+"otherLv1Msg1" = "跟朋友一起，你呢？";
+"otherLv1Msg2" = "我沒空陪你呀！";
+"otherLv1Msg3" = "今天不行… 改天吧！";
+"otherLv1Msg4" = "拜拜。";
+
+//lv2
+"selfLv2Msg0" = "喂";
+"selfLv2Msg1" = "你今天有事幹嗎？";
+"selfLv2Msg2" = "我等等會出去一下。";
+"selfLv2Msg3" = "我今天想要出去…要一起去嗎？";
+"selfLv2Msg4" = "那改天再找你啦！拜！";
+
+"otherLv2Msg0" = "喂喂";
+"otherLv2Msg1" = "我今天沒空…要去打工！";
+"otherLv2Msg2" = "哦…";
+"otherLv2Msg3" = "你找朋友陪你啦！";
+"otherLv2Msg4" = "OK！拜拜！";
+
+//lv3
+"selfLv3Msg0" = "喂喂！";
+"selfLv3Msg1" = "今天也要去上班嗎？";
+"selfLv3Msg2" = "每天都好悶…";
+"selfLv3Msg3" = "沒…沒有…";
+"selfLv3Msg4" = "哦…那沒事啦…";
+
+"otherLv3Msg0" = "喂！怎樣？";
+"otherLv3Msg1" = "對呀！這個禮拜都超級忙！";
+"otherLv3Msg2" = "那你就你找我打發時間嗎？";
+"otherLv3Msg3" = "什麼沒有？";
+"otherLv3Msg4" = "沒事就不要煩我！拜託！";
+
+//lv4
+"selfLv4Msg0" = "喂…";
+"selfLv4Msg1" = "我想找你…";
+"selfLv4Msg2" = "我買了一些東西想要給你…";
+"selfLv4Msg3" = "沒…沒什麼…";
+"selfLv4Msg4" = "就…就這樣…";
+
+"otherLv4Msg0" = "喂？";
+"otherLv4Msg1" = "為什麼？";
+"otherLv4Msg2" = "幹麼突然買東西給我呢？";
+"otherLv4Msg3" = "……..";
+"otherLv4Msg4" = "好啦... 拜拜！";
+
+//lv5
+"selfLv5Msg0" = "在忙嗎？";
+"selfLv5Msg1" = "欸…";
+"selfLv5Msg2" = "你什麼時間有空？";
+"selfLv5Msg3" = "那就好了！";
+"selfLv5Msg4" = "OK";
+
+"otherLv5Msg0" = "現在不太忙！太好啦！";
+"otherLv5Msg1" = "欸…你不是要給我東西嗎？";
+"otherLv5Msg2" = "任何時間！我只是看禮物份上！";
+"otherLv5Msg3" = "打電話給我吧";
+"otherLv5Msg4" = "等你囉！";
+
+//lv6
+"selfLv6Msg0" = "喂喂喂";
+"selfLv6Msg1" = "想找你出去。";
+"selfLv6Msg2" = "有一點想見你囉…";
+"selfLv6Msg3" = "我…";
+"selfLv6Msg4" = "那我再找你吧 = (";
+
+"otherLv6Msg0" = "哎唷…你找我幹麼？";
+"otherLv6Msg1" = "今天真的不行…這幾天公司都很忙…再過一兩天可以嗎？";
+"otherLv6Msg2" = "就一點點？";
+"otherLv6Msg3" = "你… 怎麼了？";
+"otherLv6Msg4" = "不要這個樣子啦 拜拜 = )";
+
+//lv7
+"selfLv7Msg0" = "好嗎！?";
+"selfLv7Msg1" = "在忙些什麼呢";
+"selfLv7Msg2" = "吃過午飯了沒？";
+"selfLv7Msg3" = "好呀！等等打電話給你吧！";
+"selfLv7Msg4" = "努力工作！";
+
+"otherLv7Msg0" = "非常的好… 笨蛋 = P";
+"otherLv7Msg1" = "在忙著… 想你 = )";
+"otherLv7Msg2" = "快到午飯時間啦… 來陪我食飯吧！";
+"otherLv7Msg3" = "OK !";
+"otherLv7Msg4" = "３Ｑ ^3^";
+
+
+//lv8
+"selfLv8Msg0" = "喂… 真的很對不起…";
+"selfLv8Msg1" = "在忙些什麼呢？";
+"selfLv8Msg2" = "欸… 帶你去一個地方好嗎？";
+"selfLv8Msg3" = "因為我之前對你忽冷忽熱…";
+"selfLv8Msg4" = "等等再給你發簡訊吧。";
+
+"otherLv8Msg0" = "傻瓜… 幹麼突然說對不起？";
+"otherLv8Msg1" = "在等些東西…";
+"otherLv8Msg2" = "好呀！現在？";
+"otherLv8Msg3" = "嘻嘻… 現在沒事就好了！";
+"otherLv8Msg4" = "好丫！我先工作！ >3<";
+
+
+//lv9
+"selfLv9Msg0" = "哈囉！雅ＢＢＢＢＢＢ";
+"selfLv9Msg1" = "在幹什麼呢？ ";
+"selfLv9Msg2" = "要出去嗎？";
+"selfLv9Msg3" = "你有什麼地方要去嗎？";
+"selfLv9Msg4" = "喂喂！我為你準備了一個 SURPRISE！等我安排好再打電話給你吧";
+
+"otherLv9Msg0" = "嘻嘻 = )";
+"otherLv9Msg1" = "在等你找我！";
+"otherLv9Msg2" = "好呀！";
+"otherLv9Msg3" = "沒有什麼特別的… 你想就好了！";
+"otherLv9Msg4" = "在裝什麼神秘…那我等你電話囉！";
+
+
+//Event
+
+//EvtGirlNewGame1
+"EvtGirlNewGame1" = "雅詩：「喂！該起床了！」";
+"EvtGirlNewGame1a" = "雅詩：「難道你忘了我們的約會？」";
+"EvtGirlNewGame1b" = "我：「ZzZzZzZzZzZz...」";
+"EvtGirlNewGame1c" = "雅詩：「太過份了！就這樣！」";
+"EvtGirlNewGame1d" = " 我：「ZzZzZzZzZz…」";
+
+//EvtGirlEndGame1
+"EvtGirlEndGame1" = "寶貝～";
+"EvtGirlEndGame1a" = "我真的很喜歡待在你身邊。";
+"EvtGirlEndGame1b" = "你比任何我所遇過的男生好。";
+"EvtGirlEndGame1c" = "你為我所做的一切讓我覺得好幸福。";
+"EvtGirlEndGame1d" = "愛死你啦。";
+
+//Missing Date
+"EvtGirlMissingDate1" = "你跑哪裡去了？";
+"EvtGirlMissingDate1a" = "我們不是約好了嗎？";
+"EvtGirlMissingDate1b" = "我快吐血了。";
+"EvtGirlMissingDate1c" = "我站了半個小時，別人一直在看我。";
+"EvtGirlMissingDate1d" = "不要忘記我們的約會，好嗎？";
+
+//----------------------------Region A
+//EvtGirlDateChatRegionA1 -- health
+"EvtGirlDateChatRegionA1" = "Hey 雅詩今天沒有遲到吧？";
+"EvtGirlDateChatRegionA1a" = "在裝什麼";
+"EvtGirlDateChatRegionA1b" = "嘿嘿　沒有只有一些獎勵就夠";
+"EvtGirlDateChatRegionA1c" = "嘿　好　等我看看";
+"EvtGirlDateChatRegionA1d" = "然後她買了一杯牛奶給我… 汗";
+
+//EvtGirlDateChatRegionA2 -- social
+"EvtGirlDateChatRegionA2" = "喂…雅詩…你常常來這邊做運動的嗎？";
+"EvtGirlDateChatRegionA2a" = "一個禮拜大概有三四天吧。幹嘛？";
+"EvtGirlDateChatRegionA2b" = "沒…沒有…";
+"EvtGirlDateChatRegionA2c" = "嘿！";
+"EvtGirlDateChatRegionA2d" = "（那我以後一定要多來這邊）";
+
+//EvtGirlDateChatRegionA3
+"EvtGirlDateChatRegionA3" = "今天跟雅詩打了很久乒乓球…";
+"EvtGirlDateChatRegionA3a" = "超級累的！";
+"EvtGirlDateChatRegionA3b" = "對呀… 欸…不如我帶你出 BBT 吧！";
+"EvtGirlDateChatRegionA3c" = "什麼是 BBT 呢？";
+"EvtGirlDateChatRegionA3d" = "就是珍珠奶茶囉！";
+
+//EvtGirlDateRegionALeave1 -- under 5
+"EvtGirlDateRegionALeave1" = "到運動場約會氣氛總是怪怪的…";
+"EvtGirlDateRegionALeave1a" = "我：「喂喂… 我肚子有點不舒服… 我先走啦…」";
+"EvtGirlDateRegionALeave1b" = "雅詩：「神馬？！」";
+"EvtGirlDateRegionALeave1c" = "我：「嗚呀呀呀呀！」";
+"EvtGirlDateRegionALeave1d" = "然後我飛奔回去。";
+
+//EvtGirlDateRegionALeave2 -- under 10
+"EvtGirlDateRegionALeave2" = "再次跟雅詩到這裡約會看看…";
+"EvtGirlDateRegionALeave2a" = "雅詩：「還好今天沒什麼人游泳！」";
+"EvtGirlDateRegionALeave2b" = "我：「呀！我忘了帶泳褲！」";
+"EvtGirlDateRegionALeave2c" = "我：「那怎麼辦？」";
+"EvtGirlDateRegionALeave2d" = "雅詩用很失望的眼神看著我…然後轉身走了…";
+
+//EvtGirlDateRegionALeave3 -- more than 15
+"EvtGirlDateRegionALeave3" = "嘿嘿…今天我準備充足！";
+"EvtGirlDateRegionALeave3a" = "劇烈運動進行中";
+"EvtGirlDateRegionALeave3b" = "一個小時後。";
+"EvtGirlDateRegionALeave3c" = "我：「太好了！運動約會大成功！";
+"EvtGirlDateRegionALeave3d" = "雅詩：「太激烈了！我先回家洗澡…一小時後在咖啡店見！」 ";
+
+//EvtGirlDateRegionAStart1
+"EvtGirlDateRegionAStart1" = "今天跟平常一樣。";
+"EvtGirlDateRegionAStart1a" = "早一點點到約會地點。";
+"EvtGirlDateRegionAStart1b" = "我覺得有時候男生等一陣子是沒問題的！";
+"EvtGirlDateRegionAStart1c" = "而且..";
+"EvtGirlDateRegionAStart1d" = "這樣雅詩會高興點吧！";
+
+//EvtGirlDateRegionAStart2
+"EvtGirlDateRegionAStart2" = "今天跟平常一樣。";
+"EvtGirlDateRegionAStart2a" = "早了到約會地點。";
+"EvtGirlDateRegionAStart2b" = "那我就去一去洗手間，";
+"EvtGirlDateRegionAStart2c" = "去照照鏡子，看自己準備了沒。";
+"EvtGirlDateRegionAStart2d" = "完美！那先等等吧！";
+
+//EvtGirlDateRegionAStart3
+"EvtGirlDateRegionAStart3" = "今天遲了很多。";
+"EvtGirlDateRegionAStart3a" = "我看看錶…雅詩已經走了…";
+"EvtGirlDateRegionAStart3b" = "反正沒事幹，那就去坐坐吧。";
+"EvtGirlDateRegionAStart3c" = "悶………";
+"EvtGirlDateRegionAStart3d" = "太遲到約會地方不是太好……";
+
+//EvtGirlDateRomanceRegionA1
+"EvtGirlDateRomanceRegionA1" = "我：「喂！雅詩，你想做什麼運動嗎？」";
+"EvtGirlDateRomanceRegionA1a" = "雅詩：「都可以呀。」";
+"EvtGirlDateRomanceRegionA1b" = "我：「你沒有一個特別喜歡的嗎？」";
+"EvtGirlDateRomanceRegionA1c" = "雅詩：「真的沒有…流汗的就可以。」";
+"EvtGirlDateRomanceRegionA1d" = "我：「那我們就去打羽毛球吧。」";
+
+//EvtGirlDateRomanceRegionA2
+"EvtGirlDateRomanceRegionA2" = "雅詩：「喂，今天要帶我玩點什麼嗎？」";
+"EvtGirlDateRomanceRegionA2a" = "我：「今天很超級累… 不過帶你玩一個簡單的運動吧！」";
+"EvtGirlDateRomanceRegionA2b" = "雅詩：「哦，原來是跳飛機！」";
+"EvtGirlDateRomanceRegionA2c" = "我：「對，我小時候超喜歡玩！」";
+"EvtGirlDateRomanceRegionA2d" = "雅詩：「嘻嘻。」";
+
+//EvtGirlDateRomanceRegionA3
+"EvtGirlDateRomanceRegionA3" = "雅詩：「喂　今天到我帶你去玩我喜歡的東西吧」";
+"EvtGirlDateRomanceRegionA3a" = "我：「好呀。」";
+"EvtGirlDateRomanceRegionA3b" = "雅詩：「快跟我來！」";
+"EvtGirlDateRomanceRegionA3c" = "我：「哦… 這是…」";
+"EvtGirlDateRomanceRegionA3d" = "我：「原本就是游泳池的滑梯，傻瓜！」";
+
+//EvtGirlWalkLookRegionA1 -- Soccer Ball
+"EvtGirlWalkLookRegionA1" = "今天要當個足球猛將！";
+"EvtGirlWalkLookRegionA1a" = "剛開始就有助攻的機會啦…七旋斬！ ";
+"EvtGirlWalkLookRegionA1b" = "然後一個光頭隊友接應我一記妙傳… 再連續做了五個動作…球進了！我傻眼了";
+"EvtGirlWalkLookRegionA1c" = "對方開球未多久我就攔截了對方的傳球！看我的…單刀！";
+"EvtGirlWalkLookRegionA1d" = "就不要橫傳了！LET ME FINISH THIS！直接把龍門射個烯巴爛！進了！";
+"EvtGirlWalkLookRegionA1e" = "出了一身男兒汗！爽！";
+
+//EvtGirlWalkLookRegionA2 -- Table Tennis Racket and Ball
+"EvtGirlWalkLookRegionA2" = "有人在打乒乓… 去跟隊吧！";
+"EvtGirlWalkLookRegionA2a" = "是時候展示我驚人的反射神經和球技了！";
+"EvtGirlWalkLookRegionA2b" = "發球！";
+"EvtGirlWalkLookRegionA2c" = "球來球往…球來球往…球來球往…扣殺！然後球就不來了！";
+"EvtGirlWalkLookRegionA2d" = "嘿嘿…我小勝對手幾分！";
+
+//EvtGirlWalkLookRegionA3
+"EvtGirlWalkLookRegionA3" = "今天球場特別多人…";
+"EvtGirlWalkLookRegionA3a" = "球場每一個角落都有人…";
+"EvtGirlWalkLookRegionA3b" = "然後室內漂著一個臭汗味…";
+"EvtGirlWalkLookRegionA3c" = "今天好像玩什麼都要等好久…";
+"EvtGirlWalkLookRegionA3d" = "我還是再等等吧！";
+
+//EvtGirlWalkRegionAPreset1
+"EvtGirlWalkRegionAPreset1" = "廣播：「那個全身穿黃色的女孩請你馬上跟服務台聯絡。」";
+"EvtGirlWalkRegionAPreset1a" = "然後那個女孩尖叫一下";
+"EvtGirlWalkRegionAPreset1b" = "之後再衡去服務台";
+"EvtGirlWalkRegionAPreset1c" = "到底在搞什麼東東呢?";
+"EvtGirlWalkRegionAPreset1d" = "難道也是中獎？";
+
+//EvtGirlWalkRegionAPreset2
+"EvtGirlWalkRegionAPreset2" = "廣播：「那個穿著紅色球鞋的青年請你馬上跟服務台聯絡。」";
+"EvtGirlWalkRegionAPreset2a" = "我左看右看…整個體育館好像只有我一個是紅鞋子…";
+"EvtGirlWalkRegionAPreset2b" = "廣播：「對呀，就是你不用看啦快過來！」";
+"EvtGirlWalkRegionAPreset2c" = "所有人都看著我… 然後我以極速跑過服務台";
+"EvtGirlWalkRegionAPreset2d" = "工作人員：「Congratulations！你中獎啦！」";
+
+//EvtGirlWalkRegionAStart1
+"EvtGirlWalkRegionAStart1" = "這裡是學校的體育館。";
+"EvtGirlWalkRegionAStart1a" = "這個體育館很大，可以進行不同類型的運動。";
+"EvtGirlWalkRegionAStart1b" = "雅詩有時候也會在這裡出現。";
+"EvtGirlWalkRegionAStart1c" = "今天會看到她嗎？";
+"EvtGirlWalkRegionAStart1d" = "好！搜尋開始！";
+
+//EvtGirlWalkTalkRegionA1 
+"EvtGirlWalkTalkRegionA1" = "有個人突然走過來…";
+"EvtGirlWalkTalkRegionA1a" = "陌生人：「唷！要打球嗎？」";
+"EvtGirlWalkTalkRegionA1b" = "我：「......」";
+"EvtGirlWalkTalkRegionA1c" = "陌生人：「打啦！我們還差一個人！」";
+"EvtGirlWalkTalkRegionA1d" = "然後我隨便編一個籍口把他打發走…";
+
+//EvtGirlWalkTalkRegionA2
+"EvtGirlWalkTalkRegionA2" = "一個男的在球場外在自言自語…";
+"EvtGirlWalkTalkRegionA2a" = "奇怪男：「我要拿獎品…」";
+"EvtGirlWalkTalkRegionA2b" = "奇怪男：「我要拿獎品…」";
+"EvtGirlWalkTalkRegionA2c" = "奇怪男：「星期天十點！！！」";
+"EvtGirlWalkTalkRegionA2d" = "他有神經病嗎？";
+
+//EvtGirlWalkTalkRegionA3
+"EvtGirlWalkTalkRegionA3" = "對面有幾個小孩在玩跳飛機…";
+"EvtGirlWalkTalkRegionA3a" = "小孩 A：「一…三…然後是…」";
+"EvtGirlWalkTalkRegionA3b" = "小孩 A：「然後是… (跌倒)」";
+"EvtGirlWalkTalkRegionA3c" = "其他小孩：「哈哈哈哈哈！輸了就沒獎品！」";
+"EvtGirlWalkTalkRegionA3d" = "跳飛機都有獎品？什麼世界？";
+
+//Region B
+//EvtGirlDateChatRegionB1
+"EvtGirlDateChatRegionB1" = "我：「喂喂…雅詩！我…可以問你一個問題嗎？」";
+"EvtGirlDateChatRegionB1a" = "雅詩：「YES？」";
+"EvtGirlDateChatRegionB1b" = "雅詩：「可以呀多多都可以問！」";
+"EvtGirlDateChatRegionB1c" = "我：「你很喜歡穿比堅尼的嗎？」";
+"EvtGirlDateChatRegionB1d" = "雅詩面紅說：「笨蛋！」";
+
+//EvtGirlDateChatRegionB2
+"EvtGirlDateChatRegionB2" = "我：「喂，雅詩！」";
+"EvtGirlDateChatRegionB2a" = "雅詩：「什麼？」";
+"EvtGirlDateChatRegionB2b" = "我：「明天有空嗎？」";
+"EvtGirlDateChatRegionB2c" = "她：「有呀！要約我嗎？」";
+"EvtGirlDateChatRegionB2d" = "我：「哈哈，先賣個關子。」";
+
+//EvtGirlDateChatRegionB3
+"EvtGirlDateChatRegionB3" = "我：「暴曬了一整天…超級爽！」";
+"EvtGirlDateChatRegionB3a" = "雅詩：「對呀… 謝謝你約我來」";
+"EvtGirlDateChatRegionB3b" = "我：「呵呵…我想見你嘛…該我謝謝你才對！」";
+"EvtGirlDateChatRegionB3c" = "她：「你說什麼？」";
+"EvtGirlDateChatRegionB3d" = "我：「沒…沒有！先去沖沖水！」";
+
+//EvtGirlDateRegionBLeave1
+"EvtGirlDateRegionBLeave1" = "雅詩已經換好泳裝在沙灘等候…";
+"EvtGirlDateRegionBLeave1a" = "天黑黑…好像快要下雨…";
+"EvtGirlDateRegionBLeave1b" = "我：「喂…好像快下雨啦…我先走啦…」";
+"EvtGirlDateRegionBLeave1c" = "雅詩：「......」";
+"EvtGirlDateRegionBLeave1d" = "我轉身走了…";
+
+//EvtGirlDateRegionBLeave2
+"EvtGirlDateRegionBLeave2" = "哈哈！今天我比雅詩早到！";
+"EvtGirlDateRegionBLeave2a" = "雅詩：「我先去換衣服吧！」";
+"EvtGirlDateRegionBLeave2b" = "我：「快點哦…要不然突然下雨就死了！」";
+"EvtGirlDateRegionBLeave2c" = "但是…雅詩剛換好泳裝躺下的時候…真的下雨了！";
+"EvtGirlDateRegionBLeave2d" = "雅詩：「你這個烏鴉嘴…………… (惱)」";
+
+//EvtGirlDateRegionBLeave3
+"EvtGirlDateRegionBLeave3" = "今天天氣心情大不同…";
+"EvtGirlDateRegionBLeave3a" = "今天天氣不錯…有陽光但太不熱…柔和的海風吹得雅詩睡著了！";
+"EvtGirlDateRegionBLeave3b" = "而我跟雅詩已經在沙灘待了兩個小時了！";
+"EvtGirlDateRegionBLeave3c" = "我：「喂喂！我該回去啦！我的皮膚都曬傷了！」";
+"EvtGirlDateRegionBLeave3d" = "雅詩：「對哦…那下一次再約吧！」";
+
+//EvtGirlDateRegionBStart1
+"EvtGirlDateRegionBStart1" = "今天跟平常一樣。";
+"EvtGirlDateRegionBStart1a" = "早一點點到約會地點。";
+"EvtGirlDateRegionBStart1b" = "我覺得有時候男生等一陣子是沒問題的！";
+"EvtGirlDateRegionBStart1c" = "而且..";
+"EvtGirlDateRegionBStart1d" = "這樣雅詩會高興點吧！";
+
+//EvtGirlDateRegionBStart2
+"EvtGirlDateRegionBStart2" = "今天跟平常一樣。";
+"EvtGirlDateRegionBStart2a" = "早了到約會地點。";
+"EvtGirlDateRegionBStart2b" = "那我就去一去洗手間，";
+"EvtGirlDateRegionBStart2c" = "去照照鏡子，看自己準備了沒。";
+"EvtGirlDateRegionBStart2d" = "完美！";
+
+//EvtGirlDateRegionBStart3
+"EvtGirlDateRegionBStart3" = "今天遲了很多。";
+"EvtGirlDateRegionBStart3a" = "我看看錶…雅詩已經走了…";
+"EvtGirlDateRegionBStart3b" = "反正沒事幹，那就去坐坐吧。";
+"EvtGirlDateRegionBStart3c" = "悶………";
+"EvtGirlDateRegionBStart3d" = "太遲到約會地方都不是太好……";
+
+//EvtGirlDateRomanceRegionB1
+"EvtGirlDateRomanceRegionB1" = "我：「喂喂喂！」";
+"EvtGirlDateRomanceRegionB1a" = "雅詩：「YEEEEEES？」";
+"EvtGirlDateRomanceRegionB1b" = "我：「你還沒回答… 上次的比堅尼問題。」";
+"EvtGirlDateRomanceRegionB1c" = "雅詩的臉超級紅…害羞說：「是呀…你不喜歡嗎？」";
+"EvtGirlDateRomanceRegionB1d" = "我：「沒有沒有…很好看…」（面紅的女生真可愛…有極大的殺傷力）";
+
+//EvtGirlDateRomanceRegionB2
+"EvtGirlDateRomanceRegionB2" = "我：「欸你有聽說過淺水灣的花茶飲料嗎？」";
+"EvtGirlDateRomanceRegionB2a" = "雅詩說：「有呀！你要帶多去喝！」";
+"EvtGirlDateRomanceRegionB2b" = "我：「好，走吧！」";
+"EvtGirlDateRomanceRegionB2c" = "我們點了一個 JUMBO SIZE 來喝";
+"EvtGirlDateRomanceRegionB2d" = "跟雅詩貼著臉喝同一杯飲料真的開心到無法形容！";
+
+//EvtGirlDateRomanceRegionB3
+"EvtGirlDateRomanceRegionB3" = "雅詩：「喂喂！那是什麼？」";
+"EvtGirlDateRomanceRegionB3a" = "我：「哪個呀？」";
+"EvtGirlDateRomanceRegionB3b" = "雅詩：「奇怪的西瓜。」";
+"EvtGirlDateRomanceRegionB3c" = "我：「哦！聽說是這個海灘的紀念品…有機會的話我送你一個吧！」";
+"EvtGirlDateRomanceRegionB3d" = "雅詩：「我會記住的…不要隨便答應喔！」";
+
+//EvtGirlWalkLookRegionB1 – sunflower +health
+"EvtGirlWalkLookRegionB1" = "聽說淺水灣有一間花茶飲料很好喝…今天就嘗嘗吧！";
+"EvtGirlWalkLookRegionB1a" = "在哪裡呢？";
+"EvtGirlWalkLookRegionB1b" = "喔，找到了";
+"EvtGirlWalkLookRegionB1c" = "我點了一杯 JUMBO SIZE 喝！";
+"EvtGirlWalkLookRegionB1d" = "真的異常冰涼！整個人都精神起來了！下次一定要讓雅詩試試看";
+
+//EvtGirlWalkLookRegionB2 -- swimming short　+social
+"EvtGirlWalkLookRegionB2" = "換上了泳褲就要做一個陽光猛男！";
+"EvtGirlWalkLookRegionB2a" = "我立院跑到海邊跟其他人玩沙灘數字球";
+"EvtGirlWalkLookRegionB2b" = "呵呵 作弄了不少人";
+"EvtGirlWalkLookRegionB2c" = "玩了半個小時有多";
+"EvtGirlWalkLookRegionB2d" = "Good Game！夏天在海灘跟陌生人人玩就是不一樣！";
+
+//EvtGirlWalkLookRegionB3
+"EvtGirlWalkLookRegionB3" = "在灘上走走吧…";
+"EvtGirlWalkLookRegionB3a" = "天！有幾個正妹準備曬太陽！";
+"EvtGirlWalkLookRegionB3b" = "她們會脫嗎？";
+"EvtGirlWalkLookRegionB3c" = "她們的樣子…身材誘人到不行…";
+"EvtGirlWalkLookRegionB3d" = "如果她們都要我幫幫忙就好了… 嘿嘿…";
+
+//EvtGirlWalkRegionBPreset1
+"EvtGirlWalkRegionBPreset1" = "我到了這個海灘一段日子有多…";
+"EvtGirlWalkRegionBPreset1a" = "其實我發現了一個奇怪現象…";
+"EvtGirlWalkRegionBPreset1b" = "怎麼有些人會拿著不同型狀大小的西瓜呢？";
+"EvtGirlWalkRegionBPreset1c" = "真的莫名其妙…";
+"EvtGirlWalkRegionBPreset1d" = "不會都是那個正妹送出去的吧？";
+
+//EvtGirlWalkRegionBPreset2
+"EvtGirlWalkRegionBPreset2" = "聲音：「喂，帥哥！」";
+"EvtGirlWalkRegionBPreset2a" = "聽見帥哥…我立刻看看是誰在叫我";
+"EvtGirlWalkRegionBPreset2b" = "是上一次那個正妹";
+"EvtGirlWalkRegionBPreset2c" = "正妹：「這個給你…答謝你的太陽油，拜拜。」";
+"EvtGirlWalkRegionBPreset2d" = "正妹把傳說中海灘的紀念品奇怪西瓜給我。";
+
+//EvtGirlWalkRegionBStart1
+"EvtGirlWalkRegionBStart1" = "這個城市最優美的海灘。";
+"EvtGirlWalkRegionBStart1a" = "這裡的海水很清，沙很幼。";
+"EvtGirlWalkRegionBStart1b" = "每逢夏季我都一定會來這邊，為什麼？";
+"EvtGirlWalkRegionBStart1c" = "當然是曬曬太陽…還有… ";
+"EvtGirlWalkRegionBStart1d" = "看看美女…哼哼…不知道今天會有什麼收獲呢？";
+
+//EvtGirlWalkTalkRegionB1
+"EvtGirlWalkTalkRegionB1" = "突然有一個超級正妹走過來…";
+"EvtGirlWalkTalkRegionB1a" = "超級正妹：「欸…帥哥…可以幫我一個忙嗎？」";
+"EvtGirlWalkTalkRegionB1b" = "我有一點緊張…";
+"EvtGirlWalkTalkRegionB1c" = "超級正妹：「你等等可以過來幫我搽太陽油嗎？」";
+"EvtGirlWalkTalkRegionB1d" = "我：「可…可以呀！」";
+
+
+//EvtGirlWalkTalkRegionB2
+"EvtGirlWalkTalkRegionB2" = "一如以往… 今天有很多人帶狗狗來玩";
+"EvtGirlWalkTalkRegionB2a" = "哇！有一只超級大的敖犬！";
+"EvtGirlWalkTalkRegionB2b" = "那只敖犬跳到主人懷裡... 在拍戲嗎？";
+"EvtGirlWalkTalkRegionB2c" = "那個狗主人倒下";
+"EvtGirlWalkTalkRegionB2d" = "笑死我了";
+
+//EvtGirlWalkTalkRegionB3
+"EvtGirlWalkTalkRegionB3" = "陌生人：「喂！小兄弟！：」";
+"EvtGirlWalkTalkRegionB3a" = "我：「？？？」";
+"EvtGirlWalkTalkRegionB3b" = "陌生人：「你知道嗎？星期一十一點的時候會有機會拿到沙灘的紀念品，但派發的方法好神秘。」";
+"EvtGirlWalkTalkRegionB3c" = "我搖搖頭";
+"EvtGirlWalkTalkRegionB3d" = "陌生人：「那…謝啦！」";
+
+
+//Region C Bowling
+//EvtGirlDateChatRegionC1
+"EvtGirlDateChatRegionC1" = "我：「...... 」";
+"EvtGirlDateChatRegionC1a" = "雅詩：「？」";
+"EvtGirlDateChatRegionC1b" = "我：「其實我…不太玩保齡球」";
+"EvtGirlDateChatRegionC1c" = "雅詩：「不會吧！？」";
+"EvtGirlDateChatRegionC1d" = "無言…";
+
+//EvtGirlDateChatRegionC2
+"EvtGirlDateChatRegionC2" = "跟雅詩打了兩個回合…";
+"EvtGirlDateChatRegionC2a" = "雅詩：「太好玩了！你也會玩啦現在！」";
+"EvtGirlDateChatRegionC2b" = "我：「還可以啦。」";
+"EvtGirlDateChatRegionC2c" = "雅詩：「那你一定要多陪我來！」";
+"EvtGirlDateChatRegionC2d" = "我：「好！沒問題！」";
+
+//EvtGirlDateChatRegionC3
+"EvtGirlDateChatRegionC3" = "雅詩：「喂，告訴你一些事。」";
+"EvtGirlDateChatRegionC3a" = "我：「什麼？」";
+"EvtGirlDateChatRegionC3b" = "雅詩：「但你不要生氣喔…我從前的男友常常帶我打保齡的。」";
+"EvtGirlDateChatRegionC3c" = "我：「……難怪你那麼熟練…」";
+"EvtGirlDateChatRegionC3d" = "怎麼有些不是味兒的感覺…";
+
+//EvtGirlDateRegionCLeave1
+"EvtGirlDateRegionCLeave1" = "我：「喂！」";
+"EvtGirlDateRegionCLeave1a" = "雅詩：「? 」";
+"EvtGirlDateRegionCLeave1b" = "我：「我不想玩。」";
+"EvtGirlDateRegionCLeave1c" = "雅詩：「為什麼呢？」";
+"EvtGirlDateRegionCLeave1d" = "我：「沒有…就突然不想玩而已。」";
+
+//EvtGirlDateRegionCLeave2
+"EvtGirlDateRegionCLeave2" = "今天準備十足！我已經玩了一陣子！";
+"EvtGirlDateRegionCLeave2a" = "突然電話響起";
+"EvtGirlDateRegionCLeave2b" = "妹妹：「哥！我忘了帶鑰匙，你趕回來！」";
+"EvtGirlDateRegionCLeave2c" = "雅詩看著我…樣子有點不耐煩";
+"EvtGirlDateRegionCLeave2d" = "我說妹妹沒有鑰匙進門就走了";
+
+//EvtGirlDateRegionCLeave3
+"EvtGirlDateRegionCLeave3" = "跟雅詩玩了差不多兩個回合";
+"EvtGirlDateRegionCLeave3a" = "我：「糟了！」";
+"EvtGirlDateRegionCLeave3b" = "雅詩：「怎麼了？」";
+"EvtGirlDateRegionCLeave3c" = "我：「忘了關火！要先回家！」";
+"EvtGirlDateRegionCLeave3d" = "雅詩：「笨蛋…那你快回去吧。」";
+
+//EvtGirlDateRegionCStart1
+"EvtGirlDateRegionCStart1" = "今天跟平常一樣。";
+"EvtGirlDateRegionCStart1a" = "早一點點到約會地點。";
+"EvtGirlDateRegionCStart1b" = "我覺得有時候男生等一陣子是沒問題的！";
+"EvtGirlDateRegionCStart1c" = "而且..";
+"EvtGirlDateRegionCStart1d" = "這樣雅詩會高興點吧！";
+
+//EvtGirlDateRegionCStart2
+"EvtGirlDateRegionCStart2" = "今天跟平常一樣。";
+"EvtGirlDateRegionCStart2a" = "早了到約會地點。";
+"EvtGirlDateRegionCStart2b" = "那我就去一去洗手間，";
+"EvtGirlDateRegionCStart2c" = "去照照鏡子，看自己準備了沒。";
+"EvtGirlDateRegionCStart2d" = "完美！";
+
+//EvtGirlDateRegionCStart3
+"EvtGirlDateRegionCStart3" = "今天遲了很多。";
+"EvtGirlDateRegionCStart3a" = "我看看錶…雅詩已經走了…";
+"EvtGirlDateRegionCStart3b" = "反正沒事幹，那就去坐坐吧。";
+"EvtGirlDateRegionCStart3c" = "悶………";
+"EvtGirlDateRegionCStart3d" = "太遲到約會地方都不是太好……";
+
+//EvtGirlDateRomanceRegionC1
+"EvtGirlDateRomanceRegionC1" = "雅詩：「欸… 你真的一點都不會嗎？」";
+"EvtGirlDateRomanceRegionC1a" = "我：「真的一點都不會…」";
+"EvtGirlDateRomanceRegionC1b" = "雅詩：「沒關係啦，我也不是太好。」";
+"EvtGirlDateRomanceRegionC1c" = "我：「......你不用安慰我啦。」";
+"EvtGirlDateRomanceRegionC1d" = "雅詩：「真的！我們一起研究吧 = )」";
+
+//EvtGirlDateRomanceRegionC2
+"EvtGirlDateRomanceRegionC2" = "雅詩：「看！才學了一會…玩得多好。」";
+"EvtGirlDateRomanceRegionC2a" = "我：「你不用裝啦…」";
+"EvtGirlDateRomanceRegionC2b" = "雅詩：「我才沒有！」";
+"EvtGirlDateRomanceRegionC2c" = "我：「真的？」";
+"EvtGirlDateRomanceRegionC2d" = "雅詩：「真的…但你要請我吃飯！」";
+
+//EvtGirlDateRomanceRegionC3
+"EvtGirlDateRomanceRegionC3" = "雅詩：「喂…！」 ";
+"EvtGirlDateRomanceRegionC3a" = "我：「怎麼了？」";
+"EvtGirlDateRomanceRegionC3b" = "雅詩：「我等等要買一雙新的保齡球鞋子…你陪我去好嗎？」";
+"EvtGirlDateRomanceRegionC3c" = "我：「沒問題呀！」";
+"EvtGirlDateRomanceRegionC3d" = "雅詩：「太好了！我要你你也買一雙跟我一樣的！」";
+
+//EvtGirlWalkLookRegionC1 -- bowling pin +health
+"EvtGirlWalkLookRegionC1" = "那邊有一個練習用的軌道…";
+"EvtGirlWalkLookRegionC1a" = "應該是新手用的吧？";
+"EvtGirlWalkLookRegionC1b" = "反正也到了…走過去試試看";
+"EvtGirlWalkLookRegionC1c" = "中了九個！";
+"EvtGirlWalkLookRegionC1d" = "嘿嘿… 我這個新手也不賴！";
+
+//EvtGirlWalkLookRegionC2 -- bowling ball +talent
+"EvtGirlWalkLookRegionC2" = "在跟雅詩約會之前，先到這邊視察環境。";
+"EvtGirlWalkLookRegionC2a" = "走到一個未人玩的軌道。";
+"EvtGirlWalkLookRegionC2b" = "隨便看看不同的保齡球…";
+"EvtGirlWalkLookRegionC2c" = "拿幾個上手看看…";
+"EvtGirlWalkLookRegionC2d" = "我想應該不太難玩吧";
+
+//EvtGirlWalkLookRegionC3
+"EvtGirlWalkLookRegionC3" = "我隨便找一個位子坐下看別人玩。";
+"EvtGirlWalkLookRegionC3a" = "突然…全場的燈都變暗了。";
+"EvtGirlWalkLookRegionC3b" = "但人人都很興奮…";
+"EvtGirlWalkLookRegionC3c" = "原來白色的衣服都變了夜光的效果！";
+"EvtGirlWalkLookRegionC3d" = "這個地方真的非常特別！";
+
+//EvtGirlWalkRegionCPreset1
+"EvtGirlWalkRegionCPreset1" = "那個送我禮物的工作人員在視察場館…";
+"EvtGirlWalkRegionCPreset1a" = "工作人員：「請注意… 穿上合適的鞋子！」";
+"EvtGirlWalkRegionCPreset1b" = "工作人員：「如果沒有的話可以去租用。」";
+"EvtGirlWalkRegionCPreset1c" = "工作人員：「如果想點食物的話可以按服務鍵」";
+"EvtGirlWalkRegionCPreset1d" = "工作人員：「謝謝合作！」";
+
+//EvtGirlWalkRegionCPreset2
+"EvtGirlWalkRegionCPreset2" = "工作人員：「CONGRATULATIONS！你中獎了！」";
+"EvtGirlWalkRegionCPreset2a" = "工作人員：「從今天開始你就是本會的 VIP， 這香蕉就是身份象徵！」";
+"EvtGirlWalkRegionCPreset2b" = "我：「哦……謝謝……」";
+"EvtGirlWalkRegionCPreset2c" = "我接過香蕉就吃了一口";
+"EvtGirlWalkRegionCPreset2d" = "真的挻好吃！";
+
+//EvtGirlWalkRegionCStart1
+"EvtGirlWalkRegionCStart1" = "城里最大型的保齡球館。 ";
+"EvtGirlWalkRegionCStart1a" = "週末的時候有好多人都會到這邊玩。";
+"EvtGirlWalkRegionCStart1b" = "聽說這裡的燈光設備還不錯。";
+"EvtGirlWalkRegionCStart1c" = "今天就來見識一下！";
+"EvtGirlWalkRegionCStart1d" = "來逛逛吧！";
+
+//EvtGirlWalkTalkRegionC1
+"EvtGirlWalkTalkRegionC1" = "工作人員：「您好。」";
+"EvtGirlWalkTalkRegionC1a" = "我：「哈囉。」";
+"EvtGirlWalkTalkRegionC1b" = "工作人員：「我猜你…是初哥吧？」";
+"EvtGirlWalkTalkRegionC1c" = "這好像恥笑我…但我點了頭";
+"EvtGirlWalkTalkRegionC1d" = "工作人員：「如果要私人教練的話跟任個一個人員講就好。」";
+
+//EvtGirlWalkTalkRegionC2
+"EvtGirlWalkTalkRegionC2" = "工作人員：「喂！那邊的哥兒！」";
+"EvtGirlWalkTalkRegionC2a" = "我望過去";
+"EvtGirlWalkTalkRegionC2b" = "工作人員：「要成為我們的 VIP 嗎？有禮物的呢！」";
+"EvtGirlWalkTalkRegionC2c" = "工作人員：「想要的話星期二的十二點鐘到吧！」";
+"EvtGirlWalkTalkRegionC2d" = "我：「免費的話還可以…付錢就不要了。」";
+
+//EvtGirlWalkTalkRegionC3
+"EvtGirlWalkTalkRegionC3" = "那個工作人員又過來了";
+"EvtGirlWalkTalkRegionC3a" = "我忽發奇想… 就走過去跟他聊聊。";
+"EvtGirlWalkTalkRegionC3b" = "我：「喂喂，為什麼你可以再室內抽煙斗？」";
+"EvtGirlWalkTalkRegionC3c" = "工作人員：「這是假的…但沒有它就不能集中精神。」";
+"EvtGirlWalkTalkRegionC3d" = "……無言……";
+
+//Region D
+//EvtGirlDateChatRegionD1
+"EvtGirlDateChatRegionD1" = "今天的任務是…陪雅詩逛！";
+"EvtGirlDateChatRegionD1a" = "任務開始！";
+"EvtGirlDateChatRegionD1b" = "三十分鐘過後…她已經有三大袋在左手…";
+"EvtGirlDateChatRegionD1c" = "再多三十分鐘…她右手又多了五個小袋…";
+"EvtGirlDateChatRegionD1d" = "女生的購物慾真的......";
+
+//EvtGirlDateChatRegionD2
+"EvtGirlDateChatRegionD2" = "忽然想起！";
+"EvtGirlDateChatRegionD2a" = "我：「喂！你有聽過這商場辦的那個尋寶遊戲嗎？」";
+"EvtGirlDateChatRegionD2b" = "雅詩：「沒有耶！」";
+"EvtGirlDateChatRegionD2c" = "我：「你看！」";
+"EvtGirlDateChatRegionD2d" = "雅詩：「哦…不知道獎品是什麼呢？」";
+
+//EvtGirlDateChatRegionD3
+"EvtGirlDateChatRegionD3" = "經過好一輪購物活動，終於可以休息一下了！";
+"EvtGirlDateChatRegionD3a" = "雅詩買了飲料給我";
+"EvtGirlDateChatRegionD3b" = "雅詩：「我的購物慾有嚇到你嗎？」";
+"EvtGirlDateChatRegionD3c" = "雅詩：「今天已經不算什麼啦！」";
+"EvtGirlDateChatRegionD3d" = "我想…要當你老公真的賣身都賺不夠… ";
+
+//EvtGirlDateRegionDLeave1
+"EvtGirlDateRegionDLeave1" = "糟…雅詩已經在等我…";
+"EvtGirlDateRegionDLeave1a" = "雅詩：「喂，又要走了嗎你！」";
+"EvtGirlDateRegionDLeave1b" = "我：「對不起對不起…」";
+"EvtGirlDateRegionDLeave1c" = "我：「喂今天不要逛這吧。去一去我家可以嗎？」";
+"EvtGirlDateRegionDLeave1d" = "雅詩：「嗯…」";
+
+//EvtGirlDateRegionDLeave2
+"EvtGirlDateRegionDLeave2" = "今天我約了雅詩陪我去買東西";
+"EvtGirlDateRegionDLeave2a" = "怎料…";
+"EvtGirlDateRegionDLeave2b" = " …本店在進行內部裝修… ";
+"EvtGirlDateRegionDLeave2c" = "雅詩：「那怎麼辦？」";
+"EvtGirlDateRegionDLeave2d" = "我：「那我先走啦！反正沒啥好看…拜！」";
+
+//EvtGirlDateRegionDLeave3
+"EvtGirlDateRegionDLeave3" = "今天雅詩的購物慾一如以往般…";
+"EvtGirlDateRegionDLeave3a" = "兩個字就足夠形容…旺盛！";
+"EvtGirlDateRegionDLeave3b" = "三十分鐘就已經有六大袋…";
+"EvtGirlDateRegionDLeave3c" = "其中三個袋破了！";
+"EvtGirlDateRegionDLeave3d" = "呵呵…要被逼停止 Shopping 回家了！";
+
+//EvtGirlDateRegionDStart1
+"EvtGirlDateRegionDStart1" = "今天跟平常一樣。";
+"EvtGirlDateRegionDStart1a" = "早一點點到約會地點。";
+"EvtGirlDateRegionDStart1b" = "我覺得有時候男生等一陣子是沒問題的！";
+"EvtGirlDateRegionDStart1c" = "而且..";
+"EvtGirlDateRegionDStart1d" = "這樣雅詩會高興點吧！";
+
+//EvtGirlDateRegionDStart2
+"EvtGirlDateRegionDStart2" = "今天跟平常一樣。";
+"EvtGirlDateRegionDStart2a" = "早了到約會地點。";
+"EvtGirlDateRegionDStart2b" = "那我就去一去洗手間，";
+"EvtGirlDateRegionDStart2c" = "去照照鏡子，看自己準備了沒。";
+"EvtGirlDateRegionDStart2d" = "完美！";
+
+//EvtGirlDateRegionDStart3
+"EvtGirlDateRegionDStart3" = "今天遲了很多。";
+"EvtGirlDateRegionDStart3a" = "我看看錶…雅詩已經走了…";
+"EvtGirlDateRegionDStart3b" = "反正沒事幹，那就去坐坐吧。";
+"EvtGirlDateRegionDStart3c" = "悶………";
+"EvtGirlDateRegionDStart3d" = "太遲到約會地方都不是太好……";
+
+//EvtGirlDateRomanceRegionD1
+"EvtGirlDateRomanceRegionD1" = "我帶雅詩到美食廣場嘗嘗那個吐司。";
+"EvtGirlDateRomanceRegionD1a" = "我：「你覺得怎樣？」";
+"EvtGirlDateRomanceRegionD1b" = "雅詩：「還可以。」";
+"EvtGirlDateRomanceRegionD1c" = "我：「我知道有一間非常好吃的！下次帶你去！」";
+"EvtGirlDateRomanceRegionD1d" = "雅詩：「好！就等你約我啦！」";
+
+//EvtGirlDateRomanceRegionD2
+"EvtGirlDateRomanceRegionD2" = "雅詩：「那不是你的衣服嗎？！」";
+"EvtGirlDateRomanceRegionD2a" = "我：「哪裡哪裡？」";
+"EvtGirlDateRomanceRegionD2b" = "雅詩：「你穿得比他好看多啦！」";
+"EvtGirlDateRomanceRegionD2c" = "那店員無奈地看著我們。";
+"EvtGirlDateRomanceRegionD2d" = "我：「拜託！真的超級尷尬！不要再鬧啦！」";
+
+//EvtGirlDateRomanceRegionD3
+"EvtGirlDateRomanceRegionD3" = "雅詩正目瞪口呆的看著…";
+"EvtGirlDateRomanceRegionD3a" = "原來是尋寶遊戲的紀念品";
+"EvtGirlDateRomanceRegionD3b" = "雅詩很小聲的說：「好漂亮呀。」";
+"EvtGirlDateRomanceRegionD3c" = "好！為了你…我一定會換給你！";
+"EvtGirlDateRomanceRegionD3d" = "我想雅詩收到之後一定十分開心";
+
+//EvtGirlWalkLookRegionD1 -- glasses
+"EvtGirlWalkLookRegionD1" = "眼鏡店內有一群人在討論什麼";
+"EvtGirlWalkLookRegionD1a" = "路人甲：「這個眼鏡從來都未見過！叫什麼呢？」";
+"EvtGirlWalkLookRegionD1b" = "路人乙：「對啊！好像樣子怪怪的！」";
+"EvtGirlWalkLookRegionD1c" = "我：「這叫Effector，全是人手造的， 台灣只有一百個發售！」";
+"EvtGirlWalkLookRegionD1d" = "他們用崇拜的眼光看著我 ";
+
+//EvtGirlWalkLookRegionD2 -- t shirt +talent
+"EvtGirlWalkLookRegionD2" = "這不是我超級喜歡的品牌？！";
+"EvtGirlWalkLookRegionD2a" = "這個商場開了一旗艦台店！";
+"EvtGirlWalkLookRegionD2b" = "得去看看";
+"EvtGirlWalkLookRegionD2c" = "買了一件衣服";
+"EvtGirlWalkLookRegionD2d" = "希望雅詩會喜歡我這樣穿！";
+
+//EvtGirlWalkLookRegionD3
+"EvtGirlWalkLookRegionD3" = "在美食廣場有家咖啡店";
+"EvtGirlWalkLookRegionD3a" = "所有顧客都是買他的朱古力吐司";
+"EvtGirlWalkLookRegionD3b" = "我也點了一個試試看";
+"EvtGirlWalkLookRegionD3c" = "朱古力味也太少了吧";
+"EvtGirlWalkLookRegionD3d" = "果然只有湯姆的好";
+
+//EvtGirlWalkRegionDPreset1
+"EvtGirlWalkRegionDPreset1" = "怎麼商場有一條人龍？";
+"EvtGirlWalkRegionDPreset1a" = "看看吧…";
+"EvtGirlWalkRegionDPreset1b" = "哈，原來是要換取那個紀念品。";
+"EvtGirlWalkRegionDPreset1c" = "你們慢慢等吧！";
+"EvtGirlWalkRegionDPreset1d" = "哈哈，我先回家了！";
+
+//EvtGirlWalkRegionDPreset2
+"EvtGirlWalkRegionDPreset2" = "今次一定要得到商場的限定品！";
+"EvtGirlWalkRegionDPreset2a" = "極速奔跑中……";
+"EvtGirlWalkRegionDPreset2b" = "衝呀！！！！";
+"EvtGirlWalkRegionDPreset2c" = "剛剛開售…換到了！";
+"EvtGirlWalkRegionDPreset2d" = "是一個天鵝版的特大草莓水晶！";
+
+//EvtGirlWalkRegionDStart1
+"EvtGirlWalkRegionDStart1" = "有大大小小的商店， ";
+"EvtGirlWalkRegionDStart1a" = "絕對是找禮物的好地方。";
+"EvtGirlWalkRegionDStart1b" = "我最喜歡的品牌也在這裡開了一家店！";
+"EvtGirlWalkRegionDStart1c" = "真的十分期待！";
+"EvtGirlWalkRegionDStart1d" = "當然也希望可以買些什麼給雅詩吧！";
+
+//EvtGirlWalkTalkRegionD1
+"EvtGirlWalkTalkRegionD1" = "售貨員：「先生你好。」";
+"EvtGirlWalkTalkRegionD1a" = "售貨員：「這是商場的小冊子… 提提你…今季我們正在辦尋寶遊戲喔！」";
+"EvtGirlWalkTalkRegionD1b" = "售貨員：「得獎名單會在星期三下午一點鐘公佈，先到先得。」";
+"EvtGirlWalkTalkRegionD1c" = "我：「謝謝。」";
+"EvtGirlWalkTalkRegionD1d" = "售貨員：「不壞。」";
+
+//EvtGirlWalkTalkRegionD2
+"EvtGirlWalkTalkRegionD2" = "每次來到這個巨大商場都不太舒服…";
+"EvtGirlWalkTalkRegionD2a" = "肚…肚子…又…又來了！";
+"EvtGirlWalkTalkRegionD2b" = "我：「請問你最近的洗手間在哪裡？」";
+"EvtGirlWalkTalkRegionD2c" = "售貨員：「一直走到盡頭再右轉就是。」";
+"EvtGirlWalkTalkRegionD2d" = "我：「謝謝！」";
+
+//EvtGirlWalkTalkRegionD3
+"EvtGirlWalkTalkRegionD3" = "有一個小孩在詢問處放聲大哭。";
+"EvtGirlWalkTalkRegionD3a" = "商場廣播：「朱正的家人…請你門快到詢問處。」";
+"EvtGirlWalkTalkRegionD3b" = "「請你門快到詢問處… 你們的小孩子正在等你。」";
+"EvtGirlWalkTalkRegionD3c" = "有沒有搞錯？";
+"EvtGirlWalkTalkRegionD3d" = "每次聽到這些遺失小孩的事就非常不快！";
+
+
+
+//Region E
+//EvtGirlDateChatRegionE1
+"EvtGirlDateChatRegionE1" = "雅詩：「其實…你怎麼會帶我來這裡？」";
+"EvtGirlDateChatRegionE1a" = "我：「你不喜歡嗎？」";
+"EvtGirlDateChatRegionE1b" = "雅詩：「沒有！我一直都想試 CAFÉ，可是沒時間。」";
+"EvtGirlDateChatRegionE1c" = "我：「那你一定要嘗嘗他的吐司！」";
+"EvtGirlDateChatRegionE1d" = "雅詩：「知道啦！你說比商場的好吃嘛。」";
+
+//EvtGirlDateChatRegionE2
+"EvtGirlDateChatRegionE2" = "我：「娜娜這是我的朋友，雅詩。」";
+"EvtGirlDateChatRegionE2a" = "娜娜：「你好，我是娜娜」";
+"EvtGirlDateChatRegionE2b" = "雅詩：「你好。」";
+"EvtGirlDateChatRegionE2c" = "娜娜：「今天好忙呀，我要工作啦！」";
+"EvtGirlDateChatRegionE2d" = "我好像感覺到娜娜在一邊看著我們…";
+
+//EvtGirlDateChatRegionE3
+"EvtGirlDateChatRegionE3" = "朱古力厚吐司來了";
+"EvtGirlDateChatRegionE3a" = "我：「快試試看！」";
+"EvtGirlDateChatRegionE3b" = "雅詩：「真的有你說的那麼好吃嗎？」";
+"EvtGirlDateChatRegionE3c" = "我：「相信我，你一定會吃到失控！」";
+"EvtGirlDateChatRegionE3d" = "雅詩：「你去死吧！」";
+
+//EvtGirlDateRegionELeave1
+"EvtGirlDateRegionELeave1" = "咖啡店今天竟然休假！";
+"EvtGirlDateRegionELeave1a" = "我們都傻了眼…";
+"EvtGirlDateRegionELeave1b" = "雅詩：「不開心…」";
+"EvtGirlDateRegionELeave1c" = "我：「下次再來啦，反正我等等要打工！」";
+"EvtGirlDateRegionELeave1d" = "雅詩：「那好吧…」";
+
+//EvtGirlDateRegionELeave2
+"EvtGirlDateRegionELeave2" = "我們都點了一杯黑芝麻奶茶…";
+"EvtGirlDateRegionELeave2a" = "雅詩：「真的很好喝！」";
+"EvtGirlDateRegionELeave2b" = "我：「對呀！」";
+"EvtGirlDateRegionELeave2c" = "十多分鐘後…我感覺到肚裡突然翻起滔天巨浪！";
+"EvtGirlDateRegionELeave2d" = "我：「對不起！我先走啦，拜拜！」";
+
+//EvtGirlDateRegionELeave3
+"EvtGirlDateRegionELeave3" = "食物剛剛放到我們面前。";
+"EvtGirlDateRegionELeave3a" = "雅詩：「賣相不錯喔！」";
+"EvtGirlDateRegionELeave3b" = "我：「對呀！」";
+"EvtGirlDateRegionELeave3c" = "我：「糟子！忘了要繳電費！」";
+"EvtGirlDateRegionELeave3d" = "我：「對不起，我先走啦，拜！」";
+
+//EvtGirlDateRegionEStart1
+"EvtGirlDateRegionEStart1" = "今天跟平常一樣。";
+"EvtGirlDateRegionEStart1a" = "早一點點到約會地點。";
+"EvtGirlDateRegionEStart1b" = "我覺得有時候男生等一陣子是沒問題的！";
+"EvtGirlDateRegionEStart1c" = "而且..";
+"EvtGirlDateRegionEStart1d" = "這樣雅詩會高興點吧！";
+
+//EvtGirlDateRegionEStart2
+"EvtGirlDateRegionEStart2" = "今天跟平常一樣。";
+"EvtGirlDateRegionEStart2a" = "早了到約會地點。";
+"EvtGirlDateRegionEStart2b" = "那我就去一去洗手間，";
+"EvtGirlDateRegionEStart2c" = "去照照鏡子，看自己準備了沒。";
+"EvtGirlDateRegionEStart2d" = "完美！";
+
+//EvtGirlDateRegionEStart3
+"EvtGirlDateRegionEStart3" = "今天遲了很多。";
+"EvtGirlDateRegionEStart3a" = "我看看錶…雅詩已經走了…";
+"EvtGirlDateRegionEStart3b" = "反正沒事幹，那就去坐坐吧。";
+"EvtGirlDateRegionEStart3c" = "悶………";
+"EvtGirlDateRegionEStart3d" = "太遲到約會地方都不是太好……";
+
+//EvtGirlDateRomanceRegionE1
+"EvtGirlDateRomanceRegionE1" = "雅詩在看著 MENU 好想所有東西都要點";
+"EvtGirlDateRomanceRegionE1a" = "哈哈…她這個樣子真傻…";
+"EvtGirlDateRomanceRegionE1b" = "雅詩：「我們要點二人套餐嗎？」";
+"EvtGirlDateRomanceRegionE1c" = "雅詩：「喂！幹麼在傻笑？」";
+"EvtGirlDateRomanceRegionE1d" = "我：「沒…有，就點套餐吧。(汗) 」 ";
+
+//EvtGirlDateRomanceRegionE2
+"EvtGirlDateRomanceRegionE2" = "真的吃了超級多！";
+"EvtGirlDateRomanceRegionE2a" = "雅詩：「哎喲…有人的肚臍不小心跑出來！」";
+"EvtGirlDateRomanceRegionE2b" = "我：「哪有？」";
+"EvtGirlDateRomanceRegionE2c" = "雅詩：「呵呵呵！吃到快變成豬！」";
+"EvtGirlDateRomanceRegionE2d" = "我：「好啦！不要再鬧啦！」";
+
+//EvtGirlDateRomanceRegionE3
+"EvtGirlDateRomanceRegionE3" = "我：「欸！雅詩看看那個海報。」";
+"EvtGirlDateRomanceRegionE3a" = "雅詩：「飛鏢比賽耶…什麼時候？你會參加嗎？」";
+"EvtGirlDateRomanceRegionE3b" = "我：「我不清楚，但一定會參加！」";
+"EvtGirlDateRomanceRegionE3c" = "我：「但你會來看我比賽嗎？」";
+"EvtGirlDateRomanceRegionE3d" = "雅詩：「好我一定會來為你打氣。」";
+
+//EvtGirlWalkLookRegionE1 – fork +social
+"EvtGirlWalkLookRegionE1" = "有一群小孩子在舞弄餐具！";
+"EvtGirlWalkLookRegionE1a" = "他們像是不懂用法…";
+"EvtGirlWalkLookRegionE1b" = "我該怎麼辦呢……有啦！";
+"EvtGirlWalkLookRegionE1c" = "我 喂 正確的使用方法是這樣子";
+"EvtGirlWalkLookRegionE1d" = "小孩們 哦…謝謝！";
+
+//EvtGirlWalkLookRegionE2 – chopstick +talent
+"EvtGirlWalkLookRegionE2" = "今天突然心血來潮。";
+"EvtGirlWalkLookRegionE2a" = "我想要訓練筷子正確的使用方法。";
+"EvtGirlWalkLookRegionE2b" = "這個不行！那個也不對！";
+"EvtGirlWalkLookRegionE2c" = "哦…原來包裝上有使用方法！";
+"EvtGirlWalkLookRegionE2d" = "大成功！我真的太聰明了！";
+
+//EvtGirlWalkLookRegionE3
+"EvtGirlWalkLookRegionE3" = "其實我不只喜歡這裡的食物。";
+"EvtGirlWalkLookRegionE3a" = "當然還有飲料和…";
+"EvtGirlWalkLookRegionE3b" = "女侍應生的服務態度。";
+"EvtGirlWalkLookRegionE3c" = "嘿嘿！但最重要的是…";
+"EvtGirlWalkLookRegionE3d" = "她們的制服實在引人犯罪！";
+
+//EvtGirlWalkRegionEPreset1
+"EvtGirlWalkRegionEPreset1" = "今天咖啡店沒什麼人。";
+"EvtGirlWalkRegionEPreset1a" = "有時候我也愛這種安靜的格調。";
+"EvtGirlWalkRegionEPreset1b" = "有兩個人在玩飛鏢。";
+"EvtGirlWalkRegionEPreset1c" = "他們是為下次比賽作準備嗎？";
+"EvtGirlWalkRegionEPreset1d" = "哈哈！反正都跟我沒關係啦。";
+
+//EvtGirlWalkRegionEPreset2
+"EvtGirlWalkRegionEPreset2" = "經過一輪苦戰終於贏得冠軍了！";
+"EvtGirlWalkRegionEPreset2a" = "雅詩：「謝謝你…不過我有一個要求！而你不能拒絕！」";
+"EvtGirlWalkRegionEPreset2b" = "我什麼要求？";
+"EvtGirlWalkRegionEPreset2c" = "雅詩：「我要把這禮物放在你房間。」";
+"EvtGirlWalkRegionEPreset2d" = "真的有少少莫名其妙…但我只能接受這要求吧。";
+
+//EvtGirlWalkRegionEStart1
+"EvtGirlWalkRegionEStart1" = "湯姆是我最喜愛的咖啡室。";
+"EvtGirlWalkRegionEStart1a" = "雅詩常常在這里買冰奶茶和朱古力厚多士給我吃。";
+"EvtGirlWalkRegionEStart1b" = "我自己也常來這間咖啡店，";
+"EvtGirlWalkRegionEStart1c" = "我跟這裡的侍應也混熟了，";
+"EvtGirlWalkRegionEStart1d" = "娜娜就最其中一個，唔知道她有沒有上班呢。";
+
+//EvtGirlWalkTalkRegionE1
+"EvtGirlWalkTalkRegionE1" = "隨便找一個卡廂先坐下";
+"EvtGirlWalkTalkRegionE1a" = "聲音：「不好意思，我們要打烊了。」";
+"EvtGirlWalkTalkRegionE1b" = "什麼我才剛坐下";
+"EvtGirlWalkTalkRegionE1c" = "我：「原本是娜娜，哈哈。」";
+"EvtGirlWalkTalkRegionE1d" = "娜娜：「哈哈！開玩笑而已！要點什麼呢？」";
+
+//EvtGirlWalkTalkRegionE2
+"EvtGirlWalkTalkRegionE2" = "娜娜：「欸！下星期我們會辦一個比賽，你知道嗎？」";
+"EvtGirlWalkTalkRegionE2a" = "我：「什麼比賽？」";
+"EvtGirlWalkTalkRegionE2b" = "娜娜：「好像是飛鏢比賽」";
+"EvtGirlWalkTalkRegionE2c" = "我：「哦是我強項！什麼時候辦呀！」";
+"EvtGirlWalkTalkRegionE2d" = "娜娜：「星期四的下午四點鐘，期待你的表現喔。」";
+
+//EvtGirlWalkTalkRegionE3
+"EvtGirlWalkTalkRegionE3" = "娜娜慢慢的走來我身邊…";
+"EvtGirlWalkTalkRegionE3a" = "娜娜：「這裡的食物真的那麼吸引你嗎？」";
+"EvtGirlWalkTalkRegionE3b" = "我：「對呀！真的超級好吃。」";
+"EvtGirlWalkTalkRegionE3c" = "娜娜的眼神好想在期待什麼似的…";
+"EvtGirlWalkTalkRegionE3d" = "娜娜幹麼這樣子呢？莫名其妙…";
+
+//Region F 動植物公園
+//EvtGirlDateChatRegionF1
+"EvtGirlDateChatRegionF1" = "跟雅詩走了一陣子…";
+"EvtGirlDateChatRegionF1a" = "又到了她的發問時間。";
+"EvtGirlDateChatRegionF1b" = "雅詩：「你怎樣會帶我到這裡？」";
+"EvtGirlDateChatRegionF1c" = "我呆著…不知道該怎樣回答她…";
+"EvtGirlDateChatRegionF1d" = "我：「沒有…喜歡到這裡拍照而已。」";
+
+//EvtGirlDateChatRegionF2
+"EvtGirlDateChatRegionF2" = "雅詩突然開口說…";
+"EvtGirlDateChatRegionF2a" = "雅詩：「我覺得你今天有些不同呢…」";
+"EvtGirlDateChatRegionF2b" = "雅詩：「發生什麼事呢？」";
+"EvtGirlDateChatRegionF2c" = "我沒有回應她。";
+"EvtGirlDateChatRegionF2d" = "雅詩的情緒被我影響了…";
+
+//EvtGirlDateChatRegionF3
+"EvtGirlDateChatRegionF3" = "我終於跟雅詩說了雙親的事";
+"EvtGirlDateChatRegionF3a" = "她掛著一個難以置信的表情…";
+"EvtGirlDateChatRegionF3b" = "但現在已經沒關係";
+"EvtGirlDateChatRegionF3c" = "因為有她在我身邊。";
+"EvtGirlDateChatRegionF3d" = "雅詩用她溫暖的手輕撫我臉龐…";
+
+//EvtGirlDateRegionFLeave1
+"EvtGirlDateRegionFLeave1" = "我跟雅詩剛買了票。";
+"EvtGirlDateRegionFLeave1a" = "剛進去的時候…有一群人跑出來…";
+"EvtGirlDateRegionFLeave1b" = "群眾：「快走呀！有一頭獅子跑了出來！」";
+"EvtGirlDateRegionFLeave1c" = "我：「那快跑啦！雅詩！」";
+"EvtGirlDateRegionFLeave1d" = "今天的動物園約會只好取消…";
+
+//EvtGirlDateRegionFLeave2
+"EvtGirlDateRegionFLeave2" = "雅詩好像有些不妥";
+"EvtGirlDateRegionFLeave2a" = "我：「雅詩，你怎麼了？」";
+"EvtGirlDateRegionFLeave2b" = "雅詩：「我肚子示太舒服…」";
+"EvtGirlDateRegionFLeave2c" = "雅詩：「你可以陪我回家嗎？」";
+"EvtGirlDateRegionFLeave2d" = "我：「那…我送你回去吧…」";
+
+//EvtGirlDateRegionFLeave3
+"EvtGirlDateRegionFLeave3" = "突然不知什麼東西打中我的後腦…";
+"EvtGirlDateRegionFLeave3a" = "真的超級痛！痛得我都倒下了…";
+"EvtGirlDateRegionFLeave3b" = "雅詩：「喂喂！淨開眼睛呀！」";
+"EvtGirlDateRegionFLeave3c" = "我的眼皮愈來愈重…";
+"EvtGirlDateRegionFLeave3d" = "然後我就失去知覺了…";
+
+//EvtGirlDateRegionFStart1
+"EvtGirlDateRegionFStart1" = "今天跟平常一樣。";
+"EvtGirlDateRegionFStart1a" = "早一點點到約會地點。";
+"EvtGirlDateRegionFStart1b" = "我覺得有時候男生等一陣子是沒問題的！";
+"EvtGirlDateRegionFStart1c" = "而且..";
+"EvtGirlDateRegionFStart1d" = "這樣雅詩會高興點吧！";
+
+//EvtGirlDateRegionFStart2
+"EvtGirlDateRegionFStart2" = "今天跟平常一樣。";
+"EvtGirlDateRegionFStart2a" = "早了到約會地點。";
+"EvtGirlDateRegionFStart2b" = "那我就去一去洗手間，";
+"EvtGirlDateRegionFStart2c" = "去照照鏡子，看自己準備了沒。";
+"EvtGirlDateRegionFStart2d" = "完美！";
+
+//EvtGirlDateRegionFStart3
+"EvtGirlDateRegionFStart3" = "今天遲了很多。";
+"EvtGirlDateRegionFStart3a" = "我看看錶…雅詩已經走了…";
+"EvtGirlDateRegionFStart3b" = "反正沒事幹，那就去坐坐吧。";
+"EvtGirlDateRegionFStart3c" = "悶………";
+"EvtGirlDateRegionFStart3d" = "太遲到約會地方都不是太好……";
+
+//EvtGirlDateRomanceRegionF1
+"EvtGirlDateRomanceRegionF1" = "我把雅詩帶到老伯伯那邊…";
+"EvtGirlDateRomanceRegionF1a" = "我：「你要試試餵動物吃東西嗎？」";
+"EvtGirlDateRomanceRegionF1b" = "雅詩二話不說就上前了…";
+"EvtGirlDateRomanceRegionF1c" = "充滿愛心的一面表露無遺…";
+"EvtGirlDateRomanceRegionF1d" = "然後我按下快門捕捉這一剎！";
+
+//EvtGirlDateRomanceRegionF2
+"EvtGirlDateRomanceRegionF2" = "雅詩：「這頭猴子的樣子真奇怪！」";
+"EvtGirlDateRomanceRegionF2a" = "我：「哈哈！對啊！」";
+"EvtGirlDateRomanceRegionF2b" = "然後我裝成那猴子的模樣";
+"EvtGirlDateRomanceRegionF2c" = "我：「那我奇怪嗎？」";
+"EvtGirlDateRomanceRegionF2d" = "雅詩笑到快死";
+
+//EvtGirlDateRomanceRegionF3
+"EvtGirlDateRomanceRegionF3" = "雅詩：「欸欸！幫我拍照！」";
+"EvtGirlDateRomanceRegionF3a" = "我：「好吧…準備！」";
+"EvtGirlDateRomanceRegionF3b" = "雅詩：「看我的美少女十個 pose！」";
+"EvtGirlDateRomanceRegionF3c" = "我按下快門";
+"EvtGirlDateRomanceRegionF3d" = "雅詩真的好漂亮！";
+
+//EvtGirlWalkLookRegionF1 – leaf + SOCIAL
+"EvtGirlWalkLookRegionF1" = "一個小孩子拿著葉子呆在樹下自言自語…";
+"EvtGirlWalkLookRegionF1a" = "小孩子：「為什麼葉子會丟下的了？」";
+"EvtGirlWalkLookRegionF1b" = "然後我就隨便解釋給他聽";
+"EvtGirlWalkLookRegionF1c" = "小孩子：「哥哥好聰明呀！」";
+"EvtGirlWalkLookRegionF1d" = "當小孩真好";
+
+//EvtGirlWalkLookRegionF2 – bicycle +talent
+"EvtGirlWalkLookRegionF2" = "一個小孩再放聲大哭";
+"EvtGirlWalkLookRegionF2a" = "原來是他的自行車壞了！";
+"EvtGirlWalkLookRegionF2b" = "反正沒事幹…走過去幫他修理一下吧！";
+"EvtGirlWalkLookRegionF2c" = "我：「看這樣就修好了！多簡單！」";
+"EvtGirlWalkLookRegionF2d" = "小孩子：「太神了！大哥哥！謝謝你！」";
+
+//EvtGirlWalkLookRegionF3
+"EvtGirlWalkLookRegionF3" = "每一次拿起相機到動物園拍攝…";
+"EvtGirlWalkLookRegionF3a" = "都會想起一些往事…";
+"EvtGirlWalkLookRegionF3b" = "小時候我爸媽都會帶我跟妹妹來這拍照留念";
+"EvtGirlWalkLookRegionF3c" = "現在到我懂攝影了…郤沒有機會…";
+"EvtGirlWalkLookRegionF3d" = "唉…";
+
+//EvtGirlWalkRegionFPreset1
+"EvtGirlWalkRegionFPreset1" = "經過上次當義工的大草地。";
+"EvtGirlWalkRegionFPreset1a" = "看到另外一班孩子在當義工！";
+"EvtGirlWalkRegionFPreset1b" = "那個老伯伯今天也很開心。";
+"EvtGirlWalkRegionFPreset1c" = "其實養一只小動物還不錯，";
+"EvtGirlWalkRegionFPreset1d" = "有錢的話一定要買一隻貓回家！";
+
+//EvtGirlWalkRegionFPreset2 +PINEAPPLE
+"EvtGirlWalkRegionFPreset2" = "已經逛了大半天。";
+"EvtGirlWalkRegionFPreset2a" = "反正沒事幹，那就去當當義工吧！";
+"EvtGirlWalkRegionFPreset2b" = "我最喜歡貓貓，但今天的都是狗狗…";
+"EvtGirlWalkRegionFPreset2c" = "還好牠們都很乖。";
+"EvtGirlWalkRegionFPreset2d" = "事成後，那個老伯伯給我一個鳳梨形狀的小禮物。";
+
+//EvtGirlWalkRegionFStart1
+"EvtGirlWalkRegionFStart1" = " 這裡就是動植物公園。";
+"EvtGirlWalkRegionFStart1a" = "動植物公園是我留下最多小時候回憶的地方";
+"EvtGirlWalkRegionFStart1b" = "因為小時候我爸常常帶我來玩。";
+"EvtGirlWalkRegionFStart1c" = "跟媽媽和妹妹拍照。";
+"EvtGirlWalkRegionFStart1d" = "長大後來到這裡總是不太開心。";
+
+//EvtGirlWalkTalkRegionF1
+"EvtGirlWalkTalkRegionF1" = "老伯伯：「小兄弟！」";
+"EvtGirlWalkTalkRegionF1a" = "老伯伯：「要當義工幫忙嗎？」";
+"EvtGirlWalkTalkRegionF1b" = "我：「要怎樣幫？」";
+"EvtGirlWalkTalkRegionF1c" = "老伯伯：「星期五下午五點鐘再來吧！會給你一份小禮物的！」";
+"EvtGirlWalkTalkRegionF1d" = "我：「好！我想想看吧！」";
+
+//EvtGirlWalkTalkRegionF2
+"EvtGirlWalkTalkRegionF2" = "一個年老的動物飼養員正在餵動物";
+"EvtGirlWalkTalkRegionF2a" = "這個畫面好漂亮";
+"EvtGirlWalkTalkRegionF2b" = "雀鳥小貓小狗都圍著老伯跳舞";
+"EvtGirlWalkTalkRegionF2c" = "老伯伯非常的高興！";
+"EvtGirlWalkTalkRegionF2d" = "真是教人感動。";
+
+//EvtGirlWalkTalkRegionF3
+"EvtGirlWalkTalkRegionF3" = "有一個老伯走過來…";
+"EvtGirlWalkTalkRegionF3a" = "老伯：「小兄弟！」";
+"EvtGirlWalkTalkRegionF3b" = "老伯有沒有見過一個跟我長得一樣的老伯？";
+"EvtGirlWalkTalkRegionF3c" = "我：「他好像在那邊餵動物吃飯！」";
+"EvtGirlWalkTalkRegionF3d" = "老伯：「謝謝。」";
+
+
+//----------------------------Region G
+//EvtGirlDateChatRegionG1
+"EvtGirlDateChatRegionG1" = "我：「喂！今天我們就唱四個小時，好嗎？」";
+"EvtGirlDateChatRegionG1a" = "雅詩：「好呀，四個小時都夠了！」";
+"EvtGirlDateChatRegionG1b" = "我：「你會唱什麼歌呢！」";
+"EvtGirlDateChatRegionG1c" = "雅詩：「廣東話中文的都可以！」";
+"EvtGirlDateChatRegionG1d" = "我：「真厲害！」";
+
+//EvtGirlDateChatRegionG2
+"EvtGirlDateChatRegionG2" = "我：「喂，你喜歡唱 KTV 嗎？」";
+"EvtGirlDateChatRegionG2a" = "雅詩：「喜歡呀！」";
+"EvtGirlDateChatRegionG2b" = "我：「為什麼呢？」";
+"EvtGirlDateChatRegionG2c" = "雅詩：「你要留意我等待點的歌的歌詞！」";
+"EvtGirlDateChatRegionG2d" = "我：「好啦！」";
+
+//EvtGirlDateChatRegionG3
+"EvtGirlDateChatRegionG3" = "我：「欸，你等等會點什麼歌呢？」";
+"EvtGirlDateChatRegionG3a" = "雅詩：「應該會多點男女生合唱的歌啦！」";
+"EvtGirlDateChatRegionG3b" = "我：「太好啦！因為平常都是全男班！」";
+"EvtGirlDateChatRegionG3c" = "她對著我微笑，然後說。";
+"EvtGirlDateChatRegionG3d" = " 「那以後我多陪你來 KTV囉！」";
+
+//EvtGirlDateRegionGLeave1
+"EvtGirlDateRegionGLeave1" = "服務生：「請問有沒有訂房子？」";
+"EvtGirlDateRegionGLeave1a" = "我：「沒有喔…」";
+"EvtGirlDateRegionGLeave1b" = "服務生：「那對不起，今天沒有空的包廂了。」";
+"EvtGirlDateRegionGLeave1c" = "我：「都怪我啦…對不起！」";
+"EvtGirlDateRegionGLeave1d" = "雅詩：「沒關係～」";
+
+//EvtGirlDateRegionGLeave2
+"EvtGirlDateRegionGLeave2" = "服務生：「請問有沒有預訂？」";
+"EvtGirlDateRegionGLeave2a" = "我：「有呀…兩個人，姓高。」";
+"EvtGirlDateRegionGLeave2b" = "十分鐘後…";
+"EvtGirlDateRegionGLeave2c" = "服務生：「對不起，你訂了另外一間店。」";
+"EvtGirlDateRegionGLeave2d" = "我：「唉…怎麼會搞錯的？」";
+
+//EvtGirlDateRegionGLeave3
+"EvtGirlDateRegionGLeave3" = "今天終於沒出錯啦！";
+"EvtGirlDateRegionGLeave3a" = "雅詩點了很多小吃，為了她我只好吃一點點。";
+"EvtGirlDateRegionGLeave3b" = "三十分鐘後…";
+"EvtGirlDateRegionGLeave3c" = "我的肚子超痛。";
+"EvtGirlDateRegionGLeave3d" = "然後雅詩就陪我去看醫生。";
+
+//EvtGirlDateRegionGStart1
+"EvtGirlDateRegionGStart1" = "今天跟平常一樣。";
+"EvtGirlDateRegionGStart1a" = "早一點點到約會地點。";
+"EvtGirlDateRegionGStart1b" = "我覺得有時候男生等一陣子是沒問題的！";
+"EvtGirlDateRegionGStart1c" = "而且..";
+"EvtGirlDateRegionGStart1d" = "這樣雅詩會高興點吧！";
+
+//EvtGirlDateRegionGStart2
+"EvtGirlDateRegionGStart2" = "今天跟平常一樣。";
+"EvtGirlDateRegionGStart2a" = "早了到約會地點。";
+"EvtGirlDateRegionGStart2b" = "那我就去一去洗手間，";
+"EvtGirlDateRegionGStart2c" = "去照照鏡子，看自己準備了沒。";
+"EvtGirlDateRegionGStart2d" = "完美！";
+
+//EvtGirlDateRegionGStart3
+"EvtGirlDateRegionGStart3" = "今天遲了很多。";
+"EvtGirlDateRegionGStart3a" = "我看看錶…雅詩已經走了…";
+"EvtGirlDateRegionGStart3b" = "反正沒事幹，那就去坐坐吧。";
+"EvtGirlDateRegionGStart3c" = "悶………";
+"EvtGirlDateRegionGStart3d" = "太遲到約會地方都不是太好……";
+
+//EvtGirlDateRomanceRegionG1
+"EvtGirlDateRomanceRegionG1" = "第一次跟雅詩來 KTV…";
+"EvtGirlDateRomanceRegionG1a" = "心情緊張到不行！";
+"EvtGirlDateRomanceRegionG1b" = "她應該知道我緊張…所以點了一首輕快的歌！";
+"EvtGirlDateRomanceRegionG1c" = "她一邊唱歌一邊逗我笑！";
+"EvtGirlDateRomanceRegionG1d" = "使我心情輕鬆多了！";
+
+//EvtGirlDateRomanceRegionG2
+"EvtGirlDateRomanceRegionG2" = "這是我第一次跟雅詩唱 KTV…";
+"EvtGirlDateRomanceRegionG2a" = "為了給一個好印象。";
+"EvtGirlDateRomanceRegionG2b" = "我決定唱這首歌";
+"EvtGirlDateRomanceRegionG2c" = "怎料…第一句就分岔啦…";
+"EvtGirlDateRomanceRegionG2d" = "雅詩輕拍我的肩膀說 加油。";
+
+//EvtGirlDateRomanceRegionG3
+"EvtGirlDateRomanceRegionG3" = "雅詩放下咪高峰。";
+"EvtGirlDateRomanceRegionG3a" = "她說：「其實今天是我第一次跟男生唱 KTV…」";
+"EvtGirlDateRomanceRegionG3b" = "她再：「你相信嗎？」";
+"EvtGirlDateRomanceRegionG3c" = "我：「那…我不就是拿了你第一次嗎？」";
+"EvtGirlDateRomanceRegionG3d" = "然後她的臉超紅，罵我笨蛋。哈哈";
+
+//EvtGirlWalkLookRegionG1 – popcorn +health
+"EvtGirlWalkLookRegionG1" = "每次跟朋友來 KTV 都會點很多小吃。";
+"EvtGirlWalkLookRegionG1a" = "為了我的喉嚨！";
+"EvtGirlWalkLookRegionG1b" = "為了我的尊嚴！";
+"EvtGirlWalkLookRegionG1c" = "為了我的面子！";
+"EvtGirlWalkLookRegionG1d" = "為了戰勝那個女孩，我要開始訓練！";
+
+//EvtGirlWalkLookRegionG2 – microphone +talent
+"EvtGirlWalkLookRegionG2" = "特訓開始！";
+"EvtGirlWalkLookRegionG2a" = "就點這首歌吧。";
+"EvtGirlWalkLookRegionG2b" = "死了都要！死了都要！死了都要！";
+"EvtGirlWalkLookRegionG2c" = "不行…要換過方式！";
+"EvtGirlWalkLookRegionG2d" = "死了都要…愛！！！";
+
+//EvtGirlWalkLookRegionG3
+"EvtGirlWalkLookRegionG3" = "先休息一下…";
+"EvtGirlWalkLookRegionG3a" = "就點這首！";
+"EvtGirlWalkLookRegionG3b" = "Ｉ～ＬＯＶＥ～ＹＯＵ～";
+"EvtGirlWalkLookRegionG3c" = "ＯＮＥ　ＭＯＲＥ　ＴＩＭＥ！";
+"EvtGirlWalkLookRegionG3d" = "這是超水準！";
+
+//EvtGirlWalkRegionGPreset1
+"EvtGirlWalkRegionGPreset1" = "天呀…";
+"EvtGirlWalkRegionGPreset1a" = "這個 KTV 公司把我的照片放到海報上。";
+"EvtGirlWalkRegionGPreset1b" = "現在每個人都認得我啦。";
+"EvtGirlWalkRegionGPreset1c" = "真的丟面。";
+"EvtGirlWalkRegionGPreset1d" = "不知道那個好勝女孩怎麼想呢？";
+
+//EvtGirlWalkRegionGPreset2 +cherry
+"EvtGirlWalkRegionGPreset2" = "終於到了KTV比賽的日子。";
+"EvtGirlWalkRegionGPreset2a" = "經過一連的激戰……";
+"EvtGirlWalkRegionGPreset2b" = "到了宣佈冠軍的時刻……";
+"EvtGirlWalkRegionGPreset2c" = "我贏了！";
+"EvtGirlWalkRegionGPreset2d" = "我看到雅詩在旁邊很開心的樣子！";
+
+//EvtGirlWalkRegionGStart1
+"EvtGirlWalkRegionGStart1" = " KTV 是我第三最愛的地方。";
+"EvtGirlWalkRegionGStart1a" = "不論怎樣的心情都可以到 KTV 發洩！";
+"EvtGirlWalkRegionGStart1b" = "其實每一次來KTV都很開心。";
+"EvtGirlWalkRegionGStart1c" = "因為有很多攪笑的事情。";
+"EvtGirlWalkRegionGStart1d" = "真的期待跟雅詩的KTV約會。";
+
+//EvtGirlWalkTalkRegionG1
+"EvtGirlWalkTalkRegionG1" = "殺氣！！！";
+"EvtGirlWalkTalkRegionG1a" = "一個女孩像牛一樣橫衝直撞！";
+"EvtGirlWalkTalkRegionG1b" = "女孩衝到服務台。";
+"EvtGirlWalkTalkRegionG1c" = "然後一個人走入空廂！";
+"EvtGirlWalkTalkRegionG1d" = "我想她今天心情一定堅差吧！";
+
+//EvtGirlWalkTalkRegionG2
+"EvtGirlWalkTalkRegionG2" = "一個女孩包起一個廂。";
+"EvtGirlWalkTalkRegionG2a" = "我站在外面聽著她的歌聲。";
+"EvtGirlWalkTalkRegionG2b" = "她的聲音蠻好的";
+"EvtGirlWalkTalkRegionG2c" = "她充滿殺氣的眼睛盯著我！";
+"EvtGirlWalkTalkRegionG2d" = "逃…逃…";
+
+//EvtGirlWalkTalkRegionG3
+"EvtGirlWalkTalkRegionG3" = "女孩：「你這是在監視對手嗎？」";
+"EvtGirlWalkTalkRegionG3a" = "我傻了眼。";
+"EvtGirlWalkTalkRegionG3b" = "女孩：「你不要白費心機了。」";
+"EvtGirlWalkTalkRegionG3c" = "女孩：「星期六晚上六點鐘的歌唱比賽我贏定了。」";
+"EvtGirlWalkTalkRegionG3d" = "既然你這樣誤會我，那我就挑戰你。";
+
+
+//----------------------------Region H Date Chat
+//EvtGirlDateChatRegionH1
+"EvtGirlDateChatRegionH1" = "今天陪雅詩來到劇院…";
+"EvtGirlDateChatRegionH1a" = "我一直沒開口。";
+"EvtGirlDateChatRegionH1b" = "雅詩突然說…";
+"EvtGirlDateChatRegionH1c" = "雅詩：「真的沒想到你會陪我來。」";
+"EvtGirlDateChatRegionH1d" = "我只好苦笑。";
+
+//EvtGirlDateChatRegionH2
+"EvtGirlDateChatRegionH2" = "我：「喂，雅詩。」";
+"EvtGirlDateChatRegionH2a" = "雅詩：「怎樣了？」";
+"EvtGirlDateChatRegionH2b" = "我：「我一直都搞不懂…其實來劇院要穿什麼衣服。」";
+"EvtGirlDateChatRegionH2c" = "她看一看我說：「這樣就可以啦！」";
+"EvtGirlDateChatRegionH2d" = "但我穿的是短褲和拖鞋…";
+
+//EvtGirlDateChatRegionH3
+"EvtGirlDateChatRegionH3" = "我：「喂…這裡沒有吃的嗎？」";
+"EvtGirlDateChatRegionH3a" = "雅詩想一想…";
+"EvtGirlDateChatRegionH3b" = "然後說：「好像沒有。」";
+"EvtGirlDateChatRegionH3c" = "我快餓死了";
+"EvtGirlDateChatRegionH3d" = "她拍拍我的肚子說：「忍耐一下～等等請你吃啦～」";
+
+//----------------------------Region H Date Leave
+//EvtGirlDateRegionHLeave1
+"EvtGirlDateRegionHLeave1" = "真的受不了！";
+"EvtGirlDateRegionHLeave1a" = "我：「我先走啦雅詩！我真的受不了啦！」";
+"EvtGirlDateRegionHLeave1b" = "雅詩：「為什麼呢？」";
+"EvtGirlDateRegionHLeave1c" = "我：「真的超級悶！」";
+"EvtGirlDateRegionHLeave1d" = "然後我拖著她離開這鬼地方。";
+
+//EvtGirlDateRegionHLeave2
+"EvtGirlDateRegionHLeave2" = "悶到死…話劇做到一半…";
+"EvtGirlDateRegionHLeave2a" = "我跟雅詩說我去洗手間。";
+"EvtGirlDateRegionHLeave2b" = "就這樣走吧！我想…";
+"EvtGirlDateRegionHLeave2c" = "但上一次雅詩已經不太高興…";
+"EvtGirlDateRegionHLeave2d" = "沒關係！這次我發個簡訊跟她說我突然不舒服就好了。";
+
+//EvtGirlDateRegionHLeave3
+"EvtGirlDateRegionHLeave3" = "經過多次的訓練…"; //綞->經
+"EvtGirlDateRegionHLeave3a" = "這次終於頂到三十分鐘！";
+"EvtGirlDateRegionHLeave3b" = "但還是受不了，我要開口了！";
+"EvtGirlDateRegionHLeave3c" = "我：「欸…雅詩…我想…」";
+"EvtGirlDateRegionHLeave3d" = "雅詩：「走吧！其實我也不太喜歡這個！」";
+
+
+//EvtGirlDateRegionHStart1
+"EvtGirlDateRegionHStart1" = "今天跟平常一樣。";
+"EvtGirlDateRegionHStart1a" = "早一點點到約會地點。";
+"EvtGirlDateRegionHStart1b" = "我覺得有時候男生等一陣子是沒問題的！";
+"EvtGirlDateRegionHStart1c" = "而且..";
+"EvtGirlDateRegionHStart1d" = "這樣雅詩會高興點吧！";
+
+//EvtGirlDateRegionHStart2
+"EvtGirlDateRegionHStart2" = "今天跟平常一樣。";
+"EvtGirlDateRegionHStart2a" = "早了到約會地點。";
+"EvtGirlDateRegionHStart2b" = "那我就去一去洗手間，";
+"EvtGirlDateRegionHStart2c" = "去照照鏡子，看自己準備了沒。";
+"EvtGirlDateRegionHStart2d" = "完美！";
+
+//EvtGirlDateRegionHStart3
+"EvtGirlDateRegionHStart3" = "今天遲了很多。";
+"EvtGirlDateRegionHStart3a" = "我看看錶…雅詩已經走了…";
+"EvtGirlDateRegionHStart3b" = "反正沒事幹，那就去坐坐吧。";
+"EvtGirlDateRegionHStart3c" = "悶………";
+"EvtGirlDateRegionHStart3d" = "太遲到約會地方都不是太好……";
+
+//----------------------------Region H Date Romance
+//EvtGirlDateRomanceRegionH1
+"EvtGirlDateRomanceRegionH1" = "真是讓人受不了！";
+"EvtGirlDateRomanceRegionH1a" = "我睡啦！";
+"EvtGirlDateRomanceRegionH1b" = "我突然感覺到雅詩偷偷把她的纖細的手放在我手上。";
+"EvtGirlDateRomanceRegionH1c" = "真的很開心但我不能撞破她。";
+"EvtGirlDateRomanceRegionH1d" = "所以我一定要裝睡。哈哈";
+
+//EvtGirlDateRomanceRegionH2
+"EvtGirlDateRomanceRegionH2" = "我：「我覺得我下一次還穿好看一點吧。」";
+"EvtGirlDateRomanceRegionH2a" = "雅詩盯著我";
+"EvtGirlDateRomanceRegionH2b" = "然後說：「沒關係…因為…」";
+"EvtGirlDateRomanceRegionH2c" = "「你穿什麼我都不會離你而去」";
+"EvtGirlDateRomanceRegionH2d" = "這…這…太令我太感動了！";
+
+//EvtGirlDateRomanceRegionH3
+"EvtGirlDateRomanceRegionH3" = "劇中的歌聲簡直就是催眠曲…";
+"EvtGirlDateRomanceRegionH3a" = "我醒一醒過來。";
+"EvtGirlDateRomanceRegionH3b" = "原來雅詩已經躺在我肩上…睡著了…";
+"EvtGirlDateRomanceRegionH3c" = "然後我把頭輕輕的靠個去…";
+"EvtGirlDateRomanceRegionH3d" = "我相信…她洗頭水的香味就是最好的香蕉。";
+
+//----------------------------Region H Walk Look
+//EvtGirlWalkLookRegionH1 -- drama script +health
+"EvtGirlWalkLookRegionH1" = "老師突然把一份劇本。";
+"EvtGirlWalkLookRegionH1a" = "他叫我試試跟他的方法朗讀。";
+"EvtGirlWalkLookRegionH1b" = "呀～呀～呀～呀～";
+"EvtGirlWalkLookRegionH1c" = "然後我試著老師教的方法朗讀劇本。";
+"EvtGirlWalkLookRegionH1d" = "讀完以後覺得自己好像精神了一點點…";
+
+//EvtGirlWalkLookRegionH2 – mask +social
+"EvtGirlWalkLookRegionH2" = "在劇院外有很多攤位。";
+"EvtGirlWalkLookRegionH2a" = "有不同的精品和小手飾出售…";
+"EvtGirlWalkLookRegionH2b" = "我被一個面具上的花樣吸引著。";
+"EvtGirlWalkLookRegionH2c" = "我跟那售貨員聊了關於面具的資料…";
+"EvtGirlWalkLookRegionH2d" = "真的獲益不淺！";
+
+//EvtGirlWalkLookRegionH3
+"EvtGirlWalkLookRegionH3" = "在一個角落有一個像真的一樣";
+"EvtGirlWalkLookRegionH3a" = "人們都走過去跟它拍照";
+"EvtGirlWalkLookRegionH3b" = "當數到３要拍的時候…";
+"EvtGirlWalkLookRegionH3c" = "那個突然動了！原來是個真人！";
+"EvtGirlWalkLookRegionH3d" = "旁邊的人都給他嚇瘋了！";
+
+//----------------------------Region H Walk Preset
+
+//EvtGirlWalkRegionHPreset1
+"EvtGirlWalkRegionHPreset1" = "終於可以回家了…";
+"EvtGirlWalkRegionHPreset1a" = "剛剛模仿大賽的工作人員跟我道別。";
+"EvtGirlWalkRegionHPreset1b" = "我也禮貌地跟他們揮揮手。";
+"EvtGirlWalkRegionHPreset1c" = "再看看我地蘋果獎。";
+"EvtGirlWalkRegionHPreset1d" = "也許…我真的有演劇天份呢！";
+
+//EvtGirlWalkRegionHPreset2 +apple
+"EvtGirlWalkRegionHPreset2" = "在場外有一個模仿大賽…";
+"EvtGirlWalkRegionHPreset2a" = "雖然有點格格不入…但我模仿了假面超人。";
+"EvtGirlWalkRegionHPreset2b" = "主辦單位現在公佈優勝者名字…";
+"EvtGirlWalkRegionHPreset2c" = "噗…噗…噗…弄到我贏緊張起來！";
+"EvtGirlWalkRegionHPreset2d" = "我贏了！得到了一個金蘋果！";
+
+//EvtGirlWalkRegionHStart1
+"EvtGirlWalkRegionHStart1" = "唉…";
+"EvtGirlWalkRegionHStart1a" = "這是我最討厭的地方！";
+"EvtGirlWalkRegionHStart1b" = "要不是沒地方好逛，沒事幹的話。";
+"EvtGirlWalkRegionHStart1c" = "我絕對不會來的。";
+"EvtGirlWalkRegionHStart1d" = "今天就硬著頭皮試試享受吧。";
+
+//----------------------------Region H Walk Talk
+//EvtGirlWalkTalkRegionH1
+"EvtGirlWalkTalkRegionH1" = "有一個哥兒向我揮手。";
+"EvtGirlWalkTalkRegionH1a" = "哥兒：「喲！」";
+"EvtGirlWalkTalkRegionH1b" = "我想打發他，所以模仿他的“喲”。";
+"EvtGirlWalkTalkRegionH1c" = "哥兒：「哎唷，有喜劇天份喔！參加我們的喜劇班吧！」";
+"EvtGirlWalkTalkRegionH1d" = "我：「哈哈…哈哈…不用了…」";
+
+//EvtGirlWalkTalkRegionH2
+"EvtGirlWalkTalkRegionH2" = "聲音：「喂喂！」";
+"EvtGirlWalkTalkRegionH2a" = "我回頭看。";
+"EvtGirlWalkTalkRegionH2b" = "男子：「你要學唱歌嗎？」";
+"EvtGirlWalkTalkRegionH2c" = "男子繼續說：「過來試試看吧。」";
+"EvtGirlWalkTalkRegionH2d" = "我沒有理他…繼續走。";
+
+//EvtGirlWalkTalkRegionH3
+"EvtGirlWalkTalkRegionH3" = "我不喜歡這裡的原因是…";
+"EvtGirlWalkTalkRegionH3a" = "有很多人在招攬會員，煩到死了！";
+"EvtGirlWalkTalkRegionH3b" = "現在又有一個想跟我說話… ";
+"EvtGirlWalkTalkRegionH3c" = "我用一隻手指對著他。";
+"EvtGirlWalkTalkRegionH3d" = "他在喊：「星期天晚上八點鐘有模仿大賽！」";
+
+//----------------------------Region I  Aquarium 
+//EvtGirlDateChatRegionI1
+"EvtGirlDateChatRegionI1" = "雅詩：「我好久沒到水族館了！」";
+"EvtGirlDateChatRegionI1a" = "我：「真的嗎？」";
+"EvtGirlDateChatRegionI1b" = "雅詩：「真的！對上一次應該是…我想想…七年前啦！」";
+"EvtGirlDateChatRegionI1c" = "我：「嘩！那麼久，那你一定要享受這次約會啦！」";
+"EvtGirlDateChatRegionI1d" = "雅詩牽著我的手說好！";
+
+//EvtGirlDateChatRegionI2
+"EvtGirlDateChatRegionI2" = "雅詩：「為什麼你會選這裡呢？」";
+"EvtGirlDateChatRegionI2a" = "我：「因為我是超級喜歡這地方。」";
+"EvtGirlDateChatRegionI2b" = "雅詩：「哦…原來如此！」";
+"EvtGirlDateChatRegionI2c" = "我：「對！所以讓我當一次導遊吧！」";
+"EvtGirlDateChatRegionI2d" = "雅詩：「那麻煩你囉！」";
+
+//EvtGirlDateChatRegionI3
+"EvtGirlDateChatRegionI3" = "我：「你餓嗎？等等要食那個炸魚！」";
+"EvtGirlDateChatRegionI3a" = "雅詩：「可以啦！好吃的嗎？」";
+"EvtGirlDateChatRegionI3b" = "我：「非常好吃！因為是活捉的！」";
+"EvtGirlDateChatRegionI3c" = "雅詩小聲的問：「真的嗎？」";
+"EvtGirlDateChatRegionI3d" = "我：「講笑而已！」";
+
+//EvtGirlDateRegionILeave1
+"EvtGirlDateRegionILeave1" = "我：「喂。」";
+"EvtGirlDateRegionILeave1a" = "雅詩：「怎麼了？」";
+"EvtGirlDateRegionILeave1b" = "我：「我家發生了一點事要先走…」";
+"EvtGirlDateRegionILeave1c" = "雅詩：「那好吧…」";
+"EvtGirlDateRegionILeave1d" = "我：「對不起啦，下次我請客吧。」";
+
+//EvtGirlDateRegionILeave2
+"EvtGirlDateRegionILeave2" = "我：「喂！」";
+"EvtGirlDateRegionILeave2a" = "雅詩：「怎麼了？」";
+"EvtGirlDateRegionILeave2b" = "我：「我家發生了一點事要先走…」";
+"EvtGirlDateRegionILeave2c" = "雅詩：「那好吧…」";
+"EvtGirlDateRegionILeave2d" = "我：「對不起啦，下次我請客吧。」";
+
+//EvtGirlDateRegionILeave3
+"EvtGirlDateRegionILeave3" = "我：「喂。」";
+"EvtGirlDateRegionILeave3a" = "雅詩：「怎麼了」";
+"EvtGirlDateRegionILeave3b" = "我：「我家發生了一點事要先走…」";
+"EvtGirlDateRegionILeave3c" = "雅詩「那好吧…要我陪你去嗎？」";
+"EvtGirlDateRegionILeave3d" = "我：「不用了，謝謝吧。」";
+
+//EvtGirlDateRegionIStart1
+"EvtGirlDateRegionIStart1" = "今天跟平常一樣。";
+"EvtGirlDateRegionIStart1a" = "早一點點到約會地點。";
+"EvtGirlDateRegionIStart1b" = "我覺得有時候男生等一陣子是沒問題的！";
+"EvtGirlDateRegionIStart1c" = "而且..";
+"EvtGirlDateRegionIStart1d" = "這樣雅詩會高興點吧！";
+
+//EvtGirlDateRegionIStart2
+"EvtGirlDateRegionIStart2" = "今天跟平常一樣。";
+"EvtGirlDateRegionIStart2a" = "早了到約會地點。";
+"EvtGirlDateRegionIStart2b" = "那我就去一去洗手間，";
+"EvtGirlDateRegionIStart2c" = "去照照鏡子，看自己準備了沒。";
+"EvtGirlDateRegionIStart2d" = "完美！";
+
+//EvtGirlDateRegionIStart3
+"EvtGirlDateRegionIStart3" = "今天遲了很多。";
+"EvtGirlDateRegionIStart3a" = "我看看錶…雅詩已經走了…";
+"EvtGirlDateRegionIStart3b" = "反正沒事幹，那就去坐坐吧。";
+"EvtGirlDateRegionIStart3c" = "悶………";
+"EvtGirlDateRegionIStart3d" = "太遲到約會地方都不是太好……";
+
+//EvtGirlDateRomanceRegionI1
+"EvtGirlDateRomanceRegionI1" = "我們走到在大魚缸前…雅詩走到我前面…";
+"EvtGirlDateRomanceRegionI1a" = "我從後面突然擁抱著她，";
+"EvtGirlDateRomanceRegionI1b" = "我們都沒說話…";
+"EvtGirlDateRomanceRegionI1c" = "然後，她把手輕輕按著我的手…";
+"EvtGirlDateRomanceRegionI1d" = "超級幸福。";
+
+//EvtGirlDateRomanceRegionI2
+"EvtGirlDateRomanceRegionI2" = "已經逛了一後時間。";
+"EvtGirlDateRomanceRegionI2a" = "但我現在才發現… ";
+"EvtGirlDateRomanceRegionI2b" = "原來雅詩的手一直牽著我的手…";
+"EvtGirlDateRomanceRegionI2c" = "然後我來一個十指緊扣。";
+"EvtGirlDateRomanceRegionI2d" = "她回頭看著我…她那模樣我永遠都忘不了。";
+
+//EvtGirlDateRomanceRegionI3
+"EvtGirlDateRomanceRegionI3" = "我：「喂…雅詩…有些事情我想今天告訴你。」";
+"EvtGirlDateRomanceRegionI3a" = "雅詩：「什麼？」";
+"EvtGirlDateRomanceRegionI3b" = "我：「我很喜歡一個人…但不知道她的心是怎麼樣…」";
+"EvtGirlDateRomanceRegionI3c" = "我感到她有一點害羞…但她用行動回答我，她親了我的面頰。";
+"EvtGirlDateRomanceRegionI3d" = "之後我們就親親。";
+
+//EvtGirlWalkLookRegionI1 -- clown fish +health
+"EvtGirlWalkLookRegionI1" = "有一個女孩拿著棒棒糖在看著發呆…";
+"EvtGirlWalkLookRegionI1a" = "她自言自語說：「這是什麼魚呀？」";
+"EvtGirlWalkLookRegionI1b" = "我：「小妹妹這叫小丑魚。」";
+"EvtGirlWalkLookRegionI1c" = "然後她請我吃糖果。";
+"EvtGirlWalkLookRegionI1d" = "唔…味道還不錯。";
+//EvtGirlWalkLookRegionI2 – shark +social
+"EvtGirlWalkLookRegionI2" = "有幾個小孩子走過來...";
+"EvtGirlWalkLookRegionI2a" = "小孩：「哥哥！哥哥！」";
+"EvtGirlWalkLookRegionI2b" = "小孩：「這是什麼魚？」";
+"EvtGirlWalkLookRegionI2c" = "我：「哦！這是鯊魚。」";
+"EvtGirlWalkLookRegionI2d" = "然後孩子們一起唸鯊魚";
+
+//EvtGirlWalkLookRegionI3
+"EvtGirlWalkLookRegionI3" = "今天水族館很多小孩子。";
+"EvtGirlWalkLookRegionI3a" = "小孩子看到好多魚好開心…";
+"EvtGirlWalkLookRegionI3b" = "有一點吵鬧…";
+"EvtGirlWalkLookRegionI3c" = "雖然他們很可愛…";
+"EvtGirlWalkLookRegionI3d" = "但完全破壞了水族館的浪漫氣氛。";
+
+//EvtGirlWalkRegionIPreset1
+"EvtGirlWalkRegionIPreset1" = "今天再到水族館。";
+"EvtGirlWalkRegionIPreset1a" = "看著不同的魚…";
+"EvtGirlWalkRegionIPreset1b" = "腦袋便不其然浮現出牠們的名字。";
+"EvtGirlWalkRegionIPreset1c" = "那個簡單的遊戲令我獲益不淺！";
+"EvtGirlWalkRegionIPreset1d" = "水族館不愧是我很喜歡的地方。";
+
+//EvtGirlWalkRegionIPreset2 +pear
+"EvtGirlWalkRegionIPreset2" = "我走的時候把完成的遊戲紙重覆一次。";
+"EvtGirlWalkRegionIPreset2a" = "我將紙交絡員工…";
+"EvtGirlWalkRegionIPreset2b" = "他核對一次答案後說…";
+"EvtGirlWalkRegionIPreset2c" = "「你走運啦，這是今天最後一份禮物。」";
+"EvtGirlWalkRegionIPreset2d" = "我：「哦…是一個梨。謝啦！」";
+
+//EvtGirlWalkRegionIStart1
+"EvtGirlWalkRegionIStart1" = "今天就來水族館吧！";
+"EvtGirlWalkRegionIStart1a" = "一直都很喜歡水族館昏暗的環境和柔和的藍色燈光";
+"EvtGirlWalkRegionIStart1b" ="這是我夢想中的約會的勝地。";
+"EvtGirlWalkRegionIStart1c" = "今天我一個人過來就是為了…";
+"EvtGirlWalkRegionIStart1d" = "下次跟雅詩約會做好準備！";
+
+//EvtGirlWalkTalkRegionI1
+"EvtGirlWalkTalkRegionI1" = "一個眼鏡男在看魚…自言自語…";
+"EvtGirlWalkTalkRegionI1a" = "眼鏡男：「你好！有什麼可以幫你嗎？」";
+"EvtGirlWalkTalkRegionI1b" = "我：「沒有。」";
+"EvtGirlWalkTalkRegionI1c" = "我：「你是工作人員嗎？」";
+"EvtGirlWalkTalkRegionI1d" = "眼鏡男微笑說：「我是呀！難道我不像嗎？」";
+
+//EvtGirlWalkTalkRegionI2
+"EvtGirlWalkTalkRegionI2" = "另外一個工作人員跟在小孩團後面。";
+"EvtGirlWalkTalkRegionI2a" = "他說：「請...請保持安靜…」";
+"EvtGirlWalkTalkRegionI2b" = "小孩子看一看他然後繼續吵鬧。";
+"EvtGirlWalkTalkRegionI2c" = "工作人員各周圍的人一臉無奈的道歉。";
+"EvtGirlWalkTalkRegionI2d" = "小孩真的不好照顧。";
+
+//EvtGirlWalkTalkRegionI3
+"EvtGirlWalkTalkRegionI3" = "工作人員：「先生。」";
+"EvtGirlWalkTalkRegionI3a" = "工作人員：「要玩有關魚知識的填充遊戲嗎？」";
+"EvtGirlWalkTalkRegionI3b" = "工作人員：「星期六晚上十一點過來吧。」";
+"EvtGirlWalkTalkRegionI3c" = "他把遊戲紙給我補充說：「有獎品的！」";
+"EvtGirlWalkTalkRegionI3d" = "反正也閒著，那就玩玩吧！";
+
+
+//Tutor
+"uiTutorNoteMainText1" = "在主版面，左右滑動手指來查看收藏品(左)或角色狀態 (右)。";
+"uiTutorNoteMainText2" = "按左下角的電話圖示，可以約會角色到指定地點。";
+"uiTutorNoteMainText3" = "而中間的簡訊圖示，會跟據角色等級顯示不同簡訊對話。";
+"uiTutorNoteMainText4" = "右方的單車圖示，角色可以到市內不同地點閒逛。";
+"uiTutorNoteMainText5" = "在角色狀態，可以查看等級和經驗值。";
+"uiTutorNoteMainText6" = "季節顯示於主版面的左上角。";
+"uiTutorNoteMainText7" = "除了季節，太陽和月亮分別標示日和夜。";
+"uiTutorNoteMainText8" = "而角色的行動值位顯示於主版面的右上角。";
+"uiTutorNoteMainText9" = "而背景指示出角色身處的地點。";
+"uiTutorNoteMainText10" = "按對話方塊可以顯示下一句對話。";
+"uiTutorNoteMainText11" = "回復行動值時亦會以＋１顯示於畫面上。";
+
+"uiTutorNoteAchiText1" = "畫面上有九個方格，每一個方格代表物品。";
+"uiTutorNoteAchiText2" = "用手指向左邊滑動可以回到主版面。";
+"uiTutorNoteAchiText3" = "畫面右上角顯示出已獲得物品數目。";
+"uiTutorNoteAchiText4" = "位於物品總數下方就有角色等級。";
+"uiTutorNoteAchiText5" = "畫面下方有兩個方塊，第一個是物品的名稱。";
+"uiTutorNoteAchiText6" = "而下方獲取物品地點。";
+
+"uiTutorNoteAttrText1" = "在畫面的右上方有一個行程表圖示，按下圖示可以到行程表介面。";
+"uiTutorNoteAttrText2" = "在行程表的上方分別有日期。";
+"uiTutorNoteAttrText3" = "而日期的下方就是時間。";
+"uiTutorNoteAttrText4" = "第一個是體能的等級。";
+"uiTutorNoteAttrText5" = "下面的能量計就是體能的經驗值。";
+"uiTutorNoteAttrText6" = "第二個就是社交的等級。";
+"uiTutorNoteAttrText7" = "下面的就是社交的經驗值。";
+"uiTutorNoteAttrText8" = "最後就是才智的等級";
+"uiTutorNoteAttrText9" = "下面的是才智的經驗值。";
+
+"uiTutorNoteDateText1" = "與主版面一樣，左右滑動手指來查看收藏品(左)或角色狀態 (右)。";
+"uiTutorNoteDateText2" = "按左面的對話方塊，可以與角色對話。";
+"uiTutorNoteDateText3" = "中間的按鈕角色會進行浪漫對話或情節。";
+"uiTutorNoteDateText4" = "而右面的按鈕會返回家中。";
+"uiTutorNoteDateText5" = "在角色狀態，可以查看等級和經驗值。";
+"uiTutorNoteDateText6" = "季節顯示於主版面的左上角。";
+"uiTutorNoteDateText7" = "除了季節，太陽和月亮分別標示日和夜。";
+"uiTutorNoteDateText8" = "而角色的行動值位顯示於主版面的右上角。";
+"uiTutorNoteDateText9" = "而背景指示出角色身處的地點。";
+"uiTutorNoteDateText10" = "按對話方塊可以顯示下一句對話。";
+"uiTutorNoteDateText11" = "而右上角的圖案分別表示女主角的心情。";
+
+"uiTutorNoteWalkText1" = "與主版面一樣，左右滑動手指來查看收藏品(左)或角色狀態 (右)。";
+"uiTutorNoteWalkText2" = "按左面的對話方塊，可以與 NPC 對話獲得不同資料。";
+"uiTutorNoteWalkText3" = "中間的按鈕角色會進行不同活動提升等級。";
+"uiTutorNoteWalkText4" = "而右面的按鈕會返回家中。";
+"uiTutorNoteWalkText5" = "在角色狀態，可以查看等級和經驗值。";
+"uiTutorNoteWalkText6" = "季節顯示於主版面的左上角。";
+"uiTutorNoteWalkText7" = "除了季節，太陽和月亮分別標示日和夜。";
+"uiTutorNoteWalkText8" = "而角色的行動值位顯示於主版面的右上角。";
+"uiTutorNoteWalkText9" = "而背景指示出角色身處的地點。";
+"uiTutorNoteWalkText10" = "按對話方塊可以顯示下一句對話。";
+
+"uiTutorNoteEventText1" = "畫下方的是對話方塊。";
+"uiTutorNoteEventText2" = "季節顯示於主版面的左上角。";
+"uiTutorNoteEventText3" = "除了季節，太陽和月亮分別標示日和夜";
+"uiTutorNoteEventText4" = "角色的行動值位顯示於主版面的右上角。";
+"uiTutorNoteEventText5" = "背景指示出角色身處的地點。";
+"uiTutorNoteEventText6" = "當到達目標地點時，畫面中間會分別出現女主角和 NPC。";
+"uiTutorNoteEventText7" = "目標地點的 NPC。";
+"uiTutorNoteEventText8" = "還有正在進行的活動和準備獲取的物品。";
+"uiTutorNoteEventText9" = "回復行動值時會以＋１顯示於畫面上。";
+"uiTutorNoteEventText10" = "而升級時亦會以＋１顯示於畫面上。";
+
+"uiTutorNoteMapText1" = "地圖上有九個按鈕，每個按鈕代表不同地點。";
+"uiTutorNoteMapText2" = "按右下方第一個按鈕後有關該地點的資訊。";
+"uiTutorNoteMapText3" = "按畫面右下方的按鈕前往選擇地點。";
+"uiTutorNoteMapText4" = "按左上角的方向按鈕會跳回主版面。";
+"uiTutorNoteMapText5" = "而角色的行動值亦會顯示於畫面的右上方";
+"uiTutorNoteMapText6" = "畫面左下角的是目的地的截圖。";
+"uiTutorNoteMapText7" = "截圖右方顯示進入該地點的等級需求。";
+"uiTutorNoteMapText8" = "該方塊的外觀亦會跟據角色等級或活動而變化。";
+
+"uiTutorNoteArrangeText1" = "玩家可以於時間表上選擇有 OK 圖示的時間約會。";
+"uiTutorNoteArrangeText2" = "按左上角的方向按鈕會跳回主版面。";
+"uiTutorNoteArrangeText3" = "時間表右上角亦會顯示日子和時間。";
+"uiTutorNoteArrangeText4" = "選擇時間後，右面的按鈕選擇特定地點。";
+
+
+"uiTutorNotePlaceText1" = "後面的是目的地截圖。";
+"uiTutorNotePlaceText2" = "按下右邊的按鈕可以選擇地點。";
+"uiTutorNotePlaceText3" = "按左上角的方向按鈕會返回行程表。";
+"uiTutorNotePlaceText4" = "地點列表的右上角顯示角色的行動值。";
+
+"uiTutorNoteScheduleText1" = "按左上角的方向按鈕會跳回主版面。";
+"uiTutorNoteScheduleText2" = "時間表可以查看與角色的約會時間。";
+
+"uiTutorNoteDetailText1" = "按左上角的方向按鈕會返回地圖版面。";
+"uiTutorNoteDetailText2" = "畫面上方顯示地點名稱。";
+"uiTutorNoteDetailText3" = "下面的是地點對角色的狀態變化。";
+
+"uiTutorNoteSmsText1" = "按左上角的方向按鈕會跳回主版面。";
+"uiTutorNoteSmsText2" = "按下中間的 SMS 按鈕，角色開始以簡訊對話。";
+"uiTutorNoteSmsText3" = "角色的行動值亦會顯示於畫面的右上方。";
+"uiTutorNoteSmsText4" = "發出的簡訊會顯示於右邊。";
+"uiTutorNoteSmsText5" = "而回覆亦會顯示於畫面的左邊。";
+
+
+
+

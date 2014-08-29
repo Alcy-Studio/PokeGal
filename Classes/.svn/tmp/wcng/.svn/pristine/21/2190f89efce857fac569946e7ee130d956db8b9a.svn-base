@@ -1,0 +1,40 @@
+//
+//  MSe.m
+//  PocketDraft
+//
+//  Created by westbugs on 10-08-23.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//
+
+#import "MSe.h"
+
+
+@implementation MSe
+
++(void)playSound:(NSString*)f extension:(NSString*)e{
+	// Create the URL for the source audio file. The URLForResource:withExtension: method is
+    //    new in iOS 4.0.
+    NSURL *path   = [[NSBundle mainBundle] URLForResource: f
+											withExtension: e];
+	
+    // Store the URL as a CFURLRef instance
+	CFURLRef soundFileURLRef = (CFURLRef) [path retain];
+	SystemSoundID soundFileObject;
+	
+    // Create a system sound object representing the sound file.
+    AudioServicesCreateSystemSoundID (
+									  
+									  soundFileURLRef,
+									  &soundFileObject
+									  );
+	CFRelease (soundFileURLRef);
+	AudioServicesPlaySystemSound (soundFileObject);
+	
+}
+
+
+
+
+
+
+@end

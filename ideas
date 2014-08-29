@@ -1,0 +1,229 @@
+R-A - R - I change to "Info"
+set Title, change Avatar to real image, change menu, set tutorial bubbles & Image & Text
+
+tutorial 
+each (i) in bottom left corner indicate individual tutorial page, they are image only with a button on the top left
+click tutorial in the title page will jump to group tutorials
+-----------
+
+show bubbleHint when user click certain place(with bubble sound)
+
+check opening, if YES, set Unable for continue button in PGTitle
+change website button to extra/tutorial/gallery
+
+edit background label ， upper half
+
+Pocket World! visual Novel (Phoenix wright&time hollow, hotel dusk)
+
+instead of click and response a picture+stat up
+i prefer to get a mission and go find the ppl or object who help u solve the mission
+mission/quest based visual novel game
+
+shooting game? use scrollView? fruit ninja liked slashing, with scrollView support
+defense sphere divine
+
+slg game in (phoenix wright mode)
+MiniGame = music (DJ Remix, archer, Traditional Gun shooting game)
+DJ - drum, piano, guitar
+shooting = golf, archer, baseball
+Gun - ninja, flying dagger, gun
+
+PGAttr - info (view only)
+detail button: 
+	status: quest#, quest done, day passed, play hours, equipment#, check stat, money ()
+	ppl encycpedia:
+	place encycpedia:
+	quest encycpedia:		
+
+PGAchi - 81 quest, each gift represent 1 quest
+
+PGMain - 
+	map - (map scene)
+	 - (plot Scene)
+	dressing - (dressing scene)
+	magazine - 
+	
+
+each quest has requirement: sport lv1, movie lv2, music lv1
+
+1. Set View Controller for 
+	start Scene
+		Opening (plot)
+		Load Game Scene (attach start)
+2. Set View Controller for
+	Conversation (plot)
+	PlaceScene (scrollView or not place )
+	MiniGameScene (show animate picture + sound + stat increase)
+	
+3. Set View Controller for
+	quest ended (plot) 1 quest 1 time
+	
+4. Set View Controller for 
+	Map
+	
+	
+-----------------------------------------------
+Feed a girl style
+
+bring her out, sport, movie, music, restaurant(cost little...), study, trip, hosipital
+no npc, just you and her, no conversation, just response
+everything cost at + $, they will regenerate as time goes by
+
+use animation to express the activity, end up increasing stat(based on random + mood)
+health, hunger & relationship can decrease
+
+Receive gift once stat reach certain amount (9 gifts for 1st version)
+
+shopping, 
+without her,
+
+hunger, relationship
+
+todos:
+1.animation
+2.money(AT 30/30, $100 )
+
+-----------------------------------------------
+
+Event
+
+Calendar - Holiday
+Routine - Go to School, School Activities
+Appointment - Friends' party, dating
+Weather - Rain, Cloud, Sunny   Snow, Windy
+Random Event - lost Wallet, injury, loving act, trick by friends
+equipment
+
+Ui
+ViewDidLoad retrieves data from Ui, then load
+viewDidUnload writes data to Ui and save again afterward
+
+all-in-one gambox with theme
+
+主线游戏，通关元素. 聚一定lv 会有boss 出现
+sport(response) - jumping rope ,baseball, basketball, golf, swimming, 
+movie(fighting) - kung fu, taekwdo, iron girl, ninja 
+music(Q&A) - trianglur( style), singer, piano, dancing, drum 
+
+attribute: 分总stat 和副stat, attr page change arrow, add girl stat, money, at, 
+总：sport, movie, music
+副：baseball, basketball, golf, swimming
+支线游戏：目的是辅助玩家通过主线游戏
+dating, school, home, event
+
+电影学院， 演员训练班，学员
+
+alcy come to a brand new school today
+
+she is going to be a tomorrow actress, she is receiving training, once her attribute reach max, she will graduate
+
+Mini-Game
+6 (Max) for each
+Sport
+	BasketBall
+	http://www.mini001.com/en/h/baketballer-girl2006961.htm#	//Girl Shot
+	http://www.mini001.com/en/h/basketball-show8507045.htm		//Jay
+	
+	BaseBall
+	http://www.5068.com/wan/29490.html							//Animation BaseBall
+Movie
+	Cow Girl
+	http://www.mini001.com/en/h/shooter9920046.htm#				//Cow Girl Shooting
+	
+	Make Up /Dress Up
+	http://www.mini001.com/en/h/limit9930348.htm#
+	
+	Racing
+	Drifting only, 
+	
+	Iron Girl
+	
+Music
+	Dance
+	http://www.5068.com/wan/18309.html		劲舞团
+	http://www.5068.com/wan/23653.html		比舞
+	
+	DJ
+	http://www.mini001.com/en/h/arrival9918212.htm#		//Guitar Heroes
+------------------------------------
+<or My girlfriend>
+
+真实时间,受行动点限制, 做好安排或者约会预订，
+
+中午12点：清晨到中午12点（清晨的活动）
+
+　　下午3点：中午12点到下午三点（上午的活动）
+
+　　下午6点：下午三点到晚上6点（下午的活动）
+
+　　晚上：晚上6点后（夜生活。。。
+
+比如清晨安排了体育运动，那么到12点之前都不能做出更改，而上午、下午、晚上的活动都还能更改
+
+，如果上午安排了理工学习，到了中午12点后，就自动进入理工学习，直到下午3点不能更改
+
+--------------------
+KISS部分
+
+由于睁眼时候的kiss种类比较多，什么弯着眉毛，直着眉毛，眼睛湿润，很搞啊，又容易出错，
+
+　　所以大家可以在她睁眼的时候憋着，等她换表情，换到那些简单的表情就好了，多耐心等等，可以保
+
+证每次都高评价kiss哦
+
+在之前抚摸过程中积蓄的粉心的数量=kiss的回数。 
+可以kiss的部位有四处：额头、脸颊、唇边、唇。 
+需要根据女友的不同动作，来亲吻不同的部位。 
+1)头部朝下：亲吻额头 
+2)头部偏转：亲吻脸颊 
+3)正面闭眼：亲吻嘴唇（最多出6颗心后立刻松开。松开的瞬间第七颗心冒出来） 
+4)正面睁眼，眼睛湿润：亲吻嘴唇（出7颗心后松开） 
+5)正面睁眼，眉毛是直线（￣ ￣）：亲吻脸蛋（左右都可） 
+6)正面睁眼，眉毛曲线：亲吻嘴唇直到离开
+------------------------
+主人公都拥有3种不同的性格
+
+约会　
+恋人模式中，约会时可以选的地点必须是Lv.1或以上等级。部分最初是Lv.0的地点，必须提升等级后才能
+
+在约会时选择。
+
+　　提升约会地点等级的方法就是，在预定日程时，选外出选项，然后去约会地点踩点即可，通过踩点的
+
+效果（花丸＞◎＞○＞△＞×）会提升约会地点的经验值，到达一定程度就会升级。
+
+-------------------------------------------
+Gift 
+
+早起很快乐——闹钟
+
+3天以上，AM5:00～8:00进入游戏（早睡早起）
+
+Costume 去女补咖啡馆40次(女补装)
+
+-------------------------------------------
+<Mass Increase User Ratings>
+Rating add AP to 15! Affect 1 week only(Encourage PPL to rate)
+Put Rating Button at PGMain
+
+
+User UserDefault to record, whenever init PGMain, auto check rating.
+
+if nil, set rating to NO, 
+
+if equal to NO, enabled ratingButton,
+
+If equal to YES, check ratingExpiry, 
+	if ratingExpiry earlier than now
+		set rating to NO, sub 3 to AP Max, enabled ratingButton
+
+------
+click, set Rating == YES, disable ratingButton, add 3 to AP Max, set ratingExpiry date to 1 week later
+
+-------------------------------------------
+<Status Infirmation AP Problem>
+In PGMain/PGMainSV Refresh
+Don't add AP if ModelViewController == YES
+-------------------------------------------
+
+

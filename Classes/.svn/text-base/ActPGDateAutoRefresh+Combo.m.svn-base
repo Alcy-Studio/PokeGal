@@ -1,0 +1,22 @@
+//
+//  ActPGDateAutoRefresh+Combo.m
+//  frdfrd
+//
+//  Created by westbugs on 10-10-15.
+//  Copyright 2010 Alcy, Ltd. All rights reserved.
+//
+
+#import "ActPGDateAutoRefresh+Combo.h"
+
+//Additional
+#import "ActPGDateAutoRefresh+Selector.h"
+
+@implementation ActPGDateAutoRefresh(Combo)
+
+-(void)setComboAuto{
+	NSLog(@"ActPGDateAutoRefresh - SetComboAuto");
+	
+	combo = [[NSArray alloc]initWithObjects:nil];
+}
+
+@end

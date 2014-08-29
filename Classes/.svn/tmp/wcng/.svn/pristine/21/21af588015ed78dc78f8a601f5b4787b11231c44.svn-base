@@ -1,0 +1,26 @@
+Main Mode - SV1 {PGAchi, PGMain, PGAttr}
+Date Mode - SV2 {PGAchi, PGDate, PGAttr}
+
+Event - {PGEvent} (Avatar, background, message, no action , other like main)
+	Title
+	Location
+	Starts Tue, 3 Aug, 2010 13:00
+	Ends
+	All-day	"checkbox"
+	Repeat {None, day, week, biweek, month, year}
+	Alert {5 min, 15, 30, 1 hr, 2, 1 day, 2 day, on date of event}
+	Notes {} (Should includes description (version2))
+Detail - {PGDetail} (A scrollable list include relevant data) Diary
+Item - {PGItem} (box like, purple<game style> background)
+Gift - {PGGift} (box like, pink<game style> background)
+or Box {PGBox} (9 entry box, diablo style, 九宫格， 2 vertical wire & 2 horizontal wire)
+Note - {PGNote} 1 big note box with back button
+ 
+MiniMap - {PGMiniMap} (version2)1 non scrollable minimap with back button
+CityMap - {PGCityMap} (version2) 1 scrollable minimap with back button
+
+PLACE - = EVENT, no interaction, just view scene, nothing special. 
+PLACE = NPC + Action + selection (version2)
+Closet: Hair, costume, accessory
+Ending - {PGEnd}1 image plus "Buy Now", Coming in Jan
+

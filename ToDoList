@@ -1,0 +1,81 @@
+
+
+Fixed the independent scene first
+1.PGDetail: auditor, PGMapDetail
+2.PGWalk, PGLook, PGChat, PGRomance
+3.confirm title, alert title in auditor+textout
+Check UICatalog for Custom Slider
+
+Use cocoa binding(OSX) to import data
+Use NSFetchresultController(iOS) to test data
+Integrate the data to pocketDraft
+
+viewDidLoad > Auto / Refresh
+
+it needs to load
+1. Time (trigger refresh)
+2. Views (trigger once)
+
+init views, refresh (Time)
+
+load picture, load gift status, load background, music
+
+1. Think scene
+2. Auto scene
+
+-------------------Oct 25
+1clickHint2clickAct
+3 action first, 3 mini games + scene
+-------------------Nov1
+setup user default for version 1 Game !
+then, add & modify sqlite for game 1!
+add separate data model for miniGame&Event
+oq is mainly for downloading
+add action(touchdown) for PGMain (just this only! time issue)
+don't forget to put highlighted to "hint" for "every" touch down
+
+for highlighted:
+for action
+if (highlighted)
+	set act = activity
+
+else
+	set act = hint
+	
+clear all highlight state
+
+think act
+
+set highlight state: (act)
+
+-------------------Nov3
+add action point, page and add gift to Girl Entity
+
+-------------------January17 2011
+PGMap
+Bottom Round Button & Label will become a background Image and Custom Buttom.
+
+Image is always there. Button will show once Region button is pressed
+
+Create 9 RegionViews for different region
+
+------------------------------------
+新的语言设定将于下次游戏启动时生效
+
+PGMSetting
+setting modal in music,(voice) se, language, 
+
+
+PGAttr
+add two arrow
+when it press 
+
+button will change image
+button will change role
+
+role according to PGAttr
+
+edit action: add new combo for new role
+
+present modal in this case
+

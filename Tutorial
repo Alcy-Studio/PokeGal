@@ -1,0 +1,543 @@
+/*
+	 3 tutorial tableview scene is the organized version of tutorial process scene
+	 PGTutorStoryViewController
+	 PGTutorListViewController
+	 PGTutorNodeViewController
+	 
+	//New check Opening, if YES, 
+	
+	//1)no alert; 
+	//2)Load tutorial process scene
+	//3)present opening modal
+	//4)dismiss opening modal and go through tutorial process (can skip)
+	  5)the game will transfer to main scene once finish
+	  7)click info button will jump to relevant tutorial scene again (angry bird style tutorial)
+			open up modal(tutorNode)
+	  8)click close button will dismiss modal(tutorNode)
+	 
+	  9)click back button will jump to main tutorial scene (available in title scene tutorial only)
+	  10)tabItem1 include tutorial story(play video button in the middle), tabItem2 include tutorial list
+		1)tutorial Process
+			click to next page with cute transition
+		 Main
+		 
+			Call
+				Arrange
+				Place
+			SMS
+		 
+			Tour
+				Region button
+				Detail 
+				Go
+			Date
+				Chat
+					Tell you her feeling about the place
+				Romance
+					Tell you her feeling about you
+				Leave	
+					Quit to main scene
+			Tour
+				Talk
+					Tell you her/his thinking about your relation
+				Look
+					Find out the items you&her are really impress with
+				Leave
+					Quit to main scene
+		 
+			Achievenment and attribute
+				Display: Scroll Left for Achievement
+				Display: Scroll Right for Attribute
+	if No
+	  1)Tutorial scene become a tableview selection
+		look like:
+			Main
+				Call 
+					Arrange
+					Place
+				SMS
+				Map
+					Region
+					Detail
+					Go
+			Date
+				Chat
+				Romance
+				Leave
+			
+			Tour
+				Talk
+				Look
+				Leave
+			
+			Event
+			Confirm
+			Alert
+			Achi
+			Attr
+			
+	*/
+
+	Img: Dark Bgd with White Border, White Glow behind img
+	Text: White Bgd with Black Border, dark text
+	
+typedef enum{
+	kTutorMainPage1 = 0, //kTutorMainPageAchiScroll 
+	/*
+		Base: Achi + Main (Line in the Middle) 
+		Note: Img: An Arrow point Left in the low middle 
+			  Text: An Bubble with description in the up middle (point to arrow)
+		
+	
+	 */
+	kTutorMainPage2 = 1, //kTutorMainPageArrangeButton
+	/*
+		Base: Main
+		Note: Text: An bubble with description (Call Alcy for dating, consume 2 At etc)
+		
+	 */
+	
+	kTutorMainPage3 = 2, //kTutorMainPageSmsButton
+	/*
+		Base: Main
+		Note: Text: An bubble with description (Send Text to Alcy, consume 1 At, etc)
+		
+	 */
+	
+
+	kTutorMainPage4 = 3, //kTutorMainPageMoveButton
+	/*
+		Base: Main
+		Note: Text: An bubble with description (Take a tour of town, consume 3 At, etc)
+		
+	 */
+	
+	 
+	kTutorMainPage5 = 4, //kTutorMainPageAttrScroll
+	/*
+		Base: Main + Attr (Line in the Middle) 
+		Note: Img: An Arrow point Left in the low middle 
+			  Text: An Bubble with description in the up middle (point to arrow)
+		
+	 */
+	
+	kTutorMainPage6 = 5, //kTutorMainPageSeason
+	/*
+		Base: Main
+		Note: Img: An bubble with "Spring" & "Summer" & "Autumn" & "Winter" icons in the middle left
+			  Text: An Bubble with description in the low middle (point to icon)
+		
+	 */
+	
+	kTutorMainPage7 = 6, //kTutorMainPageDay
+	/*
+		Base: Main
+		Note: Img: An bubble with "Day" & "Night" icons in the middle left
+			  Text: An Bubble with description in the low middle (point to icon)
+		
+	 */
+	kTutorMainPage8 = 7, //kTutorMainPageAt
+	/*
+		Base: Main
+		Note: Text: An Bubble with description in the low middle (point to icon)
+		
+	 */
+	kTutorMainPage9 = 8, //kTutorMainPageBackground
+	/*
+		Base: Main
+		Note: An Bubble with description in the low middle (point to icon)
+		
+	 */
+	kTutorMainPage10 = 9, //kTutorMainPageEvent
+	/*
+		Base: Event Overlap Main 
+		Note: Text: An Bubble with description in the low middle (point to icon)
+		
+	 */
+	kTutorMainPage11 = 10, //kTutorMainPagePopAt
+	/*
+		Base: Main 
+		Note: Img: "+1 Action"
+			  Txt: An Bubble with description in the low middle (point to icon)
+		
+	 */
+
+}kTutorMainPage;
+
+typedef enum{
+	kTutorAchiPage1 = 0, //kTutorAchiPageGiftButton
+	/*
+		Base: Achi 
+		Note: Img: An bubble with "Gift" & "?" icons in the middle left
+			  Txt: An Bubble with description in the low middle (point to icon)
+		
+	 */
+	kTutorAchiPage2 = 1, //kTutorAchiPageMainScroll
+	/*
+		Base: Achi + Main (Line in the Middle) 
+		Note: Img: An bubble with "Gift" & "?" icons in the middle left
+			  Txt: An bubble with description in the low middle (point to icon)
+		
+	 */
+
+	kTutorAchiPage3 = 2, //kTutorAchiPageGiftTotal
+	/*
+		Base: Achi 
+		Note: Txt:
+			  Txt: An Bubble with description in the middle (point to icon)
+		
+	 */
+	kTutorAchiPage4 = 3, //kTutorAchiPageAlias
+	/*
+		Base: Achi 
+		Note: Txt: Alias Lv1, Lv2
+			  Txt: An Bubble with description in the middle (point to icon)
+		
+	 */
+	kTutorAchiPage5 = 4, //kTutorAchiPageGiftDesc
+	/*
+		Base: Achi 
+		Note: Txt: Gift desc 1, desc 2
+			  Txt: An Bubble with description in the middle (point to Bottom)
+		
+	 */
+	 
+	kTutorAchiPage6 = 5, //kTutorAchiPageGiftRegion
+	/*
+		Base: Achi 
+		Note: Txt: Region A - D...
+			  Txt: An Bubble with description in the middle (point to Bottom)
+		
+	 */
+
+	
+}kTutorAchiPage;
+
+typedef enum{
+	
+	kTutorAttrPage1 = 0, //kTutorAttrPageScheduleButton
+	/*
+		Base: Attr 
+		Note: Txt: An Bubble with description in the middle (point to Button)
+		
+	 */	
+	
+	kTutorAttrPage2 = 1, //kTutorAttrPageWeekday
+	/*
+		Base: Attr 
+		Note: Txt: Weekday 1-7
+			  Txt: An Bubble with description in the middle (point to Label)
+		
+	 */
+	kTutorAttrPage3 = 2, //kTutorAttrPageTime
+	/*
+		Base: Attr 
+		Note: Txt: Time Am, Pm
+			  Txt: An Bubble with description in the middle (point to Label)
+		
+	 */
+
+	kTutorAttrPage4 = 3, //kTutorAttrPageHealthExp
+	/*
+		Base: Attr 
+		Note: Txt: An Bubble with description in the middle (Health Exp, Min, Max, When to Lv Up)
+			  Txt: An Bubble with description in the middle (point to Label)
+		
+	 */
+
+	kTutorAttrPage5 = 4, //kTutorAttrPageHealthLv
+	/*
+		Base: Attr 
+		Note: Txt: An Bubble with description in the middle (Lv Max, Min)
+			  Txt: An Bubble with description in the middle (Describe Health[Creative] Affected Regions etc.)(point to Label)
+		
+	 */
+	
+	kTutorAttrPage6 = 5, //kTutorAttrPageSocialExp
+	
+	kTutorAttrPage7 = 6, //kTutorAttrPageSocialLv
+	
+	kTutorAttrPage8 = 7, //kTutorAttrPageTalentExp
+	kTutorAttrPage9 = 8, //kTutorAttrPageTalentLv
+
+	
+}kTutorAttrPage;
+
+typedef enum{
+	kTutorDatePage1 = 0, //kTutorDatePageAchiScroll //Refer Main
+	
+	kTutorDatePage2 = 1, //kTutorDatePageChatButton //Refer Main
+	
+	kTutorDatePage3 = 2, //kTutorDatePageRomanceButton //Refer Main
+	
+	kTutorDatePage4 = 3, //kTutorDatePageLeaveButton //Refer Main
+	
+	kTutorDatePage5 = 4, //kTutorDatePageAttrScroll //Refer Main
+	kTutorDatePage6 = 5, //kTutorDatePageSeason //Refer Main
+	
+	kTutorDatePage7 = 6, //kTutorDatePageDay //Refer Main
+	kTutorDatePage8 = 7, //kTutorDatePageAt //Refer Main
+	kTutorDatePage9 = 8, //kTutorDatePageBackground //Refer Main
+	kTutorDatePage10 = 9, //kTutorDatePagePlayer
+	/*
+		Base: Date 
+		Note: Img: An Bubble with Happy, Normal, Bad Face Icon
+			  Txt: An Bubble with description in the middle (Describe Health[Creative] Affected Regions etc.)(point to Label)
+		
+	 */
+	kTutorDatePage11 = 10, //kTutorDatePageEvent //Refer Main
+
+	
+}kTutorDatePage;
+
+//Act(5): Achi, Talk, Look, Leave, Attr; Info(5): Season, Day, AT, Background, Event
+
+typedef enum{
+	//Refer Main
+	kTutorWalkPage1 = 0, //kTutorWalkPageAchiScroll
+	kTutorWalkPage2 = 1, //kTutorWalkPageTalkButton
+	kTutorWalkPage3 = 2, //kTutorWalkPageLookButton
+	kTutorWalkPage4 = 3, //kTutorWalkPageLeaveButton
+	kTutorWalkPage5 = 4, //kTutorWalkPageAttrScroll
+	
+	kTutorWalkPage6 = 5, //kTutorWalkPageSeason
+	kTutorWalkPage7 = 6, //kTutorWalkPageDay
+	kTutorWalkPage8 = 7, //kTutorWalkPageAt
+	kTutorWalkPage9 = 8, //kTutorWalkPageBackground
+	kTutorWalkPage10 = 9, //kTutorWalkPageEvent
+	
+}kTutorWalkPage;
+
+//Act(1): Message Button; 
+//Info(9): Season, Day, AT, Background, Player, NPC, Item, Attribute (Love, Health, Social, Talent), Lv up (Love...)
+typedef enum{
+	kTutorEventPage1 = 0, //kTutorEventPageMessageButton
+	/*
+		Base: Event 
+		Note: Txt: 
+			  Txt: An Bubble with description in the middle (point to Label)
+		
+	 */
+
+	kTutorEventPage2 = 1, //kTutorEventPageSeason
+	kTutorEventPage3 = 2, //kTutorEventPageDay
+	kTutorEventPage4 = 3, //kTutorEventPageAt
+	kTutorEventPage5 = 4, //kTutorEventPageBackground
+	/*
+		Base: Event with BGD 
+		Note: 
+			  Txt: An Bubble with description in the middle (Diff. Place.)(point to Label)
+		
+	 */
+	kTutorEventPage6 = 5, //kTutorEventPagePlayer //Refer to Date
+	kTutorEventPage7 = 6, //kTutorEventPageNpc
+	/*
+		Base: Event with NPC 
+		Note: Img: An Bubble with Diff NPC(3-4) Icon
+			  Txt: An Bubble with description in the middle (point to Label)
+		
+	 */
+	kTutorEventPage8 = 7, //kTutorEventPageItem
+	/*
+		Base: Event with Item 
+		Note: Img: An Bubble with Diff Item(3-4) Icon
+			  Txt: An Bubble with description in the middle (point to Label)
+		
+	 */
+	kTutorEventPage9 = 8, //kTutorEventPagePopAttr 
+	/*
+		Base: Event 
+		Note: Img: "+1 Talent"
+			  Txt: An Bubble with description in the low middle (point to icon)
+		
+	 */
+	kTutorEventPage10 = 9, //kTutorEventPagePopLv
+	/*
+		Base: Main 
+		Note: Img: "+1 Lv"
+			  Txt: An Bubble with description in the low middle (point to icon)
+		
+	 */
+
+
+	
+}kTutorEventPage;
+
+//Act(4) Nav, Detail, Go, Back; Info(4): AT, Thumbnail, Lv Requirement: H = Health, S = Social, T = Talent YES with Circle or No with Cross, Go-> Heart, Go->Enable, Go->Disable
+
+typedef enum{
+	kTutorMapPage1 = 0, //kTutorMapPageNavButton
+	/*
+		Base: Map 
+		Note: 
+			  Txt: An Bubble with description in the low middle (point to icon)
+		
+	 */
+	kTutorMapPage2 = 1, //kTutorMapPageDetailButton
+	/*
+		Base: Map 
+		Note: 
+			  Txt: An Bubble with description in the middle (point to icon)
+		
+	 */
+
+	kTutorMapPage3 = 2, //kTutorMapPageGoButton
+	/*
+		Base: Map 
+		Note:
+			  Txt: An Bubble with description in the middle (point to icon)
+		
+	 */
+	kTutorMapPage4 = 3, //kTutorMapPageBackButton 
+	/*
+		Base: Map 
+		Note:
+			  Txt: An Bubble with description in the middle (point to icon)
+		
+	 */
+
+	kTutorMapPage5 = 4, //kTutorMapPageAt //Refer to Main
+	kTutorMapPage6 = 5, //kTutorMapPageThumbnail
+	/*
+		Base: Map 
+		Note: Img: "RegionA" & "RegionB"
+			  Txt: An Bubble with description in the middle (point to icon)
+		
+	 */
+	kTutorMapPage7 = 6, //kTutorMapPageLvReq
+	/*
+		Base: Map 
+		Note: Img: "S for Social" & "T for Talent" & "H for Health"
+			  Txt: An Bubble with description in the middle (point to icon)
+		
+	 */
+	kTutorMapPage8 = 7, //kTutorMapPageGoStatus
+	/*
+		Base: Map 
+		Note: Img: "Walk" & "Date" & "Disable"
+			  Txt: An Bubble with description in the middle (point to icon)
+		
+	 */
+
+
+	
+}kTutorMapPage;
+
+//Act(2): Ok = Available, No = Occupied 10:00 to 00:00, Back; Info(2): Weekday, time
+
+typedef enum{
+	kTutorArrangePage1 = 0, //kTutorArrangePageArrangeButton
+	/*
+		Base: Arrange
+		Note: Img: An bubble with "Occupied" & "Available" icons in the middle left
+			  Text: An Bubble with description in the bottom (point to arrange button)
+		
+	 */
+	kTutorArrangePage2 = 1, //kTutorArrangePageBackButton
+	/*
+		Base: Arrange 
+		Note:
+			  Txt: An Bubble with description in the middle (point to icon)
+		
+	 */
+	kTutorArrangePage3 = 2, //kTutorArrangePageWeekday //Refer to Attr
+
+	kTutorArrangePage4 = 3, //kTutorArrangePageTime //Refer to Attr
+
+	
+}kTutorArrangePage;
+
+//Act(2): R-A = Region A, Back; Info(2): AT, Region
+
+typedef enum{
+	kTutorPlacePage1 = 0, //kTutorPlacePageRegionButton
+	/*
+		Base: Place
+		Note: Img: An bubble with "R-A" & "R-B"
+			  Text: An Bubble with description in the bottom (point to arrange button)
+		
+	 */
+	kTutorPlacePage2 = 1, //kTutorPlacePageBackButton
+
+	kTutorPlacePage3 = 2, //kTutorPlacePageAt
+	kTutorPlacePage4 = 3, //kTutorPlacePageRegion
+	/*
+		Base: Place
+		Note: Img: An bubble with Diff Regions in the middle left
+			  Text: An Bubble with description in the bottom (point to arrange button)
+		
+	 */
+
+	
+}kTutorPlacePage;
+
+//Act(1): Back; Info(1): Today's Schedule from 10:00 to 12:00
+typedef enum{
+	kTutorSchedulePage1 = 0, //kTutorSchedulePageBackButton
+	kTutorSchedulePage2 = 1, //kTutorSchedulePageSchedule
+	/*
+		Base: Schedule
+		Note: Img: An bubble with Diff Regions in the middle 
+			  Text: An Bubble with description in the bottom (point to arrange button)
+		
+	 */
+
+	
+}kTutorSchedulePage;
+
+//Act(1)Back; Info(2): Name, Attr Effect
+
+typedef enum{
+	kTutorDetailPage1 = 0, //kTutorDetailPageBackButton
+
+	kTutorDetailPage2 = 1, //kTutorDetailPageName
+	/*
+		Base: Place
+		Note: 
+			  Text: An Bubble with description in the bottom (point to Name & Description)
+		
+	 */
+	kTutorDetailPage3 = 2, //kTutorDetailPageEffect
+	/*
+		Base: Place
+		Note: Img: An bubble with Diff Regions in the middle left
+			  Text: An Bubble with description in the bottom (point to arrange button)
+		
+	 */
+
+	
+}kTutorDetailPage;
+
+//Act(2)Back, Sms; Info(3): At, Send, Reply
+
+typedef enum{
+	kTutorSmsPage1 = 0, //kTutorSmsPageBackButton
+	
+	kTutorSmsPage2 = 1, //kTutorSmsPageSmsButton
+	
+	/*
+		Base: Sms
+		Note: Text: An bubble with description in the right middle (point to 2 text bubbles)
+			  Text: An Bubble with description in the left Middle (point to sms button)
+	*/
+	
+	kTutorSmsPage3 = 2, //kTutorSmsPageAt
+	kTutorSmsPage4 = 3, //kTutorSmsPageSend
+	/*
+		Base: Sms
+		Note: 
+			  Text: An Bubble with description in the bottom (point to Right Bubble)
+		
+	 */
+	kTutorSmsPage5 = 4, //kTutorSmsPageReply
+	/*
+		Base: Sms
+		Note: 
+			  Text: An Bubble with description in the bottom (point to Left Bubble)
+		
+	 */
+	
+	
+}kTutorSmsPage;
+@end
+

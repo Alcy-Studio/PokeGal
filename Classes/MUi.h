@@ -1,0 +1,82 @@
+//
+//  MUi.h
+//  PocketDraft
+//
+//  Created by westbugs on 10-08-23.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+//Parent Class
+#import "Method.h"
+
+@class PGNavController;
+
+@interface MUi : Method
+
+//Get current modal Controller
++(id)getCurrentModalController;
+
+//Get Current Controller
++(id)getCurrentController;
+
+//Get NavigationController
++(PGNavController*)getNavigationController;
+
+//Get mainViewController
++(id)getMainViewController;
+
+//Date Formatter
++(NSString*)getDateStringWithDateFormat:(NSString*)s;
++(NSString*)getDateString;
+
+//PGSchedule Event, PGMap
++(void)setHidden:(BOOL)option tag:(NSUInteger)t controller:(id)c;
++(void)setEnabled:(BOOL)option tag:(NSUInteger)t controller:(id)c;
+
+//modify user default
++(void)modifyUserDefaultWithKey:(NSString*)k boolVal:(BOOL)b;
++(void)modifyUserDefaultWithKey:(NSString*)k value:(NSUInteger)r;
++(void)modifyUserDefaultWithKey:(NSString*)k stringVal:(NSString*)s;
+
+//modify tag
++(void)modifyTag:(NSUInteger)t role:(NSUInteger)r scene:(NSUInteger)s;
+
+//get role
++(NSUInteger)getRoleWithTag:(NSUInteger)t scene:(NSUInteger)s;
+
+//Lock
++(BOOL)screenLock;
++(BOOL)screenUnLock;
+
+
+//Modal
++(BOOL)presentModal:(NSString*)s transition:(UIModalTransitionStyle)t animated:(BOOL)b;
+
++(void)tryPerformSelector:(SEL)aSelector withObject:(id)anArgument afterDelay:(NSTimeInterval)delay;
++(void)presentModalEvent;
+
++(BOOL)dismissModal;
+
+//Switch View
++(BOOL)switchViewWithController:(NSString*)s;
++(BOOL)switchViewWithControllerPopAnimated:(NSString*)s;
+
++(BOOL)switchViewWithController:(NSString*)s transition:(UIViewAnimationTransition)t;
+
+//Alert Warning
++(void)alertViewCallAtWarning;
++(void)alertViewSmsAtWarning;
++(void)alertViewMoveAtWarning;
+
+//Alert At
++(void)alertViewPGSmsDisplayAtDeduction;
++(void)alertViewPGArrangeDisplayAtDeduction;
++(void)alertViewPGMapDisplayAtDeduction;
+
+//Alert Occupied
++(void)alertViewPGArrangeOccupiedPeriod;
+
+
+@end

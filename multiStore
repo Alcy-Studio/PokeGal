@@ -1,0 +1,44 @@
+initFileContentNotWork?
+
+The version is not added, Add Version in Design > Data Model > Add Model Version
+
+Can't file DefaultStore.sqlite?
+
+Goto AppDelegate of DefaultStore, change storeData to DefaultStore.sqlite
+
+File at path does not appear to be a SQLite database:?
+
+change identifier to sqlite in DefaultStore app
+
+
+---------for established system ---------
+Auditor+Store - choose store based on role, scene, view
+
+MultiStore is good to apply the read only system
+or affect moc
+
+Static model is quite big, in addition, it is not necessary to change frequently
+always preserve the dynamic model/user data/readWrite (Girl, User, Schedule, ), put static/readonly model aside
+
+The main reason for setting up MultiStore is not for memory efficiency. Indeed, it's for simplier future extension.
+
+primary store should be temp (auto save) keep small for memory benefit, usually user data which auto save frequently
+secondary stores should be extendable (manual save) base or event, or 
+
+
+primary store: 
+- Alcy (Girl): attributes(*), name, birthday, Age, Blood type, personality, progress(*), Note, 
+- Grace (Girl): 
+- user: attributes, gift, items, achievement, money, action point, place, scheduled
+
+Secondary store:
+- base (system, non-plugin)
+- recurring event (reDefined-Graphic2D & Text & BGM) customized each record for specific event
+- recurring event (data for NSCalendar)
+- user event (data for display)
+- user event (data for NSCalendar)
+
+- user photos (user photos & user background for tour/trip) (version2)
+- independent, should include all required repository without interfere other store such as base
+
+the style for plugin store should be same as primary store, except the plugin store has a smaller scale

@@ -1,0 +1,14 @@
+// Get the time
+
+NSCalendar *calendar= [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
+NSCalendarUnit unitFlags = NSYearCalendarUnit | NSMonthCalendarUnit | NSDayCalendarUnit | NSHourCalendarUnit | NSMinuteCalendarUnit | NSSecondCalendarUnit;
+NSDate *date = [NSDate date];
+NSDateComponents *dateComponents = [calendar components:unitFlags fromDate:date];
+
+// Turn the date into Integers
+NSInteger year = [dateComponents year];
+NSInteger month = [dateComponents month];
+NSInteger day = [dateComponents day];
+NSInteger hour = [dateComponents hour];
+NSInteger min = [dateComponents minute];
+NSInteger sec = [dateComponents second];

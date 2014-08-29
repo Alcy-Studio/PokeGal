@@ -1,0 +1,19 @@
+//
+//  PGMapViewController+IB.h
+//  frdfrd
+//
+//  Created by westbugs on 10-12-10.
+//  Copyright 2010 Alcy, Ltd. All rights reserved.
+//
+
+#import "PGMapViewController.h"
+#import "ScreenLocking.h"
+
+@interface PGMapViewController(IB) <ScreenLocking>
+
+- (IBAction) touchUpInside:(id)sender;
+- (IBAction) touchDownRepeat:(id)sender;
+- (IBAction) touchDown:(id)sender;
+- (IBAction) touchCancel:(id)sender;
+
+@end

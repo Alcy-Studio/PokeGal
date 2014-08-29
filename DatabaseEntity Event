@@ -1,0 +1,13 @@
+String [eventName release];
+String [eventDescription release];
+NSDate String[startDate release];
+NSDate String[endDate release];
+String [color release];
+String [userInfo release];
+BOOL allDayEvent
+
+EKEvent
+
+"sport" = sport
+"movie" = social
+"music" = talent

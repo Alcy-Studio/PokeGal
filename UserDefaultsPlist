@@ -1,0 +1,9 @@
+Save to Plist(two Plist, 1 init, 1 current)
+
+<key>s1t8</key> //Scene 1(PGMain) & Tag 8 (LActButton)
+<value>1</value> //ActSport
+
+AuditorUserDefaults
+
+<key>1</key> kActSport
+<value>Sport</value> classname: ActSport

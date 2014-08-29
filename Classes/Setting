@@ -1,0 +1,84 @@
+References
+
+- iOS Programming Guide > Preferences Tutorial
+http://developer.apple.com/iphone/library/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Preferences/Preferences.html#//apple_ref/doc/uid/TP40007072-CH6-SW5
+
+- Movie Player (Sample)
+
+
+- Detect Network (official)
+SystemConfigFrameworks
+http://developer.apple.com/mac/library/documentation/Networking/Conceptual/SystemConfigFrameworks/SC_ReachConnect/SC_ReachConnect.html#//apple_ref/doc/uid/TP40001065-CH204-BHAFBAHI
+
+- Sample (offical)
+SimpleReach, Reachability
+SimpleDial, SC
+
+- Detect Network
+http://www.chrisdanielson.com/2009/07/22/iphone-network-connectivity-test-example/
+
+#import <sys/socket.h>
+#import <netinet/in.h>
+#import <arpa/inet.h>
+#import <netdb.h>
+#import <SystemConfiguration/SCNetworkReachability.h>
+//Snip, you know we're in the implementation...
+- (BOOL) connectedToNetwork
+{
+	// Create zero addy
+	struct sockaddr_in zeroAddress;
+	bzero(&zeroAddress, sizeof(zeroAddress));
+	zeroAddress.sin_len = sizeof(zeroAddress);
+	zeroAddress.sin_family = AF_INET;
+ 
+	// Recover reachability flags
+	SCNetworkReachabilityRef defaultRouteReachability = SCNetworkReachabilityCreateWithAddress(NULL, (struct sockaddr *)&zeroAddress);
+	SCNetworkReachabilityFlags flags;
+ 
+	BOOL didRetrieveFlags = SCNetworkReachabilityGetFlags(defaultRouteReachability, &flags);
+	CFRelease(defaultRouteReachability);
+ 
+	if (!didRetrieveFlags)
+	{
+		return NO;
+	}
+ 
+	BOOL isReachable = flags & kSCNetworkFlagsReachable;
+	BOOL needsConnection = flags & kSCNetworkFlagsConnectionRequired;
+	return (isReachable && !needsConnection) ? YES : NO;
+}
+ 
+//call like:
+-(void) start {
+	if (![self connectedToNetwork]) {
+				UIAlertView *alert = [[UIAlertView alloc]
+						 initWithTitle:@"Network Connection Error"
+						 message:@"You need to be connected to the internet to use this feature."
+						 delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+		[alert show];
+		[alert release];
+		} else {
+			 //do something
+		}
+}
+
+or
+
+1) Add the Reachability.h and .m from the sample to your project
+2) Add the SystemConfiguration.framework
+3) code below...
+
+[[Reachability sharedReachability] setHostName:@"www.drobnik.com"];
+
+NetworkStatus internetStatus = [[Reachability sharedReachability] remoteHostStatus];
+	
+if ((internetStatus != ReachableViaWiFiNetwork) && (internetStatus != ReachableViaCarrierDataNetwork))
+{
+	UIAlertView *myAlert = [[UIAlertView alloc] initWithTitle:@"No Internet Connection" message:@"You require an internet connection via WiFi or cellular network for location finding to work." delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil];
+	[myAlert show];
+	[myAlert release];
+}
+
+
+
+- original cache in Simulator or Device or the setting won't take effect

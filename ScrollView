@@ -1,0 +1,2 @@
+Magical Words:
+[sv setContentSize:CGSizeMake(sv.frame.size.width,sv.frame.size.height + kSvExtraHeight)];

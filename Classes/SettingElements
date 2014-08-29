@@ -1,0 +1,67 @@
+System Setting:
+//Required
+- Sound
+Music
+Volume
+
+Sound Effect
+Volume
+
+Voice
+Volume
+
+//Optional
+- Visual
+Special Effect
+
+Animation
+
+- Web
+Wifi
+
+
+
+Copyright(c) 2010 Alcy Ltd. All rights reserved.  
+
+
+
+App Setting (static game info)
+
+Alcy string
+birthday (generate)
+Holo Scope: 0 - 11
+max total achievement val
+total page (generate)
+current date (generate)
+daynight status(generate)
+season status(generate)
+current time (generate)
+current day (dynamic)
+current week (dynamic)
+...same as above
+girl status (generate, switch in game)
+girl mood (generate, switch in game)
+
+items effect, icon, pic [81](load)
+
+In game setting(dynamic, everything needs to save)
+
+action point
+
+girl costume
+
+Bgm
+Sport val
+Movie val
+Music val
+
+Sport lv (generate)
+Movie lv (generate)
+Music lv (generate)
+
+relationship val
+numberOfheart (generate)
+
+current total unlocked achievements 
+detail achievement unlocked  info - array[81] 
+	use constant , etc array[kShoesBox]

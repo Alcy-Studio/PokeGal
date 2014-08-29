@@ -1,0 +1,14 @@
+//
+//  ActPGArrangeAutoRefresh+Selector.m
+//  frdfrd
+//
+//  Created by westbugs on 10-10-15.
+//  Copyright 2010 Alcy, Ltd. All rights reserved.
+//
+
+#import "ActPGArrangeAutoRefresh+Selector.h"
+
+
+@implementation ActPGArrangeAutoRefresh(Selector)
+
+@end

@@ -1,0 +1,54 @@
+//
+//  ConstantsModelGeneral.h
+//  PocketDraftCoreDataOSX
+//
+//  Created by westbugs on 10-09-07.
+//  Copyright 2010 Alcy, Ltd. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+
+@interface ConstantsModelGeneral : NSObject
+
+//Template
+/*
+typedef enum{
+	kExampleNil = 0,
+}KExample;
+*/
+
+//Genre
+typedef enum{
+	kModelGeneralGenreNil = 0,
+	kModelGeneralGenreTheme = 1,
+	kModelGeneralGenreMini = 2,
+}KModelGeneralGenre;
+
+//Scene, which controller
+typedef enum { 
+	kModelGeneralSceneNil = 0,
+	kModelGeneralScenePGAll = 1,
+	kModelGeneralScenePGMain = 2,
+	kModelGeneralScenePGAttr = 3,
+	kModelGeneralScenePGAchi = 4,
+	kModelGeneralScenePGTitle = 5,
+	kModelGeneralScenePGDate = 8,
+	kModelGeneralScenePGMap = 9,
+	kModelGeneralScenePGEvent = 10,
+	kModelGeneralScenePGRomance = 11,
+	kModelGeneralScenePGDetail = 12,
+	kModelGeneralScenePGArrange = 13,
+	kModelGeneralScenePGPlace = 14,
+	kModelGeneralScenePGSchedule = 15,
+	kModelGeneralScenePGTalk = 16,
+	kModelGeneralScenePGSMS = 17,
+	
+	kModelGeneralScenePGMConfirm = 31,
+	kModelGeneralScenePGMAlert = 32,
+	kModelGeneralScenePGMSelection = 33,
+
+
+} KModelGeneralScene;
+
+@end

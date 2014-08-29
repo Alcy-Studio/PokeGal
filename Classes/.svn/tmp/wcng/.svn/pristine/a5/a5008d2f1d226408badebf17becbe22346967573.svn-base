@@ -1,0 +1,105 @@
+//
+//  ActPGScheduleAutoSetup+Selector.m
+//  frdfrd
+//
+//  Created by westbugs on 10-10-15.
+//  Copyright 2010 Alcy, Ltd. All rights reserved.
+//
+
+#import "ActPGScheduleAutoSetup+Selector.h"
+
+//Additional
+//Method
+#import "MLoad.h"
+#import "MUi.h"
+
+//Constants
+#import "ConstantsPGSchedule.h"
+#import "ConstantsGlossaryDatabase.h"
+#import "ConstantsStringFormat.h"
+#import "ConstantsSceneCode.h"
+#import "ConstantsAuditorUserDefaults.h"
+
+
+@implementation ActPGScheduleAutoSetup(Selector)
+
+static const unsigned int kUpBound = 14;
+static const unsigned int kTimeDivToTagModifier = 4;
+
+
+-(void)setViewWithTag{
+	for (NSUInteger i = 1; i <= kScheduleViewTotal; i++) {
+		[MLoad setViewWithTag:i controller:self.resource];
+	}
+}
+
+-(void)setScheduleWithEvents{
+	//NSLog(@"Event: %@",[[[MLoad getRecordsWithAttrName:@"startDate" attrValue:@"1/21/11" Entity:@"Event"] objectAtIndex:0] valueForKey:@"name"]);
+	
+	//reset view to hidden, 	
+	for (NSUInteger i = 0; i < kUpBound; i++){
+		[MUi setHidden:YES tag:(i+kTimeDivToTagModifier) controller:self.resource];
+	}
+	/*
+	//event role to None
+	for (NSUInteger i = kScheduleTime10To11Button; i <= kScheduleTime23To24Button; i++) {
+		[MUi modifyTag:i role:kAudUDNumPGScheduleEventNone scene:kSceneCodePGSchedule];
+	}
+    */
+
+	NSDateFormatter* df = [[NSDateFormatter alloc] init];
+	[df setDateFormat:kDateFormat1];
+
+	NSArray* array = [MLoad getRecordsWithAttrName:kGlossaryStartDate attrValue:[df stringFromDate:[NSDate date]] Entity:kGlossaryEvent];
+	//NSLog(@"%@",[df stringFromDate:[NSDate date]]);
+
+	[df release];
+
+	//check upbound & lowbound if array count = 0 || > 14, withdraw
+	if (![self checkEventsUpBoundLowBound:array])
+		return;
+	
+	
+	NSUInteger z;
+	NSUInteger t;
+	NSArray* record;
+	for (NSUInteger i = 0; i < [array count]; i++) {
+		record = [array objectAtIndex:i];
+		z = [(NSString*)[record valueForKey:kGlossaryTimeDiv] intValue];
+		t = [self getTagWithTimeDiv:z];
+		
+		//NSLog(@"role: %i", [(NSString*)[record valueForKey:kGlossaryRole] intValue]);
+		[MUi modifyTag:t role:[(NSString*)[record valueForKey:kGlossaryRole] intValue] scene:kSceneCodePGSchedule];
+
+		[MLoad setViewWithTag:t controller:self.resource];
+		[MUi setHidden:NO tag:t controller:self.resource];
+		
+	}
+	
+	/*
+	for all elements i 
+	 
+	z = array objectAtIndex:i valueForKey:"zone"
+	t = getTagWithZone: z
+	 
+	change role for tag t		
+	setViewWithTag:t 
+	setTag:t hidden = NO
+	 
+	 next
+	*/
+}
+
+-(BOOL)checkEventsUpBoundLowBound:(NSArray*)array{
+	if ([array count] < 1) 
+		return NO;
+	else if ([array count] > kUpBound) 
+		return NO;
+	return YES;
+}
+
+-(NSUInteger)getTagWithTimeDiv:(NSUInteger)z{
+	z += kTimeDivToTagModifier;
+	return z;
+}
+@end

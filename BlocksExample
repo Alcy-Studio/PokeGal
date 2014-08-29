@@ -1,0 +1,18 @@
+//Set BirthDate
+	void (^blkloadAppSetting)() = ^() {
+		//init necessary values
+		self.girlName = kGirlName;
+		//birth related
+		[self extensionSetBirthDate];
+		[self extensionSetBirthday];
+		self.horoscope = kHoroscope;
+		self.totalAchi = kTotalAchi;
+		self.totalAchiPages = kTotalAchi / kIconsPerPage;
+	};
+	blkloadAppSetting();
+	
+	
+conclusion:
+
+use block whenever you need to parse value or referece (_Block)
+or you have one function which need to excess > 10 variables

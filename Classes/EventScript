@@ -1,0 +1,183 @@
+to do
+
+fix weekday, timeCell for datamodel, add preset event to sqlite
+-------------------
+
+
+Opening for new game
+
+EvtGirlNewGame1
+
+EvtBoyNewGame1
+
+Ending for new game
+
+EvtGirlEndGame1
+
+Once Love Lv reach 9 & all items are gathered, next dating will become ending, 
+a ending dating will show once it opened, when user click the end button of date, 
+the ending dating event will erase. The game can be played as usual
+
+Start
+
+Hsven't seen you for long. I thought you have forgotten me already.
+
+Ending
+
+Girl will say: it's good to have you with me these days, but I'm only a girl that live in the video game. 
+I hope I can date with you in reality just once. 
+Anyway, I have to leave. Thanks for letting me know there is someone
+who really like me. My memory will be erase. Good Bye and farewell. Good luck and hope you
+can find your true love in reality
+
+--------------------
+
+EvtGirlCallStart1 //based on time
+EvtGirlCallStart2
+EvtGirlCallStart3
+
+EvtGirlSMSStart1 //based on player's lv
+EvtGirlSMSStart2
+EvtGirlSMSStart3
+
+(based on love lv)
+
+EvtGirlSMSLv1a //lv1
+EvtGirlSMSLv1b 
+EvtGirlSMSLv1c 
+
+EvtGirlSMSLv2a //lv2
+EvtGirlSMSLv2b
+EvtGirlSMSLv2c
+
+so on...
+
+--------------------
+Example for DateRegionA
+
+Start (depends on the love lv, 1  opening)
+EvtGirlDateRegionAStart1 (under 5 min) +3
+EvtGirlDateRegionAStart2 (under 15 min) +1
+EvtGirlDateRegionAStart3 Angry and leave. 
+
+.
+.
+.
+3 random events are take place in dating when leave, first ask to confirm leave
+depends on the time you leave, or auto leave if passed time (trigger leave if reach )
+
+EvtGirlDateRegionALeave1 (not even 5 min)  love
+EvtGirlDateRegionALeave2 (feel good, 10 min) +1 love
+EvtGirlDateRegionALeave3 (feel better, 15 min) +3 love
+
+EvtGirlDateChatRegionA1 = Random Chat 1 +1 Talent(love words & about place)
+EvtGirlDateChatRegionA2 = Random Chat 2 +1 Talent (About place)
+EvtGirlDateChatRegionA3 = Random Chat 3 (Implied Love Lv req about preset events)
+
+Ex: "People said if the bf lv reach 1 "
+
+EvtGirlDateRomanceRegionA1 = Hug  +1 love exp
+EvtGirlDateRomanceRegionA2 = Kiss +2 love exp //(arc4random)
+EvtGirlDateRomanceRegionA3 = None () (not so fast)
+
+--------------------
+9 preset events are take place in PGWalk  (modify sqlite, 9 preset)
+
+EvtGirlWalkRegionAPreset1 = Start
+
+The goal is to collect all 9 items
+--------------------
+Example for WalkRegionA
+
+EvtGirlWalkRegionAStart1 = Start
+EvtGirlWalkRegionALeave1 = Leave (present in main view)
+
+EvtGirlWalkTalkRegionA1 = Random Talk 1 (RegionA NPC Talk1) (imply the preset event1 info a<region, somebody claim they see a ufo on thursday>)
+EvtGirlWalkTalkRegionA2 = Random Talk 2 (RegionA NPC Talk2) (imply the preset event1 info b<time>, the ufo occurs at night)
+EvtGirlWalkTalkRegionA3 = Random Talk 3 (RegionA NPC Talk3) (imply the preset event1 info c<effect>, rumor said it will grant people talent)
+
+EvtGirlWalkLookRegionA1 = item 1    (+1Talent) (stone)
+EvtGirlWalkLookRegionA2 = item 2    (+2Talent) (shell)
+EvtGirlWalkLookRegionA3 = item None () (nothing was found)
+
+
+
+--------------------
+Each Script represent 1 event
+
+Script contents are printed in EvtGirlTalkRegionA1.plist:
+
+Example:
+
+EvtGirlMoveRegionA1
+EvtGirlTalkRegionA1
+EvtGirlLookRegionA1
+EvtGirlLeaveRegionA1
+
+
+EvtGirlDateRegionA1
+EvtGirlTalkRegionA1
+EvtGirlRomanceRegionA1
+EvtGirlLeaveRegionA1
+
+Script are printed group by group, format:
+
+s0
+	bgm (music for event)
+s1
+	voice (CV) (caf)
+	se (knocked or something) (caf)
+	*avatar (character image) (png)
+	effect (flash, shake, etc)
+	*text (speech)
+s2
+	.
+	.
+	.
+	
+s0
+	PocketGirlTheme
+s1
+	AlcySpeech1
+	Knock
+	cosSchool1
+	shake
+	Hey, hey are you here?
+s2
+	AlcySpeech2
+	Knock
+	cosSchool2
+	
+	How come. Still sleeping? You moron!
+	
+when run, 
+
+s = getDictionary:s2
+
+if(s2)
+		if s2[0]
+			[playMusic music:[UIVoice voiceName:s2[0] type:"caf"]]
+		if s2[1]
+			[playSound sound:[UISound soundName:s2[1] type:"caf"]]
+		if s2[2]
+			[showImage image:[UIImage soundName:s2[2] type:"caf"]]
+		if s2[3]
+			[playEffect:s2[3]]
+		if s2[4]
+			[showText:s2[4]]
+
+
+EvtGirl Message PopUp Attribute
+    //if [d valueForKey:kTmpScriptObject] == DateStart2 (Arrived withIn 5 min, +3)
+	//if [d valueForKey:kTmpScriptObject] == DateStart3 (Arrived withIn 10 min, +1)
+	
+	//if [d valueForKey:kTmpScriptObject] == Chat2 (+1 Health/Social/Talent)
+	//if [d valueForKey:kTmpScriptObject] == Chat3 (+1 Love)
+	//if [d valueForKey:kTmpScriptObject] == Look2 (+1 Health/Social/Talent)
+	//if [d valueForKey:kTmpScriptObject] == Look3 (+2 Health/Social/Talent)
+	//if [d valueForKey:kTmpScriptObject] == Romance2 (+1 Love)
+	//if [d valueForKey:kTmpScriptObject] == Romance3 (+2 Love)
+	
+	//if [d valueForKey:kTmpScriptObject] == DateLeave1 (stay over )
+	//if [d valueForKey:kTmpScriptObject] == DateLeave2 (stay more than 10 min, +1)
+	//if [d valueForKey:kTmpScriptObject] == DateLeave3 (stay more than 15 min, +3)

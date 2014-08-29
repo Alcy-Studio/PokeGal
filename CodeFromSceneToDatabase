@@ -1,0 +1,23 @@
+ConstantsAuditorUserDefault
+
+//User Default
+kAudUDNumPGMainTag3 -> kAudUDNumPGMainDay
+s1t3 -> 21 
+
+//Source Code (Dictionary)
+{int, object}
+kAudUDNumPGMainDay -> ArrayofPredicateForG2D(count of 3)Kind, Info, Scene
+21 -> {23, 45, 1}
+
+//Get from Sqlite
+ArrayofPredicateForG2D -> record
+{23, 45, 1} -> day.png
+
+//1. Edit pocketGirlCoreDataDatabase, add version.
+//2. Afterward insert data
+//3. then, edit frdfrd database, add version
+//4. overwrite data
+
+Constants Database, Auditor Database
+
+ps. Always use cmd+shift+f to do editing, don't use refactoring...(imperfect)

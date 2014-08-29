@@ -1,0 +1,68 @@
+press new game: load original sqlite
+paste npc1Sad etc
+
+*. set Skin Tone (Set Your lovers' skin tone)
+	African, Asian, Croatian, Persian
+
+1. set gender
+MGirl includes boy & girl
+
+choose lover/character from "male", "female"
+
+
+add gender, "Yes，1" mean boy, "No，0" mean girl
+
+after "new game" is pressed, show modal view, ask whether user want to start a new game (inform: old data will be erase).
+
+once user click Yes, viewSwitchTo PGCharacterViewController
+
+Male Left, Female Right.
+
+once click a character, the char will shine, the "Boyfriend/Girlfriend" button will display/animate from bottom
+
+once pressed, present modal Confirm view with curlUp
+
+once yes, [MGirl getGirl], set gender, [MSave saveMoc]
+
+load opening scene: switchOpening
+
+------------
+2. change every script and image to based on gender, mostly equipment page
+
+//set gender(2 char with white skin. once choose,)
+
+//set tmpSkinTone (simutaneous)
+	choose skin color afterward
+	
+//click ok in confirm to start game
+	
+//set SkinTone
+if ([[MGirl getGirl] gender])
+	switch (tmpSkinTone)
+		case 1:
+			outfit.skinTone = kAudUDNumOutfitSkinToneBoy1
+		case 2:
+			outfit.skinTone = kAudUDNumOutfitSkinToneBoy2
+		case 3:
+			outfit.skinTone = kAudUDNumOutfitSkinToneBoy3
+		case 4:
+			outfit.skinTone = kAudUDNumOutfitSkinToneBoy4
+		
+else
+	switch (tmpSkinTone)
+		case 1:
+			outfit.skinTone = kAudUDNumOutfitSkinToneGirl1
+		case 2:
+			outfit.skinTone = kAudUDNumOutfitSkinToneGirl2
+		case 3:
+			outfit.skinTone = kAudUDNumOutfitSkinToneGirl3
+		case 4:
+			outfit.skinTone = kAudUDNumOutfitSkinToneGirl4
+			
+//set Script - add another outfitView to eventViewController... tag 101 
+[self setOutFit] in autoSetup > initScript || in DateViewController
+
+[self showFacialExpress:s] s = @"npc1Sad" //based on script
+
+
+

@@ -1,0 +1,31 @@
+//
+//  ActPGMapAutoSetup+Selector.m
+//  frdfrd
+//
+//  Created by westbugs on 10-10-15.
+//  Copyright 2010 Alcy, Ltd. All rights reserved.
+//
+
+#import "ActPGMapAutoSetup+Selector.h"
+
+//Additional
+//Method
+#import "MLoad.h"
+#import "MUi.h"
+
+//Constants
+#import "ConstantsPGMap.h"
+
+@implementation ActPGMapAutoSetup(Selector)
+
+-(void)setViewWithTag{
+	for (NSUInteger i = 1; i <= kMapViewTotal; i++) {
+		[MLoad setViewWithTag:i controller:self.resource];
+	}
+}
+
+-(void)setupAlertView{
+	[MUi alertViewPGMapDisplayAtDeduction];
+	
+}
+@end

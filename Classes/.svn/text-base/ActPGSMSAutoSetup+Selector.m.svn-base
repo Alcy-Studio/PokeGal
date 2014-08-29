@@ -1,0 +1,66 @@
+//
+//  ActPGSMSAutoSetup+Selector.m
+//  frdfrd
+//
+//  Created by westbugs on 10-10-15.
+//  Copyright 2010 Alcy, Ltd. All rights reserved.
+//
+
+#import "ActPGSMSAutoSetup+Selector.h"
+
+//Self
+#import "PGSMSViewController.h"
+
+//Additional
+//Method
+#import "MLoad.h"
+#import "MUi.h"
+
+//Constants
+#import "ConstantsPGSMS.h"
+#import "ConstantsPGSMSMsg.h"
+
+@implementation ActPGSMSAutoSetup(Selector)
+
+-(void)setViewWithTag{
+	for (NSUInteger i = 1; i <= kSMSViewTotal; i++) {
+		if (i != kSMSTableView) {
+			[MLoad setViewWithTag:i controller:self.resource];
+		}
+	}
+}
+
+
+-(void)setupAlertView{
+	[MUi alertViewPGSmsDisplayAtDeduction];
+}
+
+
+//-(void)deductAT{}
+
+-(void)loadTable{
+	
+	//Refresh log
+	[[NSUserDefaults standardUserDefaults] setBool:NO forKey:kTmpSMSMsg];
+
+	
+	[[(PGSMSViewController*)self.resource tv] setDelegate:self.resource];
+	[[(PGSMSViewController*)self.resource tv] setDataSource:self.resource];
+	
+	[(PGSMSViewController*)self.resource setChatArray:[[[NSMutableArray alloc]init] autorelease]];
+	[(PGSMSViewController*)self.resource setCurrentChatInfo:[[[NSMutableDictionary alloc] init] autorelease]];
+
+	
+	
+}
+
+
+- (NSString *)dataFileName:(NSString*)fn type:(NSString*)t{
+	
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *documentsDirectory = [paths objectAtIndex:0];
+	
+    return [documentsDirectory stringByAppendingPathComponent:[NSString stringWithFormat:@"%@.%@",fn, t]];
+	
+}
+@end

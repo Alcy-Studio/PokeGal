@@ -1,0 +1,41 @@
+1st Stage:
+	Graphic2D
+	TextOut
+	Se, Bgm
+	Gift, Girl
+	Ui
+	
+	
+Delete this
+~/Library/Application Support/ApplicationName/ApplicationName.xml
+
+if "The managed object model used to..." alert :)
+
+check NULL
+
+if (title == [NSNull null] || title.length == 0 ) title = @"Something";
+
+
+
+If Database Exists, 
+Delete ~/Users/Library/Application Support/Application Name/Application Name.plist
+
+
+Update Database
+First copy the database from 
+~/Library/Application Support/ApplicationName/*.sqlite
+
+paste it to 
+svn/frdfrd/resources/database/*.sqlite
+
+delete
+~/Library/Application Support/IPhone Simulator/4.0/Applications/ApplicationName/*.sqlite
+
+Update Data Model
+First copy the model from coredatamodelOSX
+
+Add a new data model version from frdfrd
+
+paste model
+
+set curret version

@@ -1,0 +1,61 @@
+1.0.3
+Top Button quit to Title Screen
+Fixed typo 
+Weather button will lead to current Weather according to users'countries
+Game Center
+New Costume
+Facial Expressions based on mood
+Achievement
+
+1.0.4
+Facial Expression 
+Day/Night button show weather info 
+Add New Costumes 
+Notification for Dating 
+Fixed Localization issue 
+Top Button Lead to Menu 
+Badge Number indicate Dating
+
+1.0.5
+Fixed Gift Total Bug
+Enabled Game Center
+Add 10 Achievements
+Add 5 Categories for Leaderboard
+adjust dating penalty level
+Fixed loading screen display problem(Simplified Chinese)
+
+
+Game Center: Leaderboard & Achievements (Delay)
+游戏中心：排行榜及成就
+
+
+-------------------------------------------
+<Mass Increase User Ratings>
+Rating add AP to 15! Affect 1 week only(Encourage PPL to rate)
+Put Rating Button at PGMain
+
+
+User UserDefault to record, whenever init PGMain, auto check rating.
+
+if nil, set rating to NO, 
+
+if equal to NO, enabled ratingButton,
+
+If equal to YES, check ratingExpiry, 
+	if ratingExpiry earlier than now
+		set rating to NO, sub 3 to AP Max, enabled ratingButton
+
+------
+click, set Rating == YES, disable ratingButton, add 3 to AP Max, set ratingExpiry date to 1 week later
+
+-------------------------------------------
+<Status Infirmation AP Problem>
+In PGMain/PGMainSV Refresh
+Don't add AP if ModelViewController == YES
+-------------------------------------------
+<chat with others>
+
+when click SMS, user can decide whether sending sms to alcy or others
+first create a new project with new viewcontroller, set console message first
+connect with gamekit api
+

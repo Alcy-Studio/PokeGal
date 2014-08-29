@@ -1,0 +1,35 @@
+//
+//  MBgm.h
+//  PocketDraft
+//
+//  Created by westbugs on 10-08-23.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import <AVFoundation/AVFoundation.h>
+
+@class Bgm;
+@interface MBgm : NSObject <AVAudioPlayerDelegate>{
+	AVAudioPlayer *player;
+	int numberOfLoops;
+	float bgmVolume;
+	//id <AVAudioPlayerDelegate> delegate;
+	
+}
+@property (nonatomic, retain) AVAudioPlayer *player;
+@property (nonatomic)int numberOfLoops;
+@property (nonatomic)float bgmVolume;
+//@property (nonatomic, assign) id <AVAudioPlayerDelegate> delegate;
+
+
++(MBgm*)getBgm;
+
+- (void) loadSong:(NSString*)f extension:(NSString*)e;
+- (void) playOrPause;
+- (void) unloadSong;
+
+- (void) changeSong:(NSString*)f extension:(NSString*)e;
+
+
+@end

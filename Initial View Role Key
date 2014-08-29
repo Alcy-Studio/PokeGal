@@ -1,0 +1,77 @@
+//
+//  ConstantsAuditorUserDefaults.m
+//  PocketDraft
+//
+//  Created by westbugs on 10-09-18.
+//  Copyright 2010 Alcy, Ltd. All rights reserved.
+//
+
+#import "ConstantsAuditorUserDefaults.h"
+
+
+@implementation ConstantsAuditorUserDefaults
+
+//PGMain
+NSString* const kAudUDNumPGMainTag1 = @"s1t1";
+NSString* const kAudUDNumPGMainTag2 = @"s1t2";
+NSString* const kAudUDNumPGMainTag3 = @"s1t3";
+NSString* const kAudUDNumPGMainTag4 = @"s1t4";
+NSString* const kAudUDNumPGMainTag5 = @"s1t5";
+
+NSString* const kAudUDNumPGMainTag6 = @"s1t6";
+NSString* const kAudUDNumPGMainTag7 = @"s1t7";
+NSString* const kAudUDNumPGMainTag8 = @"s1t8";
+NSString* const kAudUDNumPGMainTag9 = @"s1t9";
+NSString* const kAudUDNumPGMainTag10 = @"s1t10";
+
+NSString* const kAudUDNumPGMainTag11 = @"s1t11";
+NSString* const kAudUDNumPGMainTag12 = @"s1t12";
+
+//PGAchi
+NSString* const kAudUDNumPGAchiTag1 = @"s2t1";
+NSString* const kAudUDNumPGAchiTag2 = @"s2t2";
+NSString* const kAudUDNumPGAchiTag3 = @"s2t3";
+NSString* const kAudUDNumPGAchiTag4 = @"s2t4";
+NSString* const kAudUDNumPGAchiTag5 = @"s2t5";
+
+NSString* const kAudUDNumPGAchiTag6 = @"s2t6";
+NSString* const kAudUDNumPGAchiTag7 = @"s2t7";
+NSString* const kAudUDNumPGAchiTag8 = @"s2t8";
+NSString* const kAudUDNumPGAchiTag9 = @"s2t9";
+NSString* const kAudUDNumPGAchiTag10 = @"s2t10";
+
+NSString* const kAudUDNumPGAchiTag11 = @"s2t11";
+NSString* const kAudUDNumPGAchiTag12 = @"s2t12";
+NSString* const kAudUDNumPGAchiTag13 = @"s2t13";
+NSString* const kAudUDNumPGAchiTag14 = @"s2t14";
+NSString* const kAudUDNumPGAchiTag15 = @"s2t15";
+
+NSString* const kAudUDNumPGAchiTag16 = @"s2t16";
+NSString* const kAudUDNumPGAchiTag17 = @"s2t17";
+NSString* const kAudUDNumPGAchiTag18 = @"s2t18";
+NSString* const kAudUDNumPGAchiTag19 = @"s2t19";
+
+//PGAttr
+NSString* const kAudUDNumPGAttrTag1 = @"s3t1";
+NSString* const kAudUDNumPGAttrTag2 = @"s3t2";
+NSString* const kAudUDNumPGAttrTag3 = @"s3t3";
+NSString* const kAudUDNumPGAttrTag4 = @"s3t4";
+NSString* const kAudUDNumPGAttrTag5 = @"s3t5";
+
+NSString* const kAudUDNumPGAttrTag6 = @"s3t6";
+NSString* const kAudUDNumPGAttrTag7 = @"s3t7";
+NSString* const kAudUDNumPGAttrTag8 = @"s3t8";
+NSString* const kAudUDNumPGAttrTag9 = @"s3t9";
+NSString* const kAudUDNumPGAttrTag10 = @"s3t10";
+
+NSString* const kAudUDNumPGAttrTag11 = @"s3t11";
+NSString* const kAudUDNumPGAttrTag12 = @"s3t12";
+NSString* const kAudUDNumPGAttrTag13 = @"s3t13";
+NSString* const kAudUDNumPGAttrTag14 = @"s3t14";
+NSString* const kAudUDNumPGAttrTag15 = @"s3t15";
+
+NSString* const kAudUDNumPGAttrTag16 = @"s3t16";
+NSString* const kAudUDNumPGAttrTag17 = @"s3t17";
+
+
+@end

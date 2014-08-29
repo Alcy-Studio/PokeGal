@@ -1,0 +1,29 @@
+Event Kit
+Create a Calendar project
+Save event into Calendar
+Fetch event from Calendar
+Test in Device mode
+
+Subclass:
+EKCalendar - specify Title, type, CGcolor
+EKEventStore - specify customized predicate (version2)
+EKEvent - add to event store with eventWithEventStore:
+		specify the customized EKCalendar
+		
+－－－－－－－－－－－－－－－－－－－－－－－－
+大地图转小地图用change role + reload 方式
+
+小地图进场景先check event, load 场景如event＝ nil ; 
+
+if event != nil
+   load event 后转dating or 场景
+
+改calendar
+
+玩家只能加约会事件。预设事件不能自行增减
+
+预设事件在version2开启
+
+1.设定读calendar，PGAttr
+2.设定加减calendar call
+3.设定sns, 加关系，减行动

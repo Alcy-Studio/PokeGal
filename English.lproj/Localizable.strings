@@ -1,0 +1,2102 @@
+/* 
+   Localizable.strings
+   frdfrd
+
+   Created by westbugs on 11-01-14.
+   Copyright 2011 Alcy, Ltd. All rights reserved.
+ */
+ 
+ 
+ /* Insert Element menu item */
+ 
+//Game Center
+"GKTitle" = "Game Center Disabled";
+"GkMsg" = "Please Sign in with the Game Center App";
+"Cancel" = "Cancel";
+
+"GKNotTitle" = "Game Center Not Available";
+"GKNotMsg" = "Please Upgrade to iOS 4.1";
+
+ 
+ 
+"LinkToFull" = "http://itunes.com/apps/alcy";
+//"LinkToFull" = "http://itunes.apple.com/app/consume-mobile-isp-packages/id436974077?mt=8";
+ 
+//Full Version
+//"LinkToReview" = "https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/addUserReview?id=436974077&type=Purple+Software";
+//Free Version
+//"LinkToReview" = "https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/addUserReview?id=440971096&type=Purple+Software";
+
+ 
+"AT" = "AP";
+"Gift" = "Total";
+
+//Weekday
+"Mon" = "Mon";
+"Tue" = "Tue";
+"Wed" = "Wed";
+"Thu" = "Thu";
+"Fri" = "Fri";
+"Sat" = "Sat";
+"Sun" = "Sun";
+ 
+//Notification
+"LocalNotifMessage" = "You have a date with Alcy now!";
+
+//Random Dating SMS
+"Dating SMS 1" = "I'm there already. You better show up.";
+"Dating SMS 2" = "What's goin' on. you are soooo late";
+"Dating SMS 3" = "This is such a nice place. Btw, where are you now";
+"Dating SMS 4" = "Are you going to be late?";
+"Dating SMS 5" = "get here now! I'M WAITING";
+"Dating SMS 6" = "what r u doin' r you on the way";
+"Dating SMS 7" = "r u still at home...";
+"Dating SMS 8" = "xoxo, waitin' 4 u :3";
+"Dating SMS 9" = "why you don't pick up my phone !>_<!";
+"Dating SMS 10" = "so embarassing, r u still coming.";
+
+ //PGTitle
+"Tutor Title" = "Tutorial";
+
+"Main Title" = "Alcy";
+"Achi Title" = "Item";
+"Attr Title" = "Status";
+"Date Title" = "Date";
+"Walk Title" = "Walk";
+"Event Title" = "Event";
+"Map Title" = "Map";
+"Arrange Title" = "Arrange";
+"Place Title" = "Place";
+"Schedule Title" = "Schedule";
+"Detail Title" = "Detail";
+"Sms Title" = "SMS";
+"Weather Title" = "Weather";
+
+"Confirm Title" = "Confirm";
+"Alert Title" = "Alert";
+"Help Title" = "Help";
+
+//Weather
+"High Temp" = "Highest";
+"Current Temp" = "Current";
+"Low Temp" = "Lowest";
+
+//"Clear" = "Clear";
+//"Cloudy" = "Cloudy";
+//"Fog" = "Fog";
+//"Haze" = "Haze";
+//"Light Rain" = "Light Rain";
+//"Mostly Cloudy" = "Mostly Cloudy"; 
+//"Overcast" = "Overcast"; 
+//"Partly Cloudy" = "Partly Cloudy";
+//"Rain" = "Rain"; 
+//"Rain Showers" = "Rain Showers"; 
+//"Showers" = "Showers";
+//"Thunderstorm" = "Thunderstorm"; 
+//"Chance of Showers" = "Chance of Showers"; 
+//"Chance of Snow" = "Chance of Snow"; 
+//"Chance of Storm" = "Chance of Storm"; 
+//"Mostly Sunny" = "Mostly Sunny";
+//"Partly Sunny" = "Partly Sunny"; 
+//"Scattered Showers" = "Scattered Showers"; 
+//"Sunny" = "Sunny";
+
+//"TextView Clear" = "Clear";
+//"TextView Cloudy" = "Cloudy";
+//"TextView Fog" = "Fog";
+//"TextView Haze" = "Haze";
+//"TextView Light Rain" = "Light Rain";
+//"TextView Mostly Cloudy" = "Mostly Cloudy"; 
+//"TextView Overcast" = "Overcast"; 
+//"TextView Partly Cloudy" = "Partly Cloudy";
+//"TextView Rain" = "Rain"; 
+//"TextView Rain Showers" = "Rain Showers"; 
+//"TextView Showers" = "Showers";
+//"TextView Thunderstorm" = "Thunderstorm"; 
+//"TextView Chance of Showers" = "Chance of Showers"; 
+//"TextView Chance of Snow" = "Chance of Snow"; 
+//"TextView Chance of Storm" = "Chance of Storm"; 
+//"TextView Mostly Sunny" = "Mostly Sunny";
+//"TextView Partly Sunny" = "Partly Sunny"; 
+//"TextView Scattered Showers" = "Scattered Showers"; 
+//"TextView Sunny" = "Sunny";
+
+"Tornado" ="Tornado";
+"Tropical Storm" = "Tropical Storm";
+"Hurricane" = "Hurricane";
+"Severe Thunderstorms" = "Severe Thunderstorms";
+"Thunderstorms" = "Thunderstorms";
+"Mixed Rain and Snow" = "Mixed Rain and Snow";
+"Mixed Rain and Sleet" = "Mixed Rain and Sleet";
+"Mixed Snow and Sleet" = "Mixed Snow and Sleet";
+"Freezing Drizzle" = "Freezing Drizzle";
+"Drizzle" = "Drizzle";
+"Freezing Rain" = "Freezing Rain";
+"Showers" = "Showers";
+
+"Snow Flurries" = "Snow Flurries";
+"Light Snow Showers" = "Light Snow Showers";
+"Blowing Snow" = "Blowing Snow"; //*
+
+"Snow" = "Snow";
+"Hail" = "Hail";
+"Sleet" = "Sleet";
+"Dust" = "Dust";
+"Foggy" = "Foggy";
+"Haze" = "Haze";
+"Smoky" = "Smoky";
+"Blustery" = "Blustery";
+"Windy" = "Windy";
+"Cold" = "Cold";
+"Cloudy" = "Cloudy";
+"Mostly Cloudy Night" = "Mostly Cloudy Night";
+"Mostly Cloudy Day" = "Mostly Cloudy Day";
+"Partly Cloudy Night" = "Partly Cloudy Night";
+"Partly Cloudy Day" = "Partly Cloudy Day";
+"Clear Night" = "Clear Night";
+"Sunny" = "Sunny";
+"Fair Night" = "Fair Night";
+"Fair Day" = "Fair Day";
+"Mixed Rain and Hail" = "Mixed Rain and Hail";
+"Hot" = "Hot";
+
+"Isolated Thunderstorms" = "Isolated Thunderstorms";
+"Scattered Thunderstorms" = "Scattered Thunderstorms"; //*
+"Scattered Showers" = "Scattered Showers";
+
+"Heavy Snow" = "Heavy Snow";
+"Scattered Snow Showers" = "Scattered Snow Showers";
+
+"Partly Cloudy" = "Partly Cloudy";
+
+"Thundershowers" = "Thundershowers";
+"Snow Showers" = "Snow Showers";
+
+"Isolated Thundershowers" = "Isolated Thundershowers";
+
+//Desc-------------------
+
+"Desc Tornado" ="A violently rotating column of air in contact with and extending between a convective cloud and the surface of the earth. It is the most destructive of allstorm-scale atmospheric phenomena.";
+"Desc Tropical Storm" = "A tropical cyclone in which the maximum sustained surface winds are from 39 miles per hour (34 knots) to 73 miles per hour (63 knots).";
+"Desc Hurricane" = "The name for a tropical cyclone with sustained winds of 74 miles per hour (65 knots) or greater in the North Atlantic Ocean, Caribbean Sea, Gulf of Mexico, and in the eastern North Pacific Ocean. This same tropical cyclone is known as a typhoon in the western Pacific and a cyclone in the Indian Ocean.";
+"Desc Severe Thunderstorms" = "A thunderstorm with winds measuring 50 knots (58 mph) or greater, 3/4 inch hail or larger, or tornadoes. Severe thunderstorms may also produce torrential rain and frequent lightning.";
+"Desc Thunderstorms" = "Produced by a cumulonimbus cloud, it is a microscale event of relatively short duration characterized by thunder, lightning, gusty surface winds, turbulence, hail,icing, precipitation, moderate to extreme up and downdrafts, and under the most severe conditions, tornadoes.";
+"Desc Mixed Rain and Snow" = "The combinations of snow and freezing rain.";
+"Desc Mixed Rain and Sleet" = "The combinations of rain and sleet.";
+"Desc Mixed Snow and Sleet" = "The combinations of snow and sleet. Rain may also be present.";
+"Desc Freezing Drizzle" = "Drizzle, falling as a liquid, but freezing on impact with the colder ground or other exposed surfaces.";
+"Desc Drizzle" = "Precipitation of water drops of very small size.";
+"Desc Freezing Rain" = "Rain that falls as liquid and freezes upon impact to form a coating of glaze on the colder ground or other exposed surfaces.";
+"Desc Showers" = "Brief precipitation usually from convective clouds. It is characterized by the sudden start and end of the precipitation as well as the fine weather before and after its occurrence.";
+
+"Desc Snow Flurries" = "Light showers of snow, generally very brief without any measurable accumulation.";
+"Desc Light Snow Showers" = "Light snow showers means that the scattered drops do not completely wet a surface.";
+"Desc Blowing Snow" = "Snow that is raised by the wind to heights of six feet or greater."; //*
+
+"Desc Snow" = "Frozen precipitation in the form of white or translucent ice crystals in complex branched hexagonal form. It most often falls from strati form clouds, but can fall as snow showers from cumuliform ones. It usually appears clustered into snowflakes.";
+"Desc Hail" = "Precipitation that originates in convective clouds in the form of balls or irregular pieces of ice, which comes in different shapes and sizes.";
+"Desc Sleet" = "Also known as ice pellets, it is winter precipitation in the form of small bits or pellets of ice that rebound after striking the ground or any other hard surface.";
+"Desc Dust" = "Small particles of earth or other matter suspended in the air.";
+"Desc Foggy" = "Fog is the suspension of small particles formed by the condensation of water vapour in the air near the ground surface, reducing the visibility to less than 1 000 m.";
+"Desc Haze" = "A suspension of fine dust and/or smoke particles in the air. Invisible to the naked eye, the particles reduce visibility by being sufficiently numerous to give the air an opalescent appearance.";
+"Desc Smoky" = "Small particles produced by combustion that are suspended in the air. A transition to haze may occur when the smoke particles have traveled great distance (25 to 100 miles or more), and when the larger particles have settled out.";
+"Desc Blustery" = "A sudden onset of strong winds with speeds increasing to at least 16 knots (18 miles per hour) and sustained at 22 or more knots (25 miles per hour) for at least one minute.";
+"Desc Windy" = "An occasional strong winds with speeds increase.";
+"Desc Cold" = "A condition marked by low or decidedly subnormal temperature. The lack of heat.";
+"Desc Cloudy" = "The sky is covered with a total cloud amount of between six eighths and eight eighths.";
+"Desc Mostly Cloudy Night" = "The cloudy period is continuous and the total cloudy duration is longer than half of the forecast period.";
+"Desc Mostly Cloudy Day" = "The cloudy period is continuous and the total cloudy duration is longer than half of the forecast period.";
+//"Desc Partly Cloudy Night" = "The name for a tropical cyclone with sustained winds of 74 miles per hour (65 knots) or greater in the North Atlantic Ocean, Caribbean Sea, Gulf of Mexico, and in the eastern North Pacific Ocean. This same tropical cyclone is known as a typhoon in the western Pacific and a cyclone in the Indian Ocean.";
+
+"Desc Partly Cloudy Night" = "The cloudy period is intermittent and the total cloudy duration is shorter than half of the forecast period.";
+
+"Desc Partly Cloudy Day" = "The cloudy period is intermittent and the total cloudy duration is shorter than half of the forecast period.";
+"Desc Clear Night" = "The sky is covered by a large amount of thin cloud occasionally.";
+"Desc Sunny" = "The sky is covered by a large amount of thin cloud with sunshine occasionally.";
+"Desc Fair Night" = "The sky is covered by a total cloud amount of less than six eighths. However, it can still be described as fine even though the total cloud amount is greater than six eighths if the cloud layer is thin enough to let plenty of sunshine to penetrate.";
+"Desc Fair Day" = "The sky is covered by a total cloud amount of less than six eighths. However, it can still be described as fine even though the total cloud amount is greater than six eighths if the cloud layer is thin enough to let plenty of sunshine to penetrate.";
+"Desc Mixed Rain and Hail" = "The combination of rain and hail.";
+"Desc Hot" = "A condition marked by high temperature.";
+
+"Desc Isolated Thunderstorms" = "The rain-bearing cloud amount is small and isolated, resulting in thunderstorms occurring only in small parts of the territory at a time.";
+"Desc Scattered Thunderstorms" = "The thunderstorms do not stay together and are distributed spatially, resulting in showers occurring in parts of the territory. It may be rain-free in other parts of the territory."; //*
+"Desc Scattered Showers" = "The rain-bearing clouds do not stay together and are distributed spatially, resulting in showers occurring in parts of the territory. It may be rain-free in other parts of the territory.";
+
+"Desc Heavy Snow" = "A heavy snow fall accompanied by sudden strong winds.";
+"Desc Scattered Snow Showers" = "The rain-bearing clouds do not stay together and are distributed spatially, resulting in showers occurring in parts of the territory. It may be rain-free in other parts of the territory.";
+
+"Desc Partly Cloudy" = "The cloudy period is intermittent and the total cloudy duration is shorter than half of the forecast period.";
+
+"Desc Thundershowers" = "Regional severe weather coming from cumulonimbus clouds. Usually, a thunderstorm is accompanied by lightning and a rumbling sound (thunder), strong gust and occasional heavy rain. Under suitable weather conditions there will also be hails. ";
+"Desc Snow Showers" = "Frozen precipitation in the form of snow, characterized by its sudden beginning and ending.";
+
+"Desc Isolated Thundershowers" = "The rain-bearing cloud amount is small and isolated, resulting in thundershowers occurring only in small parts of the territory at a time.";
+
+
+//Alias
+"Alias 1" = "Level： Novice"; //lv1
+"Alias 2" = "Level： Beginner"; //lv2
+"Alias 3" = "Level： Love Finder"; //lv3
+"Alias 4" = "Level： Love Amateur"; //lv4
+"Alias 5" = "Level： Love Hunter"; //lv5
+"Alias 6" = "Level： Love Genius"; //lv6
+"Alias 7" = "Level： Love Prince"; //lv7
+"Alias 8" = "Level： Love Machine"; //lv8
+"Alias 9" = "Level： God-like"; //lv9
+
+
+//Occasion
+"Occasion Home" = "Home";
+
+//Attribute Title
+
+"AttrLvText" = "Level";
+
+"AttrTitle1" = "Health";
+"AttrTitle2" = "Social";
+"AttrTitle3" = "Talent";
+"AttrTitle4" = "Heart";
+
+
+//Alcy Quote
+"Alcy Positive 1" = "Missing you… ";
+
+//PGMain
+
+//PGAttr
+"Attr Note" = "Character Data";
+"Attr Desc" = "Status View";
+
+//PGAchi
+//Description & Requirement
+"Gift Desc" = "Item";
+"Gift Req" = "Level Requirement";
+
+//Note
+"Gift Note None" = "? ? ?";
+
+"Gift Note 1" = "Grape";
+"Gift Note 2" = "Watermelon";
+"Gift Note 3" = "Banana";
+
+"Gift Note 4" = "Strawberry";
+"Gift Note 5" = "Kiwi";
+"Gift Note 6" = "Pineapple";
+ 
+"Gift Note 7" = "Cherry";
+"Gift Note 8" = "Apple";
+"Gift Note 9" = "Pear";
+
+//Hint
+"Gift Hint 1" = "Gymnasium";
+"Gift Hint 2" = "Long Island Beach";
+"Gift Hint 3" = "Bowling Center";
+
+"Gift Hint 4" = "Lankmark";
+"Gift Hint 5" = "Tom's Cafe";
+"Gift Hint 6" = "Central Park";
+
+"Gift Hint 7" = "Oscar Lounge";
+"Gift Hint 8" = "Elizabeth Theatre";
+"Gift Hint 9" = "Aquarium";
+
+//PGMap
+"Map Hint" = "Map"; 
+"RegionA" = "Gymnasium"; //Gym	Social Health 
+"RegionB" = "Long Island Beach"; //Beach			Social Health
+"RegionC" = "Bowling Center"; //Bowling			Talent Health
+
+"RegionD" = "Lankmark"; //Shopping Mall	Social Talent
+"RegionE" = "Tom's Cafe"; //Restaurant			Social Talent
+"RegionF" = "Central Park"; //Park				Social Talent
+
+"RegionG" = "Oscar Lounge"; //Karaoke		Health Talent
+"RegionH" = "Elizabeth Theatre"; //Theatre		Health Talent
+"RegionI" = "Aquarium"; //Aquarium				Social Health 
+
+
+
+
+
+
+//PGArrange
+"Arrange Hint" = "Today's schedule";
+
+//PGPlace
+"Place Hint" = "Pick a place";
+
+//PGSchedule
+"Schedule Hint" = "Schedule";
+
+//PGSMS
+"Sms Hint" = "SMS to Alcy";
+
+//PGMConfirm
+"Confirm Hint" = "Confirm";
+
+//PGMAlert
+"Alert Hint" = "Alert";
+
+//PGDetail
+"Detail Hint" = "Details";
+
+//PGTutor
+"Tutor Hint" = "Tutorial";
+
+//PGTutorMenu
+"TutorMenu Hint" = "Title Menu";
+
+//Weather
+"Weather Hint" = "Weather Report";
+
+//PGTutorSV
+"TutorMain Hint" = "Home";
+"TutorAchi Hint" = "Item";
+"TutorAttr Hint" = "Status";
+"TutorDate Hint" = "Date";
+"TutorWalk Hint" = "Walk";
+"TutorEvent Hint" = "Event";
+"TutorMap Hint" = "Map";
+"TutorArrange Hint" = "Arrange";
+"TutorPlace Hint" = "Place";
+"TutorSchedule Hint" = "Schedule";
+"TutorDetail Hint" = "Detail";
+"TutorSms Hint" = "SMS";
+
+//PGEvent
+"Alcy Hint" = "Alcy";
+
+
+"+0" = "Useless";
+"+1" = "A Little";
+"+2" = "Normal";
+"+3" = "Great";
+
+"Region Desc A" = "School gymnasium. Suitable for all kind of sport. Alcy shows up here occasionally.";
+"Region Desc B" = "The most beautiful beach in town. It's a place I come every summer for sun bathing also checking on chicks.";
+"Region Desc C" = "The most famous bowling center in the city. Many people come here in the weekend.";
+"Region Desc D" = "Varies store in these area. Best place for gifts and souvenir.";
+"Region Desc E" = "Tom's Cafe is one of my favorite coffee shop in town. Alcy always buys me muffins and ice latte here.";
+"Region Desc F" = "One of my most memorable place from my childhood is Central Park… which is also a place of memory for my parents.";
+"Region Desc G" = "My third favorite place is The Oscar Lounge. I can express all my feeling in this place.";
+"Region Desc H" = "Theatre, a place I don't belong to. Since I never appreciate stuff related to Art.";
+"Region Desc I" = "I love the environment inside of the Aquarium, this is definitely the best dating place I always looking forward for.";
+
+
+
+//AlertView
+
+//Call Warning
+"ActPGMainCallAlertView1_Title" = "Message: Need more action points (+2)!";
+"ActPGMainCallAlertView1_Message" = "Please wait for action points regenerate.";
+"ActPGMainCallAlertView1_Cancel" = "Cancel";
+"ActPGMainCallAlertView1_Ok" = "Confirm";
+
+//Sms Warning
+"ActPGMainSmsAlertView1_Title" = "Message: Need more action points (+1)!";
+"ActPGMainSmsAlertView1_Message" = "Please wait for action points regenerate.";
+"ActPGMainSmsAlertView1_Cancel" = "Cancel";
+"ActPGMainSmsAlertView1_Ok" = "Confirm";
+
+//Move Warning
+"ActPGMainMoveAlertView1_Title" = "Message: Need more action points (+3)!";
+"ActPGMainMoveAlertView1_Message" = "Please wait for action points regenerate.";
+"ActPGMainMoveAlertView1_Cancel" = "Cancel";
+"ActPGMainMoveAlertView1_Ok" = "Confirm";
+
+//PGPlace
+"ActPGPlaceSetupAlertView1_Title" = "Date with Alcy!";
+"ActPGPlaceSetupAlertView1_Message" = "Spend 2 Action Points.";
+"ActPGPlaceSetupAlertView1_Cancel" = "Cancel";
+"ActPGPlaceSetupAlertView1_Ok" = "Confirm";
+"ActPGPlaceSetupAlertView1_Done" = "Done";
+
+
+//PGSms
+"ActPGSMSSetupAlertView1_Title" = "Send SMS to Alcy!";
+"ActPGSMSSetupAlertView1_Message" = "Spend 1 Action Points.";
+"ActPGSMSSetupAlertView1_Cancel" = "Cancel";
+"ActPGSMSSetupAlertView1_Ok" = "Confirm";
+"ActPGSMSSetupAlertView1_Done" = "Done";
+
+
+//PGMap
+"ActPGMapSetupAlertView1_Title" = "Hang around in town!";
+"ActPGMapSetupAlertView1_Message" = "Spend 3 Action Points.";
+"ActPGMapSetupAlertView1_Cancel" = "Cancel";
+"ActPGMapSetupAlertView1_Ok" = "Confirm";
+"ActPGMapSetupAlertView1_Done" = "Done";
+
+
+//PGArrange Occupied
+"ActPGArrangeSetupAlertView1_Title" = "This period is not available.";
+"ActPGArrangeSetupAlertView1_Message" = "Please select another period.";
+"ActPGArrangeSetupAlertView1_Cancel" = "Cancel";
+"ActPGArrangeSetupAlertView1_Ok" = "Confirm";
+"ActPGArrangeSetupAlertView1_Done" = "Done";
+
+
+//Modal
+"Confirm Modal Title 1" = "Date Alcy!";
+"Confirm Modal Msg 1" = "Spend 2 Action Points.         Continue?";
+
+"Confirm Modal Title 2" = "Send SMS to Alcy!";
+"Confirm Modal Msg 2" = "Spend 1 Action Points.         Continue?";
+
+"Confirm Modal Title 3" = "Hang around in town!";
+"Confirm Modal Msg 3" = "Spend 3 Action Points.         Continue?";
+
+//View2, PGMap Text Go (Are you sure you want to go there?)
+"Confirm Modal Title 4" = "Let's go!";
+"Confirm Modal Msg 4" = "Are you sure you want to go there?";
+
+//View2, PGMap Text Date (Are you sure you want to go there?)
+"Confirm Modal Title 5" = "Let's date!";
+"Confirm Modal Msg 5" = "Dating now.";
+
+//View5, Leave Back to Home
+"Confirm Modal Title 6" = "Go home!";
+"Confirm Modal Msg 6" = "Are you sure you want to go back home?";
+//
+//View5, Walk Talk to others
+"Confirm Modal Title 7" = "Talk to the others.";
+"Confirm Modal Msg 7" = "Spend 1 Action Points.         Continue?";
+//
+//View5, Walk Look around
+"Confirm Modal Title 8" = "Let's look around!";
+"Confirm Modal Msg 8" = "Spend 2 Action Points.         Continue?";
+//
+//View5, Date Chat with others
+"Confirm Modal Title 9" = "Talk to my girl.";
+"Confirm Modal Msg 9" = "Spend 3 Action Points.         Continue?";
+//
+//View5, Date Romance
+"Confirm Modal Title 10" = "Kiss";
+"Confirm Modal Msg 10" = "Spend 2 Action Points.         Continue?";
+//
+//View5, Start a new game
+"Confirm Modal Title 11" = "Start a new game!";
+"Confirm Modal Msg 11" = "Saved data will be erase, do you wish to continue?";
+//
+//View5, Are you sure? (General Use: Confirm your selection)
+"Confirm Modal Title 12" = "Sure?";
+"Confirm Modal Msg 12" = "Wish to continue?";
+
+//Title Screen
+"Confirm Modal Title 13" = "Back to Title!";
+"Confirm Modal Msg 13" = "Save the Game and Return to Title Screen?";
+
+
+//Alert
+"Alert Modal Title 1" = "Message: Need more action points (+1)!";
+"Alert Modal Msg 1" = "Please wait for action point regenerate. (1 AP/5 sec)";
+
+"Alert Modal Title 2" = "Message: Need more action points (+2)!";
+"Alert Modal Msg 2" = "Please wait for action point regenerate. (1 AP/5 sec)";
+
+"Alert Modal Title 3" = "Message: Need more action points (+3)!";
+"Alert Modal Msg 3" = "Please wait for action point regenerate. (1 AP/5 sec)";
+
+//PGArrange not available
+"Alert Modal Title 4" = "This period is not available.";
+"Alert Modal Msg 4" = "Please select another period.";
+
+"Selection Modal Title 1" = "Select one.";
+"Selection Modal Msg 1" = "Select your mood.";
+
+"Selection Modal Choice 1" = "Sweet";
+"Selection Modal Choice 2" = "Normal";
+"Selection Modal Choice 3" = "Cool";
+
+//PGSMS Msg
+	//self
+"selfLv1Msg0" = "Hey";
+"selfLv1Msg1" = "What are you doing?";
+"selfLv1Msg2" = "So boring!!";
+"selfLv1Msg3" = "Should we take a walk?";
+"selfLv1Msg4" = "Nevermind. Bye!!";
+
+"otherLv1Msg0" = "Hiyo!";
+"otherLv1Msg1" = "With friends right now, you?";
+"otherLv1Msg2" = "I am not free right now!!";
+"otherLv1Msg3" = "Not today… Next time alright!";
+"otherLv1Msg4" = "Byebye!";
+
+//lv2
+"selfLv2Msg0" = "Hey";
+"selfLv2Msg1" = "Got anything to do today?";
+"selfLv2Msg2" = "I will be out for a while.";
+"selfLv2Msg3" = "I wanna go out today… wanna join?";
+"selfLv2Msg4" = "See you next time! Bye!";
+
+"otherLv2Msg0" = "Hihi";
+"otherLv2Msg1" = "Sorry I have to go for my part-time.";
+"otherLv2Msg2" = "I see…";
+"otherLv2Msg3" = "Ask your friends out!";
+"otherLv2Msg4" = "OK！Byebye！";
+
+//lv3
+"selfLv3Msg0" = "Hihi！";
+"selfLv3Msg1" = "Need to work today too?";
+"selfLv3Msg2" = "So boring everyday… ";
+"selfLv3Msg3" = "Nah… Nothing…";
+"selfLv3Msg4" = "Oh… nothing special… ";
+
+"otherLv3Msg0" = "Hey! What's up";
+"otherLv3Msg1" = "Yeah! Super busy this week!";
+"otherLv3Msg2" = "Are you using me?";
+"otherLv3Msg3" = "What do u mean no??";
+"otherLv3Msg4" = "Stop disturb me!! Please！";
+
+//lv4
+"selfLv4Msg0" = "Hello… ";
+"selfLv4Msg1" = "I wanna meet you… ";
+"selfLv4Msg2" = "I bought something for you… ";
+"selfLv4Msg3" = "No… nothing… ";
+"selfLv4Msg4" = "Tha… that's it… ";
+
+"otherLv4Msg0" = "Hello?";
+"otherLv4Msg1" = "Why?";
+"otherLv4Msg2" = "What's that for?";
+"otherLv4Msg3" = "……..";
+"otherLv4Msg4" = "Okay…. bye!!";
+
+//lv5
+"selfLv5Msg0" = "Busy?";
+"selfLv5Msg1" = "Hm……";
+"selfLv5Msg2" = "When will you be free?";
+"selfLv5Msg3" = "That's great!!";
+"selfLv5Msg4" = "OK";
+
+"otherLv5Msg0" = "Not too busy at the moment!";
+"otherLv5Msg1" = "Hm…. Dun you have something for me?";
+"otherLv5Msg2" = "Anytime! For the gift!!";
+"otherLv5Msg3" = "Call me then!";
+"otherLv5Msg4" = "I will wait for you!";
+
+//lv6
+"selfLv6Msg0" = "Hihihi";
+"selfLv6Msg1" = "Wanna hang out with you";
+"selfLv6Msg2" = "Want to see you… a little… ";
+"selfLv6Msg3" = "Well…";
+"selfLv6Msg4" = "I catch you up later :(";
+
+"otherLv6Msg0" = "Hey… what's up?";
+"otherLv6Msg1" = "Today's really… So busy at work recently… maybe in a couple of days?";
+"otherLv6Msg2" = "Just a little?";
+"otherLv6Msg3" = "What's the matter with you?";
+"otherLv6Msg4" = "C'mon dun be so silly!! Bye :)";
+
+//lv7
+"selfLv7Msg0" = "How are you?";
+"selfLv7Msg1" = "What are you doing?";
+"selfLv7Msg2" = "Had lunch yet?";
+"selfLv7Msg3" = "Sure!! Call you later！";
+"selfLv7Msg4" = "Work hard!";
+
+"otherLv7Msg0" = "I'm fine :P";
+"otherLv7Msg1" = "Keeping thinking… about you :)";
+"otherLv7Msg2" = "Almost lunch time… come eat with me!!";
+"otherLv7Msg3" = "OK !";
+"otherLv7Msg4" = "Thank you ^3^";
+
+
+//lv8
+"selfLv8Msg0" = "Hey… really sorry… ";
+"selfLv8Msg1" = "Busying on something?";
+"selfLv8Msg2" = "Hm… wanna go to a new place?";
+"selfLv8Msg3" = "Cuz you are Hot N Cold lately";
+"selfLv8Msg4" = "Send you a SMS later.";
+
+"otherLv8Msg0" = "… w..why suddenly say sorry?";
+"otherLv8Msg1" = "I'm waiting on something… ";
+"otherLv8Msg2" = "Right now? YEAH!";
+"otherLv8Msg3" = "Hehe… I'm fine now!";
+"otherLv8Msg4" = "Okay! Back to work first1 >3<";
+
+
+//lv9
+"selfLv9Msg0" = "Hello! My sweet Alcy!!";
+"selfLv9Msg1" = "What's that?";
+"selfLv9Msg2" = "Wanna go out??";
+"selfLv9Msg3" = "You have a place you wanna go??";
+"selfLv9Msg4" = "Heyhey!! I have a SURPRISE for you!! Let me call you after I am ready!!\"";
+
+"otherLv9Msg0" = "Hehe = )";
+"otherLv9Msg1" = "I've been waiting for you to find me!!";
+"otherLv9Msg2" = "Sure!!";
+"otherLv9Msg3" = "Nothing special… whatever you like！";
+"otherLv9Msg4" = "What surprise… Okay I wait for your call then!!";
+
+
+//Event
+
+//EvtGirlNewGame1
+"EvtGirlNewGame1" = "Alcy: \"Hey!! Wake up!\"";
+"EvtGirlNewGame1a" = "Alcy: \"You forgot about our date?!\"";
+"EvtGirlNewGame1b" = "Me: \"ZzZzZzZzZzZz…\"";
+"EvtGirlNewGame1c" = "Alcy: \"Awww you are so mean!!\"";
+"EvtGirlNewGame1d" = " Me: \"ZzZzZzZzZz…\"";
+
+//EvtGirlEndGame1
+"EvtGirlEndGame1" = "Baby～";
+"EvtGirlEndGame1a" = "I really like you to be with me.";
+"EvtGirlEndGame1b" = "You are the best I have ever met.";
+"EvtGirlEndGame1c" = "I belong to you.";
+"EvtGirlEndGame1d" = "I love you!!";
+
+//Missing Date
+"EvtGirlMissingDate1" = "Where have you been yesterday?";
+"EvtGirlMissingDate1a" = "We were supposed to have a date.";
+"EvtGirlMissingDate1b" = "I was so embarrassing.";
+"EvtGirlMissingDate1c" = "Everybody was looking at me as I stood there for half hour.";
+"EvtGirlMissingDate1d" = "Don't forget our date, PLEASE!";
+
+
+
+//----------------------------Region A
+//EvtGirlDateChatRegionA1 -- health
+"EvtGirlDateChatRegionA1" = "Hey Alcy you didn't late today?";
+"EvtGirlDateChatRegionA1a" = "Dun pretend";
+"EvtGirlDateChatRegionA1b" = "Haha I just need some reward.";
+"EvtGirlDateChatRegionA1c" = "Heh Okay let me take a look.";
+"EvtGirlDateChatRegionA1d" = "She bought me a bottle of milk… *sweat*";
+
+//EvtGirlDateChatRegionA2 -- social
+"EvtGirlDateChatRegionA2" = "Hey Alcy… you always come here to work out?";
+"EvtGirlDateChatRegionA2a" = "3-4days a week I guess. Why you asking?";
+"EvtGirlDateChatRegionA2b" = "Nah… Nothing special.";
+"EvtGirlDateChatRegionA2c" = "HEH！";
+"EvtGirlDateChatRegionA2d" = "（I will come here more often)";
+
+//EvtGirlDateChatRegionA3
+"EvtGirlDateChatRegionA3" = "I've been playing ping pong with Alcy for quite some time today.";
+"EvtGirlDateChatRegionA3a" = "oh god I am so tired！";
+"EvtGirlDateChatRegionA3b" = "that's right, let me introduce you to a place called BBT.";
+"EvtGirlDateChatRegionA3c" = "What does BBT means";
+"EvtGirlDateChatRegionA3d" = "that is the short form of Taiwan milk tea！";
+
+//EvtGirlDateRegionALeave1 -- under 5
+"EvtGirlDateRegionALeave1" = "It is kind of weird to have my dating in the gymnasium.";
+"EvtGirlDateRegionALeave1a" = "me：「hey…i am not feeling well. Excuse me i guess i gotta leave now.";
+"EvtGirlDateRegionALeave1b" = "Alcy：「Huh?!」";
+"EvtGirlDateRegionALeave1c" = "me：「oh……oh…no…」";
+"EvtGirlDateRegionALeave1d" = "then I was fast like flying, getting back home。";
+
+//EvtGirlDateRegionALeave2 -- under 10
+"EvtGirlDateRegionALeave2" = "Try to date Alcy again at the same place again. ";
+"EvtGirlDateRegionALeave2a" = "Alcy: \"it's good that not a lot of people swimming today\"";
+"EvtGirlDateRegionALeave2b" = "Me: \"Shoot! I forgot to bring my swim trunk.\"";
+"EvtGirlDateRegionALeave2c" = "Me: \"what can I do\"";
+"EvtGirlDateRegionALeave2d" = "Alcy's seems so disappointed…then she left.";
+
+//EvtGirlDateRegionALeave3 -- more than 15
+"EvtGirlDateRegionALeave3" = "hey hey hey, I am well prepare today!";
+"EvtGirlDateRegionALeave3a" = "Heavy sport in action!!";
+"EvtGirlDateRegionALeave3b" = "One hour later.";
+"EvtGirlDateRegionALeave3c" = "Me: \"Great!! Sport dating works!!";
+"EvtGirlDateRegionALeave3d" = "Alcy: \"So excited! I gotta take a shower first… See you in a while at the coffee shop.";
+
+//EvtGirlDateRegionAStart1
+"EvtGirlDateRegionAStart1" = "Today is just flat as normal.";
+"EvtGirlDateRegionAStart1a" = "Should reach there earlier.";
+"EvtGirlDateRegionAStart1b" = "Women worth for waiting.";
+"EvtGirlDateRegionAStart1c" = "Also… ";
+"EvtGirlDateRegionAStart1d" = "Alcy should be happy if she knows that I've been waiting for her.";
+
+//EvtGirlDateRegionAStart2
+"EvtGirlDateRegionAStart2" = "Today just like another normal day.";
+"EvtGirlDateRegionAStart2a" = "I am too early to be here";
+"EvtGirlDateRegionAStart2b" = "I should just go for a washroom.";
+"EvtGirlDateRegionAStart2c" = "Take a look at the mirror! Great idea!";
+"EvtGirlDateRegionAStart2d" = "Perfect!! Let's wait a bit!";
+
+//EvtGirlDateRegionAStart3 － serious late
+"EvtGirlDateRegionAStart3" = "I'm so late today!!";
+"EvtGirlDateRegionAStart3a" = "*Looks at my watch* …. ";
+"EvtGirlDateRegionAStart3b" = "Nothing to do… maybe… take a sit!!";
+"EvtGirlDateRegionAStart3c" = "Boring………";
+"EvtGirlDateRegionAStart3d" = "It really sucks……";
+
+//EvtGirlDateRomanceRegionA1
+"EvtGirlDateRomanceRegionA1" = "Me: \"Hey Alcy, what type of sport you like?\"";
+"EvtGirlDateRomanceRegionA1a" = "Alcy: \"Any.\"";
+"EvtGirlDateRomanceRegionA1b" = "Me: \"Can't pick a special one you like the most?\"";
+"EvtGirlDateRomanceRegionA1c" = "Alcy: \"Really nothing special.\"";
+"EvtGirlDateRomanceRegionA1d" = "Me: \"Alright, then we go for badminton.\"";
+
+//EvtGirlDateRomanceRegionA2
+"EvtGirlDateRomanceRegionA2" = "Alcy: \"Hey, what are we gonna do today?\"";
+"EvtGirlDateRomanceRegionA2a" = "Me: \"I'm damn tired… but we can go for a simple one.\"";
+"EvtGirlDateRomanceRegionA2b" = "Alcy: \"Oh~! Hopscotch!!!\"";
+"EvtGirlDateRomanceRegionA2c" = "Me: \"Right! I love it when I was a child!\"";
+"EvtGirlDateRomanceRegionA2d" = "Alcy: \"Hehe.\"";
+
+//EvtGirlDateRomanceRegionA3
+"EvtGirlDateRomanceRegionA3" = "Alcy: \"Hey, it's my turn to bring you out today!\"";
+"EvtGirlDateRomanceRegionA3a" = "Me: \"Good!\"";
+"EvtGirlDateRomanceRegionA3b" = "Alcy: \"Hey come! Follow me.\"";
+"EvtGirlDateRomanceRegionA3c" = "Me: \"Ooo… This is… \"";
+"EvtGirlDateRomanceRegionA3d" = "Me: \"Water slide!! Silly.\"";
+
+//EvtGirlWalkLookRegionA1 -- Soccer Ball
+"EvtGirlWalkLookRegionA1" = "Today I become a soccer superstar!!";
+"EvtGirlWalkLookRegionA1a" = "What a chance right at the start!! Sonic kick~~!";
+"EvtGirlWalkLookRegionA1b" = "One of my teammate back me up with my nice passing. Goooooooalllllll!!!!! I was so shock.";
+"EvtGirlWalkLookRegionA1c" = "Second half just start. I steal a passing from the opposite team!! Here I come!!";
+"EvtGirlWalkLookRegionA1d" = "No more cross passing! LET ME FINISH THIS!! I am gonna crash the goalie!! GOOOAL!!!!!";
+"EvtGirlWalkLookRegionA1e" = "Freaking sweat!! Cool!";
+
+//EvtGirlWalkLookRegionA2 -- Table Tennis Racket and Ball
+"EvtGirlWalkLookRegionA2" = "Someone's playing table tennis. We are next.";
+"EvtGirlWalkLookRegionA2a" = "It's time to show off now.";
+"EvtGirlWalkLookRegionA2b" = "Nice serve!!";
+"EvtGirlWalkLookRegionA2c" = "Ping… pong… ping… pong… SMASH!!!";
+"EvtGirlWalkLookRegionA2d" = "Hehe… I win by a couple points.";
+
+//EvtGirlWalkLookRegionA3
+"EvtGirlWalkLookRegionA3" = "Many morons around today.";
+"EvtGirlWalkLookRegionA3a" = "Peoples in every corner…";
+"EvtGirlWalkLookRegionA3b" = "A bit stink here actually…";
+"EvtGirlWalkLookRegionA3c" = "Guess I have to wait a long time here…";
+"EvtGirlWalkLookRegionA3d" = "Let me just wait a little longer!";
+
+//EvtGirlWalkRegionAPreset1
+"EvtGirlWalkRegionAPreset1" = "Speaker: \"Girl in the yellow dress please come to the customer service counter.\"";
+"EvtGirlWalkRegionAPreset1a" = "Suddenly that girl scream";
+"EvtGirlWalkRegionAPreset1b" = "Then rush to the front desk";
+"EvtGirlWalkRegionAPreset1c" = "What the hell is going on?";
+"EvtGirlWalkRegionAPreset1d" = "Does she win a lottery or something?";
+
+//EvtGirlWalkRegionAPreset2
+"EvtGirlWalkRegionAPreset2" = "Speaker: \"The guy with a red sneaker please come to the customer service counter.\"";
+"EvtGirlWalkRegionAPreset2a" = "I look around… I am the only person with a red sneaker… ";
+"EvtGirlWalkRegionAPreset2b" = "Speaker: \"Yes that's you, stop looking around!\"";
+"EvtGirlWalkRegionAPreset2c" = "Everyone's looking at me… I rush to the counter without looking back";
+"EvtGirlWalkRegionAPreset2d" = "Worker: \"Congratulations！You win a lucky draw!!\"";
+
+//EvtGirlWalkRegionAStart1
+"EvtGirlWalkRegionAStart1" = "Here's the gymnasim";
+"EvtGirlWalkRegionAStart1a" = "It's a huge spot. You can play all kinds of sport here.";
+"EvtGirlWalkRegionAStart1b" = "Alcy shows up here sometimes.";
+"EvtGirlWalkRegionAStart1c" = "Will I see her today?";
+"EvtGirlWalkRegionAStart1d" = "Alright!! Let's see!!";
+
+//EvtGirlWalkTalkRegionA1 
+"EvtGirlWalkTalkRegionA1" = "Someone's approaching… ";
+"EvtGirlWalkTalkRegionA1a" = "Stranger: \"Hey! Wanna play a game?\"";
+"EvtGirlWalkTalkRegionA1b" = "Me : \"…\" ";
+"EvtGirlWalkTalkRegionA1c" = "Stranger: \"C'mon! We are one man short!\"";
+"EvtGirlWalkTalkRegionA1d" = "Then I just leave with a sloppy excuse… ";
+
+//EvtGirlWalkTalkRegionA2
+"EvtGirlWalkTalkRegionA2" = "A men standing outside the court speaking to himself… ";
+"EvtGirlWalkTalkRegionA2a" = "Strange man: \"I want it… \"";
+"EvtGirlWalkTalkRegionA2b" = "Strange man: \"I want it… \"";
+"EvtGirlWalkTalkRegionA2c" = "Strange man: \"Sunday at 10!!!";
+"EvtGirlWalkTalkRegionA2d" = "What's wrong with him?";
+
+//EvtGirlWalkTalkRegionA3
+"EvtGirlWalkTalkRegionA3" = "Some kids are playing hopscotch… ";
+"EvtGirlWalkTalkRegionA3a" = "Kid A: \"One… Three… then… \"";
+"EvtGirlWalkTalkRegionA3b" = "Kid A: \"Then… \" (Slip)";
+"EvtGirlWalkTalkRegionA3c" = "Other kids: \"Hahahaha!! You lose!!\"";
+"EvtGirlWalkTalkRegionA3d" = "Okay… that's how friendship goes… ";
+
+//Region B
+//EvtGirlDateChatRegionB1
+"EvtGirlDateChatRegionB1" = "Me: \"Hey… Alcy! Can I ask you a question?\"";
+"EvtGirlDateChatRegionB1a" = "Alcy: \"Yes?\"";
+"EvtGirlDateChatRegionB1b" = "Alcy: \"As much as you want!\"";
+"EvtGirlDateChatRegionB1c" = "Me: \"Do u like bikinis?\"";
+"EvtGirlDateChatRegionB1d" = "Alcy(red): \"Not telling you!!\"";
+
+//EvtGirlDateChatRegionB2
+"EvtGirlDateChatRegionB2" = "Me: \"Hey, Alcy!\"";
+"EvtGirlDateChatRegionB2a" = "Alcy: \"Yes?\"";
+"EvtGirlDateChatRegionB2b" = "Me: \"Are you free tomorrow?\"";
+"EvtGirlDateChatRegionB2c" = "Alcy: \"I'm free! You want a date?\"";
+"EvtGirlDateChatRegionB2d" = "Me: \"Haha! Tell you later\"";
+
+//EvtGirlDateChatRegionB3
+"EvtGirlDateChatRegionB3" = "Me: \"Sunbath is great!!\"";
+"EvtGirlDateChatRegionB3a" = "Alcy: \"Thanks for inviting me :)\"";
+"EvtGirlDateChatRegionB3b" = "Me: \"Haha… I wanna see your body… I mean you. (I should thank you!!)\"";
+"EvtGirlDateChatRegionB3c" = "Alcy: \"Huh?\"";
+"EvtGirlDateChatRegionB3d" = "Me: \"No… Nothing! I take a shower first!\"";
+
+//EvtGirlDateRegionBLeave1
+"EvtGirlDateRegionBLeave1" = "Alcy is already waiting with her swimming suit…";
+"EvtGirlDateRegionBLeave1a" = "Seems it's gonna rain soon… ";
+"EvtGirlDateRegionBLeave1b" = "Me: \"Hey looks like its gonna rain!! I'm leaving!\"";
+"EvtGirlDateRegionBLeave1c" = "Alcy: \"……\"";
+"EvtGirlDateRegionBLeave1d" = "I turn around and left…";
+
+//EvtGirlDateRegionBLeave2
+"EvtGirlDateRegionBLeave2" = "HAHA！I came earlier than Alcy today!";
+"EvtGirlDateRegionBLeave2a" = "Alcy: \"I will go get change first\"";
+"EvtGirlDateRegionBLeave2b" = "Me: \"Make it quick!! The rain's coming soon!!\"";
+"EvtGirlDateRegionBLeave2c" = "And then… after changing and about to lay down… It really rains!!!";
+"EvtGirlDateRegionBLeave2d" = "Alcy: \"Thanks for the weather report (mad)\"";
+
+//EvtGirlDateRegionBLeave3
+"EvtGirlDateRegionBLeave3" = "Nice weather makes nice mood!";
+"EvtGirlDateRegionBLeave3a" = "The wind breeze and Alcy's having a nice nap here… ";
+"EvtGirlDateRegionBLeave3b" = "We have been here under the sun for 2 hours already!!";
+"EvtGirlDateRegionBLeave3c" = "Me: \"Hey!! I should go home now! I am getting burn!!\"";
+"EvtGirlDateRegionBLeave3d" = "Alcy: \"Ok… let's do it next time!!\"";
+
+//EvtGirlDateRegionBStart1
+"EvtGirlDateRegionBStart1" = "Just like another day.";
+"EvtGirlDateRegionBStart1a" = "Early as usual.";
+"EvtGirlDateRegionBStart1b" = "I think gentleman waits lady is perfectly fine!";
+"EvtGirlDateRegionBStart1c" = "Also… ";
+"EvtGirlDateRegionBStart1d" = "Alcy should be happy about this!!";
+
+//EvtGirlDateRegionBStart2
+"EvtGirlDateRegionBStart2" = "Just like another day.";
+"EvtGirlDateRegionBStart2a" = "Early as usual.\"";
+"EvtGirlDateRegionBStart2b" = "I wanna go to washroom.";
+"EvtGirlDateRegionBStart2c" = "*Look at the mirror* I am good I am good… okay!!";
+"EvtGirlDateRegionBStart2d" = "Absolutely perfect!!";
+
+//EvtGirlDateRegionBStart3
+"EvtGirlDateRegionBStart3" = "I am too late today!!";
+"EvtGirlDateRegionBStart3a" = "*Looks at my watch* …. ";
+"EvtGirlDateRegionBStart3b" = "Nothing to do… maybe… take a sit!!";
+"EvtGirlDateRegionBStart3c" = "Boring………";
+"EvtGirlDateRegionBStart3d" = "It really sucks……";
+
+//EvtGirlDateRomanceRegionB1
+"EvtGirlDateRomanceRegionB1" = "Me: \"heyheyhey!!!";
+"EvtGirlDateRomanceRegionB1a" = "Alcy: \"YEEEEEES？\"";
+"EvtGirlDateRomanceRegionB1b" = "Me: \"You still haven't answer my question about the bikini… \"";
+"EvtGirlDateRomanceRegionB1c" = "Alcy(Super Red): \"Yes… don't you like to see it?\"";
+"EvtGirlDateRomanceRegionB1d" = "Me: \"No… it's… very nice on you\" (OMG she is so cute!!!)";
+
+//EvtGirlDateRomanceRegionB2
+"EvtGirlDateRomanceRegionB2" = "Me: \"Have you heard about the cocktail at long island beach?\"";
+"EvtGirlDateRomanceRegionB2a" = "Alcy: \"Of cos!! Are you going to bring me there!!\"";
+"EvtGirlDateRomanceRegionB2b" = "Me: \"Yeah, let's go!!\"";
+"EvtGirlDateRomanceRegionB2c" = "We order the daily special.";
+"EvtGirlDateRomanceRegionB2d" = "I am so happy to drink the same drinks with her!!!";
+
+//EvtGirlDateRomanceRegionB3
+"EvtGirlDateRomanceRegionB3" = "Alcy: \"Hey! What's that?\"";
+"EvtGirlDateRomanceRegionB3a" = "Me: \"Which one?\"";
+"EvtGirlDateRomanceRegionB3b" = "Alcy: \"A weird watermelon?!」";
+"EvtGirlDateRomanceRegionB3c" = "Me: \"This is the traditional souvenir from this beach… I get you one later!\"";
+"EvtGirlDateRomanceRegionB3d" = "Alcy: \"I remember that… dun lie to me!!\"";
+
+//EvtGirlWalkLookRegionB1 – sunflower +health
+"EvtGirlWalkLookRegionB1" = "I heard a bar in long island got some real nice cocktail… Really want a try!";
+"EvtGirlWalkLookRegionB1a" = "Where is it??";
+"EvtGirlWalkLookRegionB1b" = "Oh, found it!!";
+"EvtGirlWalkLookRegionB1c" = "I order a JUMBO SIZE!!!!";
+"EvtGirlWalkLookRegionB1d" = "It's awesome!!!! I should bring Alcy to try this next time!!";
+
+//EvtGirlWalkLookRegionB2 -- swimming short　+social
+"EvtGirlWalkLookRegionB2" = "I love sunshine!!";
+"EvtGirlWalkLookRegionB2a" = "Let me have a game of beach volleyball!!";
+"EvtGirlWalkLookRegionB2b" = "Haha!!! Beat many stupid guys!";
+"EvtGirlWalkLookRegionB2c" = "I have been playing for half an hour";
+"EvtGirlWalkLookRegionB2d" = "Good Game！";
+
+//EvtGirlWalkLookRegionB3
+"EvtGirlWalkLookRegionB3" = "Walk around on the beach… ";
+"EvtGirlWalkLookRegionB3a" = "God!! Some sexy girls are coming over for sunbath!!";
+"EvtGirlWalkLookRegionB3b" = "Are they gonna stay??";
+"EvtGirlWalkLookRegionB3c" = "Holy… just look at their body!!";
+"EvtGirlWalkLookRegionB3d" = "Just wish if they ask for me help…. hehehe…. ";
+
+//EvtGirlWalkRegionBPreset1
+"EvtGirlWalkRegionBPreset1" = "I have been in this beach for quite a while now.";
+"EvtGirlWalkRegionBPreset1a" = "I found out a strange thing…";
+"EvtGirlWalkRegionBPreset1b" = "How come many of them are carrying a watermelon?";
+"EvtGirlWalkRegionBPreset1c" = "Strange indeed… ";
+"EvtGirlWalkRegionBPreset1d" = "Is that for free??";
+
+//EvtGirlWalkRegionBPreset2
+"EvtGirlWalkRegionBPreset2" = "Voice: \"Hey! Handsome!\"";
+"EvtGirlWalkRegionBPreset2a" = "Must be calling me!! Searching for the voice…. ";
+"EvtGirlWalkRegionBPreset2b" = "It's the sexy girl I met last time.";
+"EvtGirlWalkRegionBPreset2c" = "Sexy: \"This is for you!! Thanks for your sunbath oil!! Bye!!\"";
+"EvtGirlWalkRegionBPreset2d" = "Watermelon?!";
+
+//EvtGirlWalkRegionBStart1
+"EvtGirlWalkRegionBStart1" = "The most beautiful beach in town!";
+"EvtGirlWalkRegionBStart1a" = "Nice view here!! I like it!!";
+"EvtGirlWalkRegionBStart1b" = "I never miss the chance to come here every summer!! Why?";
+"EvtGirlWalkRegionBStart1c" = "Of cos for the sunbath!! Also…";
+"EvtGirlWalkRegionBStart1d" = "For all the sexy ladies!!!! Let me see what I can get today!";
+
+//EvtGirlWalkTalkRegionB1
+"EvtGirlWalkTalkRegionB1" = "A sexy girl just walk by… ";
+"EvtGirlWalkTalkRegionB1a" = "Sexy: \"Yo… handsome guy… can u do me a favor?\"";
+"EvtGirlWalkTalkRegionB1b" = "I am a bit nervous… ";
+"EvtGirlWalkTalkRegionB1c" = "Sexy: \"Can you help me on the sunbath oil?\"";
+"EvtGirlWalkTalkRegionB1d" = "Me: \"Suuuuuuuuuure!!";
+
+
+//EvtGirlWalkTalkRegionB2
+"EvtGirlWalkTalkRegionB2" = "Just like before… everyone's here with their doggy.";
+"EvtGirlWalkTalkRegionB2a" = "WOW!! A giant dog appear!!!";
+"EvtGirlWalkTalkRegionB2b" = "It jump on its master… Are they filming this??";
+"EvtGirlWalkTalkRegionB2c" = "The dog's master is on the floor!!";
+"EvtGirlWalkTalkRegionB2d" = "ROFL!!!";
+
+//EvtGirlWalkTalkRegionB3
+"EvtGirlWalkTalkRegionB3" = "Stranger: \"Hey buddy!\"";
+"EvtGirlWalkTalkRegionB3a" = "Me: \"？？\"";
+"EvtGirlWalkTalkRegionB3b" = "Stranger: \"You know what? You can get a traditional souvenir somewhere around 11pm Monday! However no one knows how to get it!! Do u have any idea?\"";
+"EvtGirlWalkTalkRegionB3c" = "I shake my head";
+"EvtGirlWalkTalkRegionB3d" = "Stranger: \"Ah… well thanks!\"";
+
+
+//Region C Bowling
+//EvtGirlDateChatRegionC1
+"EvtGirlDateChatRegionC1" = "Me: \"…… \"";
+"EvtGirlDateChatRegionC1a" = "Alcy: \"？\"";
+"EvtGirlDateChatRegionC1b" = "Me: \"Actually I am not good at bowling\"";
+"EvtGirlDateChatRegionC1c" = "Alcy: \"Are you kidding?\"";
+"EvtGirlDateChatRegionC1d" = "Speechless…";
+
+//EvtGirlDateChatRegionC2
+"EvtGirlDateChatRegionC2" = "Play with Alcy for 2 rounds…";
+"EvtGirlDateChatRegionC2a" = "Alcy: \"Wohooo!! You are learning too!!\"";
+"EvtGirlDateChatRegionC2b" = "Me: \"I'm alright.\"";
+"EvtGirlDateChatRegionC2c" = "Alcy: \"You have to play with me more!!! :) \"";
+"EvtGirlDateChatRegionC2d" = "Me: \"Ok!! No problem!\"";
+
+//EvtGirlDateChatRegionC3
+"EvtGirlDateChatRegionC3" = "Alcy: \"Hey, let me tell you something.\"";
+"EvtGirlDateChatRegionC3a" = "Me: \"What's that?\"";
+"EvtGirlDateChatRegionC3b" = "Alcy: \"Dun get mad ok? My ex-bf usually bring me here.\"";
+"EvtGirlDateChatRegionC3c" = "Me: \"No wonder you are so good at it… \"";
+"EvtGirlDateChatRegionC3d" = "How come I feel a little jealous!!";
+
+//EvtGirlDateRegionCLeave1
+"EvtGirlDateRegionCLeave1" = "Me: \"Hey!\"";
+"EvtGirlDateRegionCLeave1a" = "Alcy: \"?\"";
+"EvtGirlDateRegionCLeave1b" = "Me: \"I dun wanna play.\"";
+"EvtGirlDateRegionCLeave1c" = "Alcy: \"Why's that?\"";
+"EvtGirlDateRegionCLeave1d" = "Me: \"Nothing… just suddenly no mood to play.\"";
+
+//EvtGirlDateRegionCLeave2
+"EvtGirlDateRegionCLeave2" = "I am ready today!! I am on fire!!!";
+"EvtGirlDateRegionCLeave2a" = "My cell suddenly rings.";
+"EvtGirlDateRegionCLeave2b" = "My sister: \"I forgot my key… can you open the door for me??\"";
+"EvtGirlDateRegionCLeave2c" = "Alcy is looking at me impatiently.";
+"EvtGirlDateRegionCLeave2d" = "I told her my sister need helps and then I left.";
+
+//EvtGirlDateRegionCLeave3
+"EvtGirlDateRegionCLeave3" = "Play with Alcy for 2 rounds.";
+"EvtGirlDateRegionCLeave3a" = "Me: \"Oh shit!\"";
+"EvtGirlDateRegionCLeave3b" = "Alcy: \"What's the matter?\"";
+"EvtGirlDateRegionCLeave3c" = "Me: \"I forgot something! I gotta go!\"";
+"EvtGirlDateRegionCLeave3d" = "Alcy: \"… fine… leave!!\"";
+
+//EvtGirlDateRegionCStart1
+"EvtGirlDateRegionCStart1" = "Just like another day.";
+"EvtGirlDateRegionCStart1a" = "Early as usual.";
+"EvtGirlDateRegionCStart1b" = "I think gentleman waits lady is perfectly fine!";
+"EvtGirlDateRegionCStart1c" = "Also… ";
+"EvtGirlDateRegionCStart1d" = "Alcy will be happy!!";
+
+//EvtGirlDateRegionCStart2
+"EvtGirlDateRegionCStart2" = "Just like another day.";
+"EvtGirlDateRegionCStart2a" = "Early as usual.";
+"EvtGirlDateRegionCStart2b" = "Let me go to the washroom.";
+"EvtGirlDateRegionCStart2c" = "*Look at the mirror* I am good I am good… okay!!";
+"EvtGirlDateRegionCStart2d" = "Absolutely perfect!!";
+
+//EvtGirlDateRegionCStart3
+"EvtGirlDateRegionCStart3" = "I am too late today!!";
+"EvtGirlDateRegionCStart3a" = "*Looks at my watch* ….";
+"EvtGirlDateRegionCStart3b" = "Nothing to do… maybe… take a sit!!";
+"EvtGirlDateRegionCStart3c" = "Boring………";
+"EvtGirlDateRegionCStart3d" = "It really sucks……";
+
+//EvtGirlDateRomanceRegionC1
+"EvtGirlDateRomanceRegionC1" = "Alcy: \"Sigh… you really dunno a bit?\"";
+"EvtGirlDateRomanceRegionC1a" = "Me: \"Not a bit… \"";
+"EvtGirlDateRomanceRegionC1b" = "Alcy: \"It's ok! I am not that good as well.\"";
+"EvtGirlDateRomanceRegionC1c" = "Me: \"Well… I feel better.\"";
+"EvtGirlDateRomanceRegionC1d" = "Alcy: \"Seriously! Let's try it together!!=)\"";
+
+//EvtGirlDateRomanceRegionC2
+"EvtGirlDateRomanceRegionC2" = "Alcy: \"See!! You learn quick!!\"";
+"EvtGirlDateRomanceRegionC2a" = "Me: \"Dun try to be nice!!!\"";
+"EvtGirlDateRomanceRegionC2b" = "Alcy: \"No!! Honestly!!\"";
+"EvtGirlDateRomanceRegionC2c" = "Me: \"Reall?\"";
+"EvtGirlDateRomanceRegionC2d" = "Alcy: \"Yes!!! However you have to treat me dinner!!!\"";
+
+//EvtGirlDateRomanceRegionC3
+"EvtGirlDateRomanceRegionC3" = "Alcy: \"Hey… !\"";
+"EvtGirlDateRomanceRegionC3a" = "Me: \"What's up?\"";
+"EvtGirlDateRomanceRegionC3b" = "Alcy: \"I need to buy a pair of bowling shoes… can you come with me?\"";
+"EvtGirlDateRomanceRegionC3c" = "Me: \"Sure!!\"";
+"EvtGirlDateRomanceRegionC3d" = "Alcy: \"Great!!! You have to buy the same pair as mine!!\"";
+
+//EvtGirlWalkLookRegionC1 -- bowling pin +health
+"EvtGirlWalkLookRegionC1" = "There is a beginner track\"";
+"EvtGirlWalkLookRegionC1a" = "So it's for the beginner right?";
+"EvtGirlWalkLookRegionC1b" = "Okay, let me try… ";
+"EvtGirlWalkLookRegionC1c" = "Hit 9 bowl!!";
+"EvtGirlWalkLookRegionC1d" = "Hehe… not bad for a beginner eh?";
+
+//EvtGirlWalkLookRegionC2 -- bowling ball +talent
+"EvtGirlWalkLookRegionC2" = "Let me take a look before dating Alcy!!";
+"EvtGirlWalkLookRegionC2a" = "Walks to a track that no one's playing.";
+"EvtGirlWalkLookRegionC2b" = "Check out some of the bowling balls… ";
+"EvtGirlWalkLookRegionC2c" = "Quite heavy actually… ";
+"EvtGirlWalkLookRegionC2d" = "I guess it's not that hard to play… ";
+
+//EvtGirlWalkLookRegionC3
+"EvtGirlWalkLookRegionC3" = "I am watching how others play.";
+"EvtGirlWalkLookRegionC3a" = "Suddenly… the whole place went darken… ";
+"EvtGirlWalkLookRegionC3b" = "Everyone gets excited… what the… ";
+"EvtGirlWalkLookRegionC3c" = "I see… They have ultra violet lights!!! My white tee is glowing in the dark!!";
+"EvtGirlWalkLookRegionC3d" = "Pretty awesome place!!";
+
+//EvtGirlWalkRegionCPreset1
+"EvtGirlWalkRegionCPreset1" = "The guy who gave me a gift is wandering around.";
+"EvtGirlWalkRegionCPreset1a" = "Guy: \"Attention… please wear a suitable shoes!!\"";
+"EvtGirlWalkRegionCPreset1b" = "Guy: \"If you dun have one, you can rent one!\"";
+"EvtGirlWalkRegionCPreset1c" = "Guy: \"Press help if you need help on the touch screen.\"";
+"EvtGirlWalkRegionCPreset1d" = "… This is pretty trash talk Mr nice guy… ";
+
+//EvtGirlWalkRegionCPreset2
+"EvtGirlWalkRegionCPreset2" = "Worker: \"CONGRATULATIONS！You got a prize!!」";
+"EvtGirlWalkRegionCPreset2a" = "Worker: \"You are the VIP of the club starting from TODAY!!!\"";
+"EvtGirlWalkRegionCPreset2b" = "Me: \"ooo… thanks… \"";
+"EvtGirlWalkRegionCPreset2c" = "Me: \"Why am I here?\"";
+"EvtGirlWalkRegionCPreset2d" = "Oh well beats me, I am VIP!!";
+
+//EvtGirlWalkRegionCStart1
+"EvtGirlWalkRegionCStart1" = "This is the biggest bowling center in town. ";
+"EvtGirlWalkRegionCStart1a" = "Many people come here at the weekend.";
+"EvtGirlWalkRegionCStart1b" = "I heard the lighting effect is pretty good here.";
+"EvtGirlWalkRegionCStart1c" = "Let me experience it today!!";
+"EvtGirlWalkRegionCStart1d" = "Let's go!!";
+
+//EvtGirlWalkTalkRegionC1
+"EvtGirlWalkTalkRegionC1" = "Worker: \"Hello.\"";
+"EvtGirlWalkTalkRegionC1a" = "Me: \"Hi.\"";
+"EvtGirlWalkTalkRegionC1b" = "Worker: \"I guess… this is your first time?\"";
+"EvtGirlWalkTalkRegionC1c" = "Looks like he's teasing me but I nod my head.";
+"EvtGirlWalkTalkRegionC1d" = "Worker: \"Let me know if you need a pirvate trainer.\"";
+
+//EvtGirlWalkTalkRegionC2
+"EvtGirlWalkTalkRegionC2" = "Worker: \"Hey! You!\"";
+"EvtGirlWalkTalkRegionC2a" = "I look over.";
+"EvtGirlWalkTalkRegionC2b" = "Worker: \"Want to become VIP?? We have a gift for you!!!\"";
+"EvtGirlWalkTalkRegionC2c" = "Worker: \"If you want, come here at 12pm Tuesday!!\"";
+"EvtGirlWalkTalkRegionC2d" = "Me: \"Yeah if it's free… \"";
+
+//EvtGirlWalkTalkRegionC3
+"EvtGirlWalkTalkRegionC3" = "That worker come over again!!";
+"EvtGirlWalkTalkRegionC3a" = "I think for a second… then I walk towards him.";
+"EvtGirlWalkTalkRegionC3b" = "Me: \"Are you smoking here??\"";
+"EvtGirlWalkTalkRegionC3c" = "Worker: \"This is a fake one, I just wanna look cool.\"";
+"EvtGirlWalkTalkRegionC3d" = "……speechless……";
+
+//Region D
+//EvtGirlDateChatRegionD1
+"EvtGirlDateChatRegionD1" = "Today's mission… Shopping with Alcy!!";
+"EvtGirlDateChatRegionD1a" = "Mission start!!";
+"EvtGirlDateChatRegionD1b" = "30 minutes passed!!! She has 3 big bag of clothes!!!";
+"EvtGirlDateChatRegionD1c" = "Another 30 minutes… She has 5 more bags…";
+"EvtGirlDateChatRegionD1d" = "Is this call… shopaholic??";
+
+//EvtGirlDateChatRegionD2
+"EvtGirlDateChatRegionD2" = "!!! Suddenly remember!!!";
+"EvtGirlDateChatRegionD2a" = "Me: \"Hey!! Have you heard about the treasure game?\"";
+"EvtGirlDateChatRegionD2b" = "Alcy: \"No!\"";
+"EvtGirlDateChatRegionD2c" = "Me: \"Look!\"";
+"EvtGirlDateChatRegionD2d" = "Alcy: \"Ooo… Dunno what prize we can get?\"";
+
+//EvtGirlDateChatRegionD3
+"EvtGirlDateChatRegionD3" = "Finally we can rest a bit after the crazy shopping!!!";
+"EvtGirlDateChatRegionD3a" = "Alcy bought me a drink.";
+"EvtGirlDateChatRegionD3b" = "Alcy: \"Are you tired??\"";
+"EvtGirlDateChatRegionD3c" = "Alcy: \"Actually I wanna shop for more if you dun mind… \"";
+"EvtGirlDateChatRegionD3d" = "I think… I gotta be a billionaire…  ";
+
+//EvtGirlDateRegionDLeave1
+"EvtGirlDateRegionDLeave1" = "Shit… Alcy's staring at me… ";
+"EvtGirlDateRegionDLeave1a" = "Alcy: \"Eh? You have to go now!!\"";
+"EvtGirlDateRegionDLeave1b" = "Me: \"Sorry!! Sorry!!\"";
+"EvtGirlDateRegionDLeave1c" = "Me: \"Hey can we go out next time?\"";
+"EvtGirlDateRegionDLeave1d" = "Alcy: \"Sure… \"";
+
+//EvtGirlDateRegionDLeave2
+"EvtGirlDateRegionDLeave2" = "I go shopping with Alcy today.";
+"EvtGirlDateRegionDLeave2a" = "However… ";
+"EvtGirlDateRegionDLeave2b" = "(Under Construction)";
+"EvtGirlDateRegionDLeave2c" = "Alcy: \"Now what?\"";
+"EvtGirlDateRegionDLeave2d" = "Me: \"Well bye…\"";
+
+//EvtGirlDateRegionDLeave3
+"EvtGirlDateRegionDLeave3" = "Today Alcy's on fire in shopping!!";
+"EvtGirlDateRegionDLeave3a" = "I can just say… She's insane!!!";
+"EvtGirlDateRegionDLeave3b" = "30 Mins she bought 6 full bags of clothes!!!";
+"EvtGirlDateRegionDLeave3c" = "How can she even carry that many of bags… ";
+"EvtGirlDateRegionDLeave3d" = "I should stop her from now… ";
+
+//EvtGirlDateRegionDStart1
+"EvtGirlDateRegionDStart1" = "Just like another day.";
+"EvtGirlDateRegionDStart1a" = "Early as usual.";
+"EvtGirlDateRegionDStart1b" = "I think gentleman waits lady is perfectly fine!";
+"EvtGirlDateRegionDStart1c" = "Also… ";
+"EvtGirlDateRegionDStart1d" = "Alcy will be happy!!";
+
+//EvtGirlDateRegionDStart2
+"EvtGirlDateRegionDStart2" = "Just like another day.";
+"EvtGirlDateRegionDStart2a" = "Early as usual.";
+"EvtGirlDateRegionDStart2b" = "I wanna go to washroom.";
+"EvtGirlDateRegionDStart2c" = "*Look at the mirror* I am good I am good… okay!!";
+"EvtGirlDateRegionDStart2d" = "Absolutely perfect!!";
+
+//EvtGirlDateRegionDStart3
+"EvtGirlDateRegionDStart3" = "I am too late today!!";
+"EvtGirlDateRegionDStart3a" = "*Looks at my watch* ….";
+"EvtGirlDateRegionDStart3b" = "Nothing to do… maybe… take a sit!!";
+"EvtGirlDateRegionDStart3c" = "Boring………";
+"EvtGirlDateRegionDStart3d" = "It really sucks……";
+
+//EvtGirlDateRomanceRegionD1
+"EvtGirlDateRomanceRegionD1" = "I bring Alcy to try out the donut I mention before at the food court!!";
+"EvtGirlDateRomanceRegionD1a" = "Me: \"How is it??\"";
+"EvtGirlDateRomanceRegionD1b" = "Alcy: \"Hmm… It's okay!\"";
+"EvtGirlDateRomanceRegionD1c" = "Me: \"I know a place they serve some better donut!!!\"";
+"EvtGirlDateRomanceRegionD1d" = "Alcy: \"Sure!! You can call me!!\"";
+
+//EvtGirlDateRomanceRegionD2
+"EvtGirlDateRomanceRegionD2" = "Alcy: \"Isn't that your clothes?\"";
+"EvtGirlDateRomanceRegionD2a" = "Me: \"Where where??'";
+"EvtGirlDateRomanceRegionD2b" = "Alcy: \"It's much better on you!!! You know?\"";
+"EvtGirlDateRomanceRegionD2c" = "The staff is looking at us with an evil smile.";
+"EvtGirlDateRomanceRegionD2d" = "Me: \"Please…. Stop it!!\" (It's so embarrassing!!!)";
+
+//EvtGirlDateRomanceRegionD3
+"EvtGirlDateRomanceRegionD3" = "Alcy is looking at something right now… ";
+"EvtGirlDateRomanceRegionD3a" = "It's a little prize from the treasure game.";
+"EvtGirlDateRomanceRegionD3b" = "Alcy says softly: \"It's beautiful!!\"";
+"EvtGirlDateRomanceRegionD3c" = "Alright!!! I will get this for you for sure!!!";
+"EvtGirlDateRomanceRegionD3d" = "I think she will be so happy when she receive it!!";
+
+//EvtGirlWalkLookRegionD1 -- glasses
+"EvtGirlWalkLookRegionD1" = "A group of people are discussing at the optic center.";
+"EvtGirlWalkLookRegionD1a" = "Person A: \"I never seen this glasses before!! What's that call??\"";
+"EvtGirlWalkLookRegionD1b" = "Person B: \"It looks weird… \"";
+"EvtGirlWalkLookRegionD1c" = "Me: \"This is call Effector, 100% handmade!!! Limited edition 100 pieces in the world!!\"";
+"EvtGirlWalkLookRegionD1d" = "They are shocked… ";
+
+//EvtGirlWalkLookRegionD2 -- t shirt +talent
+"EvtGirlWalkLookRegionD2" = "Isn't that my favorite brand?!";
+"EvtGirlWalkLookRegionD2a" = "They have a flagship store in this mall!!!";
+"EvtGirlWalkLookRegionD2b" = "Gotta check that out!";
+"EvtGirlWalkLookRegionD2c" = "Bought a clothes.";
+"EvtGirlWalkLookRegionD2d" = "Hope Alcy like my style!! :)";
+
+//EvtGirlWalkLookRegionD3
+"EvtGirlWalkLookRegionD3" = "There's a cafe in this food court.";
+"EvtGirlWalkLookRegionD3a" = "Every customer buy the chocolate donut from this cafe!!";
+"EvtGirlWalkLookRegionD3b" = "I will also try one.";
+"EvtGirlWalkLookRegionD3c" = "Hm… too less chocolate… ";
+"EvtGirlWalkLookRegionD3d" = "Still Tom's cafe is the best overall!!";
+
+//EvtGirlWalkRegionDPreset1
+"EvtGirlWalkRegionDPreset1" = "A line up in the shopping mall.";
+"EvtGirlWalkRegionDPreset1a" = "Let's take a look… ";
+"EvtGirlWalkRegionDPreset1b" = "HAH! It's for the little gift.";
+"EvtGirlWalkRegionDPreset1c" = "You guys wait then!!";
+"EvtGirlWalkRegionDPreset1d" = "I am going home!";
+
+//EvtGirlWalkRegionDPreset2
+"EvtGirlWalkRegionDPreset2" = "I have to get that limited edition!!";
+"EvtGirlWalkRegionDPreset2a" = "Running in sonic speed… ";
+"EvtGirlWalkRegionDPreset2b" = "Waaaaaaaaaa！";
+"EvtGirlWalkRegionDPreset2c" = "GOT IT!!!! Just in time!!";
+"EvtGirlWalkRegionDPreset2d" = "It's a~~~~~~~ Strawberry Crystal!!!！";
+
+//EvtGirlWalkRegionDStart1
+"EvtGirlWalkRegionDStart1" = "Many stores around here… ";
+"EvtGirlWalkRegionDStart1a" = "You can sure get your gifts here.";
+"EvtGirlWalkRegionDStart1b" = "My favorite shop is here too!!";
+"EvtGirlWalkRegionDStart1c" = "Such a nice place to hang around.";
+"EvtGirlWalkRegionDStart1d" = "Of cos I should get something for Alcy too!";
+
+//EvtGirlWalkTalkRegionD1
+"EvtGirlWalkTalkRegionD1" = "Sales: \"Hello Sir.\"";
+"EvtGirlWalkTalkRegionD1a" = "Sales: \"This is our catalogue… Also let me remind you we have a treasure hunt in this season!!\"";
+"EvtGirlWalkTalkRegionD1b" = "Sales: \"Winner will be announced 1pm next Wednesday!! First come first serve!\"";
+"EvtGirlWalkTalkRegionD1c" = "Me: \"Thanks.\"";
+"EvtGirlWalkTalkRegionD1d" = "Sales: \"You are welcome.\"";
+
+//EvtGirlWalkTalkRegionD2
+"EvtGirlWalkTalkRegionD2" = "Every time when I come here I don't feel well… ";
+"EvtGirlWalkTalkRegionD2a" = "Damn… my stomach… ";
+"EvtGirlWalkTalkRegionD2b" = "Me: \"Excuse me where's the washroom please??\"";
+"EvtGirlWalkTalkRegionD2c" = "Sales: \"Turn right at the end.\"";
+"EvtGirlWalkTalkRegionD2d" = "Me: \"Thanks a lot!!\"";
+
+//EvtGirlWalkTalkRegionD3
+"EvtGirlWalkTalkRegionD3" = "There's a kid at the information desk, crying.";
+"EvtGirlWalkTalkRegionD3a" = "Announcement: \"Family of little Dick!! Please come to the information desk.\"";
+"EvtGirlWalkTalkRegionD3b" = "Oh c'mon please get your arse to the information desk parents of Dick!!! Your child is waiting!!!";
+"EvtGirlWalkTalkRegionD3c" = "I hate this things happen.";
+"EvtGirlWalkTalkRegionD3d" = "Every time I hear something like this makes me mad!!!";
+
+
+
+//Region E
+//EvtGirlDateChatRegionE1
+"EvtGirlDateChatRegionE1" = "Alcy: \"Why would you bring me here actually?\"";
+"EvtGirlDateChatRegionE1a" = "Me: \"You don't like it?\"";
+"EvtGirlDateChatRegionE1b" = "Alcy: \"Nothing! Just I want to try this cafe for a long time.\"";
+"EvtGirlDateChatRegionE1c" = "Me: \"Then you must try their donut!!!";
+"EvtGirlDateChatRegionE1d" = "Alcy: \"I know I know!! Better than the one at the mall right?\"";
+
+//EvtGirlDateChatRegionE2
+"EvtGirlDateChatRegionE2" = "Me: \"Nana is my best friend, Alcy.\"";
+"EvtGirlDateChatRegionE2a" = "Nana: \"Nice to meet you I'm Nana.\"";
+"EvtGirlDateChatRegionE2b" = "Alcy: \"Hi!!\"";
+"EvtGirlDateChatRegionE2c" = "Nana: \"I gotta work now it's pretty busy today!!\"";
+"EvtGirlDateChatRegionE2d" = "I can feel that Nana is watching us…";
+
+//EvtGirlDateChatRegionE3
+"EvtGirlDateChatRegionE3" = "Here comes the chocolate donut!!";
+"EvtGirlDateChatRegionE3a" = "Me: \"Hurry up try it!!!\"";
+"EvtGirlDateChatRegionE3b" = "Alcy: \"Is that really that good?\"";
+"EvtGirlDateChatRegionE3c" = "Me: \"Trust me!!! It's delicious!!!\"";
+"EvtGirlDateChatRegionE3d" = "Alcy: \"… it's just a donut… \"";
+
+//EvtGirlDateRegionELeave1
+"EvtGirlDateRegionELeave1" = "Cafe closed today… ";
+"EvtGirlDateRegionELeave1a" = "We are standing at its door… ";
+"EvtGirlDateRegionELeave1b" = "Alcy: \"Awwww… \"";
+"EvtGirlDateRegionELeave1c" = "Me: \"Maybe next time… I have to go for my part-time now!!!\"";
+"EvtGirlDateRegionELeave1d" = "Alcy: \"Alright… \"";
+
+//EvtGirlDateRegionELeave2
+"EvtGirlDateRegionELeave2" = "We order a Caramel Latte… ";
+"EvtGirlDateRegionELeave2a" = "Alcy: \"This is goooood!!\"";
+"EvtGirlDateRegionELeave2b" = "Me: \"Amazing!\"";
+"EvtGirlDateRegionELeave2c" = "10 minutes later… my stomach…";
+"EvtGirlDateRegionELeave2d" = "Me: \"Sorry… I gotta go… bye!!!\"";
+
+//EvtGirlDateRegionELeave3
+"EvtGirlDateRegionELeave3" = "Foods are in front of us.";
+"EvtGirlDateRegionELeave3a" = "Alcy: \"Looks pretty good!!\"";
+"EvtGirlDateRegionELeave3b" = "Me: \"Yeah!!\"";
+"EvtGirlDateRegionELeave3c" = "Me: \"Damn!!! I forgot about my phone bill!!\"";
+"EvtGirlDateRegionELeave3d" = "Me: \"Sorry I gotta leave now bye!!!\"";
+
+//EvtGirlDateRegionEStart1
+"EvtGirlDateRegionEStart1" = "Just like another day.";
+"EvtGirlDateRegionEStart1a" = "Early as usual.";
+"EvtGirlDateRegionEStart1b" = "I think gentleman waits lady is perfectly fine!";
+"EvtGirlDateRegionEStart1c" = "Also..";
+"EvtGirlDateRegionEStart1d" = "Alcy will be happy!!";
+
+//EvtGirlDateRegionEStart2
+"EvtGirlDateRegionEStart2" = "Just like another day.";
+"EvtGirlDateRegionEStart2a" = "Early as usual.";
+"EvtGirlDateRegionEStart2b" = "Let me go to the washroom.";
+"EvtGirlDateRegionEStart2c" = "*Look at the mirror* I am good I am good… okay!!";
+"EvtGirlDateRegionEStart2d" = "Absolutely perfect!!";
+
+//EvtGirlDateRegionEStart3
+"EvtGirlDateRegionEStart3" = "I'm too late today!!";
+"EvtGirlDateRegionEStart3a" = "*Looks at my watch*….";
+"EvtGirlDateRegionEStart3b" = "Nothing to do… maybe… take a sit!!";
+"EvtGirlDateRegionEStart3c" = "Boring………";
+"EvtGirlDateRegionEStart3d" = "It really sucks……";
+
+//EvtGirlDateRomanceRegionE1
+"EvtGirlDateRomanceRegionE1" = "Alcy's looking at the menu and looks like she wants to order everything on the menu!!!";
+"EvtGirlDateRomanceRegionE1a" = "HAHA… She is so cute… ";
+"EvtGirlDateRomanceRegionE1b" = "Alcy: \"Let's order a set lunch?\"";
+"EvtGirlDateRomanceRegionE1c" = "Alcy: \"Hey!! What's that smile on your face??\"";
+"EvtGirlDateRomanceRegionE1d" = "Me: \"No.. Nothing, set lunch is great!!!\"";
+
+//EvtGirlDateRomanceRegionE2
+"EvtGirlDateRomanceRegionE2" = "We eat alot!!! Holy… ";
+"EvtGirlDateRomanceRegionE2a" = "Alcy: \"Ooops, you are going to break your jeans!!\"";
+"EvtGirlDateRomanceRegionE2b" = "Me: \"I do not?!\"";
+"EvtGirlDateRomanceRegionE2c" = "Alcy: \"Hahaha!!! You can play sumo now!!\"";
+"EvtGirlDateRomanceRegionE2d" = "Me: \"Alright!! Stop it!!\"";
+
+//EvtGirlDateRomanceRegionE3
+"EvtGirlDateRomanceRegionE3" = "Me: \"Yo! Alcy look at that poster!\"";
+"EvtGirlDateRomanceRegionE3a" = "Alcy: \"Dart contest… when?? You wanna join??\"";
+"EvtGirlDateRomanceRegionE3b" = "Me: \"Not sure… but yeah of cos I will join!!\"";
+"EvtGirlDateRomanceRegionE3c" = "Me: \"Will you come to watch me play?\"";
+"EvtGirlDateRomanceRegionE3d" = "Alcy: \"Sure!! I will come to support you!!\"";
+
+//EvtGirlWalkLookRegionE1 – fork +social
+"EvtGirlWalkLookRegionE1" = "A bunch of kids are playing with the fork and knife!!\"";
+"EvtGirlWalkLookRegionE1a" = "They don't know how to use it??";
+"EvtGirlWalkLookRegionE1b" = "What can I do… ? Ahhh… ";
+"EvtGirlWalkLookRegionE1c" = "Hey kids!! This is how you use fork and knife!!";
+"EvtGirlWalkLookRegionE1d" = "Kids: \"Oh… thanks!!\"";
+
+//EvtGirlWalkLookRegionE2 – chopstick +talent
+"EvtGirlWalkLookRegionE2" = "Today I got a sparkle.";
+"EvtGirlWalkLookRegionE2a" = "I need to train my way to use chopsticks!!!";
+"EvtGirlWalkLookRegionE2b" = "This… no… That… no… !!";
+"EvtGirlWalkLookRegionE2c" = "Ah… They have instruction on the packing?!";
+"EvtGirlWalkLookRegionE2d" = "Got it!! I am so smart!!";
+
+//EvtGirlWalkLookRegionE3
+"EvtGirlWalkLookRegionE3" = "I not only like the food here… ";
+"EvtGirlWalkLookRegionE3a" = "Drinks also… of cos… ";
+"EvtGirlWalkLookRegionE3b" = "The attitude of the waitress.";
+"EvtGirlWalkLookRegionE3c" = "HAHA!! The most important thing is… ";
+"EvtGirlWalkLookRegionE3d" = "I love their uniform!! :D";
+
+//EvtGirlWalkRegionEPreset1
+"EvtGirlWalkRegionEPreset1" = "No one's here at the cafe today.";
+"EvtGirlWalkRegionEPreset1a" = "I love the moment of silent, sometimes.";
+"EvtGirlWalkRegionEPreset1b" = "Two people are playing darts.";
+"EvtGirlWalkRegionEPreset1c" = "Are they practicing for the game?";
+"EvtGirlWalkRegionEPreset1d" = "HAHA!! It's not important to me anymore.\"";
+
+//EvtGirlWalkRegionEPreset2
+"EvtGirlWalkRegionEPreset2" = "After all the mess Alcy is the champion!!!\"";
+"EvtGirlWalkRegionEPreset2a" = "Alcy: \"Thanks but I wanna ask for something… and you can't reject!!\"";
+"EvtGirlWalkRegionEPreset2b" = "Me: \"What's that??\"";
+"EvtGirlWalkRegionEPreset2c" = "Alcy: \"I wanna put the gift in your room.\"";
+"EvtGirlWalkRegionEPreset2d" = "Huh… Well I can just accept it… ";
+
+//EvtGirlWalkRegionEStart1
+"EvtGirlWalkRegionEStart1" = "Tom's Cafe is my favorite coffee shop!!!!";
+"EvtGirlWalkRegionEStart1a" = "Alcy usually buy ice latte and chocolate donut for me here.";
+"EvtGirlWalkRegionEStart1b" = "I come here very often too.";
+"EvtGirlWalkRegionEStart1c" = "I know all the waitress here as well.";
+"EvtGirlWalkRegionEStart1d" = "Nana is one of them. I guess she's off today.";
+
+//EvtGirlWalkTalkRegionE1
+"EvtGirlWalkTalkRegionE1" = "Okay let me find a seat first.";
+"EvtGirlWalkTalkRegionE1a" = "Voice: \"Sorry we are closing.\"";
+"EvtGirlWalkTalkRegionE1b" = "What?! I just came!";
+"EvtGirlWalkTalkRegionE1c" = "Me: \"HAHAHA… It's Nana!!!\"";
+"EvtGirlWalkTalkRegionE1d" = "Nana: \"I was just joking!! Would you like to order now?\"";
+
+//EvtGirlWalkTalkRegionE2
+"EvtGirlWalkTalkRegionE2" = "Nana: \"Hoi!! We will have a contest next week, you know that right??\"";
+"EvtGirlWalkTalkRegionE2a" = "Me: \"What kind of contest?\"";
+"EvtGirlWalkTalkRegionE2b" = "Nana: \"Darts?\"";
+"EvtGirlWalkTalkRegionE2c" = "Me: \"My favorite!! When is that??\"";
+"EvtGirlWalkTalkRegionE2d" = "Nana: \"Thursday 4pm!! Good luck!!\"";
+
+//EvtGirlWalkTalkRegionE3
+"EvtGirlWalkTalkRegionE3" = "Nana is approaching slowly… ";
+"EvtGirlWalkTalkRegionE3a" = "Nana: \"Is the food really that good here??\"";
+"EvtGirlWalkTalkRegionE3b" = "Me: \"Yeah!!! Super delicious!\"";
+"EvtGirlWalkTalkRegionE3c" = "I can tell Nana is waiting for another answer… ";
+"EvtGirlWalkTalkRegionE3d" = "What does she want…? ";
+
+//Region F 動植物公園
+//EvtGirlDateChatRegionF1
+"EvtGirlDateChatRegionF1" = "Walk with Alcy a while… ";
+"EvtGirlDateChatRegionF1a" = "Then it's her FAQ period again… ";
+"EvtGirlDateChatRegionF1b" = "Alcy: \"Why are u bringing me here??\"";
+"EvtGirlDateChatRegionF1c" = "I dunno how to answer… ";
+"EvtGirlDateChatRegionF1d" = "Me: \"Well… just wanna take a few photos here…\"";
+
+//EvtGirlDateChatRegionF2
+"EvtGirlDateChatRegionF2" = "Alcy suddenly speaks out… ";
+"EvtGirlDateChatRegionF2a" = "Alcy: \"I think you are different today… \"";
+"EvtGirlDateChatRegionF2b" = "Alcy: \"What happen??\"";
+"EvtGirlDateChatRegionF2c" = "I haven't answer.";
+"EvtGirlDateChatRegionF2d" = "Alcy starts to get moody… ";
+
+//EvtGirlDateChatRegionF3
+"EvtGirlDateChatRegionF3" = "I finally tell her about my parents… ";
+"EvtGirlDateChatRegionF3a" = "Her expression I will never forget… ";
+"EvtGirlDateChatRegionF3b" = "Well it doesn't matter anymore.";
+"EvtGirlDateChatRegionF3c" = "Cos I have Alcy beside me right now.";
+"EvtGirlDateChatRegionF3d" = "Alcy touches me with her warm hand.";
+
+//EvtGirlDateRegionFLeave1
+"EvtGirlDateRegionFLeave1" = "I just bought ticket with Alcy.";
+"EvtGirlDateRegionFLeave1a" = "Just about to get in… a bunch of people running out… ";
+"EvtGirlDateRegionFLeave1b" = "People: \"Run!!! A lion just escape!!!\"";
+"EvtGirlDateRegionFLeave1c" = "Me: \"WTF! Is that serious?\"";
+"EvtGirlDateRegionFLeave1d" = "Our date have to be cancelled.";
+
+//EvtGirlDateRegionFLeave2
+"EvtGirlDateRegionFLeave2" = "Alcy looks sick.";
+"EvtGirlDateRegionFLeave2a" = "Me: \"Alcy, are you ok?\"";
+"EvtGirlDateRegionFLeave2b" = "Alcy: \"My stomach… \"";
+"EvtGirlDateRegionFLeave2c" = "Alcy: \"Can you send me home?\"";
+"EvtGirlDateRegionFLeave2d" = "Me: \"Okay… let's go… \"";
+
+//EvtGirlDateRegionFLeave3
+"EvtGirlDateRegionFLeave3" = "Suddenly something hit my head… ";
+"EvtGirlDateRegionFLeave3a" = "Pain!!! Crazily pain!!! Then my knees on the ground… ";
+"EvtGirlDateRegionFLeave3b" = "Alcy: \"Heyhey!!! Open your eyes!!\"";
+"EvtGirlDateRegionFLeave3c" = "Everything went all black!!";
+"EvtGirlDateRegionFLeave3d" = "Then I faint… ";
+
+//EvtGirlDateRegionFStart1
+"EvtGirlDateRegionFStart1" = "Just like another day.";
+"EvtGirlDateRegionFStart1a" = "Early as usual.";
+"EvtGirlDateRegionFStart1b" = "I think gentleman waits lady is perfectly fine!";
+"EvtGirlDateRegionFStart1c" = "Also..";
+"EvtGirlDateRegionFStart1d" = "Alcy will be happy!!";
+
+//EvtGirlDateRegionFStart2
+"EvtGirlDateRegionFStart2" = "Just like another day.";
+"EvtGirlDateRegionFStart2a" = "Early as usual.";
+"EvtGirlDateRegionFStart2b" = "I wanna go to washroom.";
+"EvtGirlDateRegionFStart2c" = "*Look at the mirror* I am good I am good… okay!!";
+"EvtGirlDateRegionFStart2d" = "Absolutely Perfect!！";
+
+//EvtGirlDateRegionFStart3
+"EvtGirlDateRegionFStart3" = "I'm too late today.";
+"EvtGirlDateRegionFStart3a" = "*Looks at my watch*….";
+"EvtGirlDateRegionFStart3b" = "Nothing to do… maybe… take a sit!!";
+"EvtGirlDateRegionFStart3c" = "Boring………";
+"EvtGirlDateRegionFStart3d" = "It really sucks……";
+
+//EvtGirlDateRomanceRegionF1
+"EvtGirlDateRomanceRegionF1" = "I bring Alcy to the elder… ";
+"EvtGirlDateRomanceRegionF1a" = "Me: \"Can we try to feed the animal??\"";
+"EvtGirlDateRomanceRegionF1b" = "Alcy run forward without even asking… ";
+"EvtGirlDateRomanceRegionF1c" = "She's so lovely… ";
+"EvtGirlDateRomanceRegionF1d" = "I just snap her lovely face right at this moment!!";
+
+//EvtGirlDateRomanceRegionF2
+"EvtGirlDateRomanceRegionF2" = "Alcy: \"Look at this monkey!!\"";
+"EvtGirlDateRomanceRegionF2a" = "Me: \"HAHAHA!! Funny looking!!\"";
+"EvtGirlDateRomanceRegionF2b" = "Then I make a monkey face.";
+"EvtGirlDateRomanceRegionF2c" = "Me: \"How do I look?\"";
+"EvtGirlDateRomanceRegionF2d" = "Alcy cannot stop laughing… ";
+
+//EvtGirlDateRomanceRegionF3
+"EvtGirlDateRomanceRegionF3" = "Alcy: \"Hey!! Take a picture for me!!\"";
+"EvtGirlDateRomanceRegionF3a" = "Me: \"Okay… Ready?\"";
+"EvtGirlDateRomanceRegionF3b" = "Alcy: \"Yeah!!\"";
+"EvtGirlDateRomanceRegionF3c" = "I took many many shot!!";
+"EvtGirlDateRomanceRegionF3d" = "Alcy is sooo pretty!!";
+
+//EvtGirlWalkLookRegionF1 – leaf + SOCIAL
+"EvtGirlWalkLookRegionF1" = "A kid looking at a leaf… speaking to himself… ";
+"EvtGirlWalkLookRegionF1a" = "Kid: \"Why is the leaf falling to the ground?\"";
+"EvtGirlWalkLookRegionF1b" = "Then I start to explain to him… ";
+"EvtGirlWalkLookRegionF1c" = "Kid: \"Wow!! You are smart!!\"";
+"EvtGirlWalkLookRegionF1d" = "So good to be a kid!!";
+
+//EvtGirlWalkLookRegionF2 – bicycle +talent
+"EvtGirlWalkLookRegionF2" = "A kid's crying.";
+"EvtGirlWalkLookRegionF2a" = "Oh… his bike is broken… ";
+"EvtGirlWalkLookRegionF2b" = "I got nothing to do anyways… Let me fix it for him!!!";
+"EvtGirlWalkLookRegionF2c" = "Me: \"Look!! It's fixed!!\"";
+"EvtGirlWalkLookRegionF2d" = "Kid: \"Amazing!!! Thanks so much!!!\"";
+
+//EvtGirlWalkLookRegionF3
+"EvtGirlWalkLookRegionF3" = "Everytime I take picture in Central Park… ";
+"EvtGirlWalkLookRegionF3a" = "Remind me of some past… ";
+"EvtGirlWalkLookRegionF3b" = "When I was young, my parents always take picture with me and my sister here.";
+"EvtGirlWalkLookRegionF3c" = "And now I miss the chance to take picture for them… ";
+"EvtGirlWalkLookRegionF3d" = "Sigh…";
+
+//EvtGirlWalkRegionFPreset1
+"EvtGirlWalkRegionFPreset1" = "Walking pass a grass field.";
+"EvtGirlWalkRegionFPreset1a" = "Bunch of kids are playing happily.";
+"EvtGirlWalkRegionFPreset1b" = "That elder is very happy too.";
+"EvtGirlWalkRegionFPreset1c" = "I think adopting a little pet is a pretty good idea.";
+"EvtGirlWalkRegionFPreset1d" = "Cats would be perfect!!!";
+
+//EvtGirlWalkRegionFPreset2 +PINEAPPLE
+"EvtGirlWalkRegionFPreset2" = "We have been here for a whole day.";
+"EvtGirlWalkRegionFPreset2a" = "Nothing to do anyways… Let's be a volunteer!!";
+"EvtGirlWalkRegionFPreset2b" = "I love Cats… but it's all dogs today!!!";
+"EvtGirlWalkRegionFPreset2c" = "Luckily they are pretty nice.";
+"EvtGirlWalkRegionFPreset2d" = "The elder give me a pineapple shape gift after my job.";
+
+//EvtGirlWalkRegionFStart1
+"EvtGirlWalkRegionFStart1" = "Here is Central Park.";
+"EvtGirlWalkRegionFStart1a" = "This is a place I have most of my memory.";
+"EvtGirlWalkRegionFStart1b" = "Since when I was young, my dad always bring me here to play.";
+"EvtGirlWalkRegionFStart1c" = "Taking picture with my mother and sister.";
+"EvtGirlWalkRegionFStart1d" = "Right now… not very happy when I return to this place.";
+
+//EvtGirlWalkTalkRegionF1
+"EvtGirlWalkTalkRegionF1" = "Elder: \"Hey young man!!\"";
+"EvtGirlWalkTalkRegionF1a" = "Elder: \"Wanna be a day of volunteer?\"";
+"EvtGirlWalkTalkRegionF1b" = "Me: \"What do I need to do??\"";
+"EvtGirlWalkTalkRegionF1c" = "Elder: \"Come here next Friday 5pm!!! I will give you something special!!\"";
+"EvtGirlWalkTalkRegionF1d" = "Me: \"Okay!!! Let me think about it!!!\"";
+
+//EvtGirlWalkTalkRegionF2
+"EvtGirlWalkTalkRegionF2" = "A very old man is feeding the animal";
+"EvtGirlWalkTalkRegionF2a" = "What a nice scene.";
+"EvtGirlWalkTalkRegionF2b" = "Birds, butterfly are dancing around the old man.";
+"EvtGirlWalkTalkRegionF2c" = "The old man is very happy!!";
+"EvtGirlWalkTalkRegionF2d" = "So very touching.";
+
+//EvtGirlWalkTalkRegionF3
+"EvtGirlWalkTalkRegionF3" = "An old man approaching… ";
+"EvtGirlWalkTalkRegionF3a" = "Old Man: \"Young man!!\"";
+"EvtGirlWalkTalkRegionF3b" = "Old Man: \"Did you see someone looks like me around??\"";
+"EvtGirlWalkTalkRegionF3c" = "Me: \"He's over there I think, feeding some pigeon.\"";
+"EvtGirlWalkTalkRegionF3d" = "Old Man: \"Thanks.\"";
+
+
+//----------------------------Region G
+//EvtGirlDateChatRegionG1
+"EvtGirlDateChatRegionG1" = "Me: \"Hey!! Let's just drink for a few hour, should we??\"";
+"EvtGirlDateChatRegionG1a" = "Alcy: \"Sure!! 4 hours is enough!! :D\"";
+"EvtGirlDateChatRegionG1b" = "Me: \"What do you wanna drink?\"";
+"EvtGirlDateChatRegionG1c" = "Alcy: \"Anything!\"";
+"EvtGirlDateChatRegionG1d" = "Me: \"Amazing!!\"";
+
+//EvtGirlDateChatRegionG2
+"EvtGirlDateChatRegionG2" = "Me: \"Hey do you like sex on the beach?\"";
+"EvtGirlDateChatRegionG2a" = "Alcy: \"Yeah I love it!!\"";
+"EvtGirlDateChatRegionG2b" = "Me: \"Why?\"";
+"EvtGirlDateChatRegionG2c" = "Alcy: \"Well guess why?\" *Evil smile*";
+"EvtGirlDateChatRegionG2d" = "Me: \"I… See… \"";
+
+//EvtGirlDateChatRegionG3
+"EvtGirlDateChatRegionG3" = "Me: \"So what you gonna order??\"";
+"EvtGirlDateChatRegionG3a" = "Alcy: \"Something with rum is fine!!\"";
+"EvtGirlDateChatRegionG3b" = "Me: \"How nice!! I love rum too!! My friend dun like it much!!\"";
+"EvtGirlDateChatRegionG3c" = "She smiles to me and say… ";
+"EvtGirlDateChatRegionG3d" = "Then we can come here more often, together.";
+
+//EvtGirlDateRegionGLeave1
+"EvtGirlDateRegionGLeave1" = "Waiter: \"Excuse me! Have you reserve for a table sir?\"";
+"EvtGirlDateRegionGLeave1a" = "Me: \"No… I didn't… \"";
+"EvtGirlDateRegionGLeave1b" = "Waiter: \"I'm sorry. Today is full.\"";
+"EvtGirlDateRegionGLeave1c" = "Me: \"Sorry Alcy… I should book for a table earlier.\"";
+"EvtGirlDateRegionGLeave1d" = "Alcy: \"No problem.\"";
+
+//EvtGirlDateRegionGLeave2
+"EvtGirlDateRegionGLeave2" = "Waiter: \"Any reservation?\"";
+"EvtGirlDateRegionGLeave2a" = "Me: \"Yes, a table for you. Mr. Poke.\"";
+"EvtGirlDateRegionGLeave2b" = "Ten minutes later… ";
+"EvtGirlDateRegionGLeave2c" = "Waiter: \"Sorry, you order another place.\"";
+"EvtGirlDateRegionGLeave2d" = "Me: \"Sigh… how can I mix up!!\"";
+
+//EvtGirlDateRegionGLeave3
+"EvtGirlDateRegionGLeave3" = "Finally no mistake today!!";
+"EvtGirlDateRegionGLeave3a" = "Alcy order a lot of things…\"";
+"EvtGirlDateRegionGLeave3b" = "30 minutes later… ";
+"EvtGirlDateRegionGLeave3c" = "My stomach is in deep pain!!";
+"EvtGirlDateRegionGLeave3d" = "Alcy brings me to the doctor… ";
+
+//EvtGirlDateRegionGStart1
+"EvtGirlDateRegionGStart1" = "Just like another day.";
+"EvtGirlDateRegionGStart1a" = "Early as usual.";
+"EvtGirlDateRegionGStart1b" = "I think gentleman waits lady is perfectly fine!";
+"EvtGirlDateRegionGStart1c" = "Also..";
+"EvtGirlDateRegionGStart1d" = "Alcy will be happy!!";
+
+//EvtGirlDateRegionGStart2
+"EvtGirlDateRegionGStart2" = "Just like another day.";
+"EvtGirlDateRegionGStart2a" = "Early as usual.";
+"EvtGirlDateRegionGStart2b" = "I wanna go to washroom.";
+"EvtGirlDateRegionGStart2c" = "*Look at the mirror* I am good I am good… okay!!";
+"EvtGirlDateRegionGStart2d" = "Absolutely perfect!!";
+
+//EvtGirlDateRegionGStart3
+"EvtGirlDateRegionGStart3" = "I'm too late today.";
+"EvtGirlDateRegionGStart3a" = "*Looks at my watch* Still a while….";
+"EvtGirlDateRegionGStart3b" = "Nothing to do… maybe… take a sit!!";
+"EvtGirlDateRegionGStart3c" = "Boring………";
+"EvtGirlDateRegionGStart3d" = "It really sucks……";
+
+//EvtGirlDateRomanceRegionG1
+"EvtGirlDateRomanceRegionG1" = "My first time go to lounge with Alcy… ";
+"EvtGirlDateRomanceRegionG1a" = "Very nervous!!!";
+"EvtGirlDateRomanceRegionG1b" = "I think she knows I am nervous… ";
+"EvtGirlDateRomanceRegionG1c" = "She orders 2 drink first!";
+"EvtGirlDateRomanceRegionG1d" = "I'm a bit relax now.";
+
+//EvtGirlDateRomanceRegionG2
+"EvtGirlDateRomanceRegionG2" = "My first time to go to lounge with Alcy… ";
+"EvtGirlDateRomanceRegionG2a" = "To get a good first impression.";
+"EvtGirlDateRomanceRegionG2b" = "I decided to sing a song!!";
+"EvtGirlDateRomanceRegionG2c" = "Damn… My voice… ";
+"EvtGirlDateRomanceRegionG2d" = "Alcy pet my shoulder and said: \"Dun worry about it… \"";
+
+//EvtGirlDateRomanceRegionG3
+"EvtGirlDateRomanceRegionG3" = "Alcy put down her drink.";
+"EvtGirlDateRomanceRegionG3a" = "She said: \"Actually today is my first time having drink with guy.\"";
+"EvtGirlDateRomanceRegionG3b" = "She said: \"Do you believe?\"";
+"EvtGirlDateRomanceRegionG3c" = "Me: \"So I took your first time? Nice!!!\"";
+"EvtGirlDateRomanceRegionG3d" = "Oh she turns red… Still someone buy these kind of old jokes??";
+
+//EvtGirlWalkLookRegionG1 – popcorn +health
+"EvtGirlWalkLookRegionG1" = "Everytime when I come here with my friends, we order a lot of snacks.";
+"EvtGirlWalkLookRegionG1a" = "For my pride!!";
+"EvtGirlWalkLookRegionG1b" = "For my dignity!!";
+"EvtGirlWalkLookRegionG1c" = "For my liver!!";
+"EvtGirlWalkLookRegionG1d" = "For my girl!!! I am going to train now!!";
+
+//EvtGirlWalkLookRegionG2 – microphone +talent
+"EvtGirlWalkLookRegionG2" = "Special training starts!!";
+"EvtGirlWalkLookRegionG2a" = "Okay let me order this one.";
+"EvtGirlWalkLookRegionG2b" = "Drink! Drink! Drink!!";
+"EvtGirlWalkLookRegionG2c" = "Another round!!";
+"EvtGirlWalkLookRegionG2d" = "Drink till… DEATH!!";
+
+//EvtGirlWalkLookRegionG3
+"EvtGirlWalkLookRegionG3" = "Let me take a rest… ";
+"EvtGirlWalkLookRegionG3a" = "Okay this time pick this one!!";
+"EvtGirlWalkLookRegionG3b" = "Vodka… whiskey… Rum… ";
+"EvtGirlWalkLookRegionG3c" = "Nothing… Around the world… ";
+"EvtGirlWalkLookRegionG3d" = "I'm still alive!!!";
+
+//EvtGirlWalkRegionGPreset1
+"EvtGirlWalkRegionGPreset1" = "OMG";
+"EvtGirlWalkRegionGPreset1a" = "They put my picture on the poster?!";
+"EvtGirlWalkRegionGPreset1b" = "Everyone should recognize me by now…. ";
+"EvtGirlWalkRegionGPreset1c" = "How embarrassing.";
+"EvtGirlWalkRegionGPreset1d" = "Don't know how that blonde thinks….?";
+
+//EvtGirlWalkRegionGPreset2 +cherry
+"EvtGirlWalkRegionGPreset2" = "Finally it's the drinking contest.";
+"EvtGirlWalkRegionGPreset2a" = "After several hours… ";
+"EvtGirlWalkRegionGPreset2b" = "The champion is… ";
+"EvtGirlWalkRegionGPreset2c" = "I won!!!";
+"EvtGirlWalkRegionGPreset2d" = "I saw Alcy standing by me with a smiley face!!";
+
+//EvtGirlWalkRegionGStart1
+"EvtGirlWalkRegionGStart1" = "Oscar Lounge is one of my favorite place for relaxing.";
+"EvtGirlWalkRegionGStart1a" = "Always so relaxing here.";
+"EvtGirlWalkRegionGStart1b" = "In fact, I am always so happy to be here.";
+"EvtGirlWalkRegionGStart1c" = "Cos me and my friends always have some crazy things going here.";
+"EvtGirlWalkRegionGStart1d" = "Wish to date Alcy here ASAP.";
+
+//EvtGirlWalkTalkRegionG1
+"EvtGirlWalkTalkRegionG1" = "DANGER!!";
+"EvtGirlWalkTalkRegionG1a" = "A girl rushing towards me!!!";
+"EvtGirlWalkTalkRegionG1b" = "She ran to the service counter.";
+"EvtGirlWalkTalkRegionG1c" = "Then she finds a table and sits down!!";
+"EvtGirlWalkTalkRegionG1d" = "I guess she's in a bad mood!!";
+
+//EvtGirlWalkTalkRegionG2
+"EvtGirlWalkTalkRegionG2" = "The blonde… sitting alone at the table opposite.";
+"EvtGirlWalkTalkRegionG2a" = "I am watching her closely.";
+"EvtGirlWalkTalkRegionG2b" = "She drank a lot….!!";
+"EvtGirlWalkTalkRegionG2c" = "Suddenly she shares at me!!";
+"EvtGirlWalkTalkRegionG2d" = "Time… to… leave… ";
+
+//EvtGirlWalkTalkRegionG3
+"EvtGirlWalkTalkRegionG3" = "Blonde: \"Are you observing your enemy?\"";
+"EvtGirlWalkTalkRegionG3a" = "I dunno how to reply.";
+"EvtGirlWalkTalkRegionG3b" = "Blonde: \"Dun waste your time.\"";
+"EvtGirlWalkTalkRegionG3c" = "Blonde: \"Saturday, 6pm… I am going to win the drinking contest for sure!!\"";
+"EvtGirlWalkTalkRegionG3d" = "If you say so!!! I am going to challenge you!!!";
+
+
+//----------------------------Region H Date Chat
+//EvtGirlDateChatRegionH1
+"EvtGirlDateChatRegionH1" = "Today I date Alcy to the theatre…" ;
+"EvtGirlDateChatRegionH1a" = "I have been very quiet.";
+"EvtGirlDateChatRegionH1b" = "Alcy suddenly speaks… ";
+"EvtGirlDateChatRegionH1c" = "Alcy: \"It's okay if you really dun wanna stay…\"";
+"EvtGirlDateChatRegionH1d" = "I remind quiet… ";
+
+//EvtGirlDateChatRegionH2
+"EvtGirlDateChatRegionH2" = "Me: \"Hey Alcy!\"";
+"EvtGirlDateChatRegionH2a" = "Alcy: \"What's up?\"";
+"EvtGirlDateChatRegionH2b" = "Me: \"I dun really know… what should I wear to the theatre… \"";
+"EvtGirlDateChatRegionH2c" = "She takes a look at me and says: \"Now it's fine!!\"";
+"EvtGirlDateChatRegionH2d" = "Hold on a sec… I am on my pants and slipper… ";
+
+//EvtGirlDateChatRegionH3
+"EvtGirlDateChatRegionH3" = "Me: \"Hey… Anything to eat here??\"";
+"EvtGirlDateChatRegionH3a" = "Alcy thinks for a second… ";
+"EvtGirlDateChatRegionH3b" = "And say: \"Seems not.\"";
+"EvtGirlDateChatRegionH3c" = "I am starving my lord… ";
+"EvtGirlDateChatRegionH3d" = "She hits my tummy and says: \"Just a while!! I treat a great dinner!!";
+
+//----------------------------Region H Date Leave
+//EvtGirlDateRegionHLeave1
+"EvtGirlDateRegionHLeave1" = "Really can't stand this!!!!";
+"EvtGirlDateRegionHLeave1a" = "Me: \"I am leaving Alcy… I really can't stand this.\"";
+"EvtGirlDateRegionHLeave1b" = "Alcy: \"Why??\"";
+"EvtGirlDateRegionHLeave1c" = "Me: :Becos it's really… super boring!!!!!!\"";
+"EvtGirlDateRegionHLeave1d" = "Then I hold her hands and leave the theatre.";
+
+//EvtGirlDateRegionHLeave2
+"EvtGirlDateRegionHLeave2" = "Damn boring… it's only half way???";
+"EvtGirlDateRegionHLeave2a" = "I tell Alcy I gotta go to the washroom.";
+"EvtGirlDateRegionHLeave2b" = "Just walk away… Sounds good… I am thinking.";
+"EvtGirlDateRegionHLeave2c" = "Well Alcy is not so happy last time… ";
+"EvtGirlDateRegionHLeave2d" = "Ahhh…. I will send her a message saying I need to go becos I am not feeling well.";
+
+//EvtGirlDateRegionHLeave3
+"EvtGirlDateRegionHLeave3" = "After all these day's training!!";
+"EvtGirlDateRegionHLeave3a" = "I can stand for 30 minutes finally!!!";
+"EvtGirlDateRegionHLeave3b" = "But… but… I really still… I need to speak out… ";
+"EvtGirlDateRegionHLeave3c" = "Me: \"Ah… Alcy… hm… I wanna… \"";
+"EvtGirlDateRegionHLeave3d" = "Alcy: \"Let's go!! This one is kinda boring actually!!\"";
+
+
+//EvtGirlDateRegionHStart1
+"EvtGirlDateRegionHStart1" = "Just like another day.";
+"EvtGirlDateRegionHStart1a" = "Early as usual.";
+"EvtGirlDateRegionHStart1b" = "I think gentleman waits lady is perfectly fine!";
+"EvtGirlDateRegionHStart1c" = "Also..";
+"EvtGirlDateRegionHStart1d" = "Alcy will be happy!!!";
+
+//EvtGirlDateRegionHStart2
+"EvtGirlDateRegionHStart2" = "Just like another day.";
+"EvtGirlDateRegionHStart2a" = "Early as usual.";
+"EvtGirlDateRegionHStart2b" = "I wanna go to washroom.";
+"EvtGirlDateRegionHStart2c" = "*Look at the mirror* I am good I am good… okay!!";
+"EvtGirlDateRegionHStart2d" = "Absolutely perfect!!！";
+
+//EvtGirlDateRegionHStart3
+"EvtGirlDateRegionHStart3" = "I'm too late today!!";
+"EvtGirlDateRegionHStart3a" = "*Looks at my watch* Still a while….";
+"EvtGirlDateRegionHStart3b" = "Nothing to do… maybe… take a sit!!";
+"EvtGirlDateRegionHStart3c" = "Boring………";
+"EvtGirlDateRegionHStart3d" = "It really sucks……";
+
+//----------------------------Region H Date Romance
+//EvtGirlDateRomanceRegionH1
+"EvtGirlDateRomanceRegionH1" = "This is damn boring… ";
+"EvtGirlDateRomanceRegionH1a" = "I am going to sleep!!";
+"EvtGirlDateRomanceRegionH1b" = "Suddenly I can feel Alcy's hand…. she's holding my hand!!!!!";
+"EvtGirlDateRomanceRegionH1c" = "Today is my lucky day!!!";
+"EvtGirlDateRomanceRegionH1d" = "I should pretend sleeping!! HAHA";
+
+//EvtGirlDateRomanceRegionH2
+"EvtGirlDateRomanceRegionH2" = "Me: \"I think I should dress better next time dun you think??\"";
+"EvtGirlDateRomanceRegionH2a" = "Alcy stares at me.";
+"EvtGirlDateRomanceRegionH2b" = "Then saying: \"Doesn't matter really… because… \"";
+"EvtGirlDateRomanceRegionH2c" = "\"I won't leave you no matter how u dress up!!!\"";
+"EvtGirlDateRomanceRegionH2d" = "\"I… I… am so touching!!!!\"";
+
+//EvtGirlDateRomanceRegionH3
+"EvtGirlDateRomanceRegionH3" = "What the hell are those songs!!! Can they be more softer!!!";
+"EvtGirlDateRomanceRegionH3a" = "I barely wake up a bit… ";
+"EvtGirlDateRomanceRegionH3b" = "Alcy fall asleep too… She's sleeping on my shoulder.";
+"EvtGirlDateRomanceRegionH3c" = "So I decide to keep the position… Smell her hair… ";
+"EvtGirlDateRomanceRegionH3d" = "It's the smell of heaven!!!";
+
+//----------------------------Region H Walk Look
+//EvtGirlWalkLookRegionH1 -- drama script +health
+"EvtGirlWalkLookRegionH1" = "Instructor suddenly throw me a script.";
+"EvtGirlWalkLookRegionH1a" = "He asks me to try the play in his way… ";
+"EvtGirlWalkLookRegionH1b" = "Hm… Hm… Hm…";
+"EvtGirlWalkLookRegionH1c" = "Then I try to play like my instructor… ";
+"EvtGirlWalkLookRegionH1d" = "It works!!";
+
+//EvtGirlWalkLookRegionH2 – mask +social
+"EvtGirlWalkLookRegionH2" = "There are many booth outside the theatre.";
+"EvtGirlWalkLookRegionH2a" = "A lot of gifts and souvenir.";
+"EvtGirlWalkLookRegionH2b" = "I am attracted by a strange mask… ";
+"EvtGirlWalkLookRegionH2c" = "I ask the sales about the information of the mask… ";
+"EvtGirlWalkLookRegionH2d" = "It's really a magical mask!!!";
+
+//EvtGirlWalkLookRegionH3
+"EvtGirlWalkLookRegionH3" = "That statue looks so real!!";
+"EvtGirlWalkLookRegionH3a" = "People are taking photo around it.";
+"EvtGirlWalkLookRegionH3b" = "1… 2… 3… Cheers!!!";
+"EvtGirlWalkLookRegionH3c" = "That statue move!!! No wonder it looks so real… becos it's REAL!!!";
+"EvtGirlWalkLookRegionH3d" = "Everyone sweat their pants!!";
+
+//----------------------------Region H Walk Preset
+
+//EvtGirlWalkRegionHPreset1
+"EvtGirlWalkRegionHPreset1" = "Home sweet home… ";
+"EvtGirlWalkRegionHPreset1a" = "The acting contest employee come over and say goodbye to me.";
+"EvtGirlWalkRegionHPreset1b" = "I wave back to him.";
+"EvtGirlWalkRegionHPreset1c" = "And look at the golden apple on hand.";
+"EvtGirlWalkRegionHPreset1d" = "Maybe… I am a good actor!!!";
+
+//EvtGirlWalkRegionHPreset2 +apple
+"EvtGirlWalkRegionHPreset2" = "There is a acting contest outside the court.";
+"EvtGirlWalkRegionHPreset2a" = "Although it's kinda weird… I act as Kamen Rider, a Japanese hero!!";
+"EvtGirlWalkRegionHPreset2b" = "The MC is speaking out the name of the winner……… ";
+"EvtGirlWalkRegionHPreset2c" = "*Heart beating* I'm getting nervous!! Very nervous!!";
+"EvtGirlWalkRegionHPreset2d" = "I win!!! I get a golden apple!!!";
+
+//EvtGirlWalkRegionHStart1
+"EvtGirlWalkRegionHStart1" = "Sigh…";
+"EvtGirlWalkRegionHStart1a" = "I hate this place!";
+"EvtGirlWalkRegionHStart1b" = "If not just cos I dun anything to do… ";
+"EvtGirlWalkRegionHStart1c" = "I swear I won't be here.";
+"EvtGirlWalkRegionHStart1d" = "Just today… let me try to enjoy in this place.";
+
+//----------------------------Region H Walk Talk
+//EvtGirlWalkTalkRegionH1
+"EvtGirlWalkTalkRegionH1" = "Someone's waving at me.";
+"EvtGirlWalkTalkRegionH1a" = "Guy: \"Hoy!";
+"EvtGirlWalkTalkRegionH1b" = "I have no mood to talk to stranger now… So I copy his \"Hoy!\"";
+"EvtGirlWalkTalkRegionH1c" = "Guy: \"Hey you're funny!! Wanna join our comedy group??\"";
+"EvtGirlWalkTalkRegionH1d" = "Me: \"Hahaha… No thanks… \"";
+
+//EvtGirlWalkTalkRegionH2
+"EvtGirlWalkTalkRegionH2" = "Voice: \"HeyHey!!\"";
+"EvtGirlWalkTalkRegionH2a" = "I look back.";
+"EvtGirlWalkTalkRegionH2b" = "Strange man: \"You wanna learn how to sing??\"";
+"EvtGirlWalkTalkRegionH2c" = "Strange man keeps on: \"Come over if u wanna try.\"";
+"EvtGirlWalkTalkRegionH2d" = "I just walk pass him… ";
+
+//EvtGirlWalkTalkRegionH3
+"EvtGirlWalkTalkRegionH3" = "The reason that I dun like this place… ";
+"EvtGirlWalkTalkRegionH3a" = "Many people are recruiting member here… so annoying!!!";
+"EvtGirlWalkTalkRegionH3b" = "Another one wants to talk to me now…  ";
+"EvtGirlWalkTalkRegionH3c" = "I am pointing at him.";
+"EvtGirlWalkTalkRegionH3d" = "He scream: \"Sunday 8pm Acting contest!!! WOOOOOOOOO~~~~\"";
+
+//----------------------------Region I  Aquarium 
+//EvtGirlDateChatRegionI1
+"EvtGirlDateChatRegionI1" = "Alcy: \"I haven't been to the aquarium for a long time!!\"";
+"EvtGirlDateChatRegionI1a" = "Me: \"Really?\"";
+"EvtGirlDateChatRegionI1b" = "Alcy: \"Yeah!! I think last time I came is around… 7 years ago… \"";
+"EvtGirlDateChatRegionI1c" = "Me: \"Then you must enjoy today's date!!\"";
+"EvtGirlDateChatRegionI1d" = "Alcy holds my hand and say yes!!";
+
+//EvtGirlDateChatRegionI2
+"EvtGirlDateChatRegionI2" = "Alcy: \"Why you pick this place?\"";
+"EvtGirlDateChatRegionI2a" = "Me: \"I love this place very much!!!\"";
+"EvtGirlDateChatRegionI2b" = "Alcy: \"Oh I see!\"";
+"EvtGirlDateChatRegionI2c" = "Me: \"Yeah!! Let me guide you my lady!!\"";
+"EvtGirlDateChatRegionI2d" = "Alcy: \"Hehe, alright!\"";
+
+//EvtGirlDateChatRegionI3
+"EvtGirlDateChatRegionI3" = "Me: \"Are you hungry? We will eat that fish tempura later!!\"";
+"EvtGirlDateChatRegionI3a" = "Alcy: \"Sure!! Is it good??\"";
+"EvtGirlDateChatRegionI3b" = "Me: \"It tastes great!!! Cos it's catch by bare hands!!\"";
+"EvtGirlDateChatRegionI3c" = "Alcy asks quietly: \"Really?\"";
+"EvtGirlDateChatRegionI3d" = "Me: \"I'm just kidding!!\"";
+
+//EvtGirlDateRegionILeave1
+"EvtGirlDateRegionILeave1" = "Me: \"Hello.\"";
+"EvtGirlDateRegionILeave1a" = "Alcy: \"What's up?\"";
+"EvtGirlDateRegionILeave1b" = "Me: \"I gotta go cos something happen to my family.\"";
+"EvtGirlDateRegionILeave1c" = "Alcy: \"Alright… \"";
+"EvtGirlDateRegionILeave1d" = "Me: \"Sorry!! My treat next time!!\"";
+
+//EvtGirlDateRegionILeave2
+"EvtGirlDateRegionILeave2" = "Me: \"Hello!\"";
+"EvtGirlDateRegionILeave2a" = "Alcy: \"What happen?\"";
+"EvtGirlDateRegionILeave2b" = "Me: \"Something happen at home I gotta be back… \"";
+"EvtGirlDateRegionILeave2c" = "Alcy: \"Alright… \"";
+"EvtGirlDateRegionILeave2d" = "Me: \"Sorry!! My treat next time!!\"";
+
+//EvtGirlDateRegionILeave3
+"EvtGirlDateRegionILeave3" = "Me: \"Hey!\"";
+"EvtGirlDateRegionILeave3a" = "Alcy: \"Yes?\"";
+"EvtGirlDateRegionILeave3b" = "Me: \"Something happen to my family I gotta go right now… \"";
+"EvtGirlDateRegionILeave3c" = "Alcy: \"Okay… should I go with you?\"";
+"EvtGirlDateRegionILeave3d" = "Me: \"No but thanks!!\"";
+
+//EvtGirlDateRegionIStart1
+"EvtGirlDateRegionIStart1" = "Just like another day.";
+"EvtGirlDateRegionIStart1a" = "Early as usual.";
+"EvtGirlDateRegionIStart1b" = "I think gentleman waits lady is perfectly fine!";
+"EvtGirlDateRegionIStart1c" = "Also..";
+"EvtGirlDateRegionIStart1d" = "Alcy will be happy!!!!";
+
+//EvtGirlDateRegionIStart2
+"EvtGirlDateRegionIStart2" = "Just like another day.";
+"EvtGirlDateRegionIStart2a" = "Early as usual.";
+"EvtGirlDateRegionIStart2b" = "I wanna go to washroom.";
+"EvtGirlDateRegionIStart2c" = "*Look at the mirror* I am good I am good… okay!!";
+"EvtGirlDateRegionIStart2d" = "Absolutely perfect!!";
+
+//EvtGirlDateRegionIStart3
+"EvtGirlDateRegionIStart3" = "I'm too late today.";
+"EvtGirlDateRegionIStart3a" = "*Looks at my watch* Still a while….";
+"EvtGirlDateRegionIStart3b" = "Nothing to do… maybe… take a sit!!";
+"EvtGirlDateRegionIStart3c" = "Boring………";
+"EvtGirlDateRegionIStart3d" = "It really sucks……";
+
+//EvtGirlDateRomanceRegionI1
+"EvtGirlDateRomanceRegionI1" = "When we just in front of the big fish tank… Alcy walk in front of me… ";
+"EvtGirlDateRomanceRegionI1a" = "I hug her tight from behind… ";
+"EvtGirlDateRomanceRegionI1b" = "We haven't speak a word… ";
+"EvtGirlDateRomanceRegionI1c" = "Then, she gently place her hands on mine.";
+"EvtGirlDateRomanceRegionI1d" = "Paradise!!";
+
+//EvtGirlDateRomanceRegionI2
+"EvtGirlDateRomanceRegionI2" = "We have walk for a while.";
+"EvtGirlDateRomanceRegionI2a" = "I just realize… ";
+"EvtGirlDateRomanceRegionI2b" = "Alcy is holding my hand all the time… ";
+"EvtGirlDateRomanceRegionI2c" = "So I grab her little palm towards me… ";
+"EvtGirlDateRomanceRegionI2d" = "She looks at me… I will never forget this picture.";
+
+//EvtGirlDateRomanceRegionI3
+"EvtGirlDateRomanceRegionI3" = "Me: \"Alcy… Today I have something to say.\"";
+"EvtGirlDateRomanceRegionI3a" = "Alcy: \"What's that?\"";
+"EvtGirlDateRomanceRegionI3b" = "Me: \"I like someone… but I am not sure what she thinks about me… \"";
+"EvtGirlDateRomanceRegionI3c" = "I can feel she's a bit embarrassed… but she answers me with action… she kiss my cheek… ";
+"EvtGirlDateRomanceRegionI3d" = "Then we kiss";
+
+//EvtGirlWalkLookRegionI1 -- clown fish +health
+"EvtGirlWalkLookRegionI1" = "A girl is looking mindlessly with a lollipop on hand.";
+"EvtGirlWalkLookRegionI1a" = "The girl mutter: \"What kind of fish is that?\"";
+"EvtGirlWalkLookRegionI1b" = "Me: \"That's clown fish\"";
+"EvtGirlWalkLookRegionI1c" = "Then she hands me a lollipop.";
+"EvtGirlWalkLookRegionI1d" = "Hm… pretty good taste!";
+//EvtGirlWalkLookRegionI2 – shark +social
+"EvtGirlWalkLookRegionI2" = "A few kids running towards me… ";
+"EvtGirlWalkLookRegionI2a" = "Kid: \"Excuse me excuse me!!!\"";
+"EvtGirlWalkLookRegionI2b" = "Kid: \"What kind of fish is that?\"";
+"EvtGirlWalkLookRegionI2c" = "Me: \"Oh!! That's shark!!\"";
+"EvtGirlWalkLookRegionI2d" = "And they repeat after me \"Shark\"";
+
+//EvtGirlWalkLookRegionI3
+"EvtGirlWalkLookRegionI3" = "Many little kids in the aquarium today.";
+"EvtGirlWalkLookRegionI3a" = "Kids just loves fishes… how come??";
+"EvtGirlWalkLookRegionI3b" = "A bit noisy… ";
+"EvtGirlWalkLookRegionI3c" = "Although they are lovely…";
+"EvtGirlWalkLookRegionI3d" = "However they totally ruin the romantic scene!!";
+
+//EvtGirlWalkRegionIPreset1
+"EvtGirlWalkRegionIPreset1" = "I return to the aquarium today.";
+"EvtGirlWalkRegionIPreset1a" = "Looking at all kinds of fishes…";
+"EvtGirlWalkRegionIPreset1b" = "Then starts to think their names…";
+"EvtGirlWalkRegionIPreset1c" = "Just like a game… ";
+"EvtGirlWalkRegionIPreset1d" = "I love visiting aquarium.";
+
+//EvtGirlWalkRegionIPreset2 +pear
+"EvtGirlWalkRegionIPreset2" = "I fill out the game sheet and do a final check when I am leaving.";
+"EvtGirlWalkRegionIPreset2a" = "I hand the sheet to the worker… ";
+"EvtGirlWalkRegionIPreset2b" = "He check my answers and then say… ";
+"EvtGirlWalkRegionIPreset2c" = "\"You are so lucky!! This is our last gift for today!!\"";
+"EvtGirlWalkRegionIPreset2d" = "Me: \"Oh… a Pear? Thanks!\"";
+
+//EvtGirlWalkRegionIStart1
+"EvtGirlWalkRegionIStart1" = "Aquarium today!!!";
+"EvtGirlWalkRegionIStart1a" = "I love the dark blue color!! So beautiful and mysterious!!";
+"EvtGirlWalkRegionIStart1b" ="This is my perfect dating place.";
+"EvtGirlWalkRegionIStart1c" = "I come here today… is for the preparation!!!";
+"EvtGirlWalkRegionIStart1d" = "Preparation for my date with Alcy!!!";
+
+//EvtGirlWalkTalkRegionI1
+"EvtGirlWalkTalkRegionI1" = "Glass weirdo is looking at the fish… muttering… ";
+"EvtGirlWalkTalkRegionI1a" = "Glass weirdo: \"Hello! Can I help you?\"";
+"EvtGirlWalkTalkRegionI1b" = "Me: \"Nope.\"";
+"EvtGirlWalkTalkRegionI1c" = "Me: \"Are you one of the staff here…? '";
+"EvtGirlWalkTalkRegionI1d" = "Glass weirdo: \"Yeah… dun I look like one??\"";
+
+//EvtGirlWalkTalkRegionI2
+"EvtGirlWalkTalkRegionI2" = "A staff is following a little kid… ";
+"EvtGirlWalkTalkRegionI2a" = "He says: \"Please be quiet in the aquarium… \"";
+"EvtGirlWalkTalkRegionI2b" = "The kid looks at him once and keep on playing~!!";
+"EvtGirlWalkTalkRegionI2c" = "The staff keeps saying sorry to the rest of the tourist.";
+"EvtGirlWalkTalkRegionI2d" = "Damn little kids.";
+
+//EvtGirlWalkTalkRegionI3
+"EvtGirlWalkTalkRegionI3" = "Staff: \"Sir.\"";
+"EvtGirlWalkTalkRegionI3a" = "Staff: \"Wanna play some crossword puzzle about fish?\"";
+"EvtGirlWalkTalkRegionI3b" = "Staff: \"Come over at 11pm on Saturday!!\"";
+"EvtGirlWalkTalkRegionI3c" = "He hands me the game sheet saying: \"We have a prize!!!\"";
+"EvtGirlWalkTalkRegionI3d" = "Let's try~";
+
+
+//Tutor
+"uiTutorNoteMainText1" = "In main menu, swipe left or right to check item (left) or status (right).";
+"uiTutorNoteMainText2" = "Press lower left corner's Telephone icon to choose dating place.";
+"uiTutorNoteMainText3" = "Press message icon will display different kind of conversation according to your level.";
+"uiTutorNoteMainText4" = "Cycling icon on the right corner to choose different place to hang out.";
+"uiTutorNoteMainText5" = "To check level and experience at the character status manual.";
+"uiTutorNoteMainText6" = "Season display on the upper left corner of the main menu.";
+"uiTutorNoteMainText7" = "Other then season, Sun and Moon icon represent day and night accordingly.";
+"uiTutorNoteMainText8" = "Action points display on the upper right corner of the main menu.";
+"uiTutorNoteMainText9" = "Background show you your current character and place.";
+"uiTutorNoteMainText10" = "Touch the dialogue box will display the next message.";
+"uiTutorNoteMainText11" = "Action points recovery will display a + 1 on the screen.";
+
+"uiTutorNoteAchiText1" = "9 boxes represent 9 different items.";
+"uiTutorNoteAchiText2" = "Swipe to the left can go back to main menu.";
+"uiTutorNoteAchiText3" = "Number of item will show up on the upper right corner.";
+"uiTutorNoteAchiText4" = "Character level will display under the number of item.";
+"uiTutorNoteAchiText5" = "2 boxes located in the bottom, the first one is the name of the item.";
+"uiTutorNoteAchiText6" = "the bottom display the place to get the item.";
+
+"uiTutorNoteAttrText1" = "By clicking the schedule icon, it will shows you the whole schedule.";
+"uiTutorNoteAttrText2" = "Date will be display on the top of the schedule.";
+"uiTutorNoteAttrText3" = "Time is also display underneath the date";
+"uiTutorNoteAttrText4" = "The first on is the health level";
+"uiTutorNoteAttrText5" = "A meter will shows the sub total of the health level.";
+"uiTutorNoteAttrText6" = "Second one is the social level.";
+"uiTutorNoteAttrText7" = "Underneath the social level is the sub total of the social level.";
+"uiTutorNoteAttrText8" = "the last one is the intelligent level.";
+"uiTutorNoteAttrText9" = "Underneath the intelligent level is the sub total of the intelligent level.";
+
+"uiTutorNoteDateText1" = "Same as the main menu, swipe left and right to check on the item(left) or character status(right)";
+"uiTutorNoteDateText2" = "Click on the dialogue box on the left can start the conversation with the character.";
+"uiTutorNoteDateText3" = "By pressing the middle icon will let you to start a romantic conversation with the character.";
+"uiTutorNoteDateText4" = "Icon on the right can bring you back home.";
+"uiTutorNoteDateText5" = "To check level and experience at the character status manual.";
+"uiTutorNoteDateText6" = "Season display on the upper left corner of the main menu.";
+"uiTutorNoteDateText7" = "Other then season, Sun and Moon icon represent day and night accordingly.";
+"uiTutorNoteDateText8" = "Action points display on the upper right corner of the main menu.";
+"uiTutorNoteDateText9" = "Background show you your current character and place.";
+"uiTutorNoteDateText10" = "Touch the dialogue box will display the next message.";
+"uiTutorNoteDateText11" = "On the upper right corner, different icon represent different mood of the character.";
+
+"uiTutorNoteWalkText1" = "Like in the main menu, swipe left or right to check item (left) or status (right).";
+"uiTutorNoteWalkText2" = "Touch the dialogue box on the left to gather information while chatting with different NPC.";
+"uiTutorNoteWalkText3" = "The middle button will open random events for different level upgrade.";
+"uiTutorNoteWalkText4" = "Icon on the right can bring you back home.";
+"uiTutorNoteWalkText5" = "To check level and experience at the character status manual.";
+"uiTutorNoteWalkText6" = "Season display on the upper left corner of the main menu.";
+"uiTutorNoteWalkText7" = "Other then season, Sun and Moon icon represent day and night accordingly.";
+"uiTutorNoteWalkText8" = "Action points display on the upper right corner of the main menu.";
+"uiTutorNoteWalkText9" = "Background show you your current character and place.";
+"uiTutorNoteWalkText10" = "Touch the dialogue box will display the next message.";
+
+"uiTutorNoteEventText1" = "Dialogue box located at the bottom of the screen.";
+"uiTutorNoteEventText2" = "Season display on the upper left corner of the main menu.";
+"uiTutorNoteEventText3" = "Other then season, Sun and Moon icon represent day and night accordingly.";
+"uiTutorNoteEventText4" = "Action points display on the upper right corner of the main menu.";
+"uiTutorNoteEventText5" = "Background show you your current character and place.";
+"uiTutorNoteEventText6" = "When you reach the place, Alcy or NPC will appear in the middle of the screen.";
+"uiTutorNoteEventText7" = "NPC from the target place.";
+"uiTutorNoteEventText8" = "The on-going event and item ready to receive.";
+"uiTutorNoteEventText9" = "Action point regenerate will display (+1) on the screen.";
+"uiTutorNoteEventText10" = "Level up will also display (+1) on the screen.";
+
+"uiTutorNoteMapText1" = "There are 9 different icon on the map. Each of them represent different places.";
+"uiTutorNoteMapText2" = "By pressing the first icon on the lower right to show info of the place.";
+"uiTutorNoteMapText3" = "Touch bottom right icon to go to different selected area.";
+"uiTutorNoteMapText4" = "Press the upper left corner icon to bring you back to the main menu.";
+"uiTutorNoteMapText5" = "Action points display on the upper right corner of the main menu.";
+"uiTutorNoteMapText6" = "Bottom left corner is destination.";
+"uiTutorNoteMapText7" = "Level requirement is located next to the picture of the destination.";
+"uiTutorNoteMapText8" = "The box changes according to character's level or event.";
+
+"uiTutorNoteArrangeText1" = "Player can select any slot with an \"OK!\" to make a date on the schedule.";
+"uiTutorNoteArrangeText2" = "Touch the upper left icon will bring you back to the main menu.";
+"uiTutorNoteArrangeText3" = "Time and date will also display on the upper left corner of the schedule.";
+"uiTutorNoteArrangeText4" = "After selecting the time, touch right icon to select the place.";
+
+
+"uiTutorNotePlaceText1" = "Destination picture is at the back.";
+"uiTutorNotePlaceText2" = "Touch the right icon to select the place.";
+"uiTutorNotePlaceText3" = "Touch the arrow icon on the upper left corner will bring you back to the schedule.";
+"uiTutorNotePlaceText4" = "Action points display on the upper right corner of the main menu.";
+
+"uiTutorNoteScheduleText1" = "Touch the arrow icon on the upper left corner will bring you back to the main menu.";
+"uiTutorNoteScheduleText2" = "Schedule can check the time of your date.";
+
+"uiTutorNoteDetailText1" = "Touch the arrow icon on the upper left corner will bring you back to the map list.";
+"uiTutorNoteDetailText2" = "Place name located on the top of the screen.";
+"uiTutorNoteDetailText3" = "Place and the status effect will display at the bottom of the screen.";
+
+"uiTutorNoteSmsText1" = "Touch the arrow icon on the upper left corner will bring you back to the main menu.";
+"uiTutorNoteSmsText2" = "Touch the middle SMS icon will start SMS with your girl.";
+"uiTutorNoteSmsText3" = "Action points display on the upper right corner of the main menu";
+"uiTutorNoteSmsText4" = "Message sent will display on the right.";
+"uiTutorNoteSmsText5" = "Message receive will display on the left.";
+
+
+
+

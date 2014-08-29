@@ -1,0 +1,27 @@
+	UIActionSheet* as = [[UIActionSheet alloc] initWithTitle:@"Choose the type of SMS you want to send"
+													delegate:nil
+										   cancelButtonTitle:@"Cancel"
+									  destructiveButtonTitle:nil
+										   otherButtonTitles:nil];
+	
+	UIView* v = [[(PGNavController*)[[[UIApplication sharedApplication] keyWindow] rootViewController] topViewController] view];
+	[as showInView:v];
+	/*
+	UIAlertView* av = [[UIAlertView alloc] initWithTitle:@"Send SMS to Alcy"
+												 message:@"This Action will deduct 2 AT. Do you want to proceed?"
+												delegate:nil
+									   cancelButtonTitle:@"Cancel"
+									   otherButtonTitles:nil];
+	[av addButtonWithTitle:@"Ok"];
+	[av show];
+	[av release];
+	*/
+	
+	/*
+	check if user agree to send sms, 
+		check at
+		show action sheet for choice
+		load switchview based on choice
+	else 
+		nothing
+	*/

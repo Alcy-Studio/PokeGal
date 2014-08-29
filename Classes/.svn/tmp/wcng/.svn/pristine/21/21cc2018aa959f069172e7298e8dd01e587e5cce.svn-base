@@ -1,0 +1,60 @@
+Action is a class with Combo (Combo is a concept, it does not exist)
+
+Combo is group of small methods in action
+
+Action(combo is KeyValue <indexed to-many>)
+
+#import "M2d"
+#import "MBgm"
+	...<related methods header>
+	
+NSArray *combo1, *combo2;
+
+class are action class, category selector 
+			<object>	
+combo1[0] = Selector1, 
+combo1[1] = Selector2, 
+
+combo2[0] = Selector1
+combo2[1] = Selector4
+
+Feedback initial Action Class, return combo1[]
+
+#import "Action1" 
+	...
+	
+feedback{
+	return [ActionPGMain valueForKey:Combo1];
+	
+}
+
+Trigger get the elements one by one
+
+#import "M2D"
+	...(all methods header)
+
+for (elements in combo<array>) {
+	Class c = classname:key
+	[c performSelector:@selector:(elements)] 
+}
+
+
+for (key in combo<dictionary>) {
+	Class c = classname:key
+	[c performSelector:@selector:([dictionary objectForKey:key])] 
+}
+
+NSDictionary *dictionary = [NSDictionary dictionaryWithObjectsAndKeys:
+    @"quattuor", @"four", @"quinque", @"five", @"sex", @"six", nil];
+ 
+NSString *key;
+for (key in dictionary) {
+	NSLog(@"English: %@, Latin: %@", key, [dictionary objectForKey:key]);
+}
+
+
+Combo Setup Example:
+1. update data
+2. setup new viewController(vc)
+3. pop original vc
+4. push new vc

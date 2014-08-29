@@ -1,0 +1,107 @@
+Debug Method: 
+gdlv = 1 //Global Debug Level
+
+NSAssert(gd >= 1 ,@"Action - setCombo Failed") //lv 1
+NSAssert1(gd >= 2 ,@"Action - value = %i", var1) //lv 2
+NSAssert2(gd >= 3 ,@"Definition: value1 = %i, value2 = %i", var1, var2) //lv 3
+
+#define NS_BLOCK_ASSERTIONS //Block Assert while done assertion
+-----------------------
+Can't build to device
+1. Use GCC 4.2 instead of LLVM
+
+Debug Level Severity
+Set Global Debug Value: 1, 2, 3, 4 etc.
+
+EXE_BAD_ACCESS: 
+etc. 1. dictionary key <> NSString*
+%@ <> %d
+-----------------------
+Data Formatters temporarily unavailable
+
+So whenever there are that many stack frames, it means there is some sort of infinite recursion going on. 
+My guess is that when creating a D object, there is some code that automatically creates something else, 
+which in turn is creating another D and there is a loop that is unterminated. 
+I would start by checking any Key Value Observers or NSManagedObject Overrides
+
+Ah! Found the solution! In my D object i had a property named "description". 
+That corresponds to the many calls to description in the stack frames. 
+I renamed it to "desc" and it now works. Would be nice if I found a list with all the reserved words... 
+-----------------------
+Don't ever use other target instead of "self" when assigning scheduled timer. Wrong thing will be happen if the vc
+dealloc while the target is still there.
+
+
+
+Concurrency Programming
+NSArray* a = array;
+NSArray* a = [[[NSArray alloc]initWithArray:array]autorelease];
+
+Signal Abort
+Clean All
+Sqlite Model Version / Model Compatibility
+Restart Xcode
+
+
+ERROR FROM DEBUGGER
+target > Get Info > Properties > Replace * with text (etc. calendar)
+Project > Get Info > Code Sign > com.alcy.*
+
+Error 180001: can't open ra_local repository
+1. Export the current copy
+2. delete the SVM copy
+3. delete the finder copy
+4. empty trash
+5. Import the exported backup
+
+Highlighted State Image
+Change from IB: Default, Selected, Highlighted, 
+
+FORMAT WRONG
+(%@ <> %d)
+
+example:
+	101 = 332012;
+    11 = 332012;
+    111 = 332028;
+    171 = 332028;
+    181 = 332012;
+    182 = 332012;
+    183 = 332012;
+    184 = 332012;
+	
+objc_exception_throw
+- Wrong Entity Name
+
+Localized.strings - 
+Command /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings failed with exit code 1
+
+-Missing semi-colon
+
+Localized.strings not working at all -
+
+1.Clean All
+2.Reset iPhone Sim
+3.Rebuild
+
+-
+Slow Build
+Disk Utility > Repair Permissions
+
+database cannot load properly, via failed model
+
+Empty Xcode Cache
+Clean All
+Reset Simulator
+Restart
+
+------
+code sign error - provisioning profile "~~~~~"
+show packages content for xproj, then open xprojfile,
+find provisioning profile and comment it
+
+iAd
+ADBannerContentSizeIdentifierPortrait undeclared: change sdk from iphonesimulator4.0 to iOS 4.3
+ADBannerContentSizeIdentifier320x50 undeclared: change sdk from iOS to iOS 4.3
+
+set iAd.framework to iOS 4.3

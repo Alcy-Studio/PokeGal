@@ -1,0 +1,25 @@
+//
+//  ActPGMAlertAutoSetup+Selector.m
+//  frdfrd
+//
+//  Created by westbugs on 10-10-15.
+//  Copyright 2010 Alcy, Ltd. All rights reserved.
+//
+
+#import "ActPGMAlertAutoSetup+Selector.h"
+
+//Additional
+//Method
+#import "MLoad.h"
+
+//Constants
+#import "ConstantsPGMAlert.h"
+
+@implementation ActPGMAlertAutoSetup(Selector)
+
+-(void)setViewWithTag{
+	for (NSUInteger i = 1; i <= kAlertViewTotal; i++) {
+		[MLoad setViewWithTag:i controller:self.resource];
+	}
+}
+@end

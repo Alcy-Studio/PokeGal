@@ -1,0 +1,230 @@
+//
+//  ActPGMainAutoSetup+Selector.m
+//  frdfrd
+//
+//  Created by westbugs on 10-10-15.
+//  Copyright 2010 Alcy, Ltd. All rights reserved.
+//
+
+#import "ActPGMainAutoSetup+Selector.h"
+
+//Additional
+#import "PGMainSVController.h"
+#import "PGMainViewController.h"
+
+//Constants
+#import "ConstantsPGMain.h"
+#import "ConstantsPGSV.h"
+	//Auditor
+#import "ConstantsAuditor.h"
+	//Method
+#import "ConstantsMethodConstraint.h"
+	//Glossary
+#import "ConstantsGlossaryDatabase.h"
+
+typedef enum{
+	pkSVController = 1,
+	pkPGMain = 1,
+	pkPGAchi = 2,
+	pkPGAttr = 3,
+}pk;
+//int const pkSVController = 1;
+//Test
+#import "TestAction.h"
+#import "MLoad.h"
+@implementation ActPGMainAutoSetup(Selector)
+
+//dependencies are resolve in individual operation (e.g. selectorTest1)
+-(void)selectorTest1{
+	NSLog(@"selectorTest1");
+	/*
+	TestAction* ta = [[TestAction alloc]init];
+	[ta testPredicate];
+	[ta release];
+	*/
+}
+
+-(void)selectorTest2{
+	NSLog(@"selectorTest2");
+	/*
+	TestAction* ta = [[TestAction alloc]init];
+	[ta checkDatabase];
+	[ta release];
+	*/
+	//NSArray* arrayOfOqs = [[NSArray alloc]initWithObjects:<#(id)firstObj#>];
+
+}
+
+/*
+ int const kMainView = 0;
+ int const kMainWeatherImage = 1;
+ int const kMainAtPointLabel = 2;
+ int const kMainDayNightImage = 3;
+ int const kMainBubbleImage = 4;
+ int const kMainCharacterImage = 5;
+ int const kMainBackgroundImage = 6;
+ int const kMainLeftArrowImage = 7;
+ int const kMainLeftActionButton = 8;
+ int const kMainMidActionButton = 9;
+ int const kMainRightActionButton = 10;
+ int const kMainRightArrowButton = 11;
+ int const kMainHintLabel = 12;
+*/
+
+-(void)setViewWithTag:(NSNumber*)t{
+	unsigned int i = [t unsignedIntValue];
+	PGNavController* nc = 
+	(PGNavController*)[[[UIApplication sharedApplication] keyWindow] rootViewController];
+	
+	
+	PGMainSVController* svc = 
+	(PGMainSVController*)[[nc viewControllers] objectAtIndex:pkSVController];
+	
+	PGMainViewController* vc = (PGMainViewController*)[[svc viewControllers] objectAtIndex:kSVPage2];
+	
+	id v = [[vc view]viewWithTag:i];
+	
+	/*
+	 
+	 d = GetDefault(view); //role number
+	 NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+
+	 //NSLog(@"%@",[defaults objectForKey:@"s1t1"]);
+
+	*/
+	NSAutoreleasePool* pool = [[NSAutoreleasePool alloc] init];
+	NSUInteger defaultRole = [MLoad getDefaultRoleWithScene:pkPGMain tag:i];
+	 
+	//NSLog(@"Role: %d",dummy);
+	NSPredicate* predicate;
+
+	//NSLog(@"Predicate: %@", [predicate description]);
+	
+	NSArray* array;
+	//NSLog(@"FileName: %@",[[array objectAtIndex:0] valueForKey:kGlossaryFileName]);
+	
+
+	//array(NSDict) retrieve from a dictionary, ConstantsRoleToAttr
+	
+	//predicate retrieve from array(NSDict)
+	
+	//path retrieve from database based on predicate
+	
+	NSString *path;
+	
+	
+	if ([v isMemberOfClass:[UIImageView class]]){
+		
+		predicate = [MLoad getPredicateWithScene:pkPGMain role:defaultRole entity:kGraphic2D];
+		array = (NSArray*)[MLoad getContentWithEntity:kGlossaryGraphic2D sortKey:kGlossarySid predicate:predicate constraint:kSingleton];
+		path =
+		[[NSBundle mainBundle] pathForResource: [[array objectAtIndex:0] valueForKey:kGlossaryFileName]
+										ofType: [[array objectAtIndex:0] valueForKey:kGlossaryExtension]];
+		
+		if (path)
+			[v setImage:[UIImage imageWithContentsOfFile:path]];
+		else
+			NSLog(@"(UIImageView)[ActPGMainAutoSetup setViewWithTag] path does not exist");
+	}else if ([v isMemberOfClass:[[UIButton buttonWithType:UIButtonTypeRoundedRect] class]]) {
+		predicate = [MLoad getPredicateWithScene:pkPGMain role:defaultRole entity:kGraphic2D];
+		array = (NSArray*)[MLoad getContentWithEntity:kGlossaryGraphic2D sortKey:kGlossarySid predicate:predicate constraint:kSingleton];
+		path =
+		[[NSBundle mainBundle] pathForResource: [[array objectAtIndex:0] valueForKey:kGlossaryFileName]
+										ofType: [[array objectAtIndex:0] valueForKey:kGlossaryExtension]];
+		if (path)
+			[(UIButton*)v setImage:[UIImage imageWithContentsOfFile:path] forState:UIControlStateNormal];
+		else
+			NSLog(@"(UIButton)[ActPGMainAutoSetup setViewWithTag] path does not exist");
+		
+
+	}else if ([v isMemberOfClass:[UILabel class]]) {
+		predicate = [MLoad getPredicateWithScene:pkPGMain role:defaultRole entity:kTextOut];
+		//NSLog(@"%@", [predicate description]);
+
+		array = (NSArray*)[MLoad getContentWithEntity:kGlossaryTextOut sortKey:kGlossarySid predicate:predicate constraint:kSingleton];
+		//NSLog(@"%@", [array description]);
+		if (array) 
+			[(UILabel*)v setText:[[array objectAtIndex:0] valueForKey:kGlossaryContent]];
+		else
+			NSLog(@"(UILabel)[ActPGMainAutoSetup setViewWithTag] content does not exist");
+
+		
+	}
+	[pool release];
+	//User Default Sample
+	/*
+	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    //NSDictionary *appDefaults = [NSDictionary dictionaryWithObject:@"YES" forKey:@"DeleteBackup"];
+	
+	NSString* str = [[NSString alloc]initWithFormat:@"s%dt%d",pkPGMain, i];
+	NSUInteger r = [defaults integerForKey:str];
+	[str release];
+	
+	NSLog(@"Role: %d", r);
+	*/
+	
+	/*
+	//set view Images, prefered method as it can customize each view. Use with cautious, initial only
+	switch (i) {
+		//imageView
+		case kMainView:
+		case kMainWeatherImage:
+		case kMainDayNightImage:
+		case kMainBubbleImage:
+		case kMainCharacterImage:
+		case kMainBackgroundImage:
+			[(UIImageView*)[[vc view] viewWithTag:i] setImage:[UIImage imageWithContentsOfFile:path]];
+			break;
+		//button
+		case kMainLeftArrowButton:
+		case kMainLeftActionButton:
+		case kMainMidActionButton:
+		case kMainRightActionButton:
+		case kMainRightArrowButton:
+			[(UIButton*)[[vc view] viewWithTag:i] 
+			 setImage:[UIImage imageWithContentsOfFile:path] forState:UIControlStateNormal];
+			break;
+		//label
+		case kMainAtPointLabel:
+		case kMainHintLabel:
+			
+			break;
+
+		default:
+			break;
+	}
+	*/
+	//[[[(PGMainViewController*)[[nc viewControllers] objectAtIndex:kSVPage2]view] viewWithTag:i] ]
+
+	//[[[(PGMainViewController*)[[nc viewControllers] objectAtIndex:kSVPage2]view] viewWithTag:i] ]
+	//NSLog(@"%d",[[[(PGMainViewController*)[[nc viewControllers] objectAtIndex:kSVPage2]view] viewWithTag:i] tag]);
+	
+}
+
+
+/*
+- (NSArray*)selectorQueue1{
+ //- (NSArray*)selectorQueue1:(id)data{
+
+	
+	NSInvocationOperation* op1 = [[[NSInvocationOperation alloc] initWithTarget:self
+						selector:@selector(myTaskMethod) object:nil] autorelease];
+ 
+	NSInvocationOperation* op2 = [[[NSInvocationOperation alloc] initWithTarget:self
+						selector:@selector(myTaskMethod:) object:data] autorelease];
+ 
+	NSInvocationOperation* op3 = [[[NSInvocationOperation alloc] initWithTarget:MLoad
+						selector:@selector(load:) object:nil] autorelease];
+
+	NSArray* aOfOps = [[NSArray alloc]initWithObjects:op1, op2, op3, nil];
+
+	[op1 release]; [op2 release]; [op3 release];
+ 
+	return [aOfops autorelease];
+}
+ 
+
+ */
+
+
+@end

@@ -1,0 +1,16 @@
+Instantiating the Principal Class
+Once you have retrieved the principal class from a loadable bundle, you typically create an instance of the class to use in your application. (If the class provides all its functionality through class methods, this step is not necessary.) To do this, you use a Class variable in the same way you would use any class name.
+
+This code fragment retrieves the principal class of the bundle at fullPath and creates an instance of the principal class:
+
+NSString *fullPath; // Assume this exists.
+NSBundle *bundle;
+Class principalClass;
+id instance;
+ 
+bundle = [NSBundle bundleWithPath:fullPath];
+principalClass = [bundle principalClass];
+instance = [[principalClass alloc] init];
+
+
+Code Loading Programming Topic

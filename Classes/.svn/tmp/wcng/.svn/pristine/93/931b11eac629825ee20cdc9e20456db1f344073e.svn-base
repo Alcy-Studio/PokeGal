@@ -1,0 +1,323 @@
+//
+//  ActPGEventAutoSetup+Selector.m
+//  frdfrd
+//
+//  Created by westbugs on 10-10-15.
+//  Copyright 2010 Alcy, Ltd. All rights reserved.
+//
+
+#import "ActPGEventAutoSetup+Selector.h"
+
+//Additional
+
+#import "PGEventViewController.h"
+
+//Method
+#import "MLoad.h"
+#import "MScriptOut.h"
+#import "MUi.h"
+
+#import "MOutfit.h"
+#import "MSkinTone.h"
+#import "MCostume.h"
+#import "MHairstyle.h"
+#import "MItem.h"
+#import "MTime.h"
+
+#import "Outfit.h"
+#import "Costume.h"
+#import "SkinTone.h"
+#import "Item.h"
+#import "Hairstyle.h"
+
+//Constants
+#import "ConstantsPGEvent.h"
+#import "ConstantsTmpScript.h"
+#import "ConstantsFileType.h"
+
+#import "ConstantsAuditorUserDefaults.h"
+#import "ConstantsSceneCode.h"
+#import "ConstantsPGEvent.h"
+
+#import "ConstantsSeason.h"
+#import "ConstantsDayNight.h"
+
+//Test
+#import "MEvent.h"
+#import "ConstantsRegions.h"
+
+@interface ActPGEventAutoSetup()
+
+-(void)setEventSkinTone:(SkinTone*)s;
+-(void)setEventCostume:(Costume*)c;
+-(void)setEventHairstyle:(Hairstyle*)h;
+-(void)setEventItem:(Item*)i;
+
+-(void)setNpc:(NSString *)s;
+-(void)setOutfit;
+
+-(void)setEventBgm;
+-(void)setEventVoice;
+-(void)setEventSound;
+-(void)setEventEffect;
+-(void)setEventAvatar;
+-(void)setEventBackground;
+-(void)setEventText;
+
+@end
+
+@implementation ActPGEventAutoSetup(Selector)
+
+/*
+ typedef enum{
+ kEventViewTotal = 9,
+ 
+ kEventView = 0,
+ kEventWeatherImage = 1,
+ kEventAtPointLabel = 2,
+ kEventDayNightImage = 3,
+ kEventMoodImage = 4,
+ kEventCharacterImage = 5,
+ kEventBackgroundImage = 6,
+ kEventMsgButton = 7,
+ kEventMsgLabel = 8,
+ kEventHintLabel = 9,
+ 
+ 
+ }kPGEvent;
+ */
+
+-(void)setSeason{
+	NSUInteger i = [MTime getSeason];
+	
+	switch (i) {
+		case kSpring:
+			[MUi modifyTag:kEventWeatherImage role:kAudUDNumPGEventSpring scene:kSceneCodePGEvent];
+			break;
+		case kSummer:
+			[MUi modifyTag:kEventWeatherImage role:kAudUDNumPGEventSummer scene:kSceneCodePGEvent];
+			break;
+		case kAutumn:
+			[MUi modifyTag:kEventWeatherImage role:kAudUDNumPGEventAutumn scene:kSceneCodePGEvent];
+			break;
+		case kWinter:
+			[MUi modifyTag:kEventWeatherImage role:kAudUDNumPGEventWinter scene:kSceneCodePGEvent];
+			break;
+		default:
+			NSLog(@"PGEvent - Failed to set Season");
+			break;
+	}
+}
+-(void)setDayNight{
+	NSUInteger i = [MTime getDayNight];
+	
+	switch (i) {
+		case kDay:
+			[MUi modifyTag:kEventDayNightImage role:kAudUDNumPGEventDay scene:kSceneCodePGEvent];
+			break;
+		case kNight:
+			[MUi modifyTag:kEventDayNightImage role:kAudUDNumPGEventNight scene:kSceneCodePGEvent];
+			break;
+		default:
+			break;
+	}
+}
+
+-(void)setGeography{
+	[self setSeason];
+	[self setDayNight];
+}
+
+-(void)setViewWithTag{
+	for (NSUInteger i = 1; i <= kEventViewTotal; i++) {
+		if (i != kEventCharacterImage && i != kEventMsgLabel)
+			[MLoad setViewWithTag:i controller:self.resource];
+	}
+}
+
+//Engraved script into userdefault, set max script and init script
+-(void)setCurrentScript{
+	NSAutoreleasePool* pool = [[NSAutoreleasePool alloc] init];
+	//NSBundle* b = [NSBundle mainBundle];
+	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+
+	//--------------------------Put it in Controller which need to init the event
+	//[defaults setValue:@"EvtGirlDateRegionAStart1" forKey:kTmpScript];
+	//[defaults setInteger:kTSRegionA forKey:kTmpScriptRegion];
+
+	//if ([MEvent checkPresetEventExistRegion:kRegionA]) {
+	//	NSLog(@"Preset Event Exist");
+	//}
+	//--------------------------
+	[defaults setValue:kTmpScriptInitValue forKey:kTmpScriptCurrent];
+	//NSString* p = [b pathForResource:@"EvtGirlDateRegionA1" ofType:@"plist"];
+	NSString* p = [MScriptOut pathForScript];
+
+	NSDictionary *d = [NSDictionary dictionaryWithContentsOfFile:p];
+	
+	[defaults setValue:[NSNumber numberWithInt:[d count]] forKey:kTmpScriptMax];
+
+	
+	
+	
+	NSArray *a = [NSArray arrayWithArray:[d allKeys]];
+	for (NSString *e in a) {
+		[defaults setObject:[d valueForKey:e] forKey:e];
+	}
+	//NSLog(@"%@",[[[defaults valueForKey:@"script0"] valueForKey:@"text"] description]);
+	
+	[pool release];
+}
+
+-(void)initScript{
+	[self setEventBgm];
+	[self setEventVoice];
+	[self setEventSound];
+	[self setEventEffect];
+	
+	//[self setEventAvatar]; //Facial Expression, Add later
+	[self setCharacter];
+	
+	[self setEventBackground];
+	[self setEventText];
+	
+	//increment kTmpScriptCurrent for further dialogue
+	[MUi modifyUserDefaultWithKey:kTmpScriptCurrent value:kTmpScriptStart];
+
+}
+
+#pragma mark private
+//set kTmpScriptCharacter in previous Scene, 
+//show outfit if kTmpScriptCharacter = lover, showNpc if kTmpScriptCharacter = npc1, npc2, npc3 ...etc
+-(void)setEventSkinTone:(SkinTone*)s{
+	
+	NSString* p = [[NSBundle mainBundle] pathForResource:s.image ofType:kTmpFileTypePng];
+	//NSLog(@"%@", s);
+	
+	
+	id v = [[(PGEventViewController*)self.resource view] viewWithTag:kEventSkinToneImage];
+	
+	[(UIImageView*)v setImage:[UIImage imageWithContentsOfFile:p]];
+}
+-(void)setEventCostume:(Costume*)c{
+	NSString* p = [[NSBundle mainBundle] pathForResource:c.image ofType:kTmpFileTypePng];
+		
+	id v = [[(PGEventViewController*)self.resource view] viewWithTag:kEventCostumeImage];
+	
+	[(UIImageView*)v setImage:[UIImage imageWithContentsOfFile:p]];
+}
+
+-(void)setEventHairstyle:(Hairstyle*)h{
+	NSString* p = [[NSBundle mainBundle] pathForResource:h.image ofType:kTmpFileTypePng];
+	
+	id v = [[(PGEventViewController*)self.resource view] viewWithTag:kEventHairstyleImage];
+	
+	[(UIImageView*)v setImage:[UIImage imageWithContentsOfFile:p]];
+}
+-(void)setEventItem:(Item*)i{
+	NSString* p = [[NSBundle mainBundle] pathForResource:i.image ofType:kTmpFileTypePng];
+	
+	id v = [[(PGEventViewController*)self.resource view] viewWithTag:kEventItemImage];
+	
+	[(UIImageView*)v setImage:[UIImage imageWithContentsOfFile:p]];
+}
+
+
+//set Outfit for main character
+-(void)setOutfit{
+	Outfit* o = [MOutfit getOutfit];
+	
+	//SkinTone* skinTone = [MSkinTone getSkinTone:[o.skinTone intValue]];
+	//[self setEventSkinTone:skinTone];
+
+	Costume* costume = [MCostume getCostume:[o.costume intValue]];
+	[self setEventCostume:costume];
+
+	//Hairstyle* hairstyle = [MHairstyle getHairstyle:[o.hairstyle intValue]];
+	//[self setEventHairstyle:hairstyle];
+
+	//Item* item = [MItem getItem:[o.item intValue]];
+	//[self setEventItem:item];
+	
+	
+}
+
+//set Costume for Npc (not include facial)
+-(void)setNpc:(NSString*)s{
+
+	NSString* p = [[NSBundle mainBundle] pathForResource:s ofType:kTmpFileTypePng];
+	//NSLog(@"%@", s);
+	
+	
+	id v = [[(PGEventViewController*)self.resource view] viewWithTag:kEventCostumeImage];
+	
+	[(UIImageView*)v setImage:[UIImage imageWithContentsOfFile:p]];
+}
+
+//if avatar is not equal to "lover", it will become the image npc need to show
+-(void)setCharacter{
+	NSDictionary* d = [[[NSUserDefaults standardUserDefaults] 
+						valueForKey:kTmpScript0] 
+					   valueForKey:kTmpScriptAvatar];
+	NSLog(@"Action %@; Object %@", [d valueForKey:kTmpScriptAction], [d valueForKey:kTmpScriptObject]);
+	if ([[d valueForKey:kTmpScriptAction] intValue] == kTmpScriptActNone) {
+		return;
+	}
+	
+	NSString* s = [d valueForKey:kTmpScriptObject];
+	
+	if ([s isEqualToString:kTmpScriptLover]) {
+		[self setOutfit];
+		return;
+	}
+	
+	[self setNpc:s];
+}
+
+
+-(void)setEventBgm{}
+-(void)setEventVoice{}
+-(void)setEventSound{}
+-(void)setEventEffect{}
+
+//Facial
+-(void)setEventAvatar{
+	NSDictionary* d = [[[NSUserDefaults standardUserDefaults] 
+						valueForKey:kTmpScript0] 
+					   valueForKey:kTmpScriptAvatar];
+	
+	if ([[d valueForKey:kTmpScriptAction] intValue] == kTmpScriptActNone) {
+		return;
+	}
+	
+	NSString* s = [d valueForKey:kTmpScriptObject];
+	NSString* p = [[NSBundle mainBundle] pathForResource:s ofType:kTmpFileTypePng];
+	//NSLog(@"%@", s);
+	
+	
+	id v = [[(PGEventViewController*)self.resource view] viewWithTag:kEventCharacterImage];
+	
+	[(UIImageView*)v setImage:[UIImage imageWithContentsOfFile:p]];
+
+}
+-(void)setEventBackground{}
+-(void)setEventText{
+	NSDictionary* d = [[[NSUserDefaults standardUserDefaults] 
+						valueForKey:kTmpScript0] 
+					   valueForKey:kTmpScriptText];
+	
+	if ([[d valueForKey:kTmpScriptAction] intValue] == kTmpScriptActNone) {
+		return;
+	}
+	
+	NSString* s = [d valueForKey:kTmpScriptObject];
+	
+	//NSLog(@"%@", s);
+	
+	
+	id v = [[(PGEventViewController*)self.resource view] viewWithTag:kEventMsgLabel];
+	
+	[(UILabel*)v setText:[NSString stringWithFormat:@"%@", NSLocalizedString(s, @"Localized")]];
+}
+
+@end

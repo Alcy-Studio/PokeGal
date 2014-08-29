@@ -1,0 +1,155 @@
+	//PGMain
+		//View1, Summer (Realtime Dynamic)
+		//View2, Action Point (Text)
+		//View3, DayNight (Realtime Dynamic)
+		//View4, Mood: Good, Standard, Bad
+		//View5, Girl Posture
+		
+		//View6, Background
+		//View7, Left Arrow
+		//View8, LAction
+		//View9, MAction
+		//View10, RAction
+	
+		//View11, Right Arrow
+		//View12, Hint
+	
+	//PGAchi
+		//View1, Avatar
+		//View2, Gift Amount
+		//View3, Top Left Arrow
+		//View4, Alias
+		//View5, Top Right Arrow
+	
+		//View6, ULIcon
+		//View7, UMIcon
+		//View8, URIcon
+		//View9, MLIcon
+		//View10, MMIcon
+	
+		//View11, MRIcon
+		//View12, BLIcon
+		//View13, BMIcon
+		//View14, BRIcon
+		//View15, BLArrow
+	
+		//View16, BPageNo.
+		//View17, BRArrow
+		//View18, Message
+		//View19, Hint
+	
+	//PGAttr
+		//View1, Avatar
+		//View2, WeekDay
+		//View3, Time
+		//View4, Top Left Arrow
+		//View5, Detail Button
+	
+		//View6, Top Right Arrow
+		//View7, UAttr Value
+		//View8, UAttr Progress Bar
+		//View9, MAttr Value
+		//View10, MAttr Progress Bar
+	
+		//View11, BAttr Value
+		//View12, BAttr Progress Bar
+		//View13, Bottom Left Arrow
+		//View14, Bottom Page
+		//View15, Bottom Right Arrow
+		//View16, Message
+		//View17, Hint
+		
+		
+//Object for Scene PGMain
+typedef enum{
+	kAudUDNumPGMainNil = 0,
+	
+	//PGMain
+	kAudUDNumPGMainSummer = 1,			//View1, Summer (Realtime Dynamic)
+	kAudUDNumPGMainActionPoint = 11,	//View2, Action Point (Text)
+	kAudUDNumPGMainDay		= 21,		//View3, Day (Realtime Dynamic)
+	kAudUDNumPGMainMoodGood	= 31,		//View4, Mood: Good, Ok, Bad
+	kAudUDNumPGMainCosSchoolGirl2 = 41,		//View5, Girl Posture
+		
+	kAudUDNumPGMainOccHome = 71,			//View6, Background
+	kAudUDNumPGMainLArrow = 101,			//View7, Left Arrow
+
+	kAudUDNumPGMainActSport = 111,		//View8, LAction
+	kAudUDNumPGMainActMovie = 112,			//View9, MAction
+	kAudUDNumPGMainActMusic = 113,		//View10, RAction
+	
+	kAudUDNumPGMainActCall = 114,		//View8, LAction
+	kAudUDNumPGMainActSms = 115,			//View9, MAction
+	kAudUDNumPGMainActMove = 116,		//View10, RAction
+	
+	kAudUDNumPGMainRArrow = 161,			//View11, Right Arrow
+	kAudUDNumPGMainHint = 171,			//View12, Hint
+	
+	
+}kAudUDNumPGMain;
+
+//Object for Scene PGAchi
+typedef enum{
+	kAudUDNumPGAchiNil = 0,
+
+	//PGAchi
+	kAudUDNumPGAchiAvaNormal = 1,		//View1, Avatar
+	
+	kAudUDNumPGAchiGiftAmount = 31,		//View2, Gift Amount
+	kAudUDNumPGAchiLArrow = 41,		//View3, Top Left Arrow
+	kAudUDNumPGAchiAlias1 = 51,			//View4, Alias
+	kAudUDNumPGAchiRArrow = 81,			//View5, Top Right Arrow
+		
+	kAudUDNumPGAchiGiftIconNone	= 91,	//View6, ULIcon
+//	kAudUDNumPGAchiGiftIconNone	= 7,	//View7, UMIcon
+//	kAudUDNumPGAchiGiftIconNone	= 8,	//View8, URIcon
+//	kAudUDNumPGAchiGiftIconNone	= 9,	//View9, MLIcon
+//	kAudUDNumPGAchiGiftIconNone	= 10,	//View10, MMIcon
+		
+//	kAudUDNumPGAchiGiftIconNone	= 11,	//View11, MRIcon
+//	kAudUDNumPGAchiGiftIconNone	= 12,	//View12, BLIcon
+//	kAudUDNumPGAchiGiftIconNone	= 13,	//View13, BMIcon
+//	kAudUDNumPGAchiGiftIconNone	= 14,	//View14, BRIcon
+//	kAudUDNumPGAchiBLArrow = 41,		//View15, BLArrow
+		
+	kAudUDNumPGAchiPage = 211,			//View16, Page number
+//	kAudUDNumPGAchiBRArrow = 81,			//View17, BRArrow
+	kAudUDNumPGAchiMessage = 231,		//View18, Message
+	kAudUDNumPGAchiHint = 241,			//View19, Hint
+	
+	
+}kAudUDNumPGAchi;
+
+//Object for Scene PGAttr
+typedef enum{
+	kAudUDNumPGAttrNil = 0,
+	//PGAttr
+	kAudUDNumPGAttrAvaNormal = 1,		//View1, Avatar
+	kAudUDNumPGAttrWeekday = 31,		//View2, Weekday Sun
+	kAudUDNumPGAttrTime = 41,			//View3, Time
+	kAudUDNumPGAttrLArrow = 51,			//View4, Top Left Arrow
+	kAudUDNumPGAttrDButton = 61,			//View5, Detail Button
+	kAudUDNumPGAttrSButton = 62,			//View5, Schedule Button
+
+	kAudUDNumPGAttrRArrow = 71,		//View6, Top Right Arrow
+	kAudUDNumPGAttrSportAttrValue = 81,	//View7, UAttr Value
+	kAudUDNumPGAttrSportAttrBar	= 91,	//View8, UAttr Progress Bar
+	kAudUDNumPGAttrMovieAttrValue = 101,	//View9, MAttr Value
+	kAudUDNumPGAttrMovielAttrBar = 111,	//View10, MAttr Progress Bar
+		
+	kAudUDNumPGAttrMusicAttrValue = 121,//View11, BAttr Value
+	kAudUDNumPGAttrMusicAttrBar = 131,	//View12, BAttr Progress Bar
+//	kAudUDNumPGAttrLArrow	= 51,			//View13, Bottom Left Arrow
+	kAudUDNumPGAttrPage	= 151,			//View14, Page Number
+//	kAudUDNumPGAttrRArrow = 71,		//View15, Bottom Right Arrow
+	kAudUDNumPGAttrMessage = 171,		//View16, Message
+	kAudUDNumPGAttrHint	= 181,			//View17, Hint
+	
+	kAudUDNumPGAttrSportAttrTitle = 191,	//View18, UAttr Title
+	kAudUDNumPGAttrMovieAttrTitle	= 201,	//View19, MAttr Title
+	kAudUDNumPGAttrMusicAttrTitle = 211,//View20, BAttr Title
+
+	
+}kAudUDNumPGAttr;
+
+@end

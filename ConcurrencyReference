@@ -1,0 +1,4 @@
+dispatch queue vs OQ
+
+OQ allows easier serial programming
+gcd allow event trigger dispatch

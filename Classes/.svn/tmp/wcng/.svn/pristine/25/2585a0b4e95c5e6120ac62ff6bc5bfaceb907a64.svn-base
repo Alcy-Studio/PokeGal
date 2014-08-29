@@ -1,0 +1,37 @@
+//
+//  ActPGTitleAutoSetup+Combo.m
+//  frdfrd
+//
+//  Created by westbugs on 10-10-15.
+//  Copyright 2010 Alcy, Ltd. All rights reserved.
+//
+
+#import "ActPGTitleAutoSetup+Combo.h"
+
+//Additional
+#import "ActPGTitleAutoSetup+Selector.h"
+
+//Test
+//#import "MTime.h"
+//#import "MUi.h"
+@implementation ActPGTitleAutoSetup(Combo)
+
+-(void)setComboAuto{
+	NSLog(@"ActPGTitleAutoSetup - SetComboAuto");
+	
+	NSString* action = NSStringFromSelector(@selector(setViewWithTag));
+	id target = self;
+	
+	NSDictionary* ta = [[NSDictionary alloc]initWithObjectsAndKeys:target, action,nil];
+	
+	combo = [[NSDictionary alloc]initWithDictionary:ta];
+	[ta release];
+	
+	//Test
+	
+	//NSLog(@"DayNight: %i", [MTime getDayNight]);
+
+}
+
+
+@end
